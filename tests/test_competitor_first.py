@@ -86,13 +86,29 @@ class CompetitorFirstTests(unittest.TestCase):
         x["keyword_volume"]=3000
         self.assertEqual(gate(x,TODAY.date())["status"],"PUBLIC_ORGANIC_AND_NONBRAND_TOOL_EVIDENCE_REVIEW_SERP")
 
+    def test_dated_competitor_sources_strictly_distinguish_cpc_from_earnings(self):
+        payload=json.loads((Path(__file__).resolve().parents[1]/"inputs"/"public-organic-competitors.json").read_text(encoding="utf-8"))
+        report=build(payload,TODAY)
+        fps=next(x for x in report["shortlist_for_serp_check"] if x["domain"]=="aiming.pro")
+        self.assertEqual(fps["keyword_cpc_usd_public_snapshot"],5.31)
+        self.assertEqual(fps["keyword_position_public_snapshot"],5)
+        self.assertIs(fps["country_organic_visits_not_proven"],True)
+        self.assertTrue(any("kovaaks" in u for u in fps["competing_tool_urls"]))
+        mx=next(x for x in report["shortlist_for_serp_check"] if x["domain"]=="cps-check.com")
+        self.assertEqual(mx["keyword_cpc_usd_public_snapshot"],0)
+        self.assertEqual(mx["keyword_country"],"MX")
+        self.assertEqual(mx["keyword_volume_public_snapshot"],12100)
+        other=next(x for x in report["others"] if x["domain"]=="topster.pt")
+        self.assertEqual(other["status"],"OVERLAPS_USER_EXISTING_SITE_NOT_NEW_PROJECT")
+        self.assertIn("NOT AdSense earnings", markdown(report))
+
     def test_real_evidence_fixture_zero_unsubstantiated_sites(self):
         p=Path(__file__).resolve().parents[1]/"inputs"/"public-organic-competitors.json"
         data=json.loads(p.read_text(encoding="utf-8"))
         report=build(data,TODAY)
-        self.assertEqual(report["public_evidence_count"],10)
+        self.assertEqual(report["public_evidence_count"],13)
         self.assertTrue(report["organic_traffic_numbers_are_public_provider_estimates_not_first_party"])
-        self.assertEqual([x["domain"] for x in report["shortlist_for_serp_check"]],[])
+        self.assertEqual({x["domain"] for x in report["shortlist_for_serp_check"]},{"aiming.pro","cps-check.com"})
         reviewed = next(x for x in report["others"] if x["domain"] == "meloja.com.br")
         self.assertEqual(reviewed["status"], "REJECT_HIGH_KD_WEAK_ADS_NEW_SITE")
         self.assertEqual(reviewed["manual_keyword_review"]["core_kd"], 50)
