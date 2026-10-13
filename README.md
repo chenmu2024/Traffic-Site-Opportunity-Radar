@@ -107,3 +107,12 @@ domain,country,monthly_organic,source,observed_on
 - python discovery_quality.py 可从已有 reports/latest.json 构建研究工作单，Python 标准库无需新依赖。
 
 该发现通道不访问私人竞争对手数据，不绕过搜索引擎爬虫限制，不会把 Github Stars 误当作真实流量。
+
+## 2026-10-13：防止桌面软件、教程和收费平台污染流量站机会
+
+- 浏览器工具机会优先考虑独立注册域名上的真实在线交互工具页面；站点 homepage 指向下载页面、教程、源码展示页或个人站内页时会自动降级或拒绝。
+- 识别常见桌面专用技术标签（如 PySide、Tkinter、Windows 离线安装器）并排除，避免把桌面产品仓库的 GitHub Stars 当成在线工具站流量。
+- 代码库 data/manual-site-decisions.json 保存研究者明确排除的网站、具体原因、证据 URL 和复查日期；审计记录不是黑箱算法规则。
+- 目前已核对 File Converter Pro、XL Converter、Codante React IMC 教程、favr.dev 的开源页面与 Fichas de Nimb 订阅型 RPG 平台，对当前以低成本在线工具和 AdSense 为主的选题不进行 Semrush 查询。
+- 被排除的项目仍保留在历史研究记录中，并不表示其真实搜索流量为零、产品质量差或完全没有商业价值。
+- 只有独立核对真实在线工具功能、非品牌搜索入口和国家市场后，才请求用户查询具体的 Semrush Volume、KD、CPC 和竞争页面。
