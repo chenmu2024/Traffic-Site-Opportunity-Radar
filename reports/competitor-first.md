@@ -62,6 +62,18 @@
 | howmanyfps.com | 24600 | HOLD_HIGH_MAINTENANCE_NOT_STATIC_TOOL |
   - User reviewed:  · Volume None · KD None · CPC USD None · Current site combines continuously updated per-game GPU/CPU benchmark and an actual installed Windows FPS telemetry/optimizer application. Public ranking keywords include exact GPU model comparisons, NOT a static browser calculator with verified page landing. Data acquisition and accuracy would require persistent benchmark updates. Core keyword CPC0 and source domain AS38 with 1,840 referring domains.
   - Manual research: Current site combines continuously updated per-game GPU/CPU benchmark and an actual installed Windows FPS telemetry/optimizer application. Public ranking keywords include exact GPU model comparisons, NOT a static browser calculator with verified page landing. Data acquisition and accuracy would require persistent benchmark updates. Core keyword CPC0 and source domain AS38 with 1,840 refe
+| caseconverter.com | 34570 | HOLD_SATURATED_COMMODITY_TOOL_NO_MOAT |
+  - User reviewed:  · Volume None · KD None · CPC USD None · US source-backed core keyword rank2 22.2k searches but CPC0; incumbent 30+ year old site with 576 referring domains and much larger Convertcase.net. Generic JS upper/lowercase conversion offers no demonstrated entry moat; low confidence in AdSense yield. Never imply 34.57k global domain organic is tool core keyword traffic.
+  - Manual research: US source-backed core keyword rank2 22.2k searches but CPC0; incumbent 30+ year old site with 576 referring domains and much larger Convertcase.net. Generic JS upper/lowercase conversion offers no demonstrated entry moat; low confidence in AdSense yield. Never imply 34.57k global domain organic is tool core keyword traffic.
+| titlecaseconverter.com | 37270 | HOLD_SATURATED_COMMODITY_TOOL_NO_MOAT |
+  - User reviewed:  · Volume None · KD None · CPC USD None · Rank1 US core phrase 6.6k search volume CPC0, incumbent AS41/RD1.1k, functional app supports APA, AP, AMA, Chicago, MLA, Bluebook and grammatical exceptions. A simplistic capitalization form cannot match quality without grammar and detailed style maintenance, and no weak independent SERP evidence.
+  - Manual research: Rank1 US core phrase 6.6k search volume CPC0, incumbent AS41/RD1.1k, functional app supports APA, AP, AMA, Chicago, MLA, Bluebook and grammatical exceptions. A simplistic capitalization form cannot match quality without grammar and detailed style maintenance, and no weak independent SERP evidence.
+| paletton.com | 78490 | HOLD_SATURATED_COMMODITY_TOOL_NO_MOAT |
+  - User reviewed:  · Volume None · KD None · CPC USD None · Shows AdSense-like display advertising as site-declared sole profit source, but no reliable revenue number. SEO competitor has AS51 and 13.5k referring domains, an interactive advanced palette designer with vision-deficiency simulations, WCAG contrast and multi-format exports. High core keyword demand and CPC do not make replicating its rankings feasible for new domain.
+  - Manual research: Shows AdSense-like display advertising as site-declared sole profit source, but no reliable revenue number. SEO competitor has AS51 and 13.5k referring domains, an interactive advanced palette designer with vision-deficiency simulations, WCAG contrast and multi-format exports. High core keyword demand and CPC do not make replicating its rankings feasible for new domain.
+| colormagic.app | 26750 | REJECT_LOW_CORE_NONBRAND_TOOL_KEYWORD_DEMAND |
+| gradients.app | 158930 | REJECT_OUTSIDE_GLOBAL_ORGANIC_TRAFFIC_TARGET |
+| wordstotime.com | 41470 | REJECT_NO_STRONG_NONBRAND_TOOL_KEYWORD |
 
 ## Rules
 - Site target: global organic estimated 10k–100k, then verify target-country traffic independently.

@@ -1,7 +1,7 @@
 {
-  "generated_at_utc": "2026-10-13T07:45:18.231982+00:00",
+  "generated_at_utc": "2026-10-13T07:55:00.008804+00:00",
   "market": "SEO_TRAFFIC_TOOLS_NOT_SAAS",
-  "public_evidence_count": 21,
+  "public_evidence_count": 27,
   "shortlist_for_serp_check": [
     {
       "domain": "cps-check.com",
@@ -1177,6 +1177,291 @@
       "keyword_cpc_usd_public_snapshot": 0,
       "competing_tool_urls": [],
       "other_ranked_keyword_examples": [],
+      "organic_verified_by_first_party_analytics": false,
+      "kd_verified": false,
+      "serp_low_authority_verified": false
+    },
+    {
+      "domain": "caseconverter.com",
+      "primary_country": "US",
+      "status": "HOLD_SATURATED_COMMODITY_TOOL_NO_MOAT",
+      "source_url": "https://www.semrush.com/website/caseconverter.com/overview/",
+      "source_month": "2026-08",
+      "global_monthly_organic_provider_estimate": 34570,
+      "country_organic_visits_not_proven": true,
+      "keyword": "case converter",
+      "keyword_country": "US",
+      "keyword_position_public_snapshot": 2,
+      "keyword_volume_public_snapshot": 22200.0,
+      "nonbrand_manual": true,
+      "example_tool_url": "https://www.caseconverter.com/",
+      "public_function_inspected": true,
+      "site_topic_overlap": false,
+      "organic_mom_change_pct": -15.4,
+      "ad_monetization_policy_risk": false,
+      "source_notes": "US Volume22.2k for case converter #2, global site organic 34.57k/mo, AS31/RD576. Actual no-login browser converter exists, but many powerful free direct rivals and keyword CPC0. No weak entry or convincing monetization demonstrated.",
+      "manual_keyword_review": {
+        "decision": "HOLD_SATURATED_COMMODITY_TOOL_NO_MOAT",
+        "reviewed_on": "2026-10-13",
+        "reason": "US source-backed core keyword rank2 22.2k searches but CPC0; incumbent 30+ year old site with 576 referring domains and much larger Convertcase.net. Generic JS upper/lowercase conversion offers no demonstrated entry moat; low confidence in AdSense yield. Never imply 34.57k global domain organic is tool core keyword traffic."
+      },
+      "manual_serp_review": null,
+      "serp_review_completed": false,
+      "serp_low_link_indie_page_at_position_8_only": false,
+      "current_user_supplied_volume": null,
+      "current_user_supplied_kd": null,
+      "current_user_supplied_cpc_usd": null,
+      "manual_kd_review_source": null,
+      "authority_score_semrush": 31,
+      "keyword_cpc_usd_public_snapshot": 0,
+      "competing_tool_urls": [
+        "https://convertcase.net/",
+        "https://titlecaseconverter.com/"
+      ],
+      "other_ranked_keyword_examples": [
+        {
+          "keyword": "uppercase converter",
+          "rank": 4,
+          "volume": 8100,
+          "cpc_usd": 0
+        }
+      ],
+      "organic_verified_by_first_party_analytics": false,
+      "kd_verified": false,
+      "serp_low_authority_verified": false
+    },
+    {
+      "domain": "titlecaseconverter.com",
+      "primary_country": "US",
+      "status": "HOLD_SATURATED_COMMODITY_TOOL_NO_MOAT",
+      "source_url": "https://www.semrush.com/website/titlecaseconverter.com/overview/",
+      "source_month": "2026-09",
+      "global_monthly_organic_provider_estimate": 37270,
+      "country_organic_visits_not_proven": true,
+      "keyword": "title case converter",
+      "keyword_country": "US",
+      "keyword_position_public_snapshot": 1,
+      "keyword_volume_public_snapshot": 6600.0,
+      "nonbrand_manual": true,
+      "example_tool_url": "https://titlecaseconverter.com/",
+      "public_function_inspected": true,
+      "site_topic_overlap": false,
+      "organic_mom_change_pct": -8.37,
+      "ad_monetization_policy_risk": false,
+      "source_notes": "Site global organic 37.27k/mo, US title case converter rank1 6.6k CPC0; mature editorial style-aware capitalization tool, no demonstrated AdSense edge or cheaper superior feature.",
+      "manual_keyword_review": {
+        "decision": "HOLD_SATURATED_COMMODITY_TOOL_NO_MOAT",
+        "reviewed_on": "2026-10-13",
+        "reason": "Rank1 US core phrase 6.6k search volume CPC0, incumbent AS41/RD1.1k, functional app supports APA, AP, AMA, Chicago, MLA, Bluebook and grammatical exceptions. A simplistic capitalization form cannot match quality without grammar and detailed style maintenance, and no weak independent SERP evidence."
+      },
+      "manual_serp_review": null,
+      "serp_review_completed": false,
+      "serp_low_link_indie_page_at_position_8_only": false,
+      "current_user_supplied_volume": null,
+      "current_user_supplied_kd": null,
+      "current_user_supplied_cpc_usd": null,
+      "manual_kd_review_source": null,
+      "authority_score_semrush": 41,
+      "keyword_cpc_usd_public_snapshot": 0,
+      "competing_tool_urls": [
+        "https://capitalizemytitle.com/",
+        "https://www.caseconverter.com/"
+      ],
+      "other_ranked_keyword_examples": [
+        {
+          "keyword": "titlecase",
+          "rank": 2,
+          "volume": 2400,
+          "cpc_usd": 0.13
+        }
+      ],
+      "organic_verified_by_first_party_analytics": false,
+      "kd_verified": false,
+      "serp_low_authority_verified": false
+    },
+    {
+      "domain": "paletton.com",
+      "primary_country": "US",
+      "status": "HOLD_SATURATED_COMMODITY_TOOL_NO_MOAT",
+      "source_url": "https://www.semrush.com/website/paletton.com/overview/",
+      "source_month": "2026-09",
+      "global_monthly_organic_provider_estimate": 78490,
+      "country_organic_visits_not_proven": true,
+      "keyword": "color palette generator",
+      "keyword_country": "US",
+      "keyword_position_public_snapshot": 9,
+      "keyword_volume_public_snapshot": 60500.0,
+      "nonbrand_manual": true,
+      "example_tool_url": "https://paletton.com/",
+      "public_function_inspected": true,
+      "site_topic_overlap": false,
+      "organic_mom_change_pct": 4.93,
+      "ad_monetization_policy_risk": false,
+      "source_notes": "Semrush Sep global organic 78.49k, US nonbrand color palette generator rank9 Volume60.5k/CPC1.26. Site says display ads are its only profit, but this is proof of ad monetization method, NOT of actual revenue; product is mature and SEO authority heavy.",
+      "manual_keyword_review": {
+        "decision": "HOLD_SATURATED_COMMODITY_TOOL_NO_MOAT",
+        "reviewed_on": "2026-10-13",
+        "reason": "Shows AdSense-like display advertising as site-declared sole profit source, but no reliable revenue number. SEO competitor has AS51 and 13.5k referring domains, an interactive advanced palette designer with vision-deficiency simulations, WCAG contrast and multi-format exports. High core keyword demand and CPC do not make replicating its rankings feasible for new domain."
+      },
+      "manual_serp_review": null,
+      "serp_review_completed": false,
+      "serp_low_link_indie_page_at_position_8_only": false,
+      "current_user_supplied_volume": null,
+      "current_user_supplied_kd": null,
+      "current_user_supplied_cpc_usd": null,
+      "manual_kd_review_source": null,
+      "authority_score_semrush": 51,
+      "keyword_cpc_usd_public_snapshot": 1.26,
+      "competing_tool_urls": [
+        "https://coolors.co/",
+        "https://colormagic.app/",
+        "https://gradients.app/"
+      ],
+      "other_ranked_keyword_examples": [
+        {
+          "keyword": "color palette",
+          "rank": 7,
+          "volume": 110000,
+          "cpc_usd": 1.06
+        }
+      ],
+      "organic_verified_by_first_party_analytics": false,
+      "kd_verified": false,
+      "serp_low_authority_verified": false
+    },
+    {
+      "domain": "colormagic.app",
+      "primary_country": "US",
+      "status": "REJECT_LOW_CORE_NONBRAND_TOOL_KEYWORD_DEMAND",
+      "source_url": "https://www.semrush.com/website/colormagic.app/overview/",
+      "source_month": "2026-09",
+      "global_monthly_organic_provider_estimate": 26750,
+      "country_organic_visits_not_proven": true,
+      "keyword": "color palette generator from name",
+      "keyword_country": "US",
+      "keyword_position_public_snapshot": 1,
+      "keyword_volume_public_snapshot": 1000.0,
+      "nonbrand_manual": true,
+      "example_tool_url": "https://colormagic.app/",
+      "public_function_inspected": true,
+      "site_topic_overlap": false,
+      "organic_mom_change_pct": -10.89,
+      "ad_monetization_policy_risk": false,
+      "source_notes": "Semrush Sep global organic 26.75k; branded colormagic and color magic dominate publicly displayed top keywords, generic color palette generator rank11, only distinctive nonbrand from-name phrase is 1k US searches. Product has genuine browser tools and text-prompt AI palette creation but cannot use whole-site traffic as demand for this one feature.",
+      "manual_keyword_review": null,
+      "manual_serp_review": null,
+      "serp_review_completed": false,
+      "serp_low_link_indie_page_at_position_8_only": false,
+      "current_user_supplied_volume": null,
+      "current_user_supplied_kd": null,
+      "current_user_supplied_cpc_usd": null,
+      "manual_kd_review_source": null,
+      "authority_score_semrush": 36,
+      "keyword_cpc_usd_public_snapshot": 2.22,
+      "competing_tool_urls": [
+        "https://paletton.com/",
+        "https://coolors.co/"
+      ],
+      "other_ranked_keyword_examples": [
+        {
+          "keyword": "color palette generator",
+          "rank": 11,
+          "volume": 60500,
+          "cpc_usd": 1.26
+        }
+      ],
+      "organic_verified_by_first_party_analytics": false,
+      "kd_verified": false,
+      "serp_low_authority_verified": false
+    },
+    {
+      "domain": "gradients.app",
+      "primary_country": "BR",
+      "status": "REJECT_OUTSIDE_GLOBAL_ORGANIC_TRAFFIC_TARGET",
+      "source_url": "https://www.semrush.com/website/gradients.app/overview/",
+      "source_month": "2026-08",
+      "global_monthly_organic_provider_estimate": 158930,
+      "country_organic_visits_not_proven": true,
+      "keyword": "mistura de cores",
+      "keyword_country": "BR",
+      "keyword_position_public_snapshot": 1,
+      "keyword_volume_public_snapshot": 12100.0,
+      "nonbrand_manual": true,
+      "example_tool_url": "https://gradients.app/",
+      "public_function_inspected": false,
+      "site_topic_overlap": false,
+      "organic_mom_change_pct": 6.13,
+      "ad_monetization_policy_risk": false,
+      "source_notes": "Semrush Aug BR nonbrand mistura de cores rank1 Volume12.1k CPC0.41 demonstrates demand; global site organic 158.93k EXCEEDS 100k ceiling, actual product blocked public crawler by ant-bot so functional URL not independently confirmed. Store as market benchmark not direct candidate or user Semrush request.",
+      "manual_keyword_review": null,
+      "manual_serp_review": null,
+      "serp_review_completed": false,
+      "serp_low_link_indie_page_at_position_8_only": false,
+      "current_user_supplied_volume": null,
+      "current_user_supplied_kd": null,
+      "current_user_supplied_cpc_usd": null,
+      "manual_kd_review_source": null,
+      "authority_score_semrush": 39,
+      "keyword_cpc_usd_public_snapshot": 0.41,
+      "competing_tool_urls": [
+        "https://colormagic.app/"
+      ],
+      "other_ranked_keyword_examples": [
+        {
+          "keyword": "misturar cores",
+          "rank": 1,
+          "volume": 5400,
+          "cpc_usd": 0.41
+        }
+      ],
+      "organic_verified_by_first_party_analytics": false,
+      "kd_verified": false,
+      "serp_low_authority_verified": false
+    },
+    {
+      "domain": "wordstotime.com",
+      "primary_country": "US",
+      "status": "REJECT_NO_STRONG_NONBRAND_TOOL_KEYWORD",
+      "source_url": "https://www.semrush.com/website/wordstotime.com/overview/",
+      "source_month": "2026-08",
+      "global_monthly_organic_provider_estimate": 41470,
+      "country_organic_visits_not_proven": true,
+      "keyword": "words to time",
+      "keyword_country": "US",
+      "keyword_position_public_snapshot": 1,
+      "keyword_volume_public_snapshot": 4400.0,
+      "nonbrand_manual": false,
+      "example_tool_url": "https://wordstotime.com/",
+      "public_function_inspected": true,
+      "site_topic_overlap": false,
+      "organic_mom_change_pct": 2.81,
+      "ad_monetization_policy_risk": false,
+      "source_notes": "Semrush Aug estimated global organic 41.47k and keyword words to time rank1 Volume4.4k CPC0. This phrase resembles the site name and may be branded/navigational; true nonbrand reading time calculator only 2.4k US. Browser time estimation is easy, but no separate high-demand commercial entry proven. Site discloses affiliate links, not confirmed AdSense revenue.",
+      "manual_keyword_review": null,
+      "manual_serp_review": null,
+      "serp_review_completed": false,
+      "serp_low_link_indie_page_at_position_8_only": false,
+      "current_user_supplied_volume": null,
+      "current_user_supplied_kd": null,
+      "current_user_supplied_cpc_usd": null,
+      "manual_kd_review_source": null,
+      "authority_score_semrush": null,
+      "keyword_cpc_usd_public_snapshot": 0,
+      "competing_tool_urls": [],
+      "other_ranked_keyword_examples": [
+        {
+          "keyword": "reading time calculator",
+          "rank": 1,
+          "volume": 2400,
+          "cpc_usd": 0
+        },
+        {
+          "keyword": "words to minutes",
+          "rank": 1,
+          "volume": 2400,
+          "cpc_usd": 0
+        }
+      ],
       "organic_verified_by_first_party_analytics": false,
       "kd_verified": false,
       "serp_low_authority_verified": false
