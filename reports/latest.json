@@ -1,0 +1,21 @@
+{
+  "generated_at_utc": "2026-10-13T00:00:00+00:00",
+  "target_countries": [
+    "BR",
+    "MX",
+    "ES",
+    "PT",
+    "CL",
+    "US",
+    "GB"
+  ],
+  "seed_domains": [],
+  "serp_keyword_snapshots": 0,
+  "serp_candidates": [],
+  "clusters": [],
+  "github_leads": [],
+  "github_queries_attempted": 0,
+  "github_failures": [],
+  "seo_provider_metrics_verified_automatically": false,
+  "note": "Initial placeholder only; not live research. Daily workflow refreshes this file."
+}
