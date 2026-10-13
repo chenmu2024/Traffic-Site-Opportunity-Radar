@@ -59,6 +59,8 @@ def gate(snapshot, today):
         state = "REJECT_HIGH_KD_WITHOUT_WEAK_SERP"
     elif snapshot.get("manual_keyword_review", {}).get("decision") == "HOLD_SATURATED_COMMODITY_TOOL_NO_MOAT":
         state = "HOLD_SATURATED_COMMODITY_TOOL_NO_MOAT"
+    elif snapshot.get("manual_keyword_review", {}).get("decision") == "HOLD_HIGH_MAINTENANCE_NOT_STATIC_TOOL":
+        state = "HOLD_HIGH_MAINTENANCE_NOT_STATIC_TOOL"
     elif snapshot.get("topic_overlap"):
         state = "OVERLAPS_USER_EXISTING_SITE_NOT_NEW_PROJECT"
     elif snapshot.get("ad_monetization_policy_risk"):
@@ -180,7 +182,7 @@ def markdown(data):
                 lines.append("  - Rejected for NEW standalone SEO+AdSense tool site; do not re-request the same Semrush keywords absent fresh counterevidence.")
             if review.get("do_not_request_same_core_kd_again"):
                 lines.append("  - User confirmed core KD " + str(review.get("core_kd")) + " and CPC USD " + str(review.get("core_cpc_usd")) + "; HOLD standalone new-site effort. Do NOT re-request this core KD or low-volume variants without independent new SERP evidence.")
-            if review.get("decision") in {"REJECT_HIGH_KD_WITHOUT_WEAK_SERP", "HOLD_SATURATED_COMMODITY_TOOL_NO_MOAT"}:
+            if review.get("decision") in {"REJECT_HIGH_KD_WITHOUT_WEAK_SERP", "HOLD_SATURATED_COMMODITY_TOOL_NO_MOAT", "HOLD_HIGH_MAINTENANCE_NOT_STATIC_TOOL"}:
                 lines.append("  - Manual research: " + clean(review.get("reason"), 390))
     lines += ["", "## Rules",
               "- Site target: global organic estimated 10k–100k, then verify target-country traffic independently.",
