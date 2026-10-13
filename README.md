@@ -138,3 +138,21 @@ domain,country,monthly_organic,source,observed_on
 | MX | 树脂材料用量 | calculadora de resina epóxica |
 
 如果核心词低需求，直接淘汰，不继续查辅助词、竞品流量或主站排名。
+
+## 2026-10-13 research method: competitor-first public organic evidence
+
+Several Brazil/Mexico core terms (Pix Placa, resin calculator, printable labels, wallpaper rolls) yielded negligible practical tool-search demand in the user's Semrush checks. Do not re-open those exact terms unless independently sourced fresh data shows meaningful new demand.
+
+**New research order:** find a dated public competitor estimate of REAL ORGANIC SEARCH, identify a nonbrand country-specific query with a top-10 ranking, and confirm its real browser tool URL before asking the user to look at Semrush KD and SERP competitors. Do not pick random keyword roots and hope their search volume is substantial.
+
+- Public Semrush source pages can show worldwide monthly estimated organic search, leading *country-specific* nonbrand query ranks, and separate total visits. These are distinct metrics. Never label worldwide organic estimates as Brazil/Mexico organic visits or GA4 verified users.
+- inputs/public-organic-competitors.json contains a limited, manually attributed research sample with source URLs/months. It is NOT an API connection or a license to scrape Semrush pages.
+- python competitor_first.py creates reports/competitor-first.md and .json; daily GitHub Actions refresh and publish both. No external Python libraries or new fixed costs.
+- Gate 1: public estimated total organic 10k–100k/month, observation current enough to review.
+- Gate 2: target-country nonbrand FUNCTIONAL tool query visible in public rankings, top 10.
+- Gate 3: separately inspected an actual interactive tool URL under the source domain, no obvious topic collision with user's existing sites, SaaS monetization claims or brand-only query.
+- Passing means: inspect actual SERP, KD, DR of ranking low-authority sites and Ads economics BEFORE discussing a new build; it does NOT mean a verified tool-page traffic estimate or a guaranteed opportunity.
+- Previously surfaced examples: Meloja free name/number randomizers have independent nonbrand rankings and dated domain-organic estimate, but sorteador.com.br is a large incumbent and Google SERP competition has not been screened. Pagebot has visible nonbrand query ranking but falls below domain-organic target. Mexico SAT, nick/font and payroll examples overlap existing projects; do not propose as new stand-alone sites.
+- Existing keyword-first demand_gate.py remains available as a SECOND-STAGE exact query validation after a competitor is discovered; its user-reported rejection markers override absent metric rows without pretending Volume is zero.
+
+Source examples and research rationale: public Semrush page for meloja.com.br/overview/, calculadorasat.com/overview/, portalpopclub.com.br/overview/, pagebot.com.br/overview/, simuladoronline.com/overview/ and nominax.com/overview/ as of 2026-10-13.

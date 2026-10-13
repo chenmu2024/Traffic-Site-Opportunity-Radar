@@ -120,7 +120,10 @@
       ],
       "angle": "Browser-generated A4/Pimaco grids, custom fields, barcode/QR, CSV import, precise printable PDF; user-facing browser app with free fixed-cost hosting. Distinguish from logistics label and manufacturer-brand navigation terms.",
       "discovery_note": "Real label design and print tools found in public pages; nonbrand Brazil Keyword Overview Volume/KD/CPC and competitor country-level organic tool-page traffic unknown.",
-      "created_on": "2026-10-13"
+      "created_on": "2026-10-13",
+      "manual_research_decision": "REJECT_USER_REPORTED_LOW_CORE_DEMAND",
+      "manual_research_reviewed_on": "2026-10-13",
+      "manual_research_note": "User checked exact core country-level search keywords in Semrush and reported insufficient search demand. Numeric Volume/KD not supplied, not assumed zero; do not request again without independent positive evidence."
     },
     {
       "id": "br_wallpaper_rolls",
@@ -148,7 +151,10 @@
       ],
       "angle": "Exact strips per roll, roll dimensions, repeat/rapport alignment and cut waste plus BR localized print shopping note. Browser-only math; relevant to decoration purchase intent.",
       "discovery_note": "Several public functional websites exist; many low-tech competitors and copyable math, so unique edge weak unless query demand and SERP prove opportunity. No country-level traffic or keyword metrics.",
-      "created_on": "2026-10-13"
+      "created_on": "2026-10-13",
+      "manual_research_decision": "REJECT_USER_REPORTED_LOW_CORE_DEMAND",
+      "manual_research_reviewed_on": "2026-10-13",
+      "manual_research_note": "User checked exact core country-level search keywords in Semrush and reported insufficient search demand. Numeric Volume/KD not supplied, not assumed zero; do not request again without independent positive evidence."
     },
     {
       "id": "mx_print_labels",
@@ -176,7 +182,10 @@
       ],
       "angle": "Carta / A4 / thermal, Spanish (Mexico), local product label layouts, CSV batch and browser-side PDF. Regulatory NOM-050 templates should not claim compliance without specialized validation.",
       "discovery_note": "Spanish-language functionality publicly verified but competitor organic rank, usage share and product landing visibility IN MEXICO not confirmed; only call Semrush Mexico if the exact core tool phrase has real search volume.",
-      "created_on": "2026-10-13"
+      "created_on": "2026-10-13",
+      "manual_research_decision": "REJECT_USER_REPORTED_LOW_CORE_DEMAND",
+      "manual_research_reviewed_on": "2026-10-13",
+      "manual_research_note": "User checked exact core country-level search keywords in Semrush and reported insufficient search demand. Numeric Volume/KD not supplied, not assumed zero; do not request again without independent positive evidence."
     }
   ],
   "updated_on": "2026-10-13"
