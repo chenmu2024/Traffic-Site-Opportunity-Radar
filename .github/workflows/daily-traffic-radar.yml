@@ -9,6 +9,7 @@ on:
       - 'discovery_quality.py'
       - 'tests/**'
       - 'inputs/**'
+      - 'data/manual-site-decisions.json'
       - '.github/workflows/daily-traffic-radar.yml'
   schedule:
     - cron: '0 0 * * *' # 08:00 Singapore/Beijing time. Actual dispatch may be delayed.
@@ -51,6 +52,7 @@ jobs:
           python -m json.tool reports/discovery-quality.json >/dev/null
           test -s reports/discovery-quality.md
           python -m json.tool data/site-history.json >/dev/null
+          python -m json.tool data/manual-site-decisions.json >/dev/null
       - name: Print evidence provenance summary
         run: |
           python - <<'PY'

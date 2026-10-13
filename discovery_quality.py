@@ -14,6 +14,12 @@ CATALOG_TERMS = ('awesome-', 'awesome_', 'directory', 'curated-list', 'tool-list
                  'list-of-', '1000-tools', 'best-tools', 'websites-list')
 EXERCISE_TERMS = ('challenge', 'desafio', 'tutorial', 'assignment', 'bootcamp', 'coding-exercise',
                   'course-project', 'beginner-project', 'udemy', 'codecademy', 'odin-project')
+DESKTOP_TERMS = ('pyside', 'pyqt', 'tkinter', 'desktop app', 'desktop-only', 'desktop application',
+                 'windows desktop', 'for windows', 'windows-only', 'native app',
+                 'appimage', 'electron app', 'offline file converter')
+NONPRODUCT_PATH_PREFIXES = ('/mini-projetos/', '/tutorial', '/opensource/', '/open-source/',
+                            '/blog/', '/posts/', '/docs/', '/portfolio/', '/projects/')
+PLATFORM_COST_FLAGS = ('subscription', 'subscriptions', 'stripe', 'saas', 'backend', 'server-side')
 TOOL_TERMS = ('calculator', 'calculadora', 'calculateur', 'calculate', 'calc-', 'converter',
               'conversor', 'convertidor', 'conversion', 'generador', 'gerador', 'generator',
               'simulador', 'simulator', 'formatter', 'formatador', 'validator',
@@ -48,23 +54,28 @@ def root_domain(host):
 def assess(lead):
     """Use observable GitHub metadata only; this is *not* an SEO opportunity score."""
     name = lead.get('domain') or ''
-    descs = []
+    url_path = urlparse(lead.get('homepage') or '').path.lower().rstrip('/')
+    flags = Counter()
     reasons = []
     best = -999
-    flags = Counter()
     for rep in lead.get('repositories', []):
         owner, slug = parts_from_github(rep.get('url', ''))
         description = (rep.get('description') or '').lower()
         combined = (slug + ' ' + description).lower()
         bad_catalog = any(token in slug for token in CATALOG_TERMS) or (
             'awesome' in slug and ('list' in description or 'websites' in description))
-        bad_exercise = any(token in combined for token in EXERCISE_TERMS)
+        bad_exercise = any(token in combined for token in EXERCISE_TERMS) or any(
+            url_path.startswith(prefix.rstrip('/')) for prefix in NONPRODUCT_PATH_PREFIXES)
+        bad_desktop = any(token in combined for token in DESKTOP_TERMS)
         relevance = any(x in combined for x in TOOL_TERMS)
         if bad_catalog:
             flags['CATALOG_NOT_TOOL'] += 1
             continue
         if bad_exercise:
-            flags['TUTORIAL_OR_COURSE'] += 1
+            flags['TUTORIAL_OR_DEVELOPER_RESOURCE'] += 1
+            continue
+        if bad_desktop:
+            flags['DESKTOP_SOFTWARE_NOT_BROWSER_TOOL'] += 1
             continue
         if rep.get('archived') or rep.get('fork'):
             flags['ARCHIVED_OR_FORK'] += 1
@@ -78,13 +89,18 @@ def assess(lead):
             score += 20
         else:
             flags['SHARED_HOST_OR_SUBDOMAIN_REQUIRES_REVIEW'] += 1
+        if url_path:
+            flags['NON_ROOT_PAGE_NOT_STANDALONE_SITE'] += 1
+            score -= 25
+        if any(flag in combined for flag in PLATFORM_COST_FLAGS):
+            flags['POTENTIAL_SUBSCRIPTION_OR_BACKEND_COST'] += 1
+            score -= 15
         # Project slug and site host signal product-to-website mapping only.
         s_tokens = {s for s in re.split(r'[^a-z0-9]+', slug) if len(s) >= 5}
         h_tokens = {s for s in re.split(r'[^a-z0-9]+', name) if len(s) >= 5}
         if s_tokens & h_tokens:
             score += 15
-        if rep.get('stars') is not None:
-            score += 5  # Existence of public code only, never usage or SEO
+        # Stars are useful source metadata, but do not increase the website priority.
         if description:
             score += 10
         if len(lead.get('matching_queries', [])) >= 2:
@@ -96,7 +112,8 @@ def assess(lead):
         score = 0
     else:
         score = best
-        state = 'TECH_LEAD_TO_INSPECT' if score >= 55 else 'LOW_PRIORITY_TECH_LEAD'
+        state = ('TECH_LEAD_TO_INSPECT' if score >= 55 and not url_path
+                 and root_domain(name) else 'LOW_PRIORITY_TECH_LEAD')
         reasons = sorted(flags)
         if not reasons:
             reasons = ['GITHUB_CODE_ONLY_NO_SEO_EVIDENCE']
@@ -111,8 +128,9 @@ def assess(lead):
                             'nonbrand country-specific SEO evidence before requesting Semrush.')}
 
 
-def build(source, history=None):
+def build(source, history=None, manual_decisions=None):
     previous = history or {}
+    manual_decisions = manual_decisions or {}
     day = (source.get('generated_at_utc') or '')[:10]
     try:
         date.fromisoformat(day)
@@ -128,6 +146,14 @@ def build(source, history=None):
         if not host:
             continue
         item = assess(lead)
+        decision = manual_decisions.get(host)
+        if isinstance(decision, dict) and decision.get('decision') == 'EXCLUDE':
+            item['review_stage'] = 'SKIP_GITHUB_SOURCE'
+            item['reasons'] = ['MANUAL_SOURCE_REVIEW_EXCLUDED']
+            item['manual_review'] = {
+                'reason': clean(decision.get('reason'), 200),
+                'source_url': clean(decision.get('source_url'), 300),
+                'reviewed_on': clean(decision.get('reviewed_on'), 30)}
         prev = seen.get(host, {})
         first_seen = prev.get('first_seen') or day
         item['first_seen_in_radar'] = first_seen
@@ -196,11 +222,13 @@ def main():
     p = argparse.ArgumentParser()
     p.add_argument('--source', type=Path, default=ROOT/'reports'/'latest.json')
     p.add_argument('--history', type=Path, default=ROOT/'data'/'site-history.json')
+    p.add_argument('--manual-decisions', type=Path, default=ROOT/'data'/'manual-site-decisions.json')
     p.add_argument('--output-dir', type=Path, default=ROOT/'reports')
     args = p.parse_args()
     report = json.loads(args.source.read_text(encoding='utf-8'))
     history = json.loads(args.history.read_text(encoding='utf-8')) if args.history.exists() else {}
-    summary, updated = build(report, history)
+    manual = json.loads(args.manual_decisions.read_text(encoding='utf-8')) if args.manual_decisions.exists() else {}
+    summary, updated = build(report, history, manual)
     args.output_dir.mkdir(parents=True,exist_ok=True)
     args.history.parent.mkdir(parents=True,exist_ok=True)
     (args.output_dir/'discovery-quality.json').write_text(json.dumps(summary,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')

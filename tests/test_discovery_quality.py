@@ -58,6 +58,39 @@ class DiscoveryQualityTests(unittest.TestCase):
         self.assertIn('数据源故障',markdown(report))
         self.assertEqual(report['priority_to_inspect'],[])
 
+    def test_desktop_only_does_not_appear_as_browser_tool(self):
+        lead_item=lead('file-converter-pro.org','File_Converter_Pro',
+            'Free offline converter for Windows with Python and PySide6')
+        entry=assess(lead_item)
+        self.assertEqual(entry['review_stage'],'SKIP_GITHUB_SOURCE')
+        self.assertIn('DESKTOP_SOFTWARE_NOT_BROWSER_TOOL',entry['reasons'])
+
+    def test_tutorial_or_developer_site_path_is_not_business_competitor(self):
+        tutorial=lead('codante.io','mp-calculadora-imc','Calculadora IMC com React')
+        tutorial['homepage']='https://codante.io/mini-projetos/calculadora-de-imc-com-react'
+        entry=assess(tutorial)
+        self.assertEqual(entry['review_stage'],'SKIP_GITHUB_SOURCE')
+
+    def test_generic_personal_site_page_is_not_standalone_tool(self):
+        source=lead('codepoems.eu','xl-converter','Easy to use image converter')
+        source['homepage']='https://codepoems.eu/xl-converter'
+        entry=assess(source)
+        self.assertEqual(entry['review_stage'],'LOW_PRIORITY_TECH_LEAD')
+        self.assertIn('NON_ROOT_PAGE_NOT_STANDALONE_SITE',entry['reasons'])
+
+    def test_manual_evidenced_exclusion_overrides_technical_score(self):
+        src={'generated_at_utc':'2026-10-13T10:00:00Z','github_queries_attempted':3,
+             'github_failures':[],'github_leads':[lead('sine-wave-generator.com',
+             'sine-wave-generator')]}
+        manual={'sine-wave-generator.com':{'decision':'EXCLUDE','reason':'Manual reviewed counterexample',
+                                          'source_url':'https://example.com/evidence',
+                                          'reviewed_on':'2026-10-13'}}
+        report,history=build(src,{},manual)
+        self.assertEqual(report['priority_to_inspect'],[])
+        self.assertEqual(report['observations'][0]['review_stage'],'SKIP_GITHUB_SOURCE')
+        self.assertIn('MANUAL_SOURCE_REVIEW_EXCLUDED',report['observations'][0]['reasons'])
+        self.assertEqual(history['sine-wave-generator.com']['first_seen'],'2026-10-13')
+
     def test_rotating_pt_es_en_queries(self):
         import datetime
         rows=query_plan(datetime.date(2026,10,13))
