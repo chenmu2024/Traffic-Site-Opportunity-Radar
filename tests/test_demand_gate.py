@@ -61,6 +61,29 @@ class DemandGateTests(unittest.TestCase):
             data,rejected=load_metrics(path,NOW.date())
             self.assertEqual(len(data),1)
             self.assertEqual(len(rejected),3)
+    def test_user_checked_missing_keyword_data_is_held_not_zero(self):
+        x=candidate()
+        x["manual_research_decision"]="HOLD_NO_MEASURABLE_CORE_SEARCH"
+        x["manual_research_note"]="User checked and found no meaningful data."
+        result=evaluate([x],{})[0]
+        self.assertEqual(result["stage"],"HOLD_NO_MEASURABLE_CORE_SEARCH")
+        self.assertIsNone(result["core_metric"])
+        self.assertIn("Do not request",result["next_action"])
+
+    def test_wordsearch_screenshot_core_but_short_tail_not_enough(self):
+        item={"id":"br_wordsearch","country":"BR","name":"Test","core_keyword":"gerador de caça palavras",
+              "supporting_keywords":["gerador de caça-palavras","gerador de caça palavras para imprimir"]}
+        real={
+            ("BR","gerador de caça palavras"):metric("gerador de caça palavras",4400,19),
+            ("BR","gerador de caça-palavras"):metric("gerador de caça-palavras",480,20),
+            ("BR","gerador de caça palavras para imprimir"):metric("gerador de caça palavras para imprimir",260,17)
+        }
+        result=evaluate([item],real)[0]
+        self.assertEqual(result["stage"],"REJECT_INSUFFICIENT_SUPPORTING_DEMAND")
+        self.assertEqual(result["core_metric"]["monthly_volume_user_supplied"],4400)
+        self.assertEqual(result["core_metric"]["kd_user_supplied"],19)
+        self.assertIsNone(result["organic_monthly_traffic_verified"])
+
     def test_real_empty_files_wait_for_user(self):
         with tempfile.TemporaryDirectory() as tmp:
             base=Path(tmp)
