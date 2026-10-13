@@ -7,6 +7,7 @@ on:
       - 'radar.py'
       - 'triage.py'
       - 'discovery_quality.py'
+      - 'demand_gate.py'
       - 'tests/**'
       - 'inputs/**'
       - 'data/manual-site-decisions.json'
@@ -43,6 +44,7 @@ jobs:
           python radar.py --github-live
           python triage.py
           python discovery_quality.py
+          python demand_gate.py
       - name: Validate evidence-first output
         run: |
           python -m json.tool reports/latest.json >/dev/null
@@ -53,6 +55,8 @@ jobs:
           test -s reports/discovery-quality.md
           python -m json.tool data/site-history.json >/dev/null
           python -m json.tool data/manual-site-decisions.json >/dev/null
+          python -m json.tool reports/demand-gate.json >/dev/null
+          test -s reports/demand-gate.md
       - name: Print evidence provenance summary
         run: |
           python - <<'PY'
@@ -70,6 +74,9 @@ jobs:
           print("GH technical leads to inspect (NOT SEO evidence):", len(d["priority_to_inspect"]))
           assert d["no_semrush_requests_from_github_alone"]
           assert not d["organic_traffic_verified_automatically"]
+          g = json.loads(Path("reports/demand-gate.json").read_text(encoding="utf-8"))
+          print("Exact core tool keywords needing Volume/KD:", sum(x["stage"] == "NEEDS_EXACT_CORE_VOLUME" for x in g["candidates"]))
+          assert not g["any_organic_traffic_verified_automatically"]
           assert r["seo_provider_metrics_verified_automatically"] is False
           PY
       - name: Upload independent JSON and Markdown reports
@@ -83,13 +90,15 @@ jobs:
             reports/triage.md
             reports/discovery-quality.json
             reports/discovery-quality.md
+            reports/demand-gate.json
+            reports/demand-gate.md
           retention-days: 14
       - name: Commit only this radar's reports
         if: github.ref == 'refs/heads/main'
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add reports/latest.json reports/latest.md reports/triage.json reports/triage.md reports/discovery-quality.json reports/discovery-quality.md data/site-history.json
+          git add reports/latest.json reports/latest.md reports/triage.json reports/triage.md reports/discovery-quality.json reports/discovery-quality.md reports/demand-gate.json reports/demand-gate.md data/site-history.json
           if ! git diff --cached --quiet; then
             git commit -m 'chore: refresh traffic-site research snapshots [skip ci]'
             git fetch origin main

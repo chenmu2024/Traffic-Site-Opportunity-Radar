@@ -116,3 +116,25 @@ domain,country,monthly_organic,source,observed_on
 - 目前已核对 File Converter Pro、XL Converter、Codante React IMC 教程、favr.dev 的开源页面与 Fichas de Nimb 订阅型 RPG 平台，对当前以低成本在线工具和 AdSense 为主的选题不进行 Semrush 查询。
 - 被排除的项目仍保留在历史研究记录中，并不表示其真实搜索流量为零、产品质量差或完全没有商业价值。
 - 只有独立核对真实在线工具功能、非品牌搜索入口和国家市场后，才请求用户查询具体的 Semrush Volume、KD、CPC 和竞争页面。
+
+## Core Tool Keyword Demand Gate / 先验证真实工具词需求
+
+此前 Pix 案例说明：主题资讯关键词 Volume 很高时，生成器核心功能关键词可能很低。因此本仓库使用 demand_gate.py 将 **精准核心工具关键词的真实市场 Volume/KD** 放在竞争对手自然流量查询之前。
+
+- inputs/demand-candidates.json 是人工公开搜集到的 BR/MX 真实网页工具候选。站点存在不是流量或市场规模证明。
+- inputs/demand-metrics.csv 只接受明确国家、准确关键词、真实月 Volume、KD、日期与数据来源；未知数值不填 0；观察值超过90天会被拒绝。
+- 此模块采用谨慎的研究资源筛选启发式：核心词月搜索量至少 3000、KD 不超过35；通过后才查辅助工具意图词，辅助词需至少1000搜索量且 KD 不超过35。阈值用于节省查询次数，不代表 SEO 胜率或市场规模。
+- 只有需求初筛通过才进入 Domain Organic Research → Pages/Positions 去确认真实功能页非品牌流量及对手月流量 10000–100000 的目标区间。
+- 支持关键词同义变体不能直接加总。以上输入被标记 USER_SUPPLIED_UNAUDITED，程序不生成假 Volume/KD/CPC。
+- 执行 python demand_gate.py，生成 reports/demand-gate.json 和 reports/demand-gate.md；每日 Actions 自动执行。
+- 本仓库为 public：不要上传第三方平台受限导出明细或私人账户信息。仅提交你愿意公开且被许可披露的摘要，或直接在聊天中提供截图数字让助手判断。
+
+2026-10-13 首轮关键词：
+
+| 地区 | 方向 | 第一步只查核心词 |
+|---|---|---|
+| BR | 树脂材料用量 | calculadora de resina epóxi |
+| BR | 教学找词打印 | gerador de caça palavras |
+| MX | 树脂材料用量 | calculadora de resina epóxica |
+
+如果核心词低需求，直接淘汰，不继续查辅助词、竞品流量或主站排名。
