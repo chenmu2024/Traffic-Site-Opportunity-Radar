@@ -1,0 +1,28 @@
+# 工具词需求前置筛选 · 流量站雷达
+
+生成时间：2026-10-13T04:32:57.453263+00:00
+
+> 优先调查真实工具使用词。没有 Semrush 数据则保留未知，不能把新闻/资讯搜索量当作工具使用需求。
+
+## 需要核查的准确关键词
+
+| 市场 | 产品方向 | 核心关键词 | Volume | KD | 阶段 |
+|---|---|---|---:|---:|---|
+| BR | 巴西树脂用量与配比计算器 | `calculadora de resina epóxi` | 未知 | 未知 | NEEDS_EXACT_CORE_VOLUME |
+| BR | 巴西自定义找词活动打印工具 | `gerador de caça palavras` | 未知 | 未知 | NEEDS_EXACT_CORE_VOLUME |
+| MX | 墨西哥环氧树脂材料用量计算器 | `calculadora de resina epóxica` | 未知 | 未知 | NEEDS_EXACT_CORE_VOLUME |
+
+## 查询顺序
+
+先查每个国家核心工具词的 Volume/KD；弱需求方向直接拒绝，只有通过前置门槛才核对辅助词和竞品功能页自然流量。
+
+- BR **巴西树脂用量与配比计算器**：Check ONLY the core keyword Volume and KD in the specified country. 辅助词：`calculadora de resina para molde`、`quanto de resina epóxi preciso`
+- BR **巴西自定义找词活动打印工具**：Check ONLY the core keyword Volume and KD in the specified country. 辅助词：`criar caça palavras para imprimir`、`gerador de caça palavras para imprimir`
+- MX **墨西哥环氧树脂材料用量计算器**：Check ONLY the core keyword Volume and KD in the specified country. 辅助词：`calculadora de resina epóxica para moldes`、`cuánta resina epóxica necesito`
+
+## 证据纪律
+
+- 月自然流量10k–100k目标不能由关键词搜索量直接推算；工具排名URL需随后单独验证。
+- 初筛 3,000 搜索量和 KD 35 是研究资源分配的启发式阈值，不是市场真实数据或普适立项公式。
+- 同义词不得简单相加；核心关键词需求不足就淘汰，除非出现新的独立证据。
+- SaaS 项目与流量站研究完全分离。

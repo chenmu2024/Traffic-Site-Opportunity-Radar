@@ -1,0 +1,104 @@
+{
+  "generated_at_utc": "2026-10-13T04:32:57.453263+00:00",
+  "policy": "CORE_TOOL_DEMAND_BEFORE_COMPETITOR_TRAFFIC",
+  "thresholds_heuristic_not_market_data": {
+    "core_min_volume": 3000,
+    "supporting_min_volume": 1000,
+    "kd_max": 35,
+    "age_days_max": 90
+  },
+  "candidate_count": 3,
+  "metrics_records": 0,
+  "invalid_records": {},
+  "candidates": [
+    {
+      "id": "br_resin_calculator",
+      "name": "巴西树脂用量与配比计算器",
+      "country": "BR",
+      "stage": "NEEDS_EXACT_CORE_VOLUME",
+      "core_keyword": "calculadora de resina epóxi",
+      "core_metric": null,
+      "supporting_keywords": [
+        "calculadora de resina para molde",
+        "quanto de resina epóxi preciso"
+      ],
+      "supporting_metrics": [],
+      "competitors_public_only": [
+        {
+          "url": "https://www.hazzin.com.br/calculadora",
+          "type": "retailer_tool"
+        },
+        {
+          "url": "https://icalculadora.com.br/calculadoras/resina-epoxi",
+          "type": "independent_tool"
+        },
+        {
+          "url": "https://mimusresinas.com.br/calculadora-de-resina",
+          "type": "retailer_tool"
+        }
+      ],
+      "organic_monthly_traffic_verified": null,
+      "next_action": "Check ONLY the core keyword Volume and KD in the specified country."
+    },
+    {
+      "id": "br_wordsearch",
+      "name": "巴西自定义找词活动打印工具",
+      "country": "BR",
+      "stage": "NEEDS_EXACT_CORE_VOLUME",
+      "core_keyword": "gerador de caça palavras",
+      "core_metric": null,
+      "supporting_keywords": [
+        "criar caça palavras para imprimir",
+        "gerador de caça palavras para imprimir"
+      ],
+      "supporting_metrics": [],
+      "competitors_public_only": [
+        {
+          "url": "https://criadordecruzadinhas.com.br/criar-caca-palavras",
+          "type": "independent_tool"
+        },
+        {
+          "url": "https://www.utilpedia.com.br/gerador-de-caca-palavras",
+          "type": "tool_directory"
+        },
+        {
+          "url": "https://www.escolasdisruptivas.com.br/geradores/caca-palavras",
+          "type": "education_tool"
+        }
+      ],
+      "organic_monthly_traffic_verified": null,
+      "next_action": "Check ONLY the core keyword Volume and KD in the specified country."
+    },
+    {
+      "id": "mx_resin_calculator",
+      "name": "墨西哥环氧树脂材料用量计算器",
+      "country": "MX",
+      "stage": "NEEDS_EXACT_CORE_VOLUME",
+      "core_keyword": "calculadora de resina epóxica",
+      "core_metric": null,
+      "supporting_keywords": [
+        "calculadora de resina epóxica para moldes",
+        "cuánta resina epóxica necesito"
+      ],
+      "supporting_metrics": [],
+      "competitors_public_only": [
+        {
+          "url": "https://decoart.mx/",
+          "type": "retailer_embedded_tool"
+        },
+        {
+          "url": "https://resinpro.mx/epoxytable-10-resina-epoxica-para-mesas/",
+          "type": "retailer_embedded_tool"
+        },
+        {
+          "url": "https://practilia.com/es-419/calculadoras/resina-epoxica/",
+          "type": "regional_tool"
+        }
+      ],
+      "organic_monthly_traffic_verified": null,
+      "next_action": "Check ONLY the core keyword Volume and KD in the specified country."
+    }
+  ],
+  "any_organic_traffic_verified_automatically": false,
+  "note": "Country Volume and KD are solely manually supplied Semrush metrics; public competitor URLs only verify that a tool page exists. No synonym Volume aggregation."
+}

@@ -1,49 +1,10 @@
 {
-  "generated_at_utc": "2026-10-13T03:28:45.462296+00:00",
+  "generated_at_utc": "2026-10-13T04:32:57.252568+00:00",
   "source_outage": false,
   "github_search_partial": false,
   "github_query_attempts": 3,
   "github_query_errors": 0,
   "observations": [
-    {
-      "domain": "pix-qr-code.com",
-      "homepage": "https://pix-qr-code.com",
-      "review_stage": "SKIP_GITHUB_SOURCE",
-      "source": "PUBLIC_GITHUB_REPOSITORY",
-      "quality_heuristic_not_seo_score": 65,
-      "reasons": [
-        "MANUAL_SOURCE_REVIEW_EXCLUDED"
-      ],
-      "repositories": [
-        {
-          "url": "https://github.com/ofenascimento/pix-qrcode",
-          "stars": 19,
-          "updated_at": "2024-11-10T20:42:44Z",
-          "name": "pix-qrcode",
-          "description": "Gerador de QR Code para chave pix",
-          "fork": false,
-          "archived": false
-        }
-      ],
-      "query_language_not_market": [
-        "gerador in:name,description stars:3..1500 archived:false"
-      ],
-      "seo_status": "NO_INDEPENDENT_SEO_EVIDENCE",
-      "organic_monthly_search": null,
-      "nonbrand_clicks": null,
-      "kd": null,
-      "cpc": null,
-      "country_traffic": null,
-      "next_action": "Inspect actual interactive utility page and locate independent nonbrand country-specific SEO evidence before requesting Semrush.",
-      "first_seen_in_radar": "2026-10-13",
-      "is_new_radar_observation": false,
-      "last_seen_in_radar": "2026-10-13",
-      "manual_review": {
-        "reason": "The user checked the specific Brazil Placa Pix / Pix QR generator tool-intent keywords and reported little search volume; broad Pix informational keywords are irrelevant. Rejected from the present SEO/AdSense utility-site shortlist, not a claim that this domain has zero traffic.",
-        "source_url": "https://github.com/chenmu2024/Traffic-Site-Opportunity-Radar/blob/main/docs/research/2026-10-13-first-web-precheck.md",
-        "reviewed_on": "2026-10-13"
-      }
-    },
     {
       "domain": "svg2vector.com",
       "homepage": "https://svg2vector.com",
@@ -495,6 +456,45 @@
       "last_seen_in_radar": "2026-10-13"
     },
     {
+      "domain": "pix-qr-code.com",
+      "homepage": "https://pix-qr-code.com",
+      "review_stage": "SKIP_GITHUB_SOURCE",
+      "source": "PUBLIC_GITHUB_REPOSITORY",
+      "quality_heuristic_not_seo_score": 65,
+      "reasons": [
+        "MANUAL_SOURCE_REVIEW_EXCLUDED"
+      ],
+      "repositories": [
+        {
+          "url": "https://github.com/ofenascimento/pix-qrcode",
+          "stars": 19,
+          "updated_at": "2024-11-10T20:42:44Z",
+          "name": "pix-qrcode",
+          "description": "Gerador de QR Code para chave pix",
+          "fork": false,
+          "archived": false
+        }
+      ],
+      "query_language_not_market": [
+        "gerador in:name,description stars:3..1500 archived:false"
+      ],
+      "seo_status": "NO_INDEPENDENT_SEO_EVIDENCE",
+      "organic_monthly_search": null,
+      "nonbrand_clicks": null,
+      "kd": null,
+      "cpc": null,
+      "country_traffic": null,
+      "next_action": "Inspect actual interactive utility page and locate independent nonbrand country-specific SEO evidence before requesting Semrush.",
+      "manual_review": {
+        "reason": "The user checked the specific Brazil Placa Pix / Pix QR generator tool-intent keywords and reported little search volume; broad Pix informational keywords are irrelevant. Rejected from the present SEO",
+        "source_url": "https://github.com/chenmu2024/Traffic-Site-Opportunity-Radar/blob/main/docs/research/2026-10-13-first-web-precheck.md",
+        "reviewed_on": "2026-10-13"
+      },
+      "first_seen_in_radar": "2026-10-13",
+      "is_new_radar_observation": false,
+      "last_seen_in_radar": "2026-10-13"
+    },
+    {
       "domain": "codepoems.eu",
       "homepage": "https://codepoems.eu/xl-converter",
       "review_stage": "SKIP_GITHUB_SOURCE",
@@ -688,13 +688,12 @@
     }
   ],
   "stage_counts": {
-    "SKIP_GITHUB_SOURCE": 6,
     "TECH_LEAD_TO_INSPECT": 1,
-    "LOW_PRIORITY_TECH_LEAD": 11
+    "LOW_PRIORITY_TECH_LEAD": 11,
+    "SKIP_GITHUB_SOURCE": 6
   },
   "historical_domains_seen": 18,
   "no_semrush_requests_from_github_alone": true,
   "organic_traffic_verified_automatically": false,
-  "data_quality_statement": "GitHub homepage and stars do not verify Google clicks or traffic. These observations are for web-product inspection, NOT Semrush queue.",
-  "report_sync_note": "Manual evidence correction: user confirmed low demand for core Placa Pix tool keywords on 2026-10-13; no further Semrush request."
+  "data_quality_statement": "GitHub homepage and stars do not verify Google clicks or traffic. These observations are for web-product inspection, NOT Semrush queue."
 }

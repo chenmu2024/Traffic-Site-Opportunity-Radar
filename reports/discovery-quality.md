@@ -1,11 +1,9 @@
 # 上游发现质量报告 · GitHub 技术线索（不是流量证据）
 
-生成时间：2026-10-13T03:28:45.462296+00:00
+生成时间：2026-10-13T04:32:57.252568+00:00
 
 **结论：本模块不会把 GitHub 仓库、Stars 或主页自动判为有自然流量的站点。**
 **不要直接查本页的 Semrush：必须先核实真实工具页和非品牌排名证据。**
-
-**人工验证更新（2026-10-13）**：用户确认 Placa Pix 核心工具词搜索量不足，pix-qr-code.com 已从推荐核验名单排除；无需再查询 Pages/Positions。
 
 ## 值得先检查实际工具页的技术线索（最多5项）
 
@@ -15,7 +13,6 @@
 
 | 网站 | 技术线索阶段 | 原因 |
 |---|---|---|
-| pix-qr-code.com | SKIP_GITHUB_SOURCE | MANUAL_SOURCE_REVIEW_EXCLUDED：核心 Placa Pix 工具关键词经用户核实搜索量不足；不再询问 Semrush |
 | converseen.fasterland.net | LOW_PRIORITY_TECH_LEAD | SHARED_HOST_OR_SUBDOMAIN_REQUIRES_REVIEW |
 | gerador-nomes.wolan.net | LOW_PRIORITY_TECH_LEAD | SHARED_HOST_OR_SUBDOMAIN_REQUIRES_REVIEW |
 | gerador.dev.br | LOW_PRIORITY_TECH_LEAD | SHARED_HOST_OR_SUBDOMAIN_REQUIRES_REVIEW |
@@ -28,6 +25,7 @@
 | enotionz.github.com | LOW_PRIORITY_TECH_LEAD | NON_ROOT_PAGE_NOT_STANDALONE_SITE, SHARED_HOST_OR_SUBDOMAIN_REQUIRES_REVIEW |
 | web.ist.utl.pt | LOW_PRIORITY_TECH_LEAD | NON_ROOT_PAGE_NOT_STANDALONE_SITE, SHARED_HOST_OR_SUBDOMAIN_REQUIRES_REVIEW |
 | fichasdenimb.com.br | SKIP_GITHUB_SOURCE | MANUAL_SOURCE_REVIEW_EXCLUDED |
+| pix-qr-code.com | SKIP_GITHUB_SOURCE | MANUAL_SOURCE_REVIEW_EXCLUDED |
 | codepoems.eu | SKIP_GITHUB_SOURCE | MANUAL_SOURCE_REVIEW_EXCLUDED |
 | codante.io | SKIP_GITHUB_SOURCE | MANUAL_SOURCE_REVIEW_EXCLUDED |
 | favr.dev | SKIP_GITHUB_SOURCE | MANUAL_SOURCE_REVIEW_EXCLUDED |
@@ -35,7 +33,7 @@
 
 ## 数据健康与后续动作
 
-- 本次技术线索：18；质量分层：{"SKIP_GITHUB_SOURCE":6,"TECH_LEAD_TO_INSPECT":1,"LOW_PRIORITY_TECH_LEAD":11}。
+- 本次技术线索：18；质量分层：{"TECH_LEAD_TO_INSPECT": 1, "LOW_PRIORITY_TECH_LEAD": 11, "SKIP_GITHUB_SOURCE": 6}。
 - GitHub 查询失败：0/3；所有请求失败时不会覆写历史计数。
 - 雷达观察过的不同站点累计：18（不是其 SEO 流量，也不是新词量）。
 - **何时需要 Semrush**：只有找到了具体国家的非品牌工具排名入口、目标站功能 URL，以及可初步核查的竞品后，才按国家、域名、关键词列出查询清单。
