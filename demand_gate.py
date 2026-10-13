@@ -67,7 +67,10 @@ def evaluate(candidates,metrics):
         supports=[x for x in supports if x is not None]
         support_pass=[r for r in supports if r["monthly_volume_user_supplied"]>=SUPPORT_MIN_VOLUME
                       and r["kd_user_supplied"] is not None and r["kd_user_supplied"]<=KD_LIMIT]
-        if core is None:
+        if item.get("manual_research_decision") == "HOLD_NO_MEASURABLE_CORE_SEARCH":
+            state="HOLD_NO_MEASURABLE_CORE_SEARCH"
+            action="User checked this exact country-level core term and found no meaningful data. Do not request it again without independent new evidence; this is not a measured Volume=0."
+        elif core is None:
             state="NEEDS_EXACT_CORE_VOLUME"
             action="Check ONLY the core keyword Volume and KD in the specified country."
         elif core["monthly_volume_user_supplied"]<CORE_MIN_VOLUME:
@@ -92,7 +95,7 @@ def evaluate(candidates,metrics):
             state="REJECT_INSUFFICIENT_SUPPORTING_DEMAND"
             action="Do not request competitor traffic under current narrow tool-intent terms."
         reports.append({"id":item["id"],"name":item["name"],"country":country,
-                       "stage":state,"core_keyword":item["core_keyword"],
+                       "stage":state,"manual_research_note":item.get("manual_research_note"),"core_keyword":item["core_keyword"],
                        "core_metric":core,"supporting_keywords":item.get("supporting_keywords",[]),
                        "supporting_metrics":supports,
                        "competitors_public_only":item.get("observed_competitors",[]),
