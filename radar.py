@@ -25,11 +25,37 @@ DISCOVERY_PLATFORM_SUFFIXES = (
 )
 DISCOVERY_PLATFORM_HOSTS = {'pypi.org', 'npmjs.com', 'huggingface.co', 'codepen.io'}
 
-QUERIES = [
-    'calculadora online in:name,description stars:3..1500 archived:false',
-    'conversor online in:name,description stars:3..1500 archived:false',
-    'web generator tool in:name,description stars:3..1500 archived:false',
-]
+# Rotate publicly searchable *repo technologies*: language is only a query hint,
+# NEVER a claim about country or SEO users. One PT, one ES and one EN query per run.
+DISCOVERY_QUERIES = {
+    'pt': [
+        'calculadora in:name,description stars:3..1500 archived:false',
+        'conversor in:name,description stars:3..1500 archived:false',
+        'gerador in:name,description stars:3..1500 archived:false',
+        'simulador in:name,description stars:3..1500 archived:false',
+    ],
+    'es': [
+        'generador in:name,description stars:3..1500 archived:false',
+        'convertidor in:name,description stars:3..1500 archived:false',
+        'calculadora in:name,description stars:3..1500 archived:false',
+        'herramienta in:name,description stars:3..1500 archived:false',
+    ],
+    'en': [
+        'online generator in:name,description stars:3..1500 archived:false',
+        'browser calculator in:name,description stars:3..1500 archived:false',
+        'image converter in:name,description stars:3..1500 archived:false',
+        'online planner in:name,description stars:3..1500 archived:false',
+    ]
+}
+
+
+def query_plan(day=None):
+    day = day or datetime.now(timezone.utc).date()
+    idx = day.toordinal() % 4
+    return [(language, values[idx]) for language, values in DISCOVERY_QUERIES.items()]
+
+
+QUERIES = [query for _, query in query_plan()]
 
 
 def domain(value):
@@ -233,7 +259,8 @@ def github_discover(token=None, fetch=None):
     fetch = fetch or urlopen
     results, failures = {}, []
     for query in QUERIES:
-        url = 'https://api.github.com/search/repositories?q=' + quote(query) + '&per_page=30&sort=updated&order=desc'
+        # GitHub default Best Match works better than sorting only by recent updates.
+        url = 'https://api.github.com/search/repositories?q=' + quote(query) + '&per_page=40'
         headers = {'Accept': 'application/vnd.github+json', 'User-Agent': 'TrafficSiteRadar/1.0'}
         if token:
             headers['Authorization'] = 'Bearer ' + token
@@ -241,6 +268,8 @@ def github_discover(token=None, fetch=None):
             with fetch(Request(url, headers=headers), timeout=12) as response:
                 payload = json.load(response)
             for repo in payload.get('items', []):
+                if repo.get('archived') or repo.get('fork'):
+                    continue
                 host = domain(repo.get('homepage'))
                 if not host or host in DISCOVERY_PLATFORM_HOSTS or any(host == s or host.endswith('.' + s) for s in DISCOVERY_PLATFORM_SUFFIXES):
                     continue
@@ -249,7 +278,9 @@ def github_discover(token=None, fetch=None):
                     'organic_traffic': None, 'domain_dr': None, 'kd': None, 'cpc': None,
                     'repositories': [], 'matching_queries': []})
                 record['repositories'].append({'url': repo.get('html_url'), 'stars': repo.get('stargazers_count'),
-                                                'updated_at': repo.get('pushed_at')})
+                                                'updated_at': repo.get('pushed_at'), 'name': repo.get('name'),
+                                                'description': (repo.get('description') or '')[:220],
+                                                'fork': bool(repo.get('fork')), 'archived': bool(repo.get('archived'))})
                 if query not in record['matching_queries']:
                     record['matching_queries'].append(query)
         except (HTTPError, URLError, OSError, ValueError, KeyError, TimeoutError) as err:
@@ -312,13 +343,15 @@ def run(inputs=ROOT / 'inputs', live_github=False, token=None, fetch=None, now=N
             'serp_candidates': evaluate(serps, sites, seeds, excluded),
             'clusters': union_groups(serps), 'github_leads': found,
             'github_queries_attempted': len(QUERIES) if live_github else 0,
+            'github_query_languages': ['pt','es','en'] if live_github else [],
+            'github_queries_used': QUERIES if live_github else [],
             'github_failures': failures, 'seo_provider_metrics_verified_automatically': False,
             'note': 'No Google rank, traffic, DR, KD or CPC are derived from GitHub. Manual SERP metrics are user supplied and unaudited.'}
 
 
 def main():
     p = argparse.ArgumentParser()
-    p.add_argument('--github-live', action='store_true', help='3 bounded public GitHub Search requests')
+    p.add_argument('--github-live', action='store_true', help='3 rotating public GitHub Search requests (PT/ES/EN)')
     p.add_argument('--input-dir', type=Path, default=ROOT / 'inputs')
     p.add_argument('--output-dir', type=Path, default=ROOT / 'reports')
     args = p.parse_args()
