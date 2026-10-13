@@ -91,6 +91,10 @@ jobs:
         shell: bash
         run: |
           set -euo pipefail
+          if ! command -v ffprobe >/dev/null; then
+            sudo apt-get update -qq
+            sudo apt-get install -y -qq ffmpeg
+          fi
           command -v ffprobe
           for name in apple-quicktime-location.mov ffmpeg-location.mp4 ffmpeg-lame-id3.mp3 ffmpeg-flac-tags.flac ffmpeg-wav-info-bext.wav ffmpeg-vorbis-tags.ogg ffmpeg-opus-tags.opus; do
             original="wasm/tests/fixtures/real-device/$name"
