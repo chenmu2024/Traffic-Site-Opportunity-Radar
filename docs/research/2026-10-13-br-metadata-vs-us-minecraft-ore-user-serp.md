@@ -146,3 +146,56 @@
 7. 若未来接入 AdSense，要准确说明“**文件字节不上传**”与“广告/分析脚本可能发出网络请求”是两件事。避免工具页低价值内容、广告过度干扰。官方政策：https://support.google.com/adsense/answer/48182 及 https://support.google.com/adsense/answer/10502938 。
 
 **明确状态**：STRONG_CANDIDATE_FEASIBILITY_FIRST。下一步优先做完整格式和性能验证，再决定独立站开发，不改用户任何现有站点/SEO/AdSense设置；无需再查已提供的巴西相关词 Volume/KD，Minecraft Ore Finder 是完全单独的第二候选。
+
+
+## 2026-10-13 竞争网站 Metadata2Go 实际自然流量与关键词贡献（用户新上传3张 Semrush 截图）
+
+**来源和口径：** 用户上传 2026-10-12 的 `metadata2go.com` Semrush 域名概览（全世界）与美国、巴西自然搜索关键词列表。Semrush 是**第三方估算**；Global Organic Search Traffic / country Organic Traffic / URL traffic estimate / specific-keyword estimated visits / Traffic Cost / AdSense revenue 是不同概念。本节完全使用截图可见的数值，未知项不推断。
+
+### 整体域名实力（此站非弱域名）
+
+| 维度 | 可读到的 Semrush 指标 |
+|---|---:|
+| 全球自然搜索流量估算 | **153,300/月**（约-4.8%） |
+| 美国自然搜索流量估算 | **34,600/月**（约-5.41%），美国自然搜索关键词约4,100 |
+| 巴西自然搜索流量估算 | **32,700/月**（约-6.63%），巴西自然搜索关键词约1,100 |
+| Authority Score（域名） | **48** |
+| 引荐域名（域名） | **3,700** |
+| 反向链接（域名） | **24,700** |
+| 全球自然搜索排名关键词 | **约14,000** |
+| 巴西 Organic Traffic Cost | **US$1,100/月**（Semrush对自然流量的广告等价成本模型，**绝非AdSense收入、ARR、利润**） |
+
+巴西约占这个全球自然搜索总量的21.3%（32.7k/153.3k，跨国家估算口径近似比较）；美国约占22.6%。**不能**把首张图AI可见性下的“美国流量比例48%”误当成这两个自然搜索国家的占比。
+
+### 巴西核心业务所依赖的 URL
+
+Semrush Brazil 2026-10-12 关键词列表的头部，大多数核心元数据清理相关词都排名 **`https://www.metadata2go.com/pt/excluir-metadados`**。从截图逐行读到以下5个词及对**该站**的关键词估算月自然流量贡献：
+
+| 关键词 | BR 搜索量/月（截图） | Metadata2Go该词排名 URL估算贡献/月 | 截图对应 URL |
+|---|---:|---:|---|
+| `remover metadados` | 33,100 | **8,200** | /pt/excluir-metadados |
+| `limpar metadados` | 9,900 | **2,500** | /pt/excluir-metadados |
+| `removedor de metadados` | 5,400 | **1,300** | /pt/excluir-metadados |
+| `removedor metadados` | 4,400 | **1,300** | /pt/excluir-metadados |
+| `remover metadados video` | 4,400（这份域名关键词截图；此前Keyword Overview显示5,400，口径/采样存在差异） | **1,100** | /pt/excluir-metadados |
+
+**仅上述前五行的估算关键词贡献之和约14,400/月**，约为这个竞争域名巴西整站估算自然流量32,700/月的44%。这是 Semrush *为多个关键词分别估算的该竞品流量贡献*，不是我们新网站的潜在流量保证，不是单一 `remover metadados` 查询的搜索量，也不能在没有 Pages/URL 详细报告时将它宣称为该功能页的全部访问量。
+
+另有 `limpar metadados video`、`tirar metadados` 等大量通用/视频变体同样指向这一清理页。该站还存在专门英文的 /delete-metadata、/analyze-image、/edit-metadata 等功能入口。美国相关核心词和品牌词混合，US 34.6k整站SEO不能视作通用清理页的单独流量。
+
+### 与先前 SERP“页面级弱指标”的协调
+
+- 用户之前巴西主词 SERP 截图里，`/pt/excluir-metadados` 在第1名，**页面 AS11、页面引荐域名3**。
+- 这份整站域名截图则给出 **域名 Authority Score48、引荐域名3,700、反链24,700**。**两个数据可以同时成立**：低页面级外链并不等于低域名权重。此前据页面级AS小就称它是“弱竞争网站”需要修正。
+- 因此，**市场需求与真实页面获客已经得到强化，但新域名的获客难度不能简单套用KD21或页面3引荐域名**。对手多语言结构、既有外链、用户体验以及成熟站信任仍是重要壁垒。
+
+### 对我们的产品/SEO策略的具体影响
+
+1. **首页集中主词：** 用一个完整可操作的 pt-BR 清理工具页覆盖 `remover metadados` / `limpar metadados` / `removedor de metadados` 及简单 video 近义词，而不是为这些变化建立多份相似页。
+2. **视频单独工具页必须有实际独立价值：** 只有提供可验证的 MP4/MOV专属功能、视频元信息项目、手机视频可靠性、明确的文件大小与处理耗时/内存反馈时，才使用 `/remover-metadados-video` 独立可索引。否则跟首页形成关键词内耗。
+3. **其他格式页需要产品真实性：** 图片 GPS/EXIF、PDF 信息、查看/清理是实质不同工作流；PDF/Office 的真实重写和历史信息仍没通过独立复杂样本测试。
+4. **不要“偷”通用/品牌词流量：** `metadata2go` / `metadados RH` / `JC Maciel` 导航品牌查询从SEO计划中排除；竞争者US英语的品牌关键词结构不等于我们pt-BR非品牌目标。
+5. **变现保守：** 巴西整站 Organic Traffic Cost US$1.1k不等于收入，且用户研究数据核心清理关键词多为CPC 0。广告收益尚未确认；“广告免费版 + 2美元订阅”的商业模式线索不能换算成竞品MRR。
+6. **真正要超越的指标：** 巴西移动端首次可用速度、文件字节不离开浏览器、真实视频/图片清理通过率、可重新检测的字段级证据、清晰的pt-BR支持与安全说明。竞品 WashFiles 已支持本地处理，不能将隐私理念当成独家壁垒。
+
+**更新后结论：** 该方向仍是优先立项候选，但 Metadata2Go 是**域名层面强竞争对手**。我们观察到一个成熟域名在巴西自然搜索约32.7k/月，而且部分流量明确由单个通用工具URL及其相关查询贡献；这显著增强真实市场存在的证据，并**不**保证新站复制其流量。仍按前期技术门槛先验收 pt-BR、真实手机视频和PDF/Office，再决定新域名上线；当前无需再次查询同词的Volume/KD。
