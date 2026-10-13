@@ -96,22 +96,46 @@ jobs:
             sudo apt-get install -y -qq ffmpeg
           fi
           command -v ffprobe
-          for name in apple-quicktime-location.mov ffmpeg-location.mp4 ffmpeg-lame-id3.mp3 ffmpeg-flac-tags.flac ffmpeg-wav-info-bext.wav ffmpeg-vorbis-tags.ogg ffmpeg-opus-tags.opus; do
-            original="wasm/tests/fixtures/real-device/$name"
-            cleaned="$RUNNER_TEMP/cleaned-fixtures/$name"
-            test -s "$cleaned"
-            ffprobe -v error -show_entries stream=codec_type,codec_name -of compact=p=0 "$original" > "$RUNNER_TEMP/streams-original.txt"
-            ffprobe -v error -show_entries stream=codec_type,codec_name -of compact=p=0 "$cleaned" > "$RUNNER_TEMP/streams-cleaned.txt"
-            diff -u "$RUNNER_TEMP/streams-original.txt" "$RUNNER_TEMP/streams-cleaned.txt"
-            echo "PASS decoder recognizes streams: $name"
-          done
+          python3 - <<'PY'
+          import json, os, subprocess
+          from pathlib import Path
+          base=Path("wasm/tests/fixtures/real-device")
+          cleaned=Path(os.environ["RUNNER_TEMP"])/"cleaned-fixtures"
+          files=[
+              "apple-quicktime-location.mov", "ffmpeg-location.mp4",
+              "ffmpeg-lame-id3.mp3", "ffmpeg-flac-tags.flac",
+              "ffmpeg-wav-info-bext.wav", "ffmpeg-vorbis-tags.ogg",
+              "ffmpeg-opus-tags.opus",
+          ]
+          def get_streams(path):
+              out=subprocess.run(["ffprobe","-v","error","-show_streams","-of","json",str(path)],capture_output=True,text=True,check=True)
+              return json.loads(out.stdout)["streams"]
+          def primary(streams):
+              return [(s.get("codec_type"),s.get("codec_name")) for s in streams
+                      if not (s.get("codec_type")=="video" and s.get("disposition",{}).get("attached_pic"))]
+          for filename in files:
+              source=base/filename
+              output=cleaned/filename
+              assert output.is_file() and output.stat().st_size>0,filename
+              before=get_streams(source)
+              after=get_streams(output)
+              assert primary(before)==primary(after),f"{filename} primary codecs mismatch: {primary(before)} vs {primary(after)}"
+              for track in sorted({item[0] for item in primary(before) if item[0] in {"video","audio"}}):
+                  map_type="a" if track=="audio" else "v"
+                  def digest(path):
+                      cp=subprocess.run(["ffmpeg","-v","error","-nostdin","-i",str(path),
+                                        "-map",f"0:{map_type}:0","-f","md5","-"],capture_output=True,text=True,check=True)
+                      return cp.stdout.strip()
+                  assert digest(source)==digest(output),f"{filename} {track} decoded payload changed"
+              print(f"PASS media payload {filename}: primary streams {primary(after)}; removed attached artwork allowed")
+          PY
           {
             echo '## Metadata removal feasibility: independent audit'
             echo
             echo '- Upstream commit pinned: 2524864b3135d6a77fdbb635c571d6948f8b2b3d'
             echo '- All upstream Rust source+fixture tests run (cargo test --locked)'
             echo '- 9 real-encoder fixtures independently cleaned, markers removed, output type validated and rescanned'
-            echo '- 7 actual audio/video samples re-opened by ffprobe; codec type/name preserved'
+            echo '- 7 actual audio/video samples decoded by FFmpeg: primary codecs and decoded MD5 preserved (embedded artwork may be removed)'
             echo '- Static JavaScript source checked; MIT license checked'
             echo
             echo '**Not yet tested:** browser UI at runtime, Android/iOS 100MB performance, live PDFs/DOCX/PPTX/XLSX with signatures/history, security penetration tests, or production AdSense economics. This is an engineering feasibility checkpoint, not a public site approval.'
