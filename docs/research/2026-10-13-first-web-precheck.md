@@ -10,8 +10,8 @@
 - 独立公开介绍：https://www.tabnews.com.br/itsfematheus/pitch-criei-um-gerador-de-qr-code-e-placas-personalizadas-para-pix
 - 已存在的其他独立工具：https://geradorplacapix.com.br/ 、https://pixnamao.com.br/ 、https://www.devthru.com/tools/finance/placa-pix
 - 初筛：属于真实在线工具，但竞争已存在；自然流量、非品牌份额、广告收益和流量国家均未知。
-- **第一优先需要的数据：** Semrush Organic Research，国家 Brazil，域名 pix-qr-code.com，截图或导出 Pages 和 Positions，并保留日期、工具 URL、自然流量估计、非品牌关键词。
-- 后续精确待查关键词（BR 葡语；尚无真实 Volume/KD/CPC）：gerador de placa pix / placa pix personalizada / placa pix para imprimir / placa pix com qr code / qr code pix com logo。
+- **2026-10-13 决策更新：不再请求该域名的 Semrush Pages/Positions。** 用户已核对具体 Placa Pix 核心工具词，反馈搜索量很低；停止本方向研究。
+- 已核查并反馈低需求的核心关键词（BR 葡语；用户未提供精确 Volume/KD 数值，不得写成零）：gerador de placa pix / placa pix personalizada / placa pix para imprimir / placa pix com qr code / qr code pix com logo。
 - 风险：此前通用 Pix QR 码词已知有较高 KD，不重复论证整个 QR 码市场，仅调查 Placa Pix 是否为独立的、可进入的工具需求。
 
 ## B. svg2vector.com · 英文开发工具
@@ -50,4 +50,12 @@
 
 公开市场验证： https://geradorplacapix.com.br/ 提供免费免注册的自定义 Placa Pix；https://pixnamao.com.br/placa-pix/ 已提供免费 PNG 并公开列有付费增强 PDF/Logo 方案，说明竞争者已提供实际工具功能，但不证明其收入或流量。
 
-**下一步数据请求（仅当继续调查该方向）**：巴西数据库 Semrush Organic Research → Pages + Positions，输入 pix-qr-code.com，提供功能页 /placa-pix 及首页的实际流量估计、非品牌词/排名 URL、总自然流量及观察日期。暂不额外查询 Pix 通用热词，不要求一次性查询 5 个 Placa Pix 词；先检查这个竞争站有没有非品牌工具页流量，若无则转向其他工具项目。
+**后续决策已更新为拒绝本方向继续占用用户 Semrush 查询次数。** 核心 Placa Pix/二维码工具意图词经用户核查没有足够搜索量；即使通用 Pix 政策/故障/退款新闻词高流量，也不能转算为独立工具使用需求。直接淘汰当前建站候选、研究其他在线工具。
+
+## D. 最终否决（用户补充关键词验证，2026-10-13）
+
+- 最终状态：**REJECT_LOW_CORE_TOOL_SEARCH_DEMAND**。本状态针对巴西 Placa Pix / Pix QR 独立 SEO+AdSense 工具站立项，不等于该竞品整个网站完全没有自然搜索流量。
+- 用户明确说明此前五个核心 Placa Pix 工具关键词都没有什么搜索量；未提供各词精确 Volume / KD，因此这里不虚构具体值、不填 0。
+- 无需继续查询 pix-qr-code.com 的 Semrush Pages/Positions，无需再次请求用户查询同一组关键词。
+- 教训：先核实真正的非品牌工具使用词的搜索需求；只有核心词的规模合格，才继续做竞品流量、SERP、DR、收益检查。不能用 Pix 新闻、退款、政策、品牌教程词填补工具词需求。
+- 后续流量站扫描继续寻找独立浏览器工具，但不重复将本方向推入核验清单。
