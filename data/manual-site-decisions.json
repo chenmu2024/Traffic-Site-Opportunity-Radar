@@ -28,5 +28,11 @@
     "reason": "Project describes a subscription-funded Tormenta20 RPG platform with backend/auth/payments; not a low-overhead AdSense browser tool target.",
     "source_url": "https://github.com/YuriAlessandro/gerador-ficha-tormenta20",
     "reviewed_on": "2026-10-13"
+  },
+  "pix-qr-code.com": {
+    "decision": "EXCLUDE",
+    "reason": "The user checked the specific Brazil Placa Pix / Pix QR generator tool-intent keywords and reported little search volume; broad Pix informational keywords are irrelevant. Rejected from the present SEO/AdSense utility-site shortlist, not a claim that this domain has zero traffic.",
+    "source_url": "https://github.com/chenmu2024/Traffic-Site-Opportunity-Radar/blob/main/docs/research/2026-10-13-first-web-precheck.md",
+    "reviewed_on": "2026-10-13"
   }
 }
