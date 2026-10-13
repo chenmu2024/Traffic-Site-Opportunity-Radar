@@ -1,0 +1,89 @@
+{
+  "schema_version": 1,
+  "created_on": "2026-10-13",
+  "scope": "SEO_TRAFFIC_SITES_ONLY_NOT_SAAS",
+  "metric_source": "NOT_AVAILABLE_USER_TO_SUPPLY_WHEN_ASKED",
+  "candidates": [
+    {
+      "id": "br_resin_calculator",
+      "country": "BR",
+      "name": "巴西树脂用量与配比计算器",
+      "stage": "PUBLIC_TOOL_SERP_OBSERVED_NOT_TRAFFIC_VERIFIED",
+      "core_keyword": "calculadora de resina epóxi",
+      "supporting_keywords": [
+        "calculadora de resina para molde",
+        "quanto de resina epóxi preciso"
+      ],
+      "observed_competitors": [
+        {
+          "url": "https://www.hazzin.com.br/calculadora",
+          "type": "retailer_tool"
+        },
+        {
+          "url": "https://icalculadora.com.br/calculadoras/resina-epoxi",
+          "type": "independent_tool"
+        },
+        {
+          "url": "https://mimusresinas.com.br/calculadora-de-resina",
+          "type": "retailer_tool"
+        }
+      ],
+      "angle": "Inform resin/workshop users of area, mold dimensions, ratio A:B and purchase amount. Client-side computation. Competes with manufacturer embedded tools; no traffic proof.",
+      "discovery_note": "Public pages provide working inputs; exact demand and Google ranking traffic unknown."
+    },
+    {
+      "id": "br_wordsearch",
+      "country": "BR",
+      "name": "巴西自定义找词活动打印工具",
+      "stage": "PUBLIC_TOOL_SERP_OBSERVED_NOT_TRAFFIC_VERIFIED",
+      "core_keyword": "gerador de caça palavras",
+      "supporting_keywords": [
+        "criar caça palavras para imprimir",
+        "gerador de caça palavras para imprimir"
+      ],
+      "observed_competitors": [
+        {
+          "url": "https://criadordecruzadinhas.com.br/criar-caca-palavras",
+          "type": "independent_tool"
+        },
+        {
+          "url": "https://www.utilpedia.com.br/gerador-de-caca-palavras",
+          "type": "tool_directory"
+        },
+        {
+          "url": "https://www.escolasdisruptivas.com.br/geradores/caca-palavras",
+          "type": "education_tool"
+        }
+      ],
+      "angle": "Interactive custom puzzle creation with PDF/print. Crowded publicly visible SERP; only proceed if country keyword demand and achievable KD support it.",
+      "discovery_note": "Many independent pages exist, which also indicates competition. No verified monthly searches or DR."
+    },
+    {
+      "id": "mx_resin_calculator",
+      "country": "MX",
+      "name": "墨西哥环氧树脂材料用量计算器",
+      "stage": "PUBLIC_TOOL_SERP_OBSERVED_NOT_TRAFFIC_VERIFIED",
+      "core_keyword": "calculadora de resina epóxica",
+      "supporting_keywords": [
+        "calculadora de resina epóxica para moldes",
+        "cuánta resina epóxica necesito"
+      ],
+      "observed_competitors": [
+        {
+          "url": "https://decoart.mx/",
+          "type": "retailer_embedded_tool"
+        },
+        {
+          "url": "https://resinpro.mx/epoxytable-10-resina-epoxica-para-mesas/",
+          "type": "retailer_embedded_tool"
+        },
+        {
+          "url": "https://practilia.com/es-419/calculadoras/resina-epoxica/",
+          "type": "regional_tool"
+        }
+      ],
+      "angle": "DIY resin volume and cost estimate localized to MX measurements and purchase packs; browser-side, no login.",
+      "discovery_note": "Observed competing functional pages; Spain/Latin America pages may appear outside MX, so MX rankings unverified."
+    }
+  ]
+}
