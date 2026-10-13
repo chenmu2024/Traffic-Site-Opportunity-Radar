@@ -6,17 +6,14 @@
 
 ## Functional competitors that qualify for SERP inspection only
 
-### meloja.com.br · BR
-- Public global organic estimate: 69980 / month (2026-08)
-- Country keyword: sorteador de numeros · rank #4 · Volume 74000.0 (public provider snapshot).
-- Browser tool URL: https://www.meloja.com.br/ferramentas/sortear-numero-aleatorio
-- Source: https://www.semrush.com/website/meloja.com.br/overview/
-- Next step: Inspect SAME-COUNTRY current KD and actual top-10 SERP (weak sites?), separate tool page traffic, competitive differentiation and AdSense economics. Do not open a new domain yet.
-
+No source-backed candidate currently passes domain organic range, nonbrand keyword rank, and actual browser tool inspection.
 ## Rejected or held even if a site exists
 
 | Domain | Public estimated global organic/month | Status |
 |---|---:|---|
+| meloja.com.br | 69980 | REJECT_HIGH_KD_WEAK_ADS_NEW_SITE |
+  - User reviewed: sorteador de numeros · Volume 74000 · KD 50 · CPC USD 0 · Core nonbrand tool keyword has 74,000 searches but KD50, CPC USD0; observed close-variant keyword difficulties 49/40/37/41. All five exceed radar KD35 caution threshold; competitors are mature. Not a promising NEW standalone SEO+AdSense site without a distinct competitive entry point.
+  - Rejected for NEW standalone SEO+AdSense tool site; do not re-request the same Semrush keywords absent fresh counterevidence.
 | calculadorasat.com | 84170 | OVERLAPS_USER_EXISTING_SITE_NOT_NEW_PROJECT |
 | portalpopclub.com.br | 23620 | OVERLAPS_USER_EXISTING_SITE_NOT_NEW_PROJECT |
 | nominax.com | 91540 | OVERLAPS_USER_EXISTING_SITE_NOT_NEW_PROJECT |

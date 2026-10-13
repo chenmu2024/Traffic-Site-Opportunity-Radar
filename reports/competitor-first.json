@@ -1,12 +1,13 @@
 {
-  "generated_at_utc": "2026-10-13T05:34:41.900645+00:00",
+  "generated_at_utc": "2026-10-13T05:39:37.903795+00:00",
   "market": "SEO_TRAFFIC_TOOLS_NOT_SAAS",
   "public_evidence_count": 6,
-  "shortlist_for_serp_check": [
+  "shortlist_for_serp_check": [],
+  "others": [
     {
       "domain": "meloja.com.br",
       "primary_country": "BR",
-      "status": "PUBLIC_ORGANIC_AND_NONBRAND_TOOL_EVIDENCE_REVIEW_SERP",
+      "status": "REJECT_HIGH_KD_WEAK_ADS_NEW_SITE",
       "source_url": "https://www.semrush.com/website/meloja.com.br/overview/",
       "source_month": "2026-08",
       "global_monthly_organic_provider_estimate": 69980,
@@ -19,13 +20,46 @@
       "example_tool_url": "https://www.meloja.com.br/ferramentas/sortear-numero-aleatorio",
       "public_function_inspected": true,
       "site_topic_overlap": false,
-      "source_notes": "Public Semrush rank #4 for nonbrand tool keyword. Separate interactive number drawing function exists. Competition from sorteador.com.br with 311k estimated organic, AS48; no KD or weak SERP evidence yet.",
+      "source_notes": "User's Brazil Semrush screenshot confirmed core `sorteador de numeros` Volume 74k, KD50, CPC $0 and variants KD37-49; new standalone AdSense randomizer not competitive for this radar. Global domain organic estimate doesn't represent feature URL traffic.",
+      "manual_keyword_review": {
+        "reviewed_on": "2026-10-13",
+        "country": "BR",
+        "source": "User-supplied Semrush Keyword Overview screenshot (Brazil / Desktop / 2026-10-13); only summarized numerical facts retained",
+        "decision": "REJECT_HIGH_KD_WEAK_ADS_NEW_SITE",
+        "reason": "Core nonbrand tool keyword has 74,000 searches but KD50, CPC USD0; observed close-variant keyword difficulties 49/40/37/41. All five exceed radar KD35 caution threshold; competitors are mature. Not a promising NEW standalone SEO+AdSense site without a distinct competitive entry point.",
+        "core_keyword": "sorteador de numeros",
+        "core_volume": 74000,
+        "core_kd": 50,
+        "core_cpc_usd": 0,
+        "related": [
+          {
+            "keyword": "sorteador de numero",
+            "volume": 2900,
+            "kd": 49
+          },
+          {
+            "keyword": "sorteador de numeros online",
+            "volume": 2900,
+            "kd": 40
+          },
+          {
+            "keyword": "sorteador online de numeros",
+            "volume": 2400,
+            "kd": 37
+          },
+          {
+            "keyword": "sorteador de numero online",
+            "volume": 590,
+            "kd": 41
+          }
+        ],
+        "do_not_request_more_semrush_for_same_niche": true,
+        "note": "KD measures SEO difficulty; screenshot competitive density 0.33 is for paid ads, not proof of low organic competition. The 69,980 traffic estimate refers to ALL of meloja.com.br, not the randomizer tool page."
+      },
       "organic_verified_by_first_party_analytics": false,
       "kd_verified": false,
       "serp_low_authority_verified": false
-    }
-  ],
-  "others": [
+    },
     {
       "domain": "calculadorasat.com",
       "primary_country": "MX",
@@ -43,6 +77,7 @@
       "public_function_inspected": true,
       "site_topic_overlap": true,
       "source_notes": "Mexican SAT/IVA tool overlaps user's current Mexico tax projects; use as possible reference for improving existing site, NOT a new independent project. Other high traffic currency conversion queries also observed.",
+      "manual_keyword_review": null,
       "organic_verified_by_first_party_analytics": false,
       "kd_verified": false,
       "serp_low_authority_verified": false
@@ -64,6 +99,7 @@
       "public_function_inspected": true,
       "site_topic_overlap": true,
       "source_notes": "Overlaps user's existing Brazilian/Spanish nick, username and fonts domains; not a fresh independent traffic-site candidate.",
+      "manual_keyword_review": null,
       "organic_verified_by_first_party_analytics": false,
       "kd_verified": false,
       "serp_low_authority_verified": false
@@ -85,6 +121,7 @@
       "public_function_inspected": false,
       "site_topic_overlap": true,
       "source_notes": "Mexican payroll and wage-calculator area overlaps user's current Spanish payroll/business tools; no independently checked specific tool URL. Should not present as new SaaS or traffic-site candidate.",
+      "manual_keyword_review": null,
       "organic_verified_by_first_party_analytics": false,
       "kd_verified": false,
       "serp_low_authority_verified": false
@@ -106,6 +143,7 @@
       "public_function_inspected": false,
       "site_topic_overlap": false,
       "source_notes": "Public nonbrand keyword evidence but domain global organic estimate is below the required 10k minimum, and precise ranking landing page not confirmed.",
+      "manual_keyword_review": null,
       "organic_verified_by_first_party_analytics": false,
       "kd_verified": false,
       "serp_low_authority_verified": false
@@ -127,6 +165,7 @@
       "public_function_inspected": false,
       "site_topic_overlap": false,
       "source_notes": "Previously checked in user's Semrush and keyword is navigational/brand-like; no independently verified nonbrand tool page. Domain traffic alone does not qualify.",
+      "manual_keyword_review": null,
       "organic_verified_by_first_party_analytics": false,
       "kd_verified": false,
       "serp_low_authority_verified": false
