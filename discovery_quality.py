@@ -148,7 +148,7 @@ def build(source, history=None):
         'source_outage': outage, 'github_search_partial': bool(failures),
         'github_query_attempts': attempted, 'github_query_errors': len(failures),
         'observations': assessed, 'priority_to_inspect': [
-            x for x in assessed if x['review_stage'] == 'TECH_LEAD_TO_INSPECT'][:5]],
+            x for x in assessed if x['review_stage'] == 'TECH_LEAD_TO_INSPECT'][:5],
         'stage_counts': counts, 'historical_domains_seen': len(seen),
         'no_semrush_requests_from_github_alone': True,
         'organic_traffic_verified_automatically': False,
