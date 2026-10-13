@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-10-13T05:26:40.156696+00:00",
+  "generated_at_utc": "2026-10-13T05:34:41.839888+00:00",
   "policy": "CORE_TOOL_DEMAND_BEFORE_COMPETITOR_TRAFFIC",
   "thresholds_heuristic_not_market_data": {
     "core_min_volume": 3000,
@@ -136,8 +136,8 @@
       "id": "br_print_labels",
       "name": "巴西 A4 商品与收纳标签在线生成器",
       "country": "BR",
-      "stage": "NEEDS_EXACT_CORE_VOLUME",
-      "manual_research_note": null,
+      "stage": "REJECT_USER_REPORTED_LOW_CORE_DEMAND",
+      "manual_research_note": "User checked exact core country-level search keywords in Semrush and reported insufficient search demand. Numeric Volume/KD not supplied, not assumed zero; do not request again without independent positive evidence.",
       "core_keyword": "gerador de etiquetas para imprimir",
       "core_metric": null,
       "supporting_keywords": [
@@ -161,14 +161,14 @@
         }
       ],
       "organic_monthly_traffic_verified": null,
-      "next_action": "Check ONLY the core keyword Volume and KD in the specified country."
+      "next_action": "The user checked this exact country-level tool keyword and found little demand. Do not request it again unless new independently sourced evidence justifies reopening. Volume remains UNKNOWN, not zero."
     },
     {
       "id": "br_wallpaper_rolls",
       "name": "巴西墙纸卷数与图案对齐计算器",
       "country": "BR",
-      "stage": "NEEDS_EXACT_CORE_VOLUME",
-      "manual_research_note": null,
+      "stage": "REJECT_USER_REPORTED_LOW_CORE_DEMAND",
+      "manual_research_note": "User checked exact core country-level search keywords in Semrush and reported insufficient search demand. Numeric Volume/KD not supplied, not assumed zero; do not request again without independent positive evidence.",
       "core_keyword": "calculadora de papel de parede",
       "core_metric": null,
       "supporting_keywords": [
@@ -191,14 +191,14 @@
         }
       ],
       "organic_monthly_traffic_verified": null,
-      "next_action": "Check ONLY the core keyword Volume and KD in the specified country."
+      "next_action": "The user checked this exact country-level tool keyword and found little demand. Do not request it again unless new independently sourced evidence justifies reopening. Volume remains UNKNOWN, not zero."
     },
     {
       "id": "mx_print_labels",
       "name": "墨西哥 PDF 商品及打印标签生成器",
       "country": "MX",
-      "stage": "NEEDS_EXACT_CORE_VOLUME",
-      "manual_research_note": null,
+      "stage": "REJECT_USER_REPORTED_LOW_CORE_DEMAND",
+      "manual_research_note": "User checked exact core country-level search keywords in Semrush and reported insufficient search demand. Numeric Volume/KD not supplied, not assumed zero; do not request again without independent positive evidence.",
       "core_keyword": "generador de etiquetas para imprimir",
       "core_metric": null,
       "supporting_keywords": [
@@ -221,7 +221,7 @@
         }
       ],
       "organic_monthly_traffic_verified": null,
-      "next_action": "Check ONLY the core keyword Volume and KD in the specified country."
+      "next_action": "The user checked this exact country-level tool keyword and found little demand. Do not request it again unless new independently sourced evidence justifies reopening. Volume remains UNKNOWN, not zero."
     }
   ],
   "any_organic_traffic_verified_automatically": false,
