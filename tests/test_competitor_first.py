@@ -152,6 +152,12 @@ class CompetitorFirstTests(unittest.TestCase):
         result=build(payload,TODAY)
         gif=next(x for x in result["shortlist_for_serp_check"] if x["domain"]=="onlinegiftools.com")
         self.assertEqual(gif["keyword"],"remove background from gif")
+        self.assertEqual(gif["status"],"BORDERLINE_KD_SERP_ONLY")
+        self.assertEqual(gif["current_user_supplied_volume"],33100)
+        self.assertEqual(gif["current_user_supplied_kd"],37)
+        self.assertEqual(gif["current_user_supplied_cpc_usd"],1.73)
+        self.assertEqual(gif["keyword_volume_public_snapshot"],22200)
+        self.assertIn("DO NOT request Volume or KD again",markdown(result))
         self.assertEqual(gif["keyword_country"],"US")
         self.assertEqual(gif["keyword_position_public_snapshot"],2)
         self.assertEqual(gif["keyword_volume_public_snapshot"],22200)
@@ -159,6 +165,24 @@ class CompetitorFirstTests(unittest.TestCase):
         self.assertEqual(gif["keyword_cpc_usd_public_snapshot"],1.37)
         self.assertFalse(gif["serp_low_authority_verified"])
         self.assertFalse(gif["organic_verified_by_first_party_analytics"])
+
+    def test_borderline_kd_only_queues_serp_after_full_evidence_gate(self):
+        x=row()
+        x["manual_keyword_review"]={
+            "decision":"BORDERLINE_KD_37_SERP_ONLY",
+            "core_keyword":"remove background from gif",
+            "core_volume":33100,"core_kd":37,"core_cpc_usd":1.73,
+            "source":"Semrush user screenshot Oct13"
+        }
+        result=build({"snapshots":[x]},TODAY)
+        self.assertEqual(len(result["shortlist_for_serp_check"]),1)
+        self.assertEqual(result["shortlist_for_serp_check"][0]["status"],"BORDERLINE_KD_SERP_ONLY")
+        self.assertIn("ONLY independent Top10 SERP URLs",markdown(result))
+        self.assertFalse(result["shortlist_for_serp_check"][0]["organic_verified_by_first_party_analytics"])
+        self.assertFalse(result["shortlist_for_serp_check"][0]["serp_low_authority_verified"])
+        x["tool_page_publicly_checked"]=False
+        r=gate(x,TODAY.date())
+        self.assertEqual(r["status"],"REQUIRE_LANDING_PAGE_FUNCTION_REVIEW")
 
     def test_ordinary_pixelator_and_morse_code_are_held_not_auto_pushed(self):
         payload=json.loads((Path(__file__).resolve().parents[1]/"inputs"/"public-organic-competitors.json").read_text(encoding="utf-8"))

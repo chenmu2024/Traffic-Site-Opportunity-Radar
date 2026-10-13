@@ -39,3 +39,36 @@
 3. 不得靠 Google 标题匹配冒充 SERP 排名；来自 Semrush 公开快照的域名排名只是当时的数据。
 4. 本批待核实只选 GIF，墨西哥键盘仍列研究对照，不自动催促用户查。
 5. 未经用户批准，不修改用户已有网站或申请 AdSense 的结构；不自动建站。
+
+## Oct 13, 2026: user Keyword Overview screenshot overrides PRIOR keyword estimate (not historical global-site traffic)
+
+- Country **United States**, desktop, **2026-10-13**: `remove background from gif` **monthly Volume 33,100, KD 37, CPC USD1.73**; same keyword **global** Volume50,700 and paid competition density0.04. The latter is *advertising competition*, not organic SEO difficulty.
+- Public Semrush Aug 2026 onlinetools competitor-ranking snapshot previously stated Volume22,200/CPC1.37 for the exact US phrase; this is a different time/source snapshot, not an error or confirmation of organic page clicks. Retain separately. The site-wide estimated worldwide organic 62,260 remains the older August domain-wide metric, never the tool's US page traffic.
+
+| Exact US related keyword | User screenshot monthly Volume | KD |
+|---|---:|---:|
+| `remove background from a gif` | 880 | 47 |
+| `remove background from animated gif` | 590 | 49 |
+| `remove white background from gif` | 590 | 40 |
+| `how to remove background from gif` | 320 | 36 |
+
+- Query variants overlap in intent; do not sum them as additional addressable traffic. Topic's 12-month mini chart appears to rise sharply recently, but without labelled month-by-month values do not claim it has a proven trend or durable growth.
+- US KD37 is **slightly above** the radar's heuristic <=35 comfort zone; it is neither an automatic SEO failure nor evidence of a weak SERP. It remains `BORDERLINE_KD_SERP_ONLY`. **No development or new domain approved.**
+
+### Actual competitor feature audit (public pages)
+
+- https://ezgif.com/remove-background — mature GIF color replacement, edge processing and per-frame compositing controls.
+- https://onlinegiftools.com/remove-gif-background — color tolerance, edge-connected region filtering, alpha preview and frame controls.
+- https://animgen.com/tools/gif-background-remover — free private browser-only color-key removal, background-connected region, edge cleanup, PNG frames and sprite-sheet export.
+- https://snaplytics.io/tools/gif-background-remover/ — already describes browser-side AI model downloaded to client device for animated per-frame subject separation. So even 'AI' alone is NOT guaranteed differentiation.
+- https://www.quickimagefix.com/en/tools/image/gif-background-remover — per-frame segmentation model and locally processed GIF.
+
+### Exact remaining evidence gap
+
+- Need independent reliable **current US Top10 SERP URL list and competing page authority/link signals**, ideally Semrush SERP Analysis screenshot, **only if a credible weakness is not discoverable without user's tool**. Do **not** ask for keyword Volume, KD, CPC or four low-volume variations again.
+- Public 'search result pages' without rank-source confirmation are not evidence of exact Google top10 positions; Google SERPs vary by date/device/location.
+- If Top10 all strong free competitors and no differentiated feature that beats them at zero fixed cost, reject and move to the next independently verified site. Do not misrepresent $1.73 advertiser keyword CPC as future AdSense RPM.
+
+## Implementation status
+
+No production site modified. `geometrydashspam.cc` screen/pixel tools are NOT implicated, and SaaS discovery repo remains separate. No paid segmentation API or hosted GPU budget authorized.

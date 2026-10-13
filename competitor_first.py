@@ -72,6 +72,8 @@ def gate(snapshot, today):
         state = "REJECT_LOW_CORE_NONBRAND_TOOL_KEYWORD_DEMAND"
     elif not snapshot.get("tool_page_publicly_checked"):
         state = "REQUIRE_LANDING_PAGE_FUNCTION_REVIEW"
+    elif snapshot.get("manual_keyword_review", {}).get("decision") == "BORDERLINE_KD_37_SERP_ONLY":
+        state = "BORDERLINE_KD_SERP_ONLY"
     else:
         state = "PUBLIC_ORGANIC_AND_NONBRAND_TOOL_EVIDENCE_REVIEW_SERP"
     return {
@@ -88,6 +90,10 @@ def gate(snapshot, today):
         "ad_monetization_policy_risk": bool(snapshot.get("ad_monetization_policy_risk")),
         "source_notes": reason,
         "manual_keyword_review": snapshot.get("manual_keyword_review"),
+        "current_user_supplied_volume": snapshot.get("manual_keyword_review", {}).get("core_volume"),
+        "current_user_supplied_kd": snapshot.get("manual_keyword_review", {}).get("core_kd"),
+        "current_user_supplied_cpc_usd": snapshot.get("manual_keyword_review", {}).get("core_cpc_usd"),
+        "manual_kd_review_source": snapshot.get("manual_keyword_review", {}).get("source"),
         "authority_score_semrush": snapshot.get("authority_score_semrush"),
         "keyword_cpc_usd_public_snapshot": snapshot.get("keyword_cpc_usd"),
         "competing_tool_urls": snapshot.get("competing_tool_urls", [])[:6],
@@ -100,8 +106,9 @@ def gate(snapshot, today):
 def build(payload, now=None):
     now = now or datetime.now(timezone.utc)
     scored = [gate(x, now.date()) for x in payload.get("snapshots", [])]
-    recommended = [x for x in scored if x["status"] ==
-                   "PUBLIC_ORGANIC_AND_NONBRAND_TOOL_EVIDENCE_REVIEW_SERP"]
+    recommended = [x for x in scored if x["status"] in
+                   {"PUBLIC_ORGANIC_AND_NONBRAND_TOOL_EVIDENCE_REVIEW_SERP",
+                    "BORDERLINE_KD_SERP_ONLY"}]
     # Research queue order is a heuristic (stronger observed query rank first), NOT predicted SEO win.
     recommended.sort(key=lambda x: (x["keyword_position_public_snapshot"],
                                      -(x["keyword_volume_public_snapshot"] or 0),
@@ -135,7 +142,15 @@ def markdown(data):
             "- Source: " + clean(e["source_url"],300),
             "- CPC (provider keyword snapshot): USD " + str(e.get("keyword_cpc_usd_public_snapshot")) + "; NOT AdSense earnings; estimated all-domain organic traffic is NOT exact tool traffic.",
             "- Existing competition to inspect: " + ", ".join(clean(u,200) for u in e.get("competing_tool_urls",[])[:3]),
-            "- Next step: Inspect SAME-COUNTRY current KD and actual top-10 SERP (weak sites?), separate tool page traffic, competitive differentiation and AdSense economics. Do not open a new domain yet.", ""
+            ("- User Semrush 2026-10-13: Core country Volume " + str(e["current_user_supplied_volume"]) +
+             " · KD " + str(e["current_user_supplied_kd"]) +
+             " · CPC USD " + str(e["current_user_supplied_cpc_usd"]) +
+             " (separate from older public Semrush site snapshot). DO NOT request Volume or KD again."
+             if e["status"] == "BORDERLINE_KD_SERP_ONLY" else
+             "- Current country core KD remains unknown: only ask for it after independent competition review."),
+            ("- Next step: ONLY independent Top10 SERP URLs and ranking-site authority/links; check whether a realistic weak entry exists. Do not build or search low-volume variants now."
+             if e["status"] == "BORDERLINE_KD_SERP_ONLY" else
+             "- Next step: Inspect SAME-COUNTRY current KD and actual top-10 SERP (weak sites?), separate tool page traffic, competitive differentiation and AdSense economics. Do not open a new domain yet."), ""
         ])
     lines += ["## Rejected or held even if a site exists", "",
               "| Domain | Public estimated global organic/month | Status |", "|---|---:|---|"]

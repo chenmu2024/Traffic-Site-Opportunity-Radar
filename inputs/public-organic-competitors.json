@@ -511,7 +511,56 @@
         "https://animgen.com/tools/gif-background-remover",
         "https://onlinegiftools.com/remove-gif-chroma-key"
       ],
-      "reason": "Aug 2026 Semrush estimated GLOBAL site organic traffic 62.26k/month (+0.36%); US nonbrand `remove background from gif` #2 Volume22.2k CPC USD1.37. Actual GIF color-key removal across animated frames exists. Competing ezgif.com established and other client-side GIF tools; GIF palette/transparency/dithering and preserving frame timing are nontrivial. Country organic, specific landing traffic, KD, weak SERP and actual AdSense revenue UNKNOWN. No server-processing costs are assumed; simple local color-key algorithm feasible but AI complex-background segmentation may have model/data/CPU costs."
+      "reason": "2026-10-13 user Semrush USA desktop keyword: remove background from gif Volume33.1k, KD37, CPC$1.73 vs older Aug site public keyword Volume22.2k/CPC$1.37. KD slightly above preferred35, longtails small/KD36-49, mature free competitors incl Ezgif, AnimGen and browser-model tools; shortlist SERP ONLY, no standalone build until weak competitive top10 and ad economics demonstrated.",
+      "manual_keyword_review": {
+        "decision": "BORDERLINE_KD_37_SERP_ONLY",
+        "reviewed_on": "2026-10-13",
+        "country": "US",
+        "device": "DESKTOP",
+        "source": "User-provided Semrush Keyword Overview screenshot 2026-10-13",
+        "core_keyword": "remove background from gif",
+        "core_volume": 33100,
+        "core_kd": 37,
+        "core_cpc_usd": 1.73,
+        "worldwide_search_volume_for_keyword": 50700,
+        "paid_competition_density": 0.04,
+        "related": [
+          {
+            "keyword": "remove background from a gif",
+            "volume": 880,
+            "kd": 47
+          },
+          {
+            "keyword": "remove background from animated gif",
+            "volume": 590,
+            "kd": 49
+          },
+          {
+            "keyword": "remove white background from gif",
+            "volume": 590,
+            "kd": 40
+          },
+          {
+            "keyword": "how to remove background from gif",
+            "volume": 320,
+            "kd": 36
+          }
+        ],
+        "commercial_intent_field_missing": true,
+        "observed_trend_note": "Screenshot shows recent apparent surge in monthly search estimates, but month-label detail is insufficient to confirm seasonality or sustained organic demand.",
+        "source_period_separation": "Public competitor Sep 2026 report has US Volume22,200/CPC1.37 vs user Oct13 screenshot US Volume33,100/CPC1.73; retain both instead of treating as the same date.",
+        "competitive_source_urls": [
+          "https://ezgif.com/remove-background",
+          "https://animgen.com/tools/gif-background-remover",
+          "https://snaplytics.io/tools/gif-background-remover/",
+          "https://onlinegiftools.com/remove-gif-background"
+        ],
+        "observed_market_friction": "Mature competing tools already offer background color removal, border/edge-cleaning, local client-side processing and AI segmentation. A basic color-key converter lacks proven differentiation.",
+        "exact_next_step": "Optional one SERP Analysis screenshot of United States `remove background from gif` top10 URLs, ranking-domain AS/referring domains, if SERP weakness cannot be independently determined. Do NOT re-request Volume/KD.",
+        "do_not_request_same_core_kd_again": true,
+        "do_not_request_related_terms_now": true,
+        "stand_alone_build_approved": false
+      }
     },
     {
       "domain": "onlinetools.com",
