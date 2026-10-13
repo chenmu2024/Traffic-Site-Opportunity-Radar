@@ -233,11 +233,37 @@ class CompetitorFirstTests(unittest.TestCase):
         self.assertNotIn("deadpixeltest.org",[x["domain"] for x in result["shortlist_for_serp_check"]])
         self.assertIn("BR",hosts["deadpixeltest.org"]["manual_keyword_review"]["country"])
 
+    def test_audio_sound_check_sourced_but_strong_incumbent_hold(self):
+        p=Path(__file__).resolve().parents[1]/"inputs"/"public-organic-competitors.json"
+        x=build(json.loads(p.read_text(encoding="utf-8")),TODAY)
+        sound=next(v for v in x["others"] if v["domain"]=="audiocheck.net")
+        self.assertEqual(sound["global_monthly_organic_provider_estimate"],97190)
+        self.assertEqual(sound["keyword"],"check sound audio")
+        self.assertEqual(sound["keyword_country"],"US")
+        self.assertEqual(sound["keyword_volume_public_snapshot"],12100)
+        self.assertEqual(sound["keyword_position_public_snapshot"],1)
+        self.assertEqual(sound["status"],"HOLD_SATURATED_COMMODITY_TOOL_NO_MOAT")
+        self.assertNotIn("audiocheck.net",[r["domain"] for r in x["shortlist_for_serp_check"]])
+
+    def test_pc_component_data_and_fps_benchmarks_are_not_free_static_tools(self):
+        p=Path(__file__).resolve().parents[1]/"inputs"/"public-organic-competitors.json"
+        x=build(json.loads(p.read_text(encoding="utf-8")),TODAY)
+        for host,term,vol in [
+            ("meupc.net","monte seu pc",33100),
+            ("howmanyfps.com","rtx 3060 ti vs 5060 ti",22200),
+        ]:
+            observed=next(v for v in x["others"] if v["domain"]==host)
+            self.assertEqual(observed["status"],"HOLD_HIGH_MAINTENANCE_NOT_STATIC_TOOL")
+            self.assertEqual(observed["keyword"],term)
+            self.assertEqual(observed["keyword_volume_public_snapshot"],vol)
+            self.assertFalse(observed["organic_verified_by_first_party_analytics"])
+        self.assertIn("HOLD_HIGH_MAINTENANCE_NOT_STATIC_TOOL",markdown(x))
+
     def test_real_evidence_fixture_zero_unsubstantiated_sites(self):
         p=Path(__file__).resolve().parents[1]/"inputs"/"public-organic-competitors.json"
         data=json.loads(p.read_text(encoding="utf-8"))
         report=build(data,TODAY)
-        self.assertEqual(report["public_evidence_count"],18)
+        self.assertEqual(report["public_evidence_count"],21)
         self.assertTrue(report["organic_traffic_numbers_are_public_provider_estimates_not_first_party"])
         self.assertEqual({x["domain"] for x in report["shortlist_for_serp_check"]},{"cps-check.com"})
         reviewed = next(x for x in report["others"] if x["domain"] == "meloja.com.br")
