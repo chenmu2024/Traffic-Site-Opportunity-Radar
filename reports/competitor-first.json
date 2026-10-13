@@ -1,8 +1,93 @@
 {
-  "generated_at_utc": "2026-10-13T05:49:17.510017+00:00",
+  "generated_at_utc": "2026-10-13T05:56:09.860382+00:00",
   "market": "SEO_TRAFFIC_TOOLS_NOT_SAAS",
-  "public_evidence_count": 10,
-  "shortlist_for_serp_check": [],
+  "public_evidence_count": 13,
+  "shortlist_for_serp_check": [
+    {
+      "domain": "aiming.pro",
+      "primary_country": "US",
+      "status": "PUBLIC_ORGANIC_AND_NONBRAND_TOOL_EVIDENCE_REVIEW_SERP",
+      "source_url": "https://www.semrush.com/website/aiming.pro/overview/",
+      "source_month": "2026-09",
+      "global_monthly_organic_provider_estimate": 92530,
+      "country_organic_visits_not_proven": true,
+      "keyword": "sens converter",
+      "keyword_country": "US",
+      "keyword_position_public_snapshot": 5,
+      "keyword_volume_public_snapshot": 33100.0,
+      "nonbrand_manual": true,
+      "example_tool_url": "https://aiming.pro/mouse-sensitivity-calculator",
+      "public_function_inspected": true,
+      "site_topic_overlap": false,
+      "organic_mom_change_pct": -4.74,
+      "ad_monetization_policy_risk": false,
+      "source_notes": "September public Semrush worldwide organic estimate 92.53k; US rank #5 on sens converter 33.1k/$5.31 and independent interactive mouse conversion tool confirmed. AS40 and established rivals (Kovaaks, GamingSmart, mouse-sensitivity.com); USD5.31 keyword CPC is advertiser bid data not AdSense RPM or revenue. Weak-site SERP and KD remain unknown. Good zero-fixed-cost client-side arithmetic in principle, but conversion accuracy and FPS game yaw data must be validated.",
+      "manual_keyword_review": null,
+      "authority_score_semrush": 40,
+      "keyword_cpc_usd_public_snapshot": 5.31,
+      "competing_tool_urls": [
+        "https://kovaaks.com/kovaaks/sens-converter",
+        "https://gamingsmart.com/",
+        "https://sensconverter.app/"
+      ],
+      "other_ranked_keyword_examples": [
+        {
+          "keyword": "sens calculator",
+          "rank": 2,
+          "volume": 3600,
+          "cpc_usd": 0
+        },
+        {
+          "keyword": "mouse sensitivity converter",
+          "rank": 3,
+          "volume": 5400,
+          "cpc_usd": 0
+        }
+      ],
+      "organic_verified_by_first_party_analytics": false,
+      "kd_verified": false,
+      "serp_low_authority_verified": false
+    },
+    {
+      "domain": "cps-check.com",
+      "primary_country": "MX",
+      "status": "PUBLIC_ORGANIC_AND_NONBRAND_TOOL_EVIDENCE_REVIEW_SERP",
+      "source_url": "https://www.semrush.com/website/cps-check.com/overview/",
+      "source_month": "2026-08",
+      "global_monthly_organic_provider_estimate": 99240,
+      "country_organic_visits_not_proven": true,
+      "keyword": "test teclado",
+      "keyword_country": "MX",
+      "keyword_position_public_snapshot": 9,
+      "keyword_volume_public_snapshot": 12100.0,
+      "nonbrand_manual": true,
+      "example_tool_url": "https://cps-check.com/es/test-keyboard",
+      "public_function_inspected": true,
+      "site_topic_overlap": false,
+      "organic_mom_change_pct": 2.5,
+      "ad_monetization_policy_risk": false,
+      "source_notes": "August public Semrush worldwide organic estimate 99.24k, MX nonbrand test teclado 12.1k rank #9, site offers actual /es/test-keyboard. Multiple free competitors and AS41 existing site; keyword CPC zero, monetization uncertain. Existing user space clicker has adjacent gaming/key test interest, but keyboard fault diagnostics is distinct; do not modify it. KD and exact functional landing traffic unknown.",
+      "manual_keyword_review": null,
+      "authority_score_semrush": 41,
+      "keyword_cpc_usd_public_snapshot": 0,
+      "competing_tool_urls": [
+        "https://keyboardtestonline.com/es/",
+        "https://testdeteclado.com/",
+        "https://www.teclado.online/?lang=es"
+      ],
+      "other_ranked_keyword_examples": [
+        {
+          "keyword": "click test",
+          "rank": 8,
+          "volume": 5400,
+          "cpc_usd": 0
+        }
+      ],
+      "organic_verified_by_first_party_analytics": false,
+      "kd_verified": false,
+      "serp_low_authority_verified": false
+    }
+  ],
   "others": [
     {
       "domain": "meloja.com.br",
@@ -58,6 +143,10 @@
         "do_not_request_more_semrush_for_same_niche": true,
         "note": "KD measures SEO difficulty; screenshot competitive density 0.33 is for paid ads, not proof of low organic competition. The 69,980 traffic estimate refers to ALL of meloja.com.br, not the randomizer tool page."
       },
+      "authority_score_semrush": 32,
+      "keyword_cpc_usd_public_snapshot": 0,
+      "competing_tool_urls": [],
+      "other_ranked_keyword_examples": [],
       "organic_verified_by_first_party_analytics": false,
       "kd_verified": false,
       "serp_low_authority_verified": false
@@ -82,6 +171,10 @@
       "ad_monetization_policy_risk": false,
       "source_notes": "Mexican SAT/IVA tool overlaps user's current Mexico tax projects; use as possible reference for improving existing site, NOT a new independent project. Other high traffic currency conversion queries also observed.",
       "manual_keyword_review": null,
+      "authority_score_semrush": 37,
+      "keyword_cpc_usd_public_snapshot": 0.01,
+      "competing_tool_urls": [],
+      "other_ranked_keyword_examples": [],
       "organic_verified_by_first_party_analytics": false,
       "kd_verified": false,
       "serp_low_authority_verified": false
@@ -106,6 +199,10 @@
       "ad_monetization_policy_risk": false,
       "source_notes": "Overlaps user's existing Brazilian/Spanish nick, username and fonts domains; not a fresh independent traffic-site candidate.",
       "manual_keyword_review": null,
+      "authority_score_semrush": null,
+      "keyword_cpc_usd_public_snapshot": 0,
+      "competing_tool_urls": [],
+      "other_ranked_keyword_examples": [],
       "organic_verified_by_first_party_analytics": false,
       "kd_verified": false,
       "serp_low_authority_verified": false
@@ -130,6 +227,10 @@
       "ad_monetization_policy_risk": false,
       "source_notes": "Mexican payroll and wage-calculator area overlaps user's current Spanish payroll/business tools; no independently checked specific tool URL. Should not present as new SaaS or traffic-site candidate.",
       "manual_keyword_review": null,
+      "authority_score_semrush": 32,
+      "keyword_cpc_usd_public_snapshot": 0.06,
+      "competing_tool_urls": [],
+      "other_ranked_keyword_examples": [],
       "organic_verified_by_first_party_analytics": false,
       "kd_verified": false,
       "serp_low_authority_verified": false
@@ -154,6 +255,10 @@
       "ad_monetization_policy_risk": false,
       "source_notes": "Public nonbrand keyword evidence but domain global organic estimate is below the required 10k minimum, and precise ranking landing page not confirmed.",
       "manual_keyword_review": null,
+      "authority_score_semrush": 11,
+      "keyword_cpc_usd_public_snapshot": 0,
+      "competing_tool_urls": [],
+      "other_ranked_keyword_examples": [],
       "organic_verified_by_first_party_analytics": false,
       "kd_verified": false,
       "serp_low_authority_verified": false
@@ -178,6 +283,10 @@
       "ad_monetization_policy_risk": false,
       "source_notes": "Previously checked in user's Semrush and keyword is navigational/brand-like; no independently verified nonbrand tool page. Domain traffic alone does not qualify.",
       "manual_keyword_review": null,
+      "authority_score_semrush": null,
+      "keyword_cpc_usd_public_snapshot": 0.33,
+      "competing_tool_urls": [],
+      "other_ranked_keyword_examples": [],
       "organic_verified_by_first_party_analytics": false,
       "kd_verified": false,
       "serp_low_authority_verified": false
@@ -202,6 +311,10 @@
       "ad_monetization_policy_risk": false,
       "source_notes": "Third-party global organic estimate fell ~76% month-on-month to 16.02k; US exact clock phrases have low search volumes. Total website visits 11.27k, not equal to organic traffic. Do not ask for Semrush.",
       "manual_keyword_review": null,
+      "authority_score_semrush": null,
+      "keyword_cpc_usd_public_snapshot": 0,
+      "competing_tool_urls": [],
+      "other_ranked_keyword_examples": [],
       "organic_verified_by_first_party_analytics": false,
       "kd_verified": false,
       "serp_low_authority_verified": false
@@ -226,6 +339,10 @@
       "ad_monetization_policy_risk": true,
       "source_notes": "YouTube downloader/audio extraction may involve copyrighted media and raises AdSense and platform-policy due-diligence issues; NOT a low-risk AdSense browser utility. No claim the service is inherently illegal.",
       "manual_keyword_review": null,
+      "authority_score_semrush": null,
+      "keyword_cpc_usd_public_snapshot": 0,
+      "competing_tool_urls": [],
+      "other_ranked_keyword_examples": [],
       "organic_verified_by_first_party_analytics": false,
       "kd_verified": false,
       "serp_low_authority_verified": false
@@ -250,6 +367,10 @@
       "ad_monetization_policy_risk": false,
       "source_notes": "55k is entire electronic components retail domain organic; much of shown top ranking is brand/navigation. The nonbrand converter keyword is 1.9k monthly and specific functional URL is unverified. This does not justify a separate utility site.",
       "manual_keyword_review": null,
+      "authority_score_semrush": null,
+      "keyword_cpc_usd_public_snapshot": 0,
+      "competing_tool_urls": [],
+      "other_ranked_keyword_examples": [],
       "organic_verified_by_first_party_analytics": false,
       "kd_verified": false,
       "serp_low_authority_verified": false
@@ -274,6 +395,38 @@
       "ad_monetization_policy_risk": false,
       "source_notes": "Mexico leading site queries include dollars-to-pesos with rank #28 and #53; only small exact percentage arithmetic query top3 Volume1900 in public snapshot. Keyword intent/actual tool URL and usable differentiation not proven.",
       "manual_keyword_review": null,
+      "authority_score_semrush": null,
+      "keyword_cpc_usd_public_snapshot": 0,
+      "competing_tool_urls": [],
+      "other_ranked_keyword_examples": [],
+      "organic_verified_by_first_party_analytics": false,
+      "kd_verified": false,
+      "serp_low_authority_verified": false
+    },
+    {
+      "domain": "topster.pt",
+      "primary_country": "BR",
+      "status": "OVERLAPS_USER_EXISTING_SITE_NOT_NEW_PROJECT",
+      "source_url": "https://www.semrush.com/website/topster.pt/overview/",
+      "source_month": "2026-08",
+      "global_monthly_organic_provider_estimate": 45270,
+      "country_organic_visits_not_proven": true,
+      "keyword": "contador de horas",
+      "keyword_country": "BR",
+      "keyword_position_public_snapshot": 4,
+      "keyword_volume_public_snapshot": 27100.0,
+      "nonbrand_manual": true,
+      "example_tool_url": "https://topster.pt/",
+      "public_function_inspected": false,
+      "site_topic_overlap": true,
+      "organic_mom_change_pct": 22.25,
+      "ad_monetization_policy_risk": false,
+      "source_notes": "Public BR keyword rank #4 and estimated global organic 45.27k, but hours/counting tools overlap user's calculadoradehorastrabalhadas.org project; not a new independent site candidate. Do not alter the existing production website.",
+      "manual_keyword_review": null,
+      "authority_score_semrush": 33,
+      "keyword_cpc_usd_public_snapshot": 0.4,
+      "competing_tool_urls": [],
+      "other_ranked_keyword_examples": [],
       "organic_verified_by_first_party_analytics": false,
       "kd_verified": false,
       "serp_low_authority_verified": false

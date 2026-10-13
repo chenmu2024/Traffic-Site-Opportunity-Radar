@@ -6,7 +6,24 @@
 
 ## Functional competitors that qualify for SERP inspection only
 
-No source-backed candidate currently passes domain organic range, nonbrand keyword rank, and actual browser tool inspection.
+### aiming.pro · US
+- Public global organic estimate: 92530 / month (2026-09)
+- Country keyword: sens converter · rank #5 · Volume 33100.0 (public provider snapshot).
+- Browser tool URL: https://aiming.pro/mouse-sensitivity-calculator
+- Source: https://www.semrush.com/website/aiming.pro/overview/
+- CPC (provider keyword snapshot): USD 5.31; NOT AdSense earnings; estimated all-domain organic traffic is NOT exact tool traffic.
+- Existing competition to inspect: https://kovaaks.com/kovaaks/sens-converter, https://gamingsmart.com/, https://sensconverter.app/
+- Next step: Inspect SAME-COUNTRY current KD and actual top-10 SERP (weak sites?), separate tool page traffic, competitive differentiation and AdSense economics. Do not open a new domain yet.
+
+### cps-check.com · MX
+- Public global organic estimate: 99240 / month (2026-08)
+- Country keyword: test teclado · rank #9 · Volume 12100.0 (public provider snapshot).
+- Browser tool URL: https://cps-check.com/es/test-keyboard
+- Source: https://www.semrush.com/website/cps-check.com/overview/
+- CPC (provider keyword snapshot): USD 0; NOT AdSense earnings; estimated all-domain organic traffic is NOT exact tool traffic.
+- Existing competition to inspect: https://keyboardtestonline.com/es/, https://testdeteclado.com/, https://www.teclado.online/?lang=es
+- Next step: Inspect SAME-COUNTRY current KD and actual top-10 SERP (weak sites?), separate tool page traffic, competitive differentiation and AdSense economics. Do not open a new domain yet.
+
 ## Rejected or held even if a site exists
 
 | Domain | Public estimated global organic/month | Status |
@@ -23,6 +40,7 @@ No source-backed candidate currently passes domain organic range, nonbrand keywo
 | loaderr.to | 21780 | REJECT_ADS_MONETIZATION_POLICY_RISK |
 | mouser.mx | 54310 | REJECT_LOW_CORE_NONBRAND_TOOL_KEYWORD_DEMAND |
 | calculadoras.uno | 26920 | REJECT_LOW_CORE_NONBRAND_TOOL_KEYWORD_DEMAND |
+| topster.pt | 45270 | OVERLAPS_USER_EXISTING_SITE_NOT_NEW_PROJECT |
 
 ## Rules
 - Site target: global organic estimated 10k–100k, then verify target-country traffic independently.
