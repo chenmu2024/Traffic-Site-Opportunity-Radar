@@ -6,15 +6,6 @@
 
 ## Functional competitors that qualify for SERP inspection only
 
-### aiming.pro · US
-- Public global organic estimate: 92530 / month (2026-09)
-- Country keyword: sens converter · rank #5 · Volume 33100.0 (public provider snapshot).
-- Browser tool URL: https://aiming.pro/mouse-sensitivity-calculator
-- Source: https://www.semrush.com/website/aiming.pro/overview/
-- CPC (provider keyword snapshot): USD 5.31; NOT AdSense earnings; estimated all-domain organic traffic is NOT exact tool traffic.
-- Existing competition to inspect: https://kovaaks.com/kovaaks/sens-converter, https://gamingsmart.com/, https://sensconverter.app/
-- Next step: Inspect SAME-COUNTRY current KD and actual top-10 SERP (weak sites?), separate tool page traffic, competitive differentiation and AdSense economics. Do not open a new domain yet.
-
 ### cps-check.com · MX
 - Public global organic estimate: 99240 / month (2026-08)
 - Country keyword: test teclado · rank #9 · Volume 12100.0 (public provider snapshot).
@@ -40,6 +31,9 @@
 | loaderr.to | 21780 | REJECT_ADS_MONETIZATION_POLICY_RISK |
 | mouser.mx | 54310 | REJECT_LOW_CORE_NONBRAND_TOOL_KEYWORD_DEMAND |
 | calculadoras.uno | 26920 | REJECT_LOW_CORE_NONBRAND_TOOL_KEYWORD_DEMAND |
+| aiming.pro | 92530 | HOLD_HIGH_CORE_KD_WITHOUT_WEAK_SERP |
+  - User reviewed: sens converter · Volume 33100 · KD 47 · CPC USD 5.36 · 
+  - User confirmed core KD 47 and CPC USD 5.36; HOLD standalone new-site effort. Do NOT re-request this core KD or low-volume variants without independent new SERP evidence.
 | topster.pt | 45270 | OVERLAPS_USER_EXISTING_SITE_NOT_NEW_PROJECT |
 
 ## Rules
