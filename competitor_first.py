@@ -82,6 +82,10 @@ def gate(snapshot, today):
         "ad_monetization_policy_risk": bool(snapshot.get("ad_monetization_policy_risk")),
         "source_notes": reason,
         "manual_keyword_review": snapshot.get("manual_keyword_review"),
+        "authority_score_semrush": snapshot.get("authority_score_semrush"),
+        "keyword_cpc_usd_public_snapshot": snapshot.get("keyword_cpc_usd"),
+        "competing_tool_urls": snapshot.get("competing_tool_urls", [])[:6],
+        "other_ranked_keyword_examples": snapshot.get("nonbrand_keyword_evidence", [])[:5],
         "organic_verified_by_first_party_analytics": False,
         "kd_verified": False, "serp_low_authority_verified": False,
     }
@@ -119,6 +123,8 @@ def markdown(data):
             "- Country keyword: " + clean(e["keyword"]) + " · rank #" + str(e["keyword_position_public_snapshot"]) + " · Volume " + str(e["keyword_volume_public_snapshot"]) + " (public provider snapshot).",
             "- Browser tool URL: " + clean(e["example_tool_url"],300),
             "- Source: " + clean(e["source_url"],300),
+            "- CPC (provider keyword snapshot): USD " + str(e.get("keyword_cpc_usd_public_snapshot")) + "; NOT AdSense earnings; estimated all-domain organic traffic is NOT exact tool traffic.",
+            "- Existing competition to inspect: " + ", ".join(clean(u,200) for u in e.get("competing_tool_urls",[])[:3]),
             "- Next step: Inspect SAME-COUNTRY current KD and actual top-10 SERP (weak sites?), separate tool page traffic, competitive differentiation and AdSense economics. Do not open a new domain yet.", ""
         ])
     lines += ["## Rejected or held even if a site exists", "",
