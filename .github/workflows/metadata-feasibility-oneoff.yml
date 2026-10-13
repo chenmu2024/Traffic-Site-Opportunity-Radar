@@ -1,0 +1,114 @@
+name: One-off metadata remover feasibility audit
+on:
+  push:
+    branches:
+      - audit/metadata-remover-wasm-feasibility-20261013
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  validate_upstream_engine:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - name: Checkout pinned MIT metadata engine
+        uses: actions/checkout@v4
+        with:
+          repository: iAnonymous3000/metadata-remover
+          ref: 2524864b3135d6a77fdbb635c571d6948f8b2b3d
+          persist-credentials: false
+      - name: Rust toolchain
+        uses: dtolnay/rust-toolchain@1.94.1
+        with:
+          components: rustfmt
+      - name: Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Check source license and code fingerprints
+        shell: bash
+        run: |
+          set -euo pipefail
+          test -f LICENSE
+          grep -q 'MIT License' LICENSE
+          git rev-parse HEAD | grep -q '^2524864b3135d6a77fdbb635c571d6948f8b2b3d$'
+          npm run check:js
+      - name: Format Rust and run all Rust parser fixture tests
+        shell: bash
+        working-directory: wasm
+        run: |
+          set -euo pipefail
+          cargo fmt --check
+          cargo test --locked
+      - name: Independently clean and verify real-encoder samples
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p "$RUNNER_TEMP/cleaned-fixtures"
+          cat > wasm/tests/radar_independent.rs <<'RUST'
+          use metadata_remover::{detect_file_type, extract_metadata_info, remove_metadata_bytes, validate_file_bytes};
+          use std::fs;
+          use std::path::PathBuf;
+
+          fn has(bytes: &[u8], text: &str) -> bool {
+              bytes.windows(text.len()).any(|x| x == text.as_bytes())
+          }
+
+          #[test]
+          fn independently_clean_real_encoder_fixtures() {
+              let fixture_dir = PathBuf::from(env!("CARGO_MANIFEST_DIR")).join("tests/fixtures/real-device");
+              let dest_dir = PathBuf::from(std::env::var("RADAR_CLEAN_DIR").expect("RADAR_CLEAN_DIR"));
+              let cases: &[(&str, &str, &[&str])] = &[
+                  ("apple-imageio-gps.jpg", "jpeg", &["iPhone 15 Pro", "FIXTURESERIAL01", "Fixture Author"]),
+                  ("apple-imageio-gps.heic", "heic", &["iPhone 15 Pro", "FIXTURESERIAL01", "Fixture Author"]),
+                  ("apple-quicktime-location.mov", "mov", &["+37.3316", "com.apple.quicktime.location"]),
+                  ("ffmpeg-location.mp4", "mp4", &["Fixture Secret Video", "Lavf"]),
+                  ("ffmpeg-lame-id3.mp3", "mp3", &["Fixture Secret Title", "Fixture Secret Artist", "Fixture secret comment"]),
+                  ("ffmpeg-flac-tags.flac", "flac", &["Fixture Secret Title", "Fixture Secret Artist", "Lavf"]),
+                  ("ffmpeg-wav-info-bext.wav", "wav", &["Fixture Secret Title", "Fixture Secret Artist", "Fixture secret comment"]),
+                  ("ffmpeg-vorbis-tags.ogg", "ogg", &["Fixture Secret Title", "Fixture Secret Artist", "Lavf"]),
+                  ("ffmpeg-opus-tags.opus", "ogg", &["Fixture Secret Title", "Fixture Secret Artist", "Lavf", "libopus"]),
+              ];
+              for (name, expected_type, markers) in cases {
+                  let original = fs::read(fixture_dir.join(name)).expect("read test fixture");
+                  assert_eq!(detect_file_type(&original), *expected_type, "{name}: original type");
+                  validate_file_bytes(&original).expect("original validation");
+                  for marker in *markers { assert!(has(&original, marker), "{name}: missing original marker {marker}"); }
+                  let cleaned = remove_metadata_bytes(&original).expect("process fixture");
+                  assert_eq!(detect_file_type(&cleaned), *expected_type, "{name}: cleaned type");
+                  validate_file_bytes(&cleaned).expect("cleaned validation");
+                  for marker in *markers { assert!(!has(&cleaned, marker), "{name}: marker survived {marker}"); }
+                  let scan = extract_metadata_info(&cleaned);
+                  let bad: Vec<_> = scan.metadata_found.iter().filter(|e| e.category != "Limited verification").collect();
+                  assert!(bad.is_empty(), "{name}: metadata remains: {bad:?}");
+                  fs::write(dest_dir.join(name), &cleaned).expect("write cleaned test sample");
+                  println!("verified fixture: {name}; original {} bytes; cleaned {} bytes", original.len(), cleaned.len());
+              }
+          }
+          RUST
+          RADAR_CLEAN_DIR="$RUNNER_TEMP/cleaned-fixtures" cargo test --locked --manifest-path wasm/Cargo.toml --test radar_independent -- --nocapture
+      - name: Verify video/audio formats still open after cleaning
+        shell: bash
+        run: |
+          set -euo pipefail
+          command -v ffprobe
+          for name in apple-quicktime-location.mov ffmpeg-location.mp4 ffmpeg-lame-id3.mp3 ffmpeg-flac-tags.flac ffmpeg-wav-info-bext.wav ffmpeg-vorbis-tags.ogg ffmpeg-opus-tags.opus; do
+            original="wasm/tests/fixtures/real-device/$name"
+            cleaned="$RUNNER_TEMP/cleaned-fixtures/$name"
+            test -s "$cleaned"
+            ffprobe -v error -show_entries stream=codec_type,codec_name -of compact=p=0 "$original" > "$RUNNER_TEMP/streams-original.txt"
+            ffprobe -v error -show_entries stream=codec_type,codec_name -of compact=p=0 "$cleaned" > "$RUNNER_TEMP/streams-cleaned.txt"
+            diff -u "$RUNNER_TEMP/streams-original.txt" "$RUNNER_TEMP/streams-cleaned.txt"
+            echo "PASS decoder recognizes streams: $name"
+          done
+          {
+            echo '## Metadata removal feasibility: independent audit'
+            echo
+            echo '- Upstream commit pinned: 2524864b3135d6a77fdbb635c571d6948f8b2b3d'
+            echo '- All upstream Rust source+fixture tests run (cargo test --locked)'
+            echo '- 9 real-encoder fixtures independently cleaned, markers removed, output type validated and rescanned'
+            echo '- 7 actual audio/video samples re-opened by ffprobe; codec type/name preserved'
+            echo '- Static JavaScript source checked; MIT license checked'
+            echo
+            echo '**Not yet tested:** browser UI at runtime, Android/iOS 100MB performance, live PDFs/DOCX/PPTX/XLSX with signatures/history, security penetration tests, or production AdSense economics. This is an engineering feasibility checkpoint, not a public site approval.'
+          } >> "$GITHUB_STEP_SUMMARY"
