@@ -1,6 +1,6 @@
 # 工具词需求前置筛选 · 流量站雷达
 
-生成时间：2026-10-13T05:21:14.967261+00:00
+生成时间：2026-10-13T05:26:40.156696+00:00
 
 > 优先调查真实工具使用词。没有 Semrush 数据则保留未知，不能把新闻/资讯搜索量当作工具使用需求。
 
@@ -11,6 +11,9 @@
 | BR | 巴西树脂用量与配比计算器 | `calculadora de resina epóxi` | 未知 | 未知 | HOLD_NO_MEASURABLE_CORE_SEARCH |
 | BR | 巴西自定义找词活动打印工具 | `gerador de caça palavras` | 4400 | 19.0 | REJECT_INSUFFICIENT_SUPPORTING_DEMAND |
 | MX | 墨西哥环氧树脂材料用量计算器 | `calculadora de resina epóxica` | 未知 | 未知 | HOLD_NO_MEASURABLE_CORE_SEARCH |
+| BR | 巴西 A4 商品与收纳标签在线生成器 | `gerador de etiquetas para imprimir` | 未知 | 未知 | NEEDS_EXACT_CORE_VOLUME |
+| BR | 巴西墙纸卷数与图案对齐计算器 | `calculadora de papel de parede` | 未知 | 未知 | NEEDS_EXACT_CORE_VOLUME |
+| MX | 墨西哥 PDF 商品及打印标签生成器 | `generador de etiquetas para imprimir` | 未知 | 未知 | NEEDS_EXACT_CORE_VOLUME |
 
 ## 查询顺序
 
@@ -19,6 +22,9 @@
 - BR **巴西树脂用量与配比计算器**：User checked this exact country-level core term and found no meaningful data. Do not request it again without independent new evidence; this is not a measured Volume=0. 辅助词：`calculadora de resina para molde`、`quanto de resina epóxi preciso`
 - BR **巴西自定义找词活动打印工具**：Do not request competitor traffic under current narrow tool-intent terms. 辅助词：`gerador de caça-palavras`、`gerador de caça palavras para imprimir`、`criar caça palavras para imprimir`
 - MX **墨西哥环氧树脂材料用量计算器**：User checked this exact country-level core term and found no meaningful data. Do not request it again without independent new evidence; this is not a measured Volume=0. 辅助词：`calculadora de resina epóxica para moldes`、`cuánta resina epóxica necesito`
+- BR **巴西 A4 商品与收纳标签在线生成器**：Check ONLY the core keyword Volume and KD in the specified country. 辅助词：`gerador de etiquetas online`、`criar etiquetas para imprimir`、`etiquetas para imprimir a4`
+- BR **巴西墙纸卷数与图案对齐计算器**：Check ONLY the core keyword Volume and KD in the specified country. 辅助词：`quantos rolos de papel de parede preciso`、`calcular papel de parede por m2`
+- MX **墨西哥 PDF 商品及打印标签生成器**：Check ONLY the core keyword Volume and KD in the specified country. 辅助词：`crear etiquetas para imprimir`、`generador de etiquetas pdf`
 
 ## 证据纪律
 

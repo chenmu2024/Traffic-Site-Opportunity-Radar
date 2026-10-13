@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-10-13T05:21:14.967261+00:00",
+  "generated_at_utc": "2026-10-13T05:26:40.156696+00:00",
   "policy": "CORE_TOOL_DEMAND_BEFORE_COMPETITOR_TRAFFIC",
   "thresholds_heuristic_not_market_data": {
     "core_min_volume": 3000,
@@ -7,7 +7,7 @@
     "kd_max": 35,
     "age_days_max": 90
   },
-  "candidate_count": 3,
+  "candidate_count": 6,
   "metrics_records": 3,
   "invalid_records": {},
   "candidates": [
@@ -131,6 +131,97 @@
       ],
       "organic_monthly_traffic_verified": null,
       "next_action": "User checked this exact country-level core term and found no meaningful data. Do not request it again without independent new evidence; this is not a measured Volume=0."
+    },
+    {
+      "id": "br_print_labels",
+      "name": "巴西 A4 商品与收纳标签在线生成器",
+      "country": "BR",
+      "stage": "NEEDS_EXACT_CORE_VOLUME",
+      "manual_research_note": null,
+      "core_keyword": "gerador de etiquetas para imprimir",
+      "core_metric": null,
+      "supporting_keywords": [
+        "gerador de etiquetas online",
+        "criar etiquetas para imprimir",
+        "etiquetas para imprimir a4"
+      ],
+      "supporting_metrics": [],
+      "competitors_public_only": [
+        {
+          "url": "https://msdicas.com.br/ferramentas/etiquetas/",
+          "type": "product_barcode_label_tool"
+        },
+        {
+          "url": "https://openlabelmaker.com/pt/",
+          "type": "multilingual_online_label_maker"
+        },
+        {
+          "url": "https://utilsworld.com/pt/labelpdf/",
+          "type": "browser_pdf_label_sheet_tool"
+        }
+      ],
+      "organic_monthly_traffic_verified": null,
+      "next_action": "Check ONLY the core keyword Volume and KD in the specified country."
+    },
+    {
+      "id": "br_wallpaper_rolls",
+      "name": "巴西墙纸卷数与图案对齐计算器",
+      "country": "BR",
+      "stage": "NEEDS_EXACT_CORE_VOLUME",
+      "manual_research_note": null,
+      "core_keyword": "calculadora de papel de parede",
+      "core_metric": null,
+      "supporting_keywords": [
+        "quantos rolos de papel de parede preciso",
+        "calcular papel de parede por m2"
+      ],
+      "supporting_metrics": [],
+      "competitors_public_only": [
+        {
+          "url": "https://www.arqpedia.com.br/calculadora-de-papel-de-parede/",
+          "type": "independent_material_calculator"
+        },
+        {
+          "url": "https://icalculadora.com.br/calculadoras/papel-de-parede",
+          "type": "independent_material_calculator"
+        },
+        {
+          "url": "https://www.calculohub.com.br/calculadoras/papel-de-parede-rolos",
+          "type": "independent_material_calculator"
+        }
+      ],
+      "organic_monthly_traffic_verified": null,
+      "next_action": "Check ONLY the core keyword Volume and KD in the specified country."
+    },
+    {
+      "id": "mx_print_labels",
+      "name": "墨西哥 PDF 商品及打印标签生成器",
+      "country": "MX",
+      "stage": "NEEDS_EXACT_CORE_VOLUME",
+      "manual_research_note": null,
+      "core_keyword": "generador de etiquetas para imprimir",
+      "core_metric": null,
+      "supporting_keywords": [
+        "crear etiquetas para imprimir",
+        "generador de etiquetas pdf"
+      ],
+      "supporting_metrics": [],
+      "competitors_public_only": [
+        {
+          "url": "https://openlabelmaker.com/es/",
+          "type": "multilingual_online_label_maker"
+        },
+        {
+          "url": "https://printmigo.com/es/label-maker/",
+          "type": "multilingual_printable_sheet_tool"
+        },
+        {
+          "url": "https://mxnom.com/",
+          "type": "mexico_commercial_information_label_draft_different_intent"
+        }
+      ],
+      "organic_monthly_traffic_verified": null,
+      "next_action": "Check ONLY the core keyword Volume and KD in the specified country."
     }
   ],
   "any_organic_traffic_verified_automatically": false,
