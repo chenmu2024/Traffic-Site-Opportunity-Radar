@@ -125,8 +125,12 @@ class CompetitorFirstTests(unittest.TestCase):
     def test_brazil_dead_pixel_core_tool_ranking_has_proven_search_not_kd(self):
         payload=json.loads((Path(__file__).resolve().parents[1]/"inputs"/"public-organic-competitors.json").read_text(encoding="utf-8"))
         result=build(payload,TODAY)
-        px=next(x for x in result["shortlist_for_serp_check"] if x["domain"]=="deadpixeltest.org")
+        px=next(x for x in result["others"] if x["domain"]=="deadpixeltest.org")
         self.assertEqual(px["primary_country"],"BR")
+        self.assertEqual(px["status"],"REJECT_HIGH_KD_WITHOUT_WEAK_SERP")
+        self.assertEqual(px["manual_keyword_review"]["core_kd"],62)
+        self.assertEqual(px["manual_keyword_review"]["us_same_keyword_reference"]["kd"],26)
+        self.assertTrue(px["manual_keyword_review"]["do_not_request_same_core_kd_again"])
         self.assertEqual(px["keyword_position_public_snapshot"],2)
         self.assertEqual(px["keyword_volume_public_snapshot"],9900)
         self.assertEqual(px["global_monthly_organic_provider_estimate"],53460)
@@ -143,13 +147,35 @@ class CompetitorFirstTests(unittest.TestCase):
         self.assertEqual(ex["keyword"],"gamepad tester")
         self.assertNotIn(ex["domain"],[x["domain"] for x in result["shortlist_for_serp_check"]])
 
+    def test_gif_background_tool_public_evidence_qualifies_for_kd_check_only(self):
+        payload=json.loads((Path(__file__).resolve().parents[1]/"inputs"/"public-organic-competitors.json").read_text(encoding="utf-8"))
+        result=build(payload,TODAY)
+        gif=next(x for x in result["shortlist_for_serp_check"] if x["domain"]=="onlinegiftools.com")
+        self.assertEqual(gif["keyword"],"remove background from gif")
+        self.assertEqual(gif["keyword_country"],"US")
+        self.assertEqual(gif["keyword_position_public_snapshot"],2)
+        self.assertEqual(gif["keyword_volume_public_snapshot"],22200)
+        self.assertEqual(gif["global_monthly_organic_provider_estimate"],62260)
+        self.assertEqual(gif["keyword_cpc_usd_public_snapshot"],1.37)
+        self.assertFalse(gif["serp_low_authority_verified"])
+        self.assertFalse(gif["organic_verified_by_first_party_analytics"])
+
+    def test_ordinary_pixelator_and_morse_code_are_held_not_auto_pushed(self):
+        payload=json.loads((Path(__file__).resolve().parents[1]/"inputs"/"public-organic-competitors.json").read_text(encoding="utf-8"))
+        result=build(payload,TODAY)
+        hosts={x["domain"]:x for x in result["others"]}
+        self.assertEqual(hosts["onlinetools.com"]["status"],"HOLD_SATURATED_COMMODITY_TOOL_NO_MOAT")
+        self.assertEqual(hosts["onlinetexttools.com"]["status"],"HOLD_SATURATED_COMMODITY_TOOL_NO_MOAT")
+        self.assertNotIn("deadpixeltest.org",[x["domain"] for x in result["shortlist_for_serp_check"]])
+        self.assertIn("BR",hosts["deadpixeltest.org"]["manual_keyword_review"]["country"])
+
     def test_real_evidence_fixture_zero_unsubstantiated_sites(self):
         p=Path(__file__).resolve().parents[1]/"inputs"/"public-organic-competitors.json"
         data=json.loads(p.read_text(encoding="utf-8"))
         report=build(data,TODAY)
-        self.assertEqual(report["public_evidence_count"],15)
+        self.assertEqual(report["public_evidence_count"],18)
         self.assertTrue(report["organic_traffic_numbers_are_public_provider_estimates_not_first_party"])
-        self.assertEqual({x["domain"] for x in report["shortlist_for_serp_check"]},{"cps-check.com","deadpixeltest.org"})
+        self.assertEqual({x["domain"] for x in report["shortlist_for_serp_check"]},{"cps-check.com","onlinegiftools.com"})
         reviewed = next(x for x in report["others"] if x["domain"] == "meloja.com.br")
         self.assertEqual(reviewed["status"], "REJECT_HIGH_KD_WEAK_ADS_NEW_SITE")
         self.assertEqual(reviewed["manual_keyword_review"]["core_kd"], 50)
