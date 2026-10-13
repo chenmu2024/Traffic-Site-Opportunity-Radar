@@ -62,3 +62,34 @@ domain,country,monthly_organic,source,observed_on
 ## 约束
 
 本系统不能通过 GitHub Stars、Sitemap、网站收录或 HTTP 成功请求自动推断真实 Google 流量。SEO API 数据没有就保持未知，不输出伪造的数字。每天宁可没有合格候选，也不能把未经验证的主页线索包装成“验证通过的流量站”。
+
+
+## 国家级 SEO 证据工作单（新增）
+
+雷达新增 triage.py，独立对人工导入的功能页关键词排名和整站自然搜索流量作交叉筛选，**不把 GitHub 主页、Stars 或主页存在当成流量证据**。
+
+数据入口：
+
+- inputs/positions.csv：必须有 country,domain,keyword,position,url,volume,kd,cpc,observed_on,source,nonbrand_review,tool_intent_review。
+- inputs/sites.csv：已有 domain,country,monthly_organic,source,observed_on。
+- country 支持 BR、MX、ES、PT、CL、US、GB；不使用印度市场数据立项。
+- position 必须是实际记录的 1–100 整数，观察时间不应在未来；90 天以上的排名/流量观测会要求重新检查。
+- nonbrand_review 和 tool_intent_review 只允许 YES、NO、UNKNOWN。只有研究者确实人工核对非品牌 + 需要使用工具的意图后，才能填 YES；留空会被当作 UNKNOWN。
+- Volume、KD、CPC 缺失留空，系统不会猜测，导入字段只标记 USER_SUPPLIED_UNAUDITED。
+- 只考虑同一国家的自然搜索流量估计 10,000–100,000/月，且至少两个已人工确认的非品牌工具关键词同时满足排名前20、Volume ≥500 和 KD ≤30，才列入 READY_FOR_FINAL_SERP_REVIEW。此状态仍不等于建站批准。
+- 按功能 URL 分组和人工 SERP 重合分析，防止简单相加同义词搜索量。
+
+单独运行：
+
+    python triage.py
+    python triage.py --positions /your/local/positions.csv --sites /your/local/sites.csv --output-dir /your/local/reports
+
+输出报告为 reports/triage.md 和 reports/triage.json。日常 GitHub Actions 会刷新这两个文件，并将它们与最新的公开发现线索一起作为 artifact 保存。
+
+**隐私提醒：仓库是 Public。不要将购买或受授权限制的 Semrush 原始 CSV、截图、私人账户数据及密钥直接提交到 inputs/ 或 GitHub Actions 日志。** 推荐在本地或本对话中提供用于研究的必要指标，再决定是否只向仓库提交你愿意公开的汇总字段。GitHub 自动运行的公开模板仍可能没有任何符合证据门槛的候选；这是正确输出，不是系统故障。
+
+研究必须严格区分：
+1. GitHub DISCOVERY_ONLY：只证明某个项目提供了一个主页线索。
+2. USER_SUPPLIED_UNAUDITED：有用户记录的关键词/国家/来源/日期，但尚未独立审计。
+3. READY_FOR_FINAL_SERP_REVIEW：满足人工意图审查、需求与流量阈值，可核查 Google SERP 的候选。
+4. BUILD：仅在独立检查 SERP、竞争对手、可获客优势、AdSense 收益和成本，并经用户批准后才可能进入。系统不会自动提升到 BUILD。

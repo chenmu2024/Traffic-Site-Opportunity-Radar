@@ -5,6 +5,7 @@ on:
   push:
     paths:
       - 'radar.py'
+      - 'triage.py'
       - 'tests/**'
       - 'inputs/**'
       - '.github/workflows/daily-traffic-radar.yml'
@@ -36,11 +37,15 @@ jobs:
       - name: Discover tool-site leads (bounded public GitHub Search)
         env:
           GITHUB_TOKEN: ${{ github.token }}
-        run: python radar.py --github-live
+        run: |
+          python radar.py --github-live
+          python triage.py
       - name: Validate evidence-first output
         run: |
           python -m json.tool reports/latest.json >/dev/null
           test -s reports/latest.md
+          python -m json.tool reports/triage.json >/dev/null
+          test -s reports/triage.md
       - name: Print evidence provenance summary
         run: |
           python - <<'PY'
@@ -50,6 +55,10 @@ jobs:
           print("SERP-import candidates:", len(r["serp_candidates"]))
           print("Unverified public GitHub homepages:", len(r["github_leads"]))
           print("GitHub discovery query failures:", len(r["github_failures"]))
+          t = json.loads(Path("reports/triage.json").read_text(encoding="utf-8"))
+          print("Country-level final SERP review queue:", t["ready_for_final_serp_review_count"])
+          assert not t["organic_traffic_verified_automatically"]
+          assert t["github_leads_promoted_to_seo_evidence"] == 0
           assert r["seo_provider_metrics_verified_automatically"] is False
           PY
       - name: Upload independent JSON and Markdown reports
@@ -59,13 +68,15 @@ jobs:
           path: |
             reports/latest.json
             reports/latest.md
+            reports/triage.json
+            reports/triage.md
           retention-days: 14
       - name: Commit only this radar's reports
         if: github.ref == 'refs/heads/main'
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add reports/latest.json reports/latest.md
+          git add reports/latest.json reports/latest.md reports/triage.json reports/triage.md
           if ! git diff --cached --quiet; then
             git commit -m 'chore: refresh traffic-site research snapshots [skip ci]'
             git fetch origin main
