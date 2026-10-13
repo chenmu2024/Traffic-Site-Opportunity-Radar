@@ -350,6 +350,94 @@
       "tool_page_publicly_checked": false,
       "topic_overlap": true,
       "reason": "Public BR keyword rank #4 and estimated global organic 45.27k, but hours/counting tools overlap user's calculadoradehorastrabalhadas.org project; not a new independent site candidate. Do not alter the existing production website."
+    },
+    {
+      "domain": "deadpixeltest.org",
+      "primary_country": "BR",
+      "month": "2026-08",
+      "organic_global_estimated_monthly": 53460,
+      "organic_mom_change_pct": 14.16,
+      "source_url": "https://www.semrush.com/website/deadpixeltest.org/overview/",
+      "authority_score_semrush": 38,
+      "tool_homepage": "https://deadpixeltest.org/",
+      "keyword": "dead pixel test",
+      "keyword_country": "BR",
+      "keyword_position": 2,
+      "keyword_volume": 9900,
+      "keyword_cpc_usd": 0,
+      "keyword_is_nonbrand": true,
+      "tool_page_publicly_checked": true,
+      "topic_overlap": false,
+      "nonbrand_keyword_evidence": [
+        {
+          "keyword": "checking dead pixels",
+          "rank": 2,
+          "volume": 5400,
+          "cpc_usd": 0
+        },
+        {
+          "keyword": "dead pixel detector",
+          "rank": 3,
+          "volume": 4400,
+          "cpc_usd": 0
+        }
+      ],
+      "competing_tool_urls": [
+        "https://deadpixeltest.com/",
+        "https://deadpixeltester.com/pt",
+        "https://pixeltest.net/pt/monitor-screen-test"
+      ],
+      "reason": "Aug 2026 public Semrush worldwide estimated organic 53.46k (+14.16%), AS38; BR nonbrand `dead pixel test` rank2 / Volume9,900 / CPC0 and two functional variations rank2-3. Confirmed actual full-screen color-cycle browser utility plus repair / resolution / contrast tools. Incumbents have comparable functionality, no independently verified weak SERP and no KD; CPC0 limits AdSense assumption. Need only BR core keyword KD and top10 competitor evidence before proceeding."
+    },
+    {
+      "domain": "gpadtester.com",
+      "primary_country": "BR",
+      "month": "2026-08",
+      "organic_global_estimated_monthly": 108710,
+      "organic_mom_change_pct": 6.23,
+      "source_url": "https://www.semrush.com/website/gpadtester.com/overview/",
+      "authority_score_semrush": 26,
+      "tool_homepage": "https://gpadtester.com/",
+      "keyword": "gamepad tester",
+      "keyword_country": "BR",
+      "keyword_position": 3,
+      "keyword_volume": 33100,
+      "keyword_cpc_usd": 0,
+      "keyword_is_nonbrand": true,
+      "tool_page_publicly_checked": true,
+      "topic_overlap": false,
+      "nonbrand_keyword_evidence": [
+        {
+          "keyword": "gamepad check",
+          "rank": 3,
+          "volume": 9900,
+          "cpc_usd": 0
+        },
+        {
+          "keyword": "test game controller",
+          "rank": 3,
+          "volume": 9900,
+          "cpc_usd": 0
+        },
+        {
+          "keyword": "teste gamepad",
+          "rank": 2,
+          "volume": 4400,
+          "cpc_usd": 0
+        },
+        {
+          "keyword": "gamepad checker",
+          "rank": 3,
+          "volume": 6600,
+          "cpc_usd": 0
+        }
+      ],
+      "competing_tool_urls": [
+        "https://gamepadtesterr.com/",
+        "https://controller-test.com/",
+        "https://www.prodevicetest.com/pt/controller-test/"
+      ],
+      "reason": "Public Semrush Aug organic global 108.71k (+6.23%) and AS26, just ABOVE strict 100k target. BR nonbrand gamepad tester #3 Volume33,100; associated test terms. Actual online Gamepad API tool confirmed. Nearby over-cap competitor is an evidence benchmark only, not a 10k–100k candidate. Competing free tools offer drift/circularity, vibration and latency. CPC0 and browser-only inputs, no proven new-entrant organic access."
     }
   ],
   "updated_on": "2026-10-13"
