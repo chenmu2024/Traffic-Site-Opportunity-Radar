@@ -259,11 +259,35 @@ class CompetitorFirstTests(unittest.TestCase):
             self.assertFalse(observed["organic_verified_by_first_party_analytics"])
         self.assertIn("HOLD_HIGH_MAINTENANCE_NOT_STATIC_TOOL",markdown(x))
 
+    def test_2026_us_text_and_palette_tools_are_real_but_saturated_or_branded(self):
+        p=Path(__file__).resolve().parents[1]/"inputs"/"public-organic-competitors.json"
+        result=build(json.loads(p.read_text(encoding="utf-8")),TODAY)
+        by_domain={x["domain"]:x for x in result["others"]}
+        for host in ["caseconverter.com","titlecaseconverter.com","paletton.com"]:
+            self.assertEqual(by_domain[host]["status"],"HOLD_SATURATED_COMMODITY_TOOL_NO_MOAT")
+            self.assertFalse(by_domain[host]["organic_verified_by_first_party_analytics"])
+        self.assertEqual(by_domain["caseconverter.com"]["keyword_volume_public_snapshot"],22200)
+        self.assertEqual(by_domain["caseconverter.com"]["keyword_cpc_usd_public_snapshot"],0)
+        self.assertEqual(by_domain["paletton.com"]["keyword_volume_public_snapshot"],60500)
+        self.assertEqual(by_domain["paletton.com"]["keyword_cpc_usd_public_snapshot"],1.26)
+        self.assertEqual(by_domain["colormagic.app"]["status"],"REJECT_LOW_CORE_NONBRAND_TOOL_KEYWORD_DEMAND")
+        self.assertEqual(by_domain["gradients.app"]["status"],"REJECT_OUTSIDE_GLOBAL_ORGANIC_TRAFFIC_TARGET")
+        self.assertEqual(by_domain["wordstotime.com"]["status"],"REJECT_NO_STRONG_NONBRAND_TOOL_KEYWORD")
+        self.assertEqual([v["domain"] for v in result["shortlist_for_serp_check"]],["cps-check.com"])
+
+    def test_brand_like_domain_keyword_does_not_pass_nonbrand_tool_gate(self):
+        x=row()
+        x["keyword"]="words to time"
+        x["keyword_is_nonbrand"]=False
+        x["keyword_volume"]=4400
+        z=gate(x,TODAY.date())
+        self.assertEqual(z["status"],"REJECT_NO_STRONG_NONBRAND_TOOL_KEYWORD")
+
     def test_real_evidence_fixture_zero_unsubstantiated_sites(self):
         p=Path(__file__).resolve().parents[1]/"inputs"/"public-organic-competitors.json"
         data=json.loads(p.read_text(encoding="utf-8"))
         report=build(data,TODAY)
-        self.assertEqual(report["public_evidence_count"],21)
+        self.assertEqual(report["public_evidence_count"],27)
         self.assertTrue(report["organic_traffic_numbers_are_public_provider_estimates_not_first_party"])
         self.assertEqual({x["domain"] for x in report["shortlist_for_serp_check"]},{"cps-check.com"})
         reviewed = next(x for x in report["others"] if x["domain"] == "meloja.com.br")
