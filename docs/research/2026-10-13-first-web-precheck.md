@@ -31,3 +31,23 @@
 2. 国家、日期、工具 URL、搜索意图和 Semrush 来源缺失时，不输出 Volume、KD 或收入估计。
 3. 不将同义词搜索量简单相加；不未经用户批准而创建网站或新增内页。
 4. 先核实一个最有可能的独立在线工具竞争对手，失败再更换，控制查询成本。
+
+## C. 用户提供的巴西 Pix 关键词表复审（2026-10-13）
+
+> 这是用户提供的巴西关键词研究指标摘要，并非 pix-qr-code.com 的自然搜索排名/流量报表。为避免将受第三方服务许可约束的整份导出公开存放在 GitHub，这里仅记录研究结论和少量代表性数据。
+
+| 词 | 月搜索量（用户提供） | KD（用户提供） | CPC 美元（用户提供） | 需求类型 |
+|---|---:|---:|---:|---|
+| pix fora do ar | 18,100 | 25 | 0.00 | 故障/实时资讯，非 QR 生成 |
+| fiz um pix errado e agora | 8,100 | 28 | 0.03 | 错误转账和退款问题 |
+| como cancelar um pix | 6,600 | 24 | 0.03 | 银行操作指导 |
+| med pix | 6,600 | 22 | 0.21 | 争议退款机制解释 |
+| pix automático | 4,400 | 18 | 0.74 | 银行自动付款功能介绍 |
+| como gerar qr code pix nubank | 1,600 | 27 | 0.00 | 品牌银行使用教程，非独立工具意图 |
+| pix copia e cola | 880 | 26 | 0.28 | 工具相关但意图未核实 |
+
+**关键判断**：高搜索量主要集中在新闻/支付故障/银行退款/政策/银行品牌操作等意图，不能直接作为 Pix QR 生成器或 Placa Pix 的有效需求池，更不能直接相加估算工具页流量。用户粘贴的这些关键词中未见 gerador de placa pix、placa pix personalizada、placa pix para imprimir、placa pix com qr code 或 qr code pix com logo 的精确词数据。即使该领域部分知识问答词 KD 较低，也不说明 AdSense 工具站具备同等排名可得性。现阶段维持 **NOT_VALIDATED_FOR_BUILD**。
+
+公开市场验证： https://geradorplacapix.com.br/ 提供免费免注册的自定义 Placa Pix；https://pixnamao.com.br/placa-pix/ 已提供免费 PNG 并公开列有付费增强 PDF/Logo 方案，说明竞争者已提供实际工具功能，但不证明其收入或流量。
+
+**下一步数据请求（仅当继续调查该方向）**：巴西数据库 Semrush Organic Research → Pages + Positions，输入 pix-qr-code.com，提供功能页 /placa-pix 及首页的实际流量估计、非品牌词/排名 URL、总自然流量及观察日期。暂不额外查询 Pix 通用热词，不要求一次性查询 5 个 Placa Pix 词；先检查这个竞争站有没有非品牌工具页流量，若无则转向其他工具项目。
