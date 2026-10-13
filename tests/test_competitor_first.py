@@ -50,6 +50,21 @@ class CompetitorFirstTests(unittest.TestCase):
         self.assertEqual(gate(a,TODAY.date())["status"],"REJECT_INVALID_ATTRIBUTION")
         a=row();a["month"]="2025-08"
         self.assertEqual(gate(a,TODAY.date())["status"],"STALE_SOURCE_REFRESH_NEEDED")
+    def test_explicit_high_kd_user_review_blocks_repeated_serp_request(self):
+        a=row()
+        a["manual_keyword_review"]={
+            "decision":"REJECT_HIGH_KD_WEAK_ADS_NEW_SITE",
+            "reviewed_on":"2026-10-13",
+            "core_keyword":"sorteador de numeros",
+            "core_volume":74000, "core_kd":50,"core_cpc_usd":0,
+            "reason":"Brazil KD50; free randomizer alone offers poor new-site advantage.",
+            "do_not_request_more_semrush_for_same_niche":True
+        }
+        result=build({"snapshots":[a]},TODAY)
+        self.assertEqual(len(result["shortlist_for_serp_check"]),0)
+        self.assertEqual(result["others"][0]["status"],"REJECT_HIGH_KD_WEAK_ADS_NEW_SITE")
+        self.assertTrue(result["others"][0]["manual_keyword_review"]["do_not_request_more_semrush_for_same_niche"])
+
     def test_cross_market_rank_must_match_country(self):
         a=row();a["keyword_country"]="MX"
         self.assertEqual(gate(a,TODAY.date())["status"],"REJECT_INVALID_ATTRIBUTION")
@@ -59,7 +74,11 @@ class CompetitorFirstTests(unittest.TestCase):
         report=build(data,TODAY)
         self.assertEqual(report["public_evidence_count"],6)
         self.assertTrue(report["organic_traffic_numbers_are_public_provider_estimates_not_first_party"])
-        self.assertEqual([x["domain"] for x in report["shortlist_for_serp_check"]],["meloja.com.br"])
+        self.assertEqual([x["domain"] for x in report["shortlist_for_serp_check"]],[])
+        reviewed = next(x for x in report["others"] if x["domain"] == "meloja.com.br")
+        self.assertEqual(reviewed["status"], "REJECT_HIGH_KD_WEAK_ADS_NEW_SITE")
+        self.assertEqual(reviewed["manual_keyword_review"]["core_kd"], 50)
+        self.assertIn("do not re-request", markdown(report))
         self.assertIn("OVERLAPS_USER_EXISTING_SITE_NOT_NEW_PROJECT",
                       {x["status"] for x in report["others"]})
         self.assertIn("REJECT_OUTSIDE_GLOBAL_ORGANIC_TRAFFIC_TARGET",
