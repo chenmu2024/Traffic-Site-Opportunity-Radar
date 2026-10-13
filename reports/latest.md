@@ -17,14 +17,9 @@
 
 | 网站 | 开源实现参考 | 结论 |
 |---|---|---|
-| ai--content-generator.vercel.app | https://github.com/iamkanhaiyakumar/ai-content-generator | 仅发现线索：需先核实真实流量和功能 URL |
 | config.meshcentraltools.com | https://github.com/Melo-Professional/MeshCentral-config-generator | 仅发现线索：需先核实真实流量和功能 URL |
 | docgen.bodhya.net | https://github.com/fossism/bodhya-cert-generator | 仅发现线索：需先核实真实流量和功能 URL |
-| ewu-smart-routine-generator.vercel.app | https://github.com/Zahid074/EWU_Smart_Routine_Generator | 仅发现线索：需先核实真实流量和功能 URL |
 | flowmusicai.app | https://github.com/rocnubie/Awesome-AI-Websites-2026 | 仅发现线索：需先核实真实流量和功能 URL |
-| github-readme-generator-chi.vercel.app | https://github.com/devshriram/github-readme-generator | 仅发现线索：需先核实真实流量和功能 URL |
-| multi-tool-utility-web-app.vercel.app | https://github.com/Shishir-ip/Multi-Tool-Utility-Web-App | 仅发现线索：需先核实真实流量和功能 URL |
-| pypi.org | https://github.com/ndenissov/EasyProxies | 仅发现线索：需先核实真实流量和功能 URL |
 | sanjeev02.pythonanywhere.com | https://github.com/Sanjeev-Kumar78/Travel-Itinerary-Generator | 仅发现线索：需先核实真实流量和功能 URL |
 | sine-wave-generator.com | https://github.com/sebastienrousseau/sine-wave-generator | 仅发现线索：需先核实真实流量和功能 URL |
 | stringartgenerator.co | https://github.com/fjzll/StringArtGeneratorLili | 仅发现线索：需先核实真实流量和功能 URL |
