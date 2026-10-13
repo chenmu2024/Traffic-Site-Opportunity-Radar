@@ -5,15 +5,17 @@
 **结论：本模块不会把 GitHub 仓库、Stars 或主页自动判为有自然流量的站点。**
 **不要直接查本页的 Semrush：必须先核实真实工具页和非品牌排名证据。**
 
+**人工验证更新（2026-10-13）**：用户确认 Placa Pix 核心工具词搜索量不足，pix-qr-code.com 已从推荐核验名单排除；无需再查询 Pages/Positions。
+
 ## 值得先检查实际工具页的技术线索（最多5项）
 
-- [pix-qr-code.com](https://pix-qr-code.com)： [代码出处](https://github.com/ofenascimento/pix-qrcode)；阶段：**需检查实际工具页**；流量、KD、CPC均未知。 需要先确认产品与仓库确实对应，然后寻找具体非品牌排名页面。
 - [svg2vector.com](https://svg2vector.com)： [代码出处](https://github.com/a-student/SvgToVectorDrawableConverter)；阶段：**需检查实际工具页**；流量、KD、CPC均未知。 需要先确认产品与仓库确实对应，然后寻找具体非品牌排名页面。
 
 ## 其他低信号线索及过滤
 
 | 网站 | 技术线索阶段 | 原因 |
 |---|---|---|
+| pix-qr-code.com | SKIP_GITHUB_SOURCE | MANUAL_SOURCE_REVIEW_EXCLUDED：核心 Placa Pix 工具关键词经用户核实搜索量不足；不再询问 Semrush |
 | converseen.fasterland.net | LOW_PRIORITY_TECH_LEAD | SHARED_HOST_OR_SUBDOMAIN_REQUIRES_REVIEW |
 | gerador-nomes.wolan.net | LOW_PRIORITY_TECH_LEAD | SHARED_HOST_OR_SUBDOMAIN_REQUIRES_REVIEW |
 | gerador.dev.br | LOW_PRIORITY_TECH_LEAD | SHARED_HOST_OR_SUBDOMAIN_REQUIRES_REVIEW |
@@ -33,7 +35,7 @@
 
 ## 数据健康与后续动作
 
-- 本次技术线索：18；质量分层：{"TECH_LEAD_TO_INSPECT": 2, "LOW_PRIORITY_TECH_LEAD": 11, "SKIP_GITHUB_SOURCE": 5}。
+- 本次技术线索：18；质量分层：{"SKIP_GITHUB_SOURCE":6,"TECH_LEAD_TO_INSPECT":1,"LOW_PRIORITY_TECH_LEAD":11}。
 - GitHub 查询失败：0/3；所有请求失败时不会覆写历史计数。
 - 雷达观察过的不同站点累计：18（不是其 SEO 流量，也不是新词量）。
 - **何时需要 Semrush**：只有找到了具体国家的非品牌工具排名入口、目标站功能 URL，以及可初步核查的竞品后，才按国家、域名、关键词列出查询清单。
