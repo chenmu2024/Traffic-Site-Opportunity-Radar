@@ -122,13 +122,34 @@ class CompetitorFirstTests(unittest.TestCase):
         self.assertEqual(other["status"],"OVERLAPS_USER_EXISTING_SITE_NOT_NEW_PROJECT")
         self.assertIn("NOT AdSense earnings", markdown(report))
 
+    def test_brazil_dead_pixel_core_tool_ranking_has_proven_search_not_kd(self):
+        payload=json.loads((Path(__file__).resolve().parents[1]/"inputs"/"public-organic-competitors.json").read_text(encoding="utf-8"))
+        result=build(payload,TODAY)
+        px=next(x for x in result["shortlist_for_serp_check"] if x["domain"]=="deadpixeltest.org")
+        self.assertEqual(px["primary_country"],"BR")
+        self.assertEqual(px["keyword_position_public_snapshot"],2)
+        self.assertEqual(px["keyword_volume_public_snapshot"],9900)
+        self.assertEqual(px["global_monthly_organic_provider_estimate"],53460)
+        self.assertFalse(px["kd_verified"])
+        self.assertFalse(px["organic_verified_by_first_party_analytics"])
+        self.assertTrue(px["country_organic_visits_not_proven"])
+
+    def test_over_100k_organic_gamepad_comparison_not_pushed_as_site_idea(self):
+        payload=json.loads((Path(__file__).resolve().parents[1]/"inputs"/"public-organic-competitors.json").read_text(encoding="utf-8"))
+        result=build(payload,TODAY)
+        ex=next(x for x in result["others"] if x["domain"]=="gpadtester.com")
+        self.assertEqual(ex["status"],"REJECT_OUTSIDE_GLOBAL_ORGANIC_TRAFFIC_TARGET")
+        self.assertEqual(ex["global_monthly_organic_provider_estimate"],108710)
+        self.assertEqual(ex["keyword"],"gamepad tester")
+        self.assertNotIn(ex["domain"],[x["domain"] for x in result["shortlist_for_serp_check"]])
+
     def test_real_evidence_fixture_zero_unsubstantiated_sites(self):
         p=Path(__file__).resolve().parents[1]/"inputs"/"public-organic-competitors.json"
         data=json.loads(p.read_text(encoding="utf-8"))
         report=build(data,TODAY)
-        self.assertEqual(report["public_evidence_count"],13)
+        self.assertEqual(report["public_evidence_count"],15)
         self.assertTrue(report["organic_traffic_numbers_are_public_provider_estimates_not_first_party"])
-        self.assertEqual({x["domain"] for x in report["shortlist_for_serp_check"]},{"cps-check.com"})
+        self.assertEqual({x["domain"] for x in report["shortlist_for_serp_check"]},{"cps-check.com","deadpixeltest.org"})
         reviewed = next(x for x in report["others"] if x["domain"] == "meloja.com.br")
         self.assertEqual(reviewed["status"], "REJECT_HIGH_KD_WEAK_ADS_NEW_SITE")
         self.assertEqual(reviewed["manual_keyword_review"]["core_kd"], 50)
