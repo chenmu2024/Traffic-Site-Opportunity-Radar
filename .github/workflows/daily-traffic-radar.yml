@@ -41,6 +41,17 @@ jobs:
         run: |
           python -m json.tool reports/latest.json >/dev/null
           test -s reports/latest.md
+      - name: Print evidence provenance summary
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          r = json.loads(Path("reports/latest.json").read_text(encoding="utf-8"))
+          print("SERP-import candidates:", len(r["serp_candidates"]))
+          print("Unverified public GitHub homepages:", len(r["github_leads"]))
+          print("GitHub discovery query failures:", len(r["github_failures"]))
+          assert r["seo_provider_metrics_verified_automatically"] is False
+          PY
       - name: Upload independent JSON and Markdown reports
         uses: actions/upload-artifact@v4
         with:
