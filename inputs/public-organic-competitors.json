@@ -19,8 +19,43 @@
       "keyword_is_nonbrand": true,
       "tool_page_publicly_checked": true,
       "topic_overlap": false,
-      "reason": "Public Semrush rank #4 for nonbrand tool keyword. Separate interactive number drawing function exists. Competition from sorteador.com.br with 311k estimated organic, AS48; no KD or weak SERP evidence yet.",
-      "eligible_for_adverse_industry": false
+      "reason": "User's Brazil Semrush screenshot confirmed core `sorteador de numeros` Volume 74k, KD50, CPC $0 and variants KD37-49; new standalone AdSense randomizer not competitive for this radar. Global domain organic estimate doesn't represent feature URL traffic.",
+      "eligible_for_adverse_industry": false,
+      "manual_keyword_review": {
+        "reviewed_on": "2026-10-13",
+        "country": "BR",
+        "source": "User-supplied Semrush Keyword Overview screenshot (Brazil / Desktop / 2026-10-13); only summarized numerical facts retained",
+        "decision": "REJECT_HIGH_KD_WEAK_ADS_NEW_SITE",
+        "reason": "Core nonbrand tool keyword has 74,000 searches but KD50, CPC USD0; observed close-variant keyword difficulties 49/40/37/41. All five exceed radar KD35 caution threshold; competitors are mature. Not a promising NEW standalone SEO+AdSense site without a distinct competitive entry point.",
+        "core_keyword": "sorteador de numeros",
+        "core_volume": 74000,
+        "core_kd": 50,
+        "core_cpc_usd": 0,
+        "related": [
+          {
+            "keyword": "sorteador de numero",
+            "volume": 2900,
+            "kd": 49
+          },
+          {
+            "keyword": "sorteador de numeros online",
+            "volume": 2900,
+            "kd": 40
+          },
+          {
+            "keyword": "sorteador online de numeros",
+            "volume": 2400,
+            "kd": 37
+          },
+          {
+            "keyword": "sorteador de numero online",
+            "volume": 590,
+            "kd": 41
+          }
+        ],
+        "do_not_request_more_semrush_for_same_niche": true,
+        "note": "KD measures SEO difficulty; screenshot competitive density 0.33 is for paid ads, not proof of low organic competition. The 69,980 traffic estimate refers to ALL of meloja.com.br, not the randomizer tool page."
+      }
     },
     {
       "domain": "calculadorasat.com",
