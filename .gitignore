@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+.env
+.env.*
+private-evidence/
+*.log
+.DS_Store
