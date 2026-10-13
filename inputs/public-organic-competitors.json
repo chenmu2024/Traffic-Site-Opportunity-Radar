@@ -219,6 +219,95 @@
       "tool_page_publicly_checked": false,
       "topic_overlap": false,
       "reason": "Mexico leading site queries include dollars-to-pesos with rank #28 and #53; only small exact percentage arithmetic query top3 Volume1900 in public snapshot. Keyword intent/actual tool URL and usable differentiation not proven."
+    },
+    {
+      "domain": "aiming.pro",
+      "primary_country": "US",
+      "month": "2026-09",
+      "organic_global_estimated_monthly": 92530,
+      "organic_mom_change_pct": -4.74,
+      "source_url": "https://www.semrush.com/website/aiming.pro/overview/",
+      "authority_score_semrush": 40,
+      "tool_homepage": "https://aiming.pro/mouse-sensitivity-calculator",
+      "keyword": "sens converter",
+      "keyword_country": "US",
+      "keyword_position": 5,
+      "keyword_volume": 33100,
+      "keyword_cpc_usd": 5.31,
+      "keyword_is_nonbrand": true,
+      "tool_page_publicly_checked": true,
+      "topic_overlap": false,
+      "competing_tool_urls": [
+        "https://kovaaks.com/kovaaks/sens-converter",
+        "https://gamingsmart.com/",
+        "https://sensconverter.app/"
+      ],
+      "nonbrand_keyword_evidence": [
+        {
+          "keyword": "sens calculator",
+          "rank": 2,
+          "volume": 3600,
+          "cpc_usd": 0
+        },
+        {
+          "keyword": "mouse sensitivity converter",
+          "rank": 3,
+          "volume": 5400,
+          "cpc_usd": 0
+        }
+      ],
+      "reason": "September public Semrush worldwide organic estimate 92.53k; US rank #5 on sens converter 33.1k/$5.31 and independent interactive mouse conversion tool confirmed. AS40 and established rivals (Kovaaks, GamingSmart, mouse-sensitivity.com); USD5.31 keyword CPC is advertiser bid data not AdSense RPM or revenue. Weak-site SERP and KD remain unknown. Good zero-fixed-cost client-side arithmetic in principle, but conversion accuracy and FPS game yaw data must be validated."
+    },
+    {
+      "domain": "cps-check.com",
+      "primary_country": "MX",
+      "month": "2026-08",
+      "organic_global_estimated_monthly": 99240,
+      "organic_mom_change_pct": 2.5,
+      "source_url": "https://www.semrush.com/website/cps-check.com/overview/",
+      "authority_score_semrush": 41,
+      "tool_homepage": "https://cps-check.com/es/test-keyboard",
+      "keyword": "test teclado",
+      "keyword_country": "MX",
+      "keyword_position": 9,
+      "keyword_volume": 12100,
+      "keyword_cpc_usd": 0,
+      "keyword_is_nonbrand": true,
+      "tool_page_publicly_checked": true,
+      "topic_overlap": false,
+      "competing_tool_urls": [
+        "https://keyboardtestonline.com/es/",
+        "https://testdeteclado.com/",
+        "https://www.teclado.online/?lang=es"
+      ],
+      "nonbrand_keyword_evidence": [
+        {
+          "keyword": "click test",
+          "rank": 8,
+          "volume": 5400,
+          "cpc_usd": 0
+        }
+      ],
+      "reason": "August public Semrush worldwide organic estimate 99.24k, MX nonbrand test teclado 12.1k rank #9, site offers actual /es/test-keyboard. Multiple free competitors and AS41 existing site; keyword CPC zero, monetization uncertain. Existing user space clicker has adjacent gaming/key test interest, but keyboard fault diagnostics is distinct; do not modify it. KD and exact functional landing traffic unknown."
+    },
+    {
+      "domain": "topster.pt",
+      "primary_country": "BR",
+      "month": "2026-08",
+      "organic_global_estimated_monthly": 45270,
+      "organic_mom_change_pct": 22.25,
+      "source_url": "https://www.semrush.com/website/topster.pt/overview/",
+      "authority_score_semrush": 33,
+      "tool_homepage": "https://topster.pt/",
+      "keyword": "contador de horas",
+      "keyword_country": "BR",
+      "keyword_position": 4,
+      "keyword_volume": 27100,
+      "keyword_cpc_usd": 0.4,
+      "keyword_is_nonbrand": true,
+      "tool_page_publicly_checked": false,
+      "topic_overlap": true,
+      "reason": "Public BR keyword rank #4 and estimated global organic 45.27k, but hours/counting tools overlap user's calculadoradehorastrabalhadas.org project; not a new independent site candidate. Do not alter the existing production website."
     }
   ],
   "updated_on": "2026-10-13"
