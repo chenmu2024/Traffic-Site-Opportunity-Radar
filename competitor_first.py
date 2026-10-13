@@ -40,6 +40,7 @@ def gate(snapshot, today):
                         host in semrush and
                         urlparse(url).scheme == "https" and
                         domain(url) == host and day is not None and day <= today)
+    valid_provenance = valid_provenance and snapshot.get("keyword_country") == country
     if not valid_provenance or organic is None:
         state = "REJECT_INVALID_ATTRIBUTION"
     elif (today-day).days > MAX_EVIDENCE_AGE_DAYS:
