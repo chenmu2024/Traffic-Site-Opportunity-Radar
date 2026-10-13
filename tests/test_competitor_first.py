@@ -65,6 +65,22 @@ class CompetitorFirstTests(unittest.TestCase):
         self.assertEqual(result["others"][0]["status"],"REJECT_HIGH_KD_WEAK_ADS_NEW_SITE")
         self.assertTrue(result["others"][0]["manual_keyword_review"]["do_not_request_more_semrush_for_same_niche"])
 
+    def test_known_high_core_kd_hold_is_not_build_or_duplicate_data_request(self):
+        x=row()
+        x["manual_keyword_review"]={
+            "decision":"HOLD_HIGH_CORE_KD_WITHOUT_WEAK_SERP",
+            "reviewed_on":"2026-10-13","source":"User Semrush screenshot",
+            "core_keyword":"sens converter","core_volume":33100,
+            "core_kd":47,"core_cpc_usd":5.36,
+            "reason":"KD above cautious entry threshold; no weak SERP evidence.",
+            "do_not_request_same_core_kd_again":True,
+            "related":[{"keyword":"valorant sens converter","volume":1900,"kd":28}]
+        }
+        z=build({"snapshots":[x]},TODAY)
+        self.assertEqual(z["shortlist_for_serp_check"],[])
+        self.assertEqual(z["others"][0]["status"],"HOLD_HIGH_CORE_KD_WITHOUT_WEAK_SERP")
+        self.assertIn("Do NOT re-request this core KD",markdown(z))
+
     def test_cross_market_rank_must_match_country(self):
         a=row();a["keyword_country"]="MX"
         self.assertEqual(gate(a,TODAY.date())["status"],"REJECT_INVALID_ATTRIBUTION")
@@ -89,7 +105,11 @@ class CompetitorFirstTests(unittest.TestCase):
     def test_dated_competitor_sources_strictly_distinguish_cpc_from_earnings(self):
         payload=json.loads((Path(__file__).resolve().parents[1]/"inputs"/"public-organic-competitors.json").read_text(encoding="utf-8"))
         report=build(payload,TODAY)
-        fps=next(x for x in report["shortlist_for_serp_check"] if x["domain"]=="aiming.pro")
+        fps=next(x for x in report["others"] if x["domain"]=="aiming.pro")
+        self.assertEqual(fps["status"],"HOLD_HIGH_CORE_KD_WITHOUT_WEAK_SERP")
+        self.assertEqual(fps["manual_keyword_review"]["core_kd"],47)
+        self.assertEqual(fps["manual_keyword_review"]["core_cpc_usd"],5.36)
+        self.assertTrue(fps["manual_keyword_review"]["do_not_request_same_core_kd_again"])
         self.assertEqual(fps["keyword_cpc_usd_public_snapshot"],5.31)
         self.assertEqual(fps["keyword_position_public_snapshot"],5)
         self.assertIs(fps["country_organic_visits_not_proven"],True)
@@ -108,7 +128,7 @@ class CompetitorFirstTests(unittest.TestCase):
         report=build(data,TODAY)
         self.assertEqual(report["public_evidence_count"],13)
         self.assertTrue(report["organic_traffic_numbers_are_public_provider_estimates_not_first_party"])
-        self.assertEqual({x["domain"] for x in report["shortlist_for_serp_check"]},{"aiming.pro","cps-check.com"})
+        self.assertEqual({x["domain"] for x in report["shortlist_for_serp_check"]},{"cps-check.com"})
         reviewed = next(x for x in report["others"] if x["domain"] == "meloja.com.br")
         self.assertEqual(reviewed["status"], "REJECT_HIGH_KD_WEAK_ADS_NEW_SITE")
         self.assertEqual(reviewed["manual_keyword_review"]["core_kd"], 50)
