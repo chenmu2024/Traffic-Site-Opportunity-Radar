@@ -47,6 +47,8 @@ def gate(snapshot, today):
         state = "STALE_SOURCE_REFRESH_NEEDED"
     elif organic < MIN_ORGANIC_GLOBAL or organic > MAX_ORGANIC_GLOBAL:
         state = "REJECT_OUTSIDE_GLOBAL_ORGANIC_TRAFFIC_TARGET"
+    elif snapshot.get("manual_keyword_review", {}).get("decision") == "REJECT_HIGH_KD_WEAK_ADS_NEW_SITE":
+        state = "REJECT_HIGH_KD_WEAK_ADS_NEW_SITE"
     elif snapshot.get("topic_overlap"):
         state = "OVERLAPS_USER_EXISTING_SITE_NOT_NEW_PROJECT"
     elif (not snapshot.get("keyword_is_nonbrand") or
@@ -67,6 +69,7 @@ def gate(snapshot, today):
         "example_tool_url": url, "public_function_inspected": bool(snapshot.get("tool_page_publicly_checked")),
         "site_topic_overlap": bool(snapshot.get("topic_overlap")),
         "source_notes": reason,
+        "manual_keyword_review": snapshot.get("manual_keyword_review"),
         "organic_verified_by_first_party_analytics": False,
         "kd_verified": False, "serp_low_authority_verified": False,
     }
@@ -111,6 +114,15 @@ def markdown(data):
     for e in data["others"]:
         lines.append("| " + clean(e["domain"]) + " | " +
                      str(e["global_monthly_organic_provider_estimate"]) + " | " + e["status"] + " |")
+        if e["manual_keyword_review"]:
+            review = e["manual_keyword_review"]
+            lines.append("  - User reviewed: " + clean(review.get("core_keyword"), 80) +
+                         " · Volume " + str(review.get("core_volume")) +
+                         " · KD " + str(review.get("core_kd")) +
+                         " · CPC USD " + str(review.get("core_cpc_usd")) +
+                         " · " + clean(review.get("reason"), 450))
+            if review.get("do_not_request_more_semrush_for_same_niche"):
+                lines.append("  - Rejected for NEW standalone SEO+AdSense tool site; do not re-request the same Semrush keywords absent fresh counterevidence.")
     lines += ["", "## Rules",
               "- Site target: global organic estimated 10k–100k, then verify target-country traffic independently.",
               "- Do not promote domains whose ranked term is navigational, whose usable tool URL was not checked, or whose topic overlaps existing sites.",
