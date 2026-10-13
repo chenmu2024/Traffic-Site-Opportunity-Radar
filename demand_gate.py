@@ -67,7 +67,10 @@ def evaluate(candidates,metrics):
         supports=[x for x in supports if x is not None]
         support_pass=[r for r in supports if r["monthly_volume_user_supplied"]>=SUPPORT_MIN_VOLUME
                       and r["kd_user_supplied"] is not None and r["kd_user_supplied"]<=KD_LIMIT]
-        if item.get("manual_research_decision") == "HOLD_NO_MEASURABLE_CORE_SEARCH":
+        if item.get("manual_research_decision") == "REJECT_USER_REPORTED_LOW_CORE_DEMAND":
+            state="REJECT_USER_REPORTED_LOW_CORE_DEMAND"
+            action="The user checked this exact country-level tool keyword and found little demand. Do not request it again unless new independently sourced evidence justifies reopening. Volume remains UNKNOWN, not zero."
+        elif item.get("manual_research_decision") == "HOLD_NO_MEASURABLE_CORE_SEARCH":
             state="HOLD_NO_MEASURABLE_CORE_SEARCH"
             action="User checked this exact country-level core term and found no meaningful data. Do not request it again without independent new evidence; this is not a measured Volume=0."
         elif core is None:
