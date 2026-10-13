@@ -1,46 +1,52 @@
 {
-  "generated_at_utc": "2026-10-13T06:23:24.239640+00:00",
+  "generated_at_utc": "2026-10-13T06:35:47.170360+00:00",
   "market": "SEO_TRAFFIC_TOOLS_NOT_SAAS",
-  "public_evidence_count": 15,
+  "public_evidence_count": 18,
   "shortlist_for_serp_check": [
     {
-      "domain": "deadpixeltest.org",
-      "primary_country": "BR",
+      "domain": "onlinegiftools.com",
+      "primary_country": "US",
       "status": "PUBLIC_ORGANIC_AND_NONBRAND_TOOL_EVIDENCE_REVIEW_SERP",
-      "source_url": "https://www.semrush.com/website/deadpixeltest.org/overview/",
+      "source_url": "https://www.semrush.com/website/onlinegiftools.com/overview/",
       "source_month": "2026-08",
-      "global_monthly_organic_provider_estimate": 53460,
+      "global_monthly_organic_provider_estimate": 62260,
       "country_organic_visits_not_proven": true,
-      "keyword": "dead pixel test",
-      "keyword_country": "BR",
+      "keyword": "remove background from gif",
+      "keyword_country": "US",
       "keyword_position_public_snapshot": 2,
-      "keyword_volume_public_snapshot": 9900.0,
+      "keyword_volume_public_snapshot": 22200.0,
       "nonbrand_manual": true,
-      "example_tool_url": "https://deadpixeltest.org/",
+      "example_tool_url": "https://onlinegiftools.com/remove-gif-background",
       "public_function_inspected": true,
       "site_topic_overlap": false,
-      "organic_mom_change_pct": 14.16,
+      "organic_mom_change_pct": 0.36,
       "ad_monetization_policy_risk": false,
-      "source_notes": "Aug 2026 public Semrush worldwide estimated organic 53.46k (+14.16%), AS38; BR nonbrand `dead pixel test` rank2 / Volume9,900 / CPC0 and two functional variations rank2-3. Confirmed actual full-screen color-cycle browser utility plus repair / resolution / contrast tools. Incumbents have comparable functionality, no independently verified weak SERP and no KD; CPC0 limits AdSense assumption. Need only BR core keyword KD and top10 competitor evidence before proceeding.",
+      "source_notes": "Aug 2026 Semrush estimated GLOBAL site organic traffic 62.26k/month (+0.36%); US nonbrand `remove background from gif` #2 Volume22.2k CPC USD1.37. Actual GIF color-key removal across animated frames exists. Competing ezgif.com established and other client-side GIF tools; GIF palette/transparency/dithering and preserving frame timing are nontrivial. Country organic, specific landing traffic, KD, weak SERP and actual AdSense revenue UNKNOWN. No server-processing costs are assumed; simple local color-key algorithm feasible but AI complex-background segmentation may have model/data/CPU costs.",
       "manual_keyword_review": null,
       "authority_score_semrush": 38,
-      "keyword_cpc_usd_public_snapshot": 0,
+      "keyword_cpc_usd_public_snapshot": 1.37,
       "competing_tool_urls": [
-        "https://deadpixeltest.com/",
-        "https://deadpixeltester.com/pt",
-        "https://pixeltest.net/pt/monitor-screen-test"
+        "https://ezgif.com/remove-background",
+        "https://animgen.com/tools/gif-background-remover",
+        "https://onlinegiftools.com/remove-gif-chroma-key"
       ],
       "other_ranked_keyword_examples": [
         {
-          "keyword": "checking dead pixels",
+          "keyword": "gif background remover",
           "rank": 2,
-          "volume": 5400,
+          "volume": 6600,
+          "cpc_usd": 1.48
+        },
+        {
+          "keyword": "transparent gif",
+          "rank": 1,
+          "volume": 2900,
           "cpc_usd": 0
         },
         {
-          "keyword": "dead pixel detector",
-          "rank": 3,
-          "volume": 4400,
+          "keyword": "blur image gif",
+          "rank": 1,
+          "volume": 3600,
           "cpc_usd": 0
         }
       ],
@@ -518,6 +524,80 @@
       "serp_low_authority_verified": false
     },
     {
+      "domain": "deadpixeltest.org",
+      "primary_country": "BR",
+      "status": "REJECT_HIGH_KD_WITHOUT_WEAK_SERP",
+      "source_url": "https://www.semrush.com/website/deadpixeltest.org/overview/",
+      "source_month": "2026-08",
+      "global_monthly_organic_provider_estimate": 53460,
+      "country_organic_visits_not_proven": true,
+      "keyword": "dead pixel test",
+      "keyword_country": "BR",
+      "keyword_position_public_snapshot": 2,
+      "keyword_volume_public_snapshot": 9900.0,
+      "nonbrand_manual": true,
+      "example_tool_url": "https://deadpixeltest.org/",
+      "public_function_inspected": true,
+      "site_topic_overlap": false,
+      "organic_mom_change_pct": 14.16,
+      "ad_monetization_policy_risk": false,
+      "source_notes": "Aug 2026 public Semrush worldwide estimated organic 53.46k (+14.16%), AS38; BR nonbrand `dead pixel test` rank2 / Volume9,900 / CPC0 and two functional variations rank2-3. Confirmed actual full-screen color-cycle browser utility plus repair / resolution / contrast tools. Incumbents have comparable functionality, no independently verified weak SERP and no KD; CPC0 limits AdSense assumption. Need only BR core keyword KD and top10 competitor evidence before proceeding.",
+      "manual_keyword_review": {
+        "decision": "REJECT_HIGH_KD_WITHOUT_WEAK_SERP",
+        "reviewed_on": "2026-10-13",
+        "country": "BR",
+        "source": "User-provided Semrush desktop Keyword Overview screenshot, Brazil and United States (2026-10-13)",
+        "core_keyword": "dead pixel test",
+        "core_volume": 9900,
+        "core_kd": 62,
+        "core_cpc_usd": 0,
+        "us_same_keyword_reference": {
+          "country": "US",
+          "volume": 8100,
+          "kd": 26,
+          "cpc_usd": 0
+        },
+        "br_related_keywords": [
+          {
+            "keyword": "teste dead pixel",
+            "volume": 2900,
+            "kd": 19
+          },
+          {
+            "keyword": "teste de dead pixel",
+            "volume": 1300,
+            "kd": 30
+          }
+        ],
+        "reason": "User confirmed Brazilian dead pixel test KD62, above the low-difficulty threshold. US KD26 and Volume8100 is a different market, not evidence of the existing domain ranking in US or of fit on geometrydashspam.cc. The current candidate (BR) is rejected, and it must not trigger repeated Semrush checks.",
+        "do_not_request_same_core_kd_again": true
+      },
+      "authority_score_semrush": 38,
+      "keyword_cpc_usd_public_snapshot": 0,
+      "competing_tool_urls": [
+        "https://deadpixeltest.com/",
+        "https://deadpixeltester.com/pt",
+        "https://pixeltest.net/pt/monitor-screen-test"
+      ],
+      "other_ranked_keyword_examples": [
+        {
+          "keyword": "checking dead pixels",
+          "rank": 2,
+          "volume": 5400,
+          "cpc_usd": 0
+        },
+        {
+          "keyword": "dead pixel detector",
+          "rank": 3,
+          "volume": 4400,
+          "cpc_usd": 0
+        }
+      ],
+      "organic_verified_by_first_party_analytics": false,
+      "kd_verified": false,
+      "serp_low_authority_verified": false
+    },
+    {
       "domain": "gpadtester.com",
       "primary_country": "BR",
       "status": "REJECT_OUTSIDE_GLOBAL_ORGANIC_TRAFFIC_TARGET",
@@ -568,6 +648,103 @@
           "rank": 3,
           "volume": 6600,
           "cpc_usd": 0
+        }
+      ],
+      "organic_verified_by_first_party_analytics": false,
+      "kd_verified": false,
+      "serp_low_authority_verified": false
+    },
+    {
+      "domain": "onlinetools.com",
+      "primary_country": "US",
+      "status": "HOLD_SATURATED_COMMODITY_TOOL_NO_MOAT",
+      "source_url": "https://www.semrush.com/website/onlinetools.com/overview/",
+      "source_month": "2026-08",
+      "global_monthly_organic_provider_estimate": 61840,
+      "country_organic_visits_not_proven": true,
+      "keyword": "image pixelator",
+      "keyword_country": "US",
+      "keyword_position_public_snapshot": 3,
+      "keyword_volume_public_snapshot": 6600.0,
+      "nonbrand_manual": true,
+      "example_tool_url": "https://onlinetools.com/image/pixelate-image",
+      "public_function_inspected": true,
+      "site_topic_overlap": false,
+      "organic_mom_change_pct": 0.05,
+      "ad_monetization_policy_risk": false,
+      "source_notes": "Aug 2026 Semrush worldwide site organic 61.84k, US image pixelator #3 Volume6600 CPC1.60, real tool supports pixelation areas and exports. Established Browserling family site AS43 with ~3120 referring domains; competing free client-local tools common. Secondary benchmark only, NOT a priority Semrush request.",
+      "manual_keyword_review": {
+        "decision": "HOLD_SATURATED_COMMODITY_TOOL_NO_MOAT",
+        "reviewed_on": "2026-10-13",
+        "reason": "Core US phrase is only 6600 searches, incumbent AS43 and roughly 3.12k referring domains, while many free independently hosted pixelation tools already exist; no weak top10 SERP or proven conversion advantage. Do not request KD yet."
+      },
+      "authority_score_semrush": 43,
+      "keyword_cpc_usd_public_snapshot": 1.6,
+      "competing_tool_urls": [
+        "https://imagepixelate.com/",
+        "https://pixelateimages.com/pixelate-image/",
+        "https://imagepixel.net/pixelate-image"
+      ],
+      "other_ranked_keyword_examples": [
+        {
+          "keyword": "online tools",
+          "rank": 1,
+          "volume": 1300,
+          "cpc_usd": 3.68
+        }
+      ],
+      "organic_verified_by_first_party_analytics": false,
+      "kd_verified": false,
+      "serp_low_authority_verified": false
+    },
+    {
+      "domain": "onlinetexttools.com",
+      "primary_country": "US",
+      "status": "HOLD_SATURATED_COMMODITY_TOOL_NO_MOAT",
+      "source_url": "https://www.semrush.com/website/onlinetexttools.com/overview/",
+      "source_month": "2026-08",
+      "global_monthly_organic_provider_estimate": 85070,
+      "country_organic_visits_not_proven": true,
+      "keyword": "morse code generator",
+      "keyword_country": "US",
+      "keyword_position_public_snapshot": 2,
+      "keyword_volume_public_snapshot": 12100.0,
+      "nonbrand_manual": true,
+      "example_tool_url": "https://onlinetexttools.com/convert-text-to-morse",
+      "public_function_inspected": true,
+      "site_topic_overlap": false,
+      "organic_mom_change_pct": 10.6,
+      "ad_monetization_policy_risk": false,
+      "source_notes": "Aug 2026 Semrush global organic 85.07k (+10.6%); US nonbrand `morse code generator` rank2 Volume12100 CPC0.38, `morse code converter` rank2 Volume8100 CPC1.56. Real browser text-to-Morse page exists, but the generic 'morse code' 550k is informational and distinct from generator demand. High established competition and small possible AdSense upside; no further Semrush requested.",
+      "manual_keyword_review": {
+        "decision": "HOLD_SATURATED_COMMODITY_TOOL_NO_MOAT",
+        "reviewed_on": "2026-10-13",
+        "reason": "Morse code conversions are inexpensive and already offered by longstanding specialized tools; the public site has AS41 and around 1150 referring domains. Distinct weak entrants and complete site monetization not established, so not worth asking the user for KD ahead of GIF."
+      },
+      "authority_score_semrush": 41,
+      "keyword_cpc_usd_public_snapshot": 0.38,
+      "competing_tool_urls": [
+        "https://morsecode.world/international/translator.html",
+        "https://onlinetexttools.com/convert-text-to-morse"
+      ],
+      "other_ranked_keyword_examples": [
+        {
+          "keyword": "morse code converter",
+          "rank": 2,
+          "volume": 8100,
+          "cpc_usd": 1.56
+        },
+        {
+          "keyword": "morse code",
+          "rank": 5,
+          "volume": 550000,
+          "cpc_usd": 0.81
+        },
+        {
+          "keyword": "morse code translator",
+          "rank": 18,
+          "volume": 201000,
+          "cpc_usd": 1.56
         }
       ],
       "organic_verified_by_first_party_analytics": false,

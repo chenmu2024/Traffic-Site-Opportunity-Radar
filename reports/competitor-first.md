@@ -6,13 +6,13 @@
 
 ## Functional competitors that qualify for SERP inspection only
 
-### deadpixeltest.org · BR
-- Public global organic estimate: 53460 / month (2026-08)
-- Country keyword: dead pixel test · rank #2 · Volume 9900.0 (public provider snapshot).
-- Browser tool URL: https://deadpixeltest.org/
-- Source: https://www.semrush.com/website/deadpixeltest.org/overview/
-- CPC (provider keyword snapshot): USD 0; NOT AdSense earnings; estimated all-domain organic traffic is NOT exact tool traffic.
-- Existing competition to inspect: https://deadpixeltest.com/, https://deadpixeltester.com/pt, https://pixeltest.net/pt/monitor-screen-test
+### onlinegiftools.com · US
+- Public global organic estimate: 62260 / month (2026-08)
+- Country keyword: remove background from gif · rank #2 · Volume 22200.0 (public provider snapshot).
+- Browser tool URL: https://onlinegiftools.com/remove-gif-background
+- Source: https://www.semrush.com/website/onlinegiftools.com/overview/
+- CPC (provider keyword snapshot): USD 1.37; NOT AdSense earnings; estimated all-domain organic traffic is NOT exact tool traffic.
+- Existing competition to inspect: https://ezgif.com/remove-background, https://animgen.com/tools/gif-background-remover, https://onlinegiftools.com/remove-gif-chroma-key
 - Next step: Inspect SAME-COUNTRY current KD and actual top-10 SERP (weak sites?), separate tool page traffic, competitive differentiation and AdSense economics. Do not open a new domain yet.
 
 ### cps-check.com · MX
@@ -44,7 +44,17 @@
   - User reviewed: sens converter · Volume 33100 · KD 47 · CPC USD 5.36 · 
   - User confirmed core KD 47 and CPC USD 5.36; HOLD standalone new-site effort. Do NOT re-request this core KD or low-volume variants without independent new SERP evidence.
 | topster.pt | 45270 | OVERLAPS_USER_EXISTING_SITE_NOT_NEW_PROJECT |
+| deadpixeltest.org | 53460 | REJECT_HIGH_KD_WITHOUT_WEAK_SERP |
+  - User reviewed: dead pixel test · Volume 9900 · KD 62 · CPC USD 0 · User confirmed Brazilian dead pixel test KD62, above the low-difficulty threshold. US KD26 and Volume8100 is a different market, not evidence of the existing domain ranking in US or of fit on geometrydashspam.cc. The current candidate (BR) is rejected, and it must not trigger repeated Semrush checks.
+  - User confirmed core KD 62 and CPC USD 0; HOLD standalone new-site effort. Do NOT re-request this core KD or low-volume variants without independent new SERP evidence.
+  - Manual research: User confirmed Brazilian dead pixel test KD62, above the low-difficulty threshold. US KD26 and Volume8100 is a different market, not evidence of the existing domain ranking in US or of fit on geometrydashspam.cc. The current candidate (BR) is rejected, and it must not trigger repeated Semrush checks.
 | gpadtester.com | 108710 | REJECT_OUTSIDE_GLOBAL_ORGANIC_TRAFFIC_TARGET |
+| onlinetools.com | 61840 | HOLD_SATURATED_COMMODITY_TOOL_NO_MOAT |
+  - User reviewed:  · Volume None · KD None · CPC USD None · Core US phrase is only 6600 searches, incumbent AS43 and roughly 3.12k referring domains, while many free independently hosted pixelation tools already exist; no weak top10 SERP or proven conversion advantage. Do not request KD yet.
+  - Manual research: Core US phrase is only 6600 searches, incumbent AS43 and roughly 3.12k referring domains, while many free independently hosted pixelation tools already exist; no weak top10 SERP or proven conversion advantage. Do not request KD yet.
+| onlinetexttools.com | 85070 | HOLD_SATURATED_COMMODITY_TOOL_NO_MOAT |
+  - User reviewed:  · Volume None · KD None · CPC USD None · Morse code conversions are inexpensive and already offered by longstanding specialized tools; the public site has AS41 and around 1150 referring domains. Distinct weak entrants and complete site monetization not established, so not worth asking the user for KD ahead of GIF.
+  - Manual research: Morse code conversions are inexpensive and already offered by longstanding specialized tools; the public site has AS41 and around 1150 referring domains. Distinct weak entrants and complete site monetization not established, so not worth asking the user for KD ahead of GIF.
 
 ## Rules
 - Site target: global organic estimated 10k–100k, then verify target-country traffic independently.
