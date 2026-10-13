@@ -6,16 +6,6 @@
 
 ## Functional competitors that qualify for SERP inspection only
 
-### onlinegiftools.com · US
-- Public global organic estimate: 62260 / month (2026-08)
-- Country keyword: remove background from gif · rank #2 · Volume 22200.0 (public provider snapshot).
-- Browser tool URL: https://onlinegiftools.com/remove-gif-background
-- Source: https://www.semrush.com/website/onlinegiftools.com/overview/
-- CPC (provider keyword snapshot): USD 1.37; NOT AdSense earnings; estimated all-domain organic traffic is NOT exact tool traffic.
-- Existing competition to inspect: https://ezgif.com/remove-background, https://animgen.com/tools/gif-background-remover, https://onlinegiftools.com/remove-gif-chroma-key
-- User Semrush 2026-10-13: Core country Volume 33100 · KD 37 · CPC USD 1.73 (separate from older public Semrush site snapshot). DO NOT request Volume or KD again.
-- Next step: ONLY independent Top10 SERP URLs and ranking-site authority/links; check whether a realistic weak entry exists. Do not build or search low-volume variants now.
-
 ### cps-check.com · MX
 - Public global organic estimate: 99240 / month (2026-08)
 - Country keyword: test teclado · rank #9 · Volume 12100.0 (public provider snapshot).
@@ -51,6 +41,12 @@
   - User confirmed core KD 62 and CPC USD 0; HOLD standalone new-site effort. Do NOT re-request this core KD or low-volume variants without independent new SERP evidence.
   - Manual research: User confirmed Brazilian dead pixel test KD62, above the low-difficulty threshold. US KD26 and Volume8100 is a different market, not evidence of the existing domain ranking in US or of fit on geometrydashspam.cc. The current candidate (BR) is rejected, and it must not trigger repeated Semrush checks.
 | gpadtester.com | 108710 | REJECT_OUTSIDE_GLOBAL_ORGANIC_TRAFFIC_TARGET |
+| onlinegiftools.com | 62260 | HOLD_MIXED_SERP_NO_DIFFERENTIATED_ENTRY |
+  - Real SERP user screenshot 2026-10-13: top 10 URLs with PAGE-level AS and referring domains recorded; strong linked tools occupy #1/#2, one low-link independent tool page at #8. No domain-strength or traffic guarantee.
+  - SERP conclusion: HOLD_MIXED_SERP_NO_DIFFERENTIATED_ENTRY. Top10 is mixed, with one low-linked indie browser-tool page at #8, but it is functional and supported by a broader AI content product. No proven product/AdSense acquisition moat for zero-fixed-cost independent site. HOLD research, no build, no further manual keyword/SERP requests without new independent evidence.
+  - All requested US keyword Volume/KD/CPC and SERP Top10 data already received. DO NOT ask user for the same results again; no standalone site build approved.
+  - User reviewed: remove background from gif · Volume 33100 · KD 37 · CPC USD 1.73 · 
+  - User confirmed core KD 37 and CPC USD 1.73; HOLD standalone new-site effort. Do NOT re-request this core KD or low-volume variants without independent new SERP evidence.
 | onlinetools.com | 61840 | HOLD_SATURATED_COMMODITY_TOOL_NO_MOAT |
   - User reviewed:  · Volume None · KD None · CPC USD None · Core US phrase is only 6600 searches, incumbent AS43 and roughly 3.12k referring domains, while many free independently hosted pixelation tools already exist; no weak top10 SERP or proven conversion advantage. Do not request KD yet.
   - Manual research: Core US phrase is only 6600 searches, incumbent AS43 and roughly 3.12k referring domains, while many free independently hosted pixelation tools already exist; no weak top10 SERP or proven conversion advantage. Do not request KD yet.

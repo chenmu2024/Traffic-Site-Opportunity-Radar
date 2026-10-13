@@ -1,111 +1,8 @@
 {
-  "generated_at_utc": "2026-10-13T07:28:24.127409+00:00",
+  "generated_at_utc": "2026-10-13T07:36:41.686543+00:00",
   "market": "SEO_TRAFFIC_TOOLS_NOT_SAAS",
   "public_evidence_count": 18,
   "shortlist_for_serp_check": [
-    {
-      "domain": "onlinegiftools.com",
-      "primary_country": "US",
-      "status": "BORDERLINE_KD_SERP_ONLY",
-      "source_url": "https://www.semrush.com/website/onlinegiftools.com/overview/",
-      "source_month": "2026-08",
-      "global_monthly_organic_provider_estimate": 62260,
-      "country_organic_visits_not_proven": true,
-      "keyword": "remove background from gif",
-      "keyword_country": "US",
-      "keyword_position_public_snapshot": 2,
-      "keyword_volume_public_snapshot": 22200.0,
-      "nonbrand_manual": true,
-      "example_tool_url": "https://onlinegiftools.com/remove-gif-background",
-      "public_function_inspected": true,
-      "site_topic_overlap": false,
-      "organic_mom_change_pct": 0.36,
-      "ad_monetization_policy_risk": false,
-      "source_notes": "2026-10-13 user Semrush USA desktop keyword: remove background from gif Volume33.1k, KD37, CPC$1.73 vs older Aug site public keyword Volume22.2k/CPC$1.37. KD slightly above preferred35, longtails small/KD36-49, mature free competitors incl Ezgif, AnimGen and browser-model tools; shortlist SERP ONLY, no standalone build until weak competitive top10 and ad economics demonstrated.",
-      "manual_keyword_review": {
-        "decision": "BORDERLINE_KD_37_SERP_ONLY",
-        "reviewed_on": "2026-10-13",
-        "country": "US",
-        "device": "DESKTOP",
-        "source": "User-provided Semrush Keyword Overview screenshot 2026-10-13",
-        "core_keyword": "remove background from gif",
-        "core_volume": 33100,
-        "core_kd": 37,
-        "core_cpc_usd": 1.73,
-        "worldwide_search_volume_for_keyword": 50700,
-        "paid_competition_density": 0.04,
-        "related": [
-          {
-            "keyword": "remove background from a gif",
-            "volume": 880,
-            "kd": 47
-          },
-          {
-            "keyword": "remove background from animated gif",
-            "volume": 590,
-            "kd": 49
-          },
-          {
-            "keyword": "remove white background from gif",
-            "volume": 590,
-            "kd": 40
-          },
-          {
-            "keyword": "how to remove background from gif",
-            "volume": 320,
-            "kd": 36
-          }
-        ],
-        "commercial_intent_field_missing": true,
-        "observed_trend_note": "Screenshot shows recent apparent surge in monthly search estimates, but month-label detail is insufficient to confirm seasonality or sustained organic demand.",
-        "source_period_separation": "Public competitor Sep 2026 report has US Volume22,200/CPC1.37 vs user Oct13 screenshot US Volume33,100/CPC1.73; retain both instead of treating as the same date.",
-        "competitive_source_urls": [
-          "https://ezgif.com/remove-background",
-          "https://animgen.com/tools/gif-background-remover",
-          "https://snaplytics.io/tools/gif-background-remover/",
-          "https://onlinegiftools.com/remove-gif-background"
-        ],
-        "observed_market_friction": "Mature competing tools already offer background color removal, border/edge-cleaning, local client-side processing and AI segmentation. A basic color-key converter lacks proven differentiation.",
-        "exact_next_step": "Optional one SERP Analysis screenshot of United States `remove background from gif` top10 URLs, ranking-domain AS/referring domains, if SERP weakness cannot be independently determined. Do NOT re-request Volume/KD.",
-        "do_not_request_same_core_kd_again": true,
-        "do_not_request_related_terms_now": true,
-        "stand_alone_build_approved": false
-      },
-      "current_user_supplied_volume": 33100,
-      "current_user_supplied_kd": 37,
-      "current_user_supplied_cpc_usd": 1.73,
-      "manual_kd_review_source": "User-provided Semrush Keyword Overview screenshot 2026-10-13",
-      "authority_score_semrush": 38,
-      "keyword_cpc_usd_public_snapshot": 1.37,
-      "competing_tool_urls": [
-        "https://ezgif.com/remove-background",
-        "https://animgen.com/tools/gif-background-remover",
-        "https://onlinegiftools.com/remove-gif-chroma-key"
-      ],
-      "other_ranked_keyword_examples": [
-        {
-          "keyword": "gif background remover",
-          "rank": 2,
-          "volume": 6600,
-          "cpc_usd": 1.48
-        },
-        {
-          "keyword": "transparent gif",
-          "rank": 1,
-          "volume": 2900,
-          "cpc_usd": 0
-        },
-        {
-          "keyword": "blur image gif",
-          "rank": 1,
-          "volume": 3600,
-          "cpc_usd": 0
-        }
-      ],
-      "organic_verified_by_first_party_analytics": false,
-      "kd_verified": false,
-      "serp_low_authority_verified": false
-    },
     {
       "domain": "cps-check.com",
       "primary_country": "MX",
@@ -126,6 +23,9 @@
       "ad_monetization_policy_risk": false,
       "source_notes": "August public Semrush worldwide organic estimate 99.24k, MX nonbrand test teclado 12.1k rank #9, site offers actual /es/test-keyboard. Multiple free competitors and AS41 existing site; keyword CPC zero, monetization uncertain. Existing user space clicker has adjacent gaming/key test interest, but keyboard fault diagnostics is distinct; do not modify it. KD and exact functional landing traffic unknown.",
       "manual_keyword_review": null,
+      "manual_serp_review": null,
+      "serp_review_completed": false,
+      "serp_low_link_indie_page_at_position_8_only": false,
       "current_user_supplied_volume": null,
       "current_user_supplied_kd": null,
       "current_user_supplied_cpc_usd": null,
@@ -205,6 +105,9 @@
         "do_not_request_more_semrush_for_same_niche": true,
         "note": "KD measures SEO difficulty; screenshot competitive density 0.33 is for paid ads, not proof of low organic competition. The 69,980 traffic estimate refers to ALL of meloja.com.br, not the randomizer tool page."
       },
+      "manual_serp_review": null,
+      "serp_review_completed": false,
+      "serp_low_link_indie_page_at_position_8_only": false,
       "current_user_supplied_volume": 74000,
       "current_user_supplied_kd": 50,
       "current_user_supplied_cpc_usd": 0,
@@ -237,6 +140,9 @@
       "ad_monetization_policy_risk": false,
       "source_notes": "Mexican SAT/IVA tool overlaps user's current Mexico tax projects; use as possible reference for improving existing site, NOT a new independent project. Other high traffic currency conversion queries also observed.",
       "manual_keyword_review": null,
+      "manual_serp_review": null,
+      "serp_review_completed": false,
+      "serp_low_link_indie_page_at_position_8_only": false,
       "current_user_supplied_volume": null,
       "current_user_supplied_kd": null,
       "current_user_supplied_cpc_usd": null,
@@ -269,6 +175,9 @@
       "ad_monetization_policy_risk": false,
       "source_notes": "Overlaps user's existing Brazilian/Spanish nick, username and fonts domains; not a fresh independent traffic-site candidate.",
       "manual_keyword_review": null,
+      "manual_serp_review": null,
+      "serp_review_completed": false,
+      "serp_low_link_indie_page_at_position_8_only": false,
       "current_user_supplied_volume": null,
       "current_user_supplied_kd": null,
       "current_user_supplied_cpc_usd": null,
@@ -301,6 +210,9 @@
       "ad_monetization_policy_risk": false,
       "source_notes": "Mexican payroll and wage-calculator area overlaps user's current Spanish payroll/business tools; no independently checked specific tool URL. Should not present as new SaaS or traffic-site candidate.",
       "manual_keyword_review": null,
+      "manual_serp_review": null,
+      "serp_review_completed": false,
+      "serp_low_link_indie_page_at_position_8_only": false,
       "current_user_supplied_volume": null,
       "current_user_supplied_kd": null,
       "current_user_supplied_cpc_usd": null,
@@ -333,6 +245,9 @@
       "ad_monetization_policy_risk": false,
       "source_notes": "Public nonbrand keyword evidence but domain global organic estimate is below the required 10k minimum, and precise ranking landing page not confirmed.",
       "manual_keyword_review": null,
+      "manual_serp_review": null,
+      "serp_review_completed": false,
+      "serp_low_link_indie_page_at_position_8_only": false,
       "current_user_supplied_volume": null,
       "current_user_supplied_kd": null,
       "current_user_supplied_cpc_usd": null,
@@ -365,6 +280,9 @@
       "ad_monetization_policy_risk": false,
       "source_notes": "Previously checked in user's Semrush and keyword is navigational/brand-like; no independently verified nonbrand tool page. Domain traffic alone does not qualify.",
       "manual_keyword_review": null,
+      "manual_serp_review": null,
+      "serp_review_completed": false,
+      "serp_low_link_indie_page_at_position_8_only": false,
       "current_user_supplied_volume": null,
       "current_user_supplied_kd": null,
       "current_user_supplied_cpc_usd": null,
@@ -397,6 +315,9 @@
       "ad_monetization_policy_risk": false,
       "source_notes": "Third-party global organic estimate fell ~76% month-on-month to 16.02k; US exact clock phrases have low search volumes. Total website visits 11.27k, not equal to organic traffic. Do not ask for Semrush.",
       "manual_keyword_review": null,
+      "manual_serp_review": null,
+      "serp_review_completed": false,
+      "serp_low_link_indie_page_at_position_8_only": false,
       "current_user_supplied_volume": null,
       "current_user_supplied_kd": null,
       "current_user_supplied_cpc_usd": null,
@@ -429,6 +350,9 @@
       "ad_monetization_policy_risk": true,
       "source_notes": "YouTube downloader/audio extraction may involve copyrighted media and raises AdSense and platform-policy due-diligence issues; NOT a low-risk AdSense browser utility. No claim the service is inherently illegal.",
       "manual_keyword_review": null,
+      "manual_serp_review": null,
+      "serp_review_completed": false,
+      "serp_low_link_indie_page_at_position_8_only": false,
       "current_user_supplied_volume": null,
       "current_user_supplied_kd": null,
       "current_user_supplied_cpc_usd": null,
@@ -461,6 +385,9 @@
       "ad_monetization_policy_risk": false,
       "source_notes": "55k is entire electronic components retail domain organic; much of shown top ranking is brand/navigation. The nonbrand converter keyword is 1.9k monthly and specific functional URL is unverified. This does not justify a separate utility site.",
       "manual_keyword_review": null,
+      "manual_serp_review": null,
+      "serp_review_completed": false,
+      "serp_low_link_indie_page_at_position_8_only": false,
       "current_user_supplied_volume": null,
       "current_user_supplied_kd": null,
       "current_user_supplied_cpc_usd": null,
@@ -493,6 +420,9 @@
       "ad_monetization_policy_risk": false,
       "source_notes": "Mexico leading site queries include dollars-to-pesos with rank #28 and #53; only small exact percentage arithmetic query top3 Volume1900 in public snapshot. Keyword intent/actual tool URL and usable differentiation not proven.",
       "manual_keyword_review": null,
+      "manual_serp_review": null,
+      "serp_review_completed": false,
+      "serp_low_link_indie_page_at_position_8_only": false,
       "current_user_supplied_volume": null,
       "current_user_supplied_kd": null,
       "current_user_supplied_cpc_usd": null,
@@ -566,6 +496,9 @@
         "do_not_request_related_terms_now": true,
         "next_step": "HOLD independent new-site build; look for stronger sourced lower-KD nonbrand tool opportunities. Reopen only if new independent SERP evidence demonstrates a realistic gap."
       },
+      "manual_serp_review": null,
+      "serp_review_completed": false,
+      "serp_low_link_indie_page_at_position_8_only": false,
       "current_user_supplied_volume": 33100,
       "current_user_supplied_kd": 47,
       "current_user_supplied_cpc_usd": 5.36,
@@ -615,6 +548,9 @@
       "ad_monetization_policy_risk": false,
       "source_notes": "Public BR keyword rank #4 and estimated global organic 45.27k, but hours/counting tools overlap user's calculadoradehorastrabalhadas.org project; not a new independent site candidate. Do not alter the existing production website.",
       "manual_keyword_review": null,
+      "manual_serp_review": null,
+      "serp_review_completed": false,
+      "serp_low_link_indie_page_at_position_8_only": false,
       "current_user_supplied_volume": null,
       "current_user_supplied_kd": null,
       "current_user_supplied_cpc_usd": null,
@@ -676,6 +612,9 @@
         "reason": "User confirmed Brazilian dead pixel test KD62, above the low-difficulty threshold. US KD26 and Volume8100 is a different market, not evidence of the existing domain ranking in US or of fit on geometrydashspam.cc. The current candidate (BR) is rejected, and it must not trigger repeated Semrush checks.",
         "do_not_request_same_core_kd_again": true
       },
+      "manual_serp_review": null,
+      "serp_review_completed": false,
+      "serp_low_link_indie_page_at_position_8_only": false,
       "current_user_supplied_volume": 9900,
       "current_user_supplied_kd": 62,
       "current_user_supplied_cpc_usd": 0,
@@ -725,6 +664,9 @@
       "ad_monetization_policy_risk": false,
       "source_notes": "Public Semrush Aug organic global 108.71k (+6.23%) and AS26, just ABOVE strict 100k target. BR nonbrand gamepad tester #3 Volume33,100; associated test terms. Actual online Gamepad API tool confirmed. Nearby over-cap competitor is an evidence benchmark only, not a 10k–100k candidate. Competing free tools offer drift/circularity, vibration and latency. CPC0 and browser-only inputs, no proven new-entrant organic access.",
       "manual_keyword_review": null,
+      "manual_serp_review": null,
+      "serp_review_completed": false,
+      "serp_low_link_indie_page_at_position_8_only": false,
       "current_user_supplied_volume": null,
       "current_user_supplied_kd": null,
       "current_user_supplied_cpc_usd": null,
@@ -767,6 +709,247 @@
       "serp_low_authority_verified": false
     },
     {
+      "domain": "onlinegiftools.com",
+      "primary_country": "US",
+      "status": "HOLD_MIXED_SERP_NO_DIFFERENTIATED_ENTRY",
+      "source_url": "https://www.semrush.com/website/onlinegiftools.com/overview/",
+      "source_month": "2026-08",
+      "global_monthly_organic_provider_estimate": 62260,
+      "country_organic_visits_not_proven": true,
+      "keyword": "remove background from gif",
+      "keyword_country": "US",
+      "keyword_position_public_snapshot": 2,
+      "keyword_volume_public_snapshot": 22200.0,
+      "nonbrand_manual": true,
+      "example_tool_url": "https://onlinegiftools.com/remove-gif-background",
+      "public_function_inspected": true,
+      "site_topic_overlap": false,
+      "organic_mom_change_pct": 0.36,
+      "ad_monetization_policy_risk": false,
+      "source_notes": "USA 2026-10-13 keyword Volume33.1k KD37 CPC1.73. User supplied full Top10 SERP; Ezgif & OnlineGIFTools strong page link profiles 366/357 referring domains, #4 Adworker AI paid-credit and #8 animatephoto.io browser-local AI GIF tool appears with one page-level referring domain. Page AS0 does not prove low domain strength. GIF niche has an entry signal but no demonstrated new-site moat or Ads unit economics; HOLD without further Semrush requests.",
+      "manual_keyword_review": {
+        "decision": "BORDERLINE_KD_37_SERP_ONLY",
+        "reviewed_on": "2026-10-13",
+        "country": "US",
+        "device": "DESKTOP",
+        "source": "User-provided Semrush Keyword Overview screenshot 2026-10-13",
+        "core_keyword": "remove background from gif",
+        "core_volume": 33100,
+        "core_kd": 37,
+        "core_cpc_usd": 1.73,
+        "worldwide_search_volume_for_keyword": 50700,
+        "paid_competition_density": 0.04,
+        "related": [
+          {
+            "keyword": "remove background from a gif",
+            "volume": 880,
+            "kd": 47
+          },
+          {
+            "keyword": "remove background from animated gif",
+            "volume": 590,
+            "kd": 49
+          },
+          {
+            "keyword": "remove white background from gif",
+            "volume": 590,
+            "kd": 40
+          },
+          {
+            "keyword": "how to remove background from gif",
+            "volume": 320,
+            "kd": 36
+          }
+        ],
+        "commercial_intent_field_missing": true,
+        "observed_trend_note": "Screenshot shows recent apparent surge in monthly search estimates, but month-label detail is insufficient to confirm seasonality or sustained organic demand.",
+        "source_period_separation": "Public competitor Sep 2026 report has US Volume22,200/CPC1.37 vs user Oct13 screenshot US Volume33,100/CPC1.73; retain both instead of treating as the same date.",
+        "competitive_source_urls": [
+          "https://ezgif.com/remove-background",
+          "https://animgen.com/tools/gif-background-remover",
+          "https://snaplytics.io/tools/gif-background-remover/",
+          "https://onlinegiftools.com/remove-gif-background"
+        ],
+        "observed_market_friction": "Mature competing tools already offer background color removal, border/edge-cleaning, local client-side processing and AI segmentation. A basic color-key converter lacks proven differentiation.",
+        "exact_next_step": "Optional one SERP Analysis screenshot of United States `remove background from gif` top10 URLs, ranking-domain AS/referring domains, if SERP weakness cannot be independently determined. Do NOT re-request Volume/KD.",
+        "do_not_request_same_core_kd_again": true,
+        "do_not_request_related_terms_now": true,
+        "stand_alone_build_approved": false
+      },
+      "manual_serp_review": {
+        "reviewed_on": "2026-10-13",
+        "country": "US",
+        "keyword": "remove background from gif",
+        "device": "DESKTOP",
+        "source": "User-provided Semrush Keyword Overview SERP Analysis screenshot (Positions 1–10, 2026-10-13)",
+        "evidence_type": "SEM_RUSH_US_TOP10_PAGE_LEVEL_METRICS",
+        "rankings": [
+          {
+            "position": 1,
+            "url": "https://ezgif.com/remove-background",
+            "page_as": 54,
+            "page_referring_domains": 366,
+            "page_backlinks": "1.1K",
+            "url_estimated_organic_search": 20700,
+            "url_ranked_keywords": 270,
+            "type": "established_browser_tool"
+          },
+          {
+            "position": 2,
+            "url": "https://onlinegiftools.com/remove-gif-background",
+            "page_as": 43,
+            "page_referring_domains": 357,
+            "page_backlinks": "1.1K",
+            "url_estimated_organic_search": 9700,
+            "url_ranked_keywords": 259,
+            "type": "established_browser_tool"
+          },
+          {
+            "position": 3,
+            "url": "https://play.google.com/store/apps/details?id=com.zwh.gif.background.eraser.app&hl=en_US",
+            "page_as": 0,
+            "page_referring_domains": 0,
+            "page_backlinks": "0",
+            "url_estimated_organic_search": 5300,
+            "url_ranked_keywords": 84,
+            "type": "google_play_store_app"
+          },
+          {
+            "position": 4,
+            "url": "https://adworker.ai/tools/gif-background-remover/",
+            "page_as": 48,
+            "page_referring_domains": 41,
+            "page_backlinks": "119",
+            "url_estimated_organic_search": 4000,
+            "url_ranked_keywords": 138,
+            "type": "ai_credit_browser_tool"
+          },
+          {
+            "position": 5,
+            "url": "https://www.reddit.com/r/photopea/comments/xf3uxa/is_it_possible_to_remove_a_background_from_a_gif/",
+            "page_as": 58,
+            "page_referring_domains": 1,
+            "page_backlinks": "106",
+            "url_estimated_organic_search": 1600,
+            "url_ranked_keywords": 105,
+            "type": "discussion"
+          },
+          {
+            "position": 6,
+            "url": "https://www.adobe.com/express/feature/video/remove-background/gif",
+            "page_as": 30,
+            "page_referring_domains": 14,
+            "page_backlinks": "29",
+            "url_estimated_organic_search": 1900,
+            "url_ranked_keywords": 171,
+            "type": "major_brand_feature_page"
+          },
+          {
+            "position": 7,
+            "url": "https://www.canva.com/features/gif-background-remover/",
+            "page_as": 0,
+            "page_referring_domains": 1,
+            "page_backlinks": "1",
+            "url_estimated_organic_search": 1900,
+            "url_ranked_keywords": 153,
+            "type": "major_brand_feature_page"
+          },
+          {
+            "position": 8,
+            "url": "https://animatephoto.io/gif-background-remover",
+            "page_as": 0,
+            "page_referring_domains": 1,
+            "page_backlinks": "1",
+            "url_estimated_organic_search": 2500,
+            "url_ranked_keywords": 108,
+            "type": "independent_browser_tool"
+          },
+          {
+            "position": 9,
+            "url": "https://www.instagram.com/reel/Dvfs08RA0VE/?hl=en",
+            "page_as": 0,
+            "page_referring_domains": 0,
+            "page_backlinks": "0",
+            "url_estimated_organic_search": 81,
+            "url_ranked_keywords": 1400,
+            "type": "social_media"
+          },
+          {
+            "position": 10,
+            "url": "https://www.youtube.com/watch?verIXSjff69Jk",
+            "page_as": 0,
+            "page_referring_domains": 0,
+            "page_backlinks": "0",
+            "url_estimated_organic_search": 22,
+            "url_ranked_keywords": 186,
+            "type": "video"
+          }
+        ],
+        "analysis": {
+          "direct_browser_tools_at_positions": [
+            1,
+            2,
+            4,
+            8
+          ],
+          "low_link_independent_tool_page_positions": [
+            8
+          ],
+          "page_as_zero_not_domain_as_zero": true,
+          "top_two_linked_tools_ref_domains": [
+            366,
+            357
+          ],
+          "weak_url_position": 8,
+          "weak_url_page_referring_domains": 1,
+          "weak_url_estimated_organic_search": 2500,
+          "adworker_credits": "Publicly describes starter credits (1 credit/GIF up to 30 frames, plus add-on), not unlimited free; feature not a zero-infrastructure business case.",
+          "animatephoto_features": "Product claims free browser-local per-frame AI GIF background removal, transparent GIF/APNG and colored backgrounds, no signup, offered as a funnel to paid AI photo animation.",
+          "dominant_competitor_coverage": "Mature GIF utilities + major Canva/Adobe + AI-assisted local tools; a basic color-key page is not differentiated.",
+          "conclusion": "Top10 is mixed, with one low-linked indie browser-tool page at #8, but it is functional and supported by a broader AI content product. No proven product/AdSense acquisition moat for zero-fixed-cost independent site. HOLD research, no build, no further manual keyword/SERP requests without new independent evidence.",
+          "decision": "HOLD_MIXED_SERP_NO_DIFFERENTIATED_ENTRY",
+          "do_not_request_repeat_semrush": true,
+          "approved_to_build": false
+        }
+      },
+      "serp_review_completed": true,
+      "serp_low_link_indie_page_at_position_8_only": true,
+      "current_user_supplied_volume": 33100,
+      "current_user_supplied_kd": 37,
+      "current_user_supplied_cpc_usd": 1.73,
+      "manual_kd_review_source": "User-provided Semrush Keyword Overview screenshot 2026-10-13",
+      "authority_score_semrush": 38,
+      "keyword_cpc_usd_public_snapshot": 1.37,
+      "competing_tool_urls": [
+        "https://ezgif.com/remove-background",
+        "https://animgen.com/tools/gif-background-remover",
+        "https://onlinegiftools.com/remove-gif-chroma-key"
+      ],
+      "other_ranked_keyword_examples": [
+        {
+          "keyword": "gif background remover",
+          "rank": 2,
+          "volume": 6600,
+          "cpc_usd": 1.48
+        },
+        {
+          "keyword": "transparent gif",
+          "rank": 1,
+          "volume": 2900,
+          "cpc_usd": 0
+        },
+        {
+          "keyword": "blur image gif",
+          "rank": 1,
+          "volume": 3600,
+          "cpc_usd": 0
+        }
+      ],
+      "organic_verified_by_first_party_analytics": false,
+      "kd_verified": false,
+      "serp_low_authority_verified": false
+    },
+    {
       "domain": "onlinetools.com",
       "primary_country": "US",
       "status": "HOLD_SATURATED_COMMODITY_TOOL_NO_MOAT",
@@ -790,6 +973,9 @@
         "reviewed_on": "2026-10-13",
         "reason": "Core US phrase is only 6600 searches, incumbent AS43 and roughly 3.12k referring domains, while many free independently hosted pixelation tools already exist; no weak top10 SERP or proven conversion advantage. Do not request KD yet."
       },
+      "manual_serp_review": null,
+      "serp_review_completed": false,
+      "serp_low_link_indie_page_at_position_8_only": false,
       "current_user_supplied_volume": null,
       "current_user_supplied_kd": null,
       "current_user_supplied_cpc_usd": null,
@@ -837,6 +1023,9 @@
         "reviewed_on": "2026-10-13",
         "reason": "Morse code conversions are inexpensive and already offered by longstanding specialized tools; the public site has AS41 and around 1150 referring domains. Distinct weak entrants and complete site monetization not established, so not worth asking the user for KD ahead of GIF."
       },
+      "manual_serp_review": null,
+      "serp_review_completed": false,
+      "serp_low_link_indie_page_at_position_8_only": false,
       "current_user_supplied_volume": null,
       "current_user_supplied_kd": null,
       "current_user_supplied_cpc_usd": null,
