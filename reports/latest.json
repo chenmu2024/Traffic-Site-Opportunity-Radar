@@ -1,21 +1,347 @@
 {
-  "generated_at_utc": "2026-10-13T00:00:00+00:00",
+  "generated_at_utc": "2026-10-13T03:02:44.050678+00:00",
   "target_countries": [
     "BR",
-    "MX",
-    "ES",
-    "PT",
     "CL",
-    "US",
-    "GB"
+    "ES",
+    "GB",
+    "MX",
+    "PT",
+    "US"
   ],
   "seed_domains": [],
   "serp_keyword_snapshots": 0,
   "serp_candidates": [],
   "clusters": [],
-  "github_leads": [],
-  "github_queries_attempted": 0,
+  "github_leads": [
+    {
+      "domain": "ai--content-generator.vercel.app",
+      "homepage": "https://ai--content-generator.vercel.app",
+      "source": "PUBLIC_GITHUB_REPOSITORY_HOMEPAGE",
+      "status": "DISCOVERY_ONLY",
+      "organic_traffic": null,
+      "domain_dr": null,
+      "kd": null,
+      "cpc": null,
+      "repositories": [
+        {
+          "url": "https://github.com/iamkanhaiyakumar/ai-content-generator",
+          "stars": 13,
+          "updated_at": "2026-07-09T17:14:28Z"
+        }
+      ],
+      "matching_queries": [
+        "web generator tool in:name,description stars:3..1500 archived:false"
+      ]
+    },
+    {
+      "domain": "config.meshcentraltools.com",
+      "homepage": "https://config.meshcentraltools.com/",
+      "source": "PUBLIC_GITHUB_REPOSITORY_HOMEPAGE",
+      "status": "DISCOVERY_ONLY",
+      "organic_traffic": null,
+      "domain_dr": null,
+      "kd": null,
+      "cpc": null,
+      "repositories": [
+        {
+          "url": "https://github.com/Melo-Professional/MeshCentral-config-generator",
+          "stars": 10,
+          "updated_at": "2026-08-28T05:35:45Z"
+        }
+      ],
+      "matching_queries": [
+        "web generator tool in:name,description stars:3..1500 archived:false"
+      ]
+    },
+    {
+      "domain": "docgen.bodhya.net",
+      "homepage": "https://docgen.bodhya.net/",
+      "source": "PUBLIC_GITHUB_REPOSITORY_HOMEPAGE",
+      "status": "DISCOVERY_ONLY",
+      "organic_traffic": null,
+      "domain_dr": null,
+      "kd": null,
+      "cpc": null,
+      "repositories": [
+        {
+          "url": "https://github.com/fossism/bodhya-cert-generator",
+          "stars": 5,
+          "updated_at": "2026-06-07T10:41:20Z"
+        }
+      ],
+      "matching_queries": [
+        "web generator tool in:name,description stars:3..1500 archived:false"
+      ]
+    },
+    {
+      "domain": "ewu-smart-routine-generator.vercel.app",
+      "homepage": "https://ewu-smart-routine-generator.vercel.app",
+      "source": "PUBLIC_GITHUB_REPOSITORY_HOMEPAGE",
+      "status": "DISCOVERY_ONLY",
+      "organic_traffic": null,
+      "domain_dr": null,
+      "kd": null,
+      "cpc": null,
+      "repositories": [
+        {
+          "url": "https://github.com/Zahid074/EWU_Smart_Routine_Generator",
+          "stars": 3,
+          "updated_at": "2026-09-29T06:56:27Z"
+        }
+      ],
+      "matching_queries": [
+        "web generator tool in:name,description stars:3..1500 archived:false"
+      ]
+    },
+    {
+      "domain": "flowmusicai.app",
+      "homepage": "https://flowmusicai.app",
+      "source": "PUBLIC_GITHUB_REPOSITORY_HOMEPAGE",
+      "status": "DISCOVERY_ONLY",
+      "organic_traffic": null,
+      "domain_dr": null,
+      "kd": null,
+      "cpc": null,
+      "repositories": [
+        {
+          "url": "https://github.com/rocnubie/Awesome-AI-Websites-2026",
+          "stars": 6,
+          "updated_at": "2026-05-19T12:42:28Z"
+        }
+      ],
+      "matching_queries": [
+        "web generator tool in:name,description stars:3..1500 archived:false"
+      ]
+    },
+    {
+      "domain": "github-readme-generator-chi.vercel.app",
+      "homepage": "https://github-readme-generator-chi.vercel.app/",
+      "source": "PUBLIC_GITHUB_REPOSITORY_HOMEPAGE",
+      "status": "DISCOVERY_ONLY",
+      "organic_traffic": null,
+      "domain_dr": null,
+      "kd": null,
+      "cpc": null,
+      "repositories": [
+        {
+          "url": "https://github.com/devshriram/github-readme-generator",
+          "stars": 4,
+          "updated_at": "2026-10-05T16:10:13Z"
+        }
+      ],
+      "matching_queries": [
+        "web generator tool in:name,description stars:3..1500 archived:false"
+      ]
+    },
+    {
+      "domain": "multi-tool-utility-web-app.vercel.app",
+      "homepage": "https://multi-tool-utility-web-app.vercel.app",
+      "source": "PUBLIC_GITHUB_REPOSITORY_HOMEPAGE",
+      "status": "DISCOVERY_ONLY",
+      "organic_traffic": null,
+      "domain_dr": null,
+      "kd": null,
+      "cpc": null,
+      "repositories": [
+        {
+          "url": "https://github.com/Shishir-ip/Multi-Tool-Utility-Web-App",
+          "stars": 5,
+          "updated_at": "2026-09-26T22:11:09Z"
+        }
+      ],
+      "matching_queries": [
+        "web generator tool in:name,description stars:3..1500 archived:false"
+      ]
+    },
+    {
+      "domain": "pypi.org",
+      "homepage": "https://pypi.org/project/EasyProxies/",
+      "source": "PUBLIC_GITHUB_REPOSITORY_HOMEPAGE",
+      "status": "DISCOVERY_ONLY",
+      "organic_traffic": null,
+      "domain_dr": null,
+      "kd": null,
+      "cpc": null,
+      "repositories": [
+        {
+          "url": "https://github.com/ndenissov/EasyProxies",
+          "stars": 3,
+          "updated_at": "2026-07-24T07:16:45Z"
+        },
+        {
+          "url": "https://github.com/Nya-Foundation/NyaProxy",
+          "stars": 986,
+          "updated_at": "2026-07-20T20:07:07Z"
+        }
+      ],
+      "matching_queries": [
+        "web generator tool in:name,description stars:3..1500 archived:false"
+      ]
+    },
+    {
+      "domain": "sanjeev02.pythonanywhere.com",
+      "homepage": "https://sanjeev02.pythonanywhere.com/",
+      "source": "PUBLIC_GITHUB_REPOSITORY_HOMEPAGE",
+      "status": "DISCOVERY_ONLY",
+      "organic_traffic": null,
+      "domain_dr": null,
+      "kd": null,
+      "cpc": null,
+      "repositories": [
+        {
+          "url": "https://github.com/Sanjeev-Kumar78/Travel-Itinerary-Generator",
+          "stars": 33,
+          "updated_at": "2026-07-10T21:55:01Z"
+        }
+      ],
+      "matching_queries": [
+        "web generator tool in:name,description stars:3..1500 archived:false"
+      ]
+    },
+    {
+      "domain": "sine-wave-generator.com",
+      "homepage": "https://sine-wave-generator.com/",
+      "source": "PUBLIC_GITHUB_REPOSITORY_HOMEPAGE",
+      "status": "DISCOVERY_ONLY",
+      "organic_traffic": null,
+      "domain_dr": null,
+      "kd": null,
+      "cpc": null,
+      "repositories": [
+        {
+          "url": "https://github.com/sebastienrousseau/sine-wave-generator",
+          "stars": 17,
+          "updated_at": "2026-09-16T08:11:47Z"
+        }
+      ],
+      "matching_queries": [
+        "web generator tool in:name,description stars:3..1500 archived:false"
+      ]
+    },
+    {
+      "domain": "stringartgenerator.co",
+      "homepage": "https://stringartgenerator.co/",
+      "source": "PUBLIC_GITHUB_REPOSITORY_HOMEPAGE",
+      "status": "DISCOVERY_ONLY",
+      "organic_traffic": null,
+      "domain_dr": null,
+      "kd": null,
+      "cpc": null,
+      "repositories": [
+        {
+          "url": "https://github.com/fjzll/StringArtGeneratorLili",
+          "stars": 3,
+          "updated_at": "2026-05-09T15:27:21Z"
+        }
+      ],
+      "matching_queries": [
+        "web generator tool in:name,description stars:3..1500 archived:false"
+      ]
+    },
+    {
+      "domain": "translatesub.com",
+      "homepage": "https://translatesub.com/",
+      "source": "PUBLIC_GITHUB_REPOSITORY_HOMEPAGE",
+      "status": "DISCOVERY_ONLY",
+      "organic_traffic": null,
+      "domain_dr": null,
+      "kd": null,
+      "cpc": null,
+      "repositories": [
+        {
+          "url": "https://github.com/Whutjzy/AI_TranslateSub_Tool",
+          "stars": 5,
+          "updated_at": "2026-05-14T03:45:15Z"
+        }
+      ],
+      "matching_queries": [
+        "web generator tool in:name,description stars:3..1500 archived:false"
+      ]
+    },
+    {
+      "domain": "ustlipsync.riciwaaaa.win",
+      "homepage": "https://ustlipsync.riciwaaaa.win/",
+      "source": "PUBLIC_GITHUB_REPOSITORY_HOMEPAGE",
+      "status": "DISCOVERY_ONLY",
+      "organic_traffic": null,
+      "domain_dr": null,
+      "kd": null,
+      "cpc": null,
+      "repositories": [
+        {
+          "url": "https://github.com/Riciwaaaa/UST-lip-sync-generator",
+          "stars": 18,
+          "updated_at": "2026-08-02T07:53:39Z"
+        }
+      ],
+      "matching_queries": [
+        "web generator tool in:name,description stars:3..1500 archived:false"
+      ]
+    },
+    {
+      "domain": "uvk5.canata.dev",
+      "homepage": "https://uvk5.canata.dev",
+      "source": "PUBLIC_GITHUB_REPOSITORY_HOMEPAGE",
+      "status": "DISCOVERY_ONLY",
+      "organic_traffic": null,
+      "domain_dr": null,
+      "kd": null,
+      "cpc": null,
+      "repositories": [
+        {
+          "url": "https://github.com/bcanata/uv-k5-aprs-beacon",
+          "stars": 3,
+          "updated_at": "2026-07-29T19:44:17Z"
+        }
+      ],
+      "matching_queries": [
+        "web generator tool in:name,description stars:3..1500 archived:false"
+      ]
+    },
+    {
+      "domain": "web-cloner.sarimtools.com",
+      "homepage": "https://web-cloner.sarimtools.com/",
+      "source": "PUBLIC_GITHUB_REPOSITORY_HOMEPAGE",
+      "status": "DISCOVERY_ONLY",
+      "organic_traffic": null,
+      "domain_dr": null,
+      "kd": null,
+      "cpc": null,
+      "repositories": [
+        {
+          "url": "https://github.com/DeveloperSarim/web-cloner-mac",
+          "stars": 3,
+          "updated_at": "2026-10-11T08:52:09Z"
+        }
+      ],
+      "matching_queries": [
+        "web generator tool in:name,description stars:3..1500 archived:false"
+      ]
+    },
+    {
+      "domain": "xsukax.com",
+      "homepage": "https://xsukax.com",
+      "source": "PUBLIC_GITHUB_REPOSITORY_HOMEPAGE",
+      "status": "DISCOVERY_ONLY",
+      "organic_traffic": null,
+      "domain_dr": null,
+      "kd": null,
+      "cpc": null,
+      "repositories": [
+        {
+          "url": "https://github.com/xsukax/xsukax-X-RSS-Generator",
+          "stars": 12,
+          "updated_at": "2026-09-05T21:12:25Z"
+        }
+      ],
+      "matching_queries": [
+        "web generator tool in:name,description stars:3..1500 archived:false"
+      ]
+    }
+  ],
+  "github_queries_attempted": 3,
   "github_failures": [],
   "seo_provider_metrics_verified_automatically": false,
-  "note": "Initial placeholder only; not live research. Daily workflow refreshes this file."
+  "note": "No Google rank, traffic, DR, KD or CPC are derived from GitHub. Manual SERP metrics are user supplied and unaudited."
 }
