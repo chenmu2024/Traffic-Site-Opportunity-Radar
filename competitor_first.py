@@ -53,6 +53,8 @@ def gate(snapshot, today):
         state = "REJECT_OUTSIDE_GLOBAL_ORGANIC_TRAFFIC_TARGET"
     elif snapshot.get("manual_keyword_review", {}).get("decision") == "REJECT_HIGH_KD_WEAK_ADS_NEW_SITE":
         state = "REJECT_HIGH_KD_WEAK_ADS_NEW_SITE"
+    elif snapshot.get("manual_keyword_review", {}).get("decision") == "HOLD_HIGH_CORE_KD_WITHOUT_WEAK_SERP":
+        state = "HOLD_HIGH_CORE_KD_WITHOUT_WEAK_SERP"
     elif snapshot.get("topic_overlap"):
         state = "OVERLAPS_USER_EXISTING_SITE_NOT_NEW_PROJECT"
     elif snapshot.get("ad_monetization_policy_risk"):
@@ -141,6 +143,8 @@ def markdown(data):
                          " · " + clean(review.get("reason"), 450))
             if review.get("do_not_request_more_semrush_for_same_niche"):
                 lines.append("  - Rejected for NEW standalone SEO+AdSense tool site; do not re-request the same Semrush keywords absent fresh counterevidence.")
+            if review.get("do_not_request_same_core_kd_again"):
+                lines.append("  - User confirmed core KD " + str(review.get("core_kd")) + " and CPC USD " + str(review.get("core_cpc_usd")) + "; HOLD standalone new-site effort. Do NOT re-request this core KD or low-volume variants without independent new SERP evidence.")
     lines += ["", "## Rules",
               "- Site target: global organic estimated 10k–100k, then verify target-country traffic independently.",
               "- Do not promote domains whose ranked term is navigational, whose usable tool URL was not checked, or whose topic overlaps existing sites.",

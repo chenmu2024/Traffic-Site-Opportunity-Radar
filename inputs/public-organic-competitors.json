@@ -256,7 +256,49 @@
           "cpc_usd": 0
         }
       ],
-      "reason": "September public Semrush worldwide organic estimate 92.53k; US rank #5 on sens converter 33.1k/$5.31 and independent interactive mouse conversion tool confirmed. AS40 and established rivals (Kovaaks, GamingSmart, mouse-sensitivity.com); USD5.31 keyword CPC is advertiser bid data not AdSense RPM or revenue. Weak-site SERP and KD remain unknown. Good zero-fixed-cost client-side arithmetic in principle, but conversion accuracy and FPS game yaw data must be validated."
+      "reason": "2026-10-13 user-supplied US Semrush screenshot confirmed sens converter 33.1k KD47 CPC 5.36; variants converter sens KD46, mouse sens converter KD54, Valorant variant KD28 but only 1.9k searches. Hold new standalone site pending independent weak SERP evidence; major incumbents KovaaK's and GamingSmart have specialized converters. Public Sep domain worldwide organic estimate 92.53k is not tool page visits.",
+      "manual_keyword_review": {
+        "reviewed_on": "2026-10-13",
+        "country": "US",
+        "source": "User-provided Semrush Keyword Overview desktop screenshot 2026-10-13",
+        "decision": "HOLD_HIGH_CORE_KD_WITHOUT_WEAK_SERP",
+        "core_keyword": "sens converter",
+        "core_volume": 33100,
+        "core_kd": 47,
+        "core_cpc_usd": 5.36,
+        "global_core_search_volume": 116200,
+        "paid_competition_density": 0.33,
+        "related": [
+          {
+            "keyword": "converter sens",
+            "volume": 3600,
+            "kd": 46,
+            "related_intent": "same tool intent spelling variant"
+          },
+          {
+            "keyword": "aimlabs sens converter",
+            "volume": 2400,
+            "kd": 24,
+            "related_intent": "game-named specific, not independent generic demand"
+          },
+          {
+            "keyword": "mouse sens converter",
+            "volume": 2400,
+            "kd": 54,
+            "related_intent": "general keyword variant"
+          },
+          {
+            "keyword": "valorant sens converter",
+            "volume": 1900,
+            "kd": 28,
+            "related_intent": "game-specific tool intent; direct incumbents established"
+          }
+        ],
+        "already_verified_vs_radar_limit": "47 > exploratory KD ceiling 35; no independently weak top10 competitor evidence; do not treat high keyword CPC as AdSense revenue",
+        "do_not_request_same_core_kd_again": true,
+        "do_not_request_related_terms_now": true,
+        "next_step": "HOLD independent new-site build; look for stronger sourced lower-KD nonbrand tool opportunities. Reopen only if new independent SERP evidence demonstrates a realistic gap."
+      }
     },
     {
       "domain": "cps-check.com",
