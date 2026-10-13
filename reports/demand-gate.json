@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-10-13T04:32:57.453263+00:00",
+  "generated_at_utc": "2026-10-13T05:21:14.967261+00:00",
   "policy": "CORE_TOOL_DEMAND_BEFORE_COMPETITOR_TRAFFIC",
   "thresholds_heuristic_not_market_data": {
     "core_min_volume": 3000,
@@ -8,14 +8,15 @@
     "age_days_max": 90
   },
   "candidate_count": 3,
-  "metrics_records": 0,
+  "metrics_records": 3,
   "invalid_records": {},
   "candidates": [
     {
       "id": "br_resin_calculator",
       "name": "巴西树脂用量与配比计算器",
       "country": "BR",
-      "stage": "NEEDS_EXACT_CORE_VOLUME",
+      "stage": "HOLD_NO_MEASURABLE_CORE_SEARCH",
+      "manual_research_note": "User checked the three requested exact country-level core keywords and reported only BR wordsearch returned meaningful keyword metrics. This is NOT a measured zero, and does not mean the market has zero demand. Do not ask again for this exact term absent new evidence.",
       "core_keyword": "calculadora de resina epóxi",
       "core_metric": null,
       "supporting_keywords": [
@@ -38,20 +39,52 @@
         }
       ],
       "organic_monthly_traffic_verified": null,
-      "next_action": "Check ONLY the core keyword Volume and KD in the specified country."
+      "next_action": "User checked this exact country-level core term and found no meaningful data. Do not request it again without independent new evidence; this is not a measured Volume=0."
     },
     {
       "id": "br_wordsearch",
       "name": "巴西自定义找词活动打印工具",
       "country": "BR",
-      "stage": "NEEDS_EXACT_CORE_VOLUME",
+      "stage": "REJECT_INSUFFICIENT_SUPPORTING_DEMAND",
+      "manual_research_note": null,
       "core_keyword": "gerador de caça palavras",
-      "core_metric": null,
+      "core_metric": {
+        "country": "BR",
+        "keyword": "gerador de caça palavras",
+        "monthly_volume_user_supplied": 4400,
+        "kd_user_supplied": 19.0,
+        "cpc_user_supplied": 0.0,
+        "source": "user-semrush-keyword-overview-screenshot-2026-10-13",
+        "observed_on": "2026-10-13",
+        "evidence_status": "USER_SUPPLIED_UNAUDITED"
+      },
       "supporting_keywords": [
-        "criar caça palavras para imprimir",
-        "gerador de caça palavras para imprimir"
+        "gerador de caça-palavras",
+        "gerador de caça palavras para imprimir",
+        "criar caça palavras para imprimir"
       ],
-      "supporting_metrics": [],
+      "supporting_metrics": [
+        {
+          "country": "BR",
+          "keyword": "gerador de caça-palavras",
+          "monthly_volume_user_supplied": 480,
+          "kd_user_supplied": 20.0,
+          "cpc_user_supplied": null,
+          "source": "user-semrush-keyword-overview-screenshot-2026-10-13",
+          "observed_on": "2026-10-13",
+          "evidence_status": "USER_SUPPLIED_UNAUDITED"
+        },
+        {
+          "country": "BR",
+          "keyword": "gerador de caça palavras para imprimir",
+          "monthly_volume_user_supplied": 260,
+          "kd_user_supplied": 17.0,
+          "cpc_user_supplied": null,
+          "source": "user-semrush-keyword-overview-screenshot-2026-10-13",
+          "observed_on": "2026-10-13",
+          "evidence_status": "USER_SUPPLIED_UNAUDITED"
+        }
+      ],
       "competitors_public_only": [
         {
           "url": "https://criadordecruzadinhas.com.br/criar-caca-palavras",
@@ -67,13 +100,14 @@
         }
       ],
       "organic_monthly_traffic_verified": null,
-      "next_action": "Check ONLY the core keyword Volume and KD in the specified country."
+      "next_action": "Do not request competitor traffic under current narrow tool-intent terms."
     },
     {
       "id": "mx_resin_calculator",
       "name": "墨西哥环氧树脂材料用量计算器",
       "country": "MX",
-      "stage": "NEEDS_EXACT_CORE_VOLUME",
+      "stage": "HOLD_NO_MEASURABLE_CORE_SEARCH",
+      "manual_research_note": "User checked the three requested exact country-level core keywords and reported only BR wordsearch returned meaningful keyword metrics. This is NOT a measured zero, and does not mean the market has zero demand. Do not ask again for this exact term absent new evidence.",
       "core_keyword": "calculadora de resina epóxica",
       "core_metric": null,
       "supporting_keywords": [
@@ -96,7 +130,7 @@
         }
       ],
       "organic_monthly_traffic_verified": null,
-      "next_action": "Check ONLY the core keyword Volume and KD in the specified country."
+      "next_action": "User checked this exact country-level core term and found no meaningful data. Do not request it again without independent new evidence; this is not a measured Volume=0."
     }
   ],
   "any_organic_traffic_verified_automatically": false,
