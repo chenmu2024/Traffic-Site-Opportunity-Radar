@@ -19,10 +19,15 @@ No source-backed candidate currently passes domain organic range, nonbrand keywo
 | nominax.com | 91540 | OVERLAPS_USER_EXISTING_SITE_NOT_NEW_PROJECT |
 | pagebot.com.br | 3170 | REJECT_OUTSIDE_GLOBAL_ORGANIC_TRAFFIC_TARGET |
 | simuladoronline.com | 15630 | REJECT_NO_STRONG_NONBRAND_TOOL_KEYWORD |
+| countdown-timer.app | 16020 | HOLD_UNSTABLE_ORGANIC_TREND |
+| loaderr.to | 21780 | REJECT_ADS_MONETIZATION_POLICY_RISK |
+| mouser.mx | 54310 | REJECT_LOW_CORE_NONBRAND_TOOL_KEYWORD_DEMAND |
+| calculadoras.uno | 26920 | REJECT_LOW_CORE_NONBRAND_TOOL_KEYWORD_DEMAND |
 
 ## Rules
 - Site target: global organic estimated 10k–100k, then verify target-country traffic independently.
 - Do not promote domains whose ranked term is navigational, whose usable tool URL was not checked, or whose topic overlaps existing sites.
+- Reject low-volume core nonbrand keywords, traffic drops of 50% or worse, and ad-monetization policy risks before requesting user Semrush data.
 - DR, KD and weak-domain SERP are unknown unless separately sourced; global site organic does not demonstrate the individual tool page's visits.
 - Public third-party data is manually researched, dated and explicitly attributed; no unauthorized automated Semrush scraping or paid API.
 - Treat this as research priority, NOT a development recommendation.
