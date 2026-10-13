@@ -16,6 +16,8 @@ MIN_ORGANIC_GLOBAL = 10000
 MAX_ORGANIC_GLOBAL = 100000
 MAX_EVIDENCE_AGE_DAYS = 105
 TOOL_POSITION_MAX = 10
+MIN_CORE_TOOL_KEYWORD_VOLUME = 3000
+MAX_MONTH_OVER_MONTH_DROP_PCT = -50.0
 
 
 def gate(snapshot, today):
@@ -27,6 +29,8 @@ def gate(snapshot, today):
     organic = number(snapshot.get("organic_global_estimated_monthly"))
     rank = number(snapshot.get("keyword_position"), 1, 100)
     kw_volume = number(snapshot.get("keyword_volume"))
+    organic_change = snapshot.get("organic_mom_change_pct")
+    organic_change = float(organic_change) if isinstance(organic_change, (int, float)) and not isinstance(organic_change, bool) else None
     kw = " ".join((snapshot.get("keyword") or "").split())
     reason = clean(snapshot.get("reason"), 600)
     try:
@@ -51,9 +55,15 @@ def gate(snapshot, today):
         state = "REJECT_HIGH_KD_WEAK_ADS_NEW_SITE"
     elif snapshot.get("topic_overlap"):
         state = "OVERLAPS_USER_EXISTING_SITE_NOT_NEW_PROJECT"
+    elif snapshot.get("ad_monetization_policy_risk"):
+        state = "REJECT_ADS_MONETIZATION_POLICY_RISK"
+    elif organic_change is not None and organic_change <= MAX_MONTH_OVER_MONTH_DROP_PCT:
+        state = "HOLD_UNSTABLE_ORGANIC_TREND"
     elif (not snapshot.get("keyword_is_nonbrand") or
           not kw or not rank or rank > TOOL_POSITION_MAX or kw_volume is None):
         state = "REJECT_NO_STRONG_NONBRAND_TOOL_KEYWORD"
+    elif kw_volume < MIN_CORE_TOOL_KEYWORD_VOLUME:
+        state = "REJECT_LOW_CORE_NONBRAND_TOOL_KEYWORD_DEMAND"
     elif not snapshot.get("tool_page_publicly_checked"):
         state = "REQUIRE_LANDING_PAGE_FUNCTION_REVIEW"
     else:
@@ -68,6 +78,8 @@ def gate(snapshot, today):
         "keyword_volume_public_snapshot": kw_volume, "nonbrand_manual": snapshot.get("keyword_is_nonbrand"),
         "example_tool_url": url, "public_function_inspected": bool(snapshot.get("tool_page_publicly_checked")),
         "site_topic_overlap": bool(snapshot.get("topic_overlap")),
+        "organic_mom_change_pct": organic_change,
+        "ad_monetization_policy_risk": bool(snapshot.get("ad_monetization_policy_risk")),
         "source_notes": reason,
         "manual_keyword_review": snapshot.get("manual_keyword_review"),
         "organic_verified_by_first_party_analytics": False,
@@ -126,6 +138,7 @@ def markdown(data):
     lines += ["", "## Rules",
               "- Site target: global organic estimated 10k–100k, then verify target-country traffic independently.",
               "- Do not promote domains whose ranked term is navigational, whose usable tool URL was not checked, or whose topic overlaps existing sites.",
+              "- Reject low-volume core nonbrand keywords, traffic drops of 50% or worse, and ad-monetization policy risks before requesting user Semrush data.",
               "- DR, KD and weak-domain SERP are unknown unless separately sourced; global site organic does not demonstrate the individual tool page's visits.",
               "- Public third-party data is manually researched, dated and explicitly attributed; no unauthorized automated Semrush scraping or paid API.",
               "- Treat this as research priority, NOT a development recommendation.", ""]
