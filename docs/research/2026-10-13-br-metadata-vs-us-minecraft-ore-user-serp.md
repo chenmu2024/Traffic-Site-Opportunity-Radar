@@ -89,3 +89,60 @@
 **#2 USA `minecraft ore finder`: hold candidate, prioritize only if a correct, maintainable ore placement calculation engine is available.** KD17 with several weak linked independent ranking pages but smaller country monthly demand and higher version algorithm maintenance.
 
 **No further Semrush query needed now.** Ask user for go-ahead before creating a website/repository or modifying any existing site. A single research document records this batch; do not modify radar scripts/workflows or open unnecessary PRs.
+
+
+## 2026-10-13 用户补充两份巴西 Semrush 相关关键词数据
+
+数据源：用户直接提供的两组 Semrush Brazil 关键词列表，记录于2026-10-13。每个 Volume 是该精确词在巴西的估算月搜索量；KD 是 SEO 难度，CPC 为美元广告主出价指标。两组相同词重复，不可以按行累加，也不能把表示词关联度的独立百分数写成 KD。
+
+### 可用于 SEO 定位的准确关键词
+
+| 功能簇 | 精确关键词 | BR Volume/月 | KD | CPC USD | 页面建议 |
+|---|---|---:|---:|---:|---|
+| 通用 | remover metadados | 33,100 | 21 | 0 | `/` 首页主工具 |
+| 通用 | limpar metadados | 9,900 | 16 | 0 | 首页同义词，不单独复制一页 |
+| 通用 | removedor de metadados | 5,400 | 21 | 0 | 首页同义词 |
+| 通用 | metadados remover | 4,400 | 24 | 0 | 首页 |
+| 通用 | removedor metadados | 4,400 | 20 | 0 | 首页 |
+| 通用 | tirar metadados | 2,900 | 28 | 0 | 首页 |
+| 通用 | remove metadados | 1,900 | 25 | 0 | 首页 |
+| 通用 | limpa metadados | 1,300 | 16 | 0 | 首页 |
+| 视频 | remover metadados de video | 6,600 | 23 | 0 | `/remover-metadados-video` |
+| 视频 | remover metadados video | 5,400 | 21 | 0 | 同一个视频工具页 |
+| 视频 | limpar metadados video | 2,900 | 23 | 0 | 同一个视频工具页 |
+| 视频 | tirar metadados de video | 1,900 | 21 | 0 | 同一个视频工具页 |
+| 视频 | remover metadados vídeo online | 1,600 | 21 | 0 | 同一个视频工具页 |
+| 视频 | limpar metadados vídeo | 1,000 | 24 | 0 | 同一个视频工具页 |
+| 视频 | remover metadados de um video | 720 | 18 | 0 | 同一个视频工具页 |
+| 视频 | remover metadados vídeo grátis | 590 | 23 | 0 | 同一个视频工具页 |
+| 图片 | remover metadados imagem | 720 | 17 | 0 | `/remover-metadados-imagem` |
+| 图片 | limpar metadados de imagem | 590 | 14 | 0 | 同一个图片工具页 |
+| 图片 | tirar metadados imagem | 260 | 12 | 0 | 同一个图片工具页 |
+| 图片 | limpar metadados imagem | 210 | 12 | 0 | 同一个图片工具页 |
+| 图片 | remover metadados foto | 110 | 13 | 0 | 同一个图片工具页 |
+| PDF | remover metadados pdf | 590 | 21 | 0 | `/remover-metadados-pdf`，仅支持可靠清理与复核时 index |
+| 图片信息查看 | ver metadados de uma imagem | 1,600 | 23 | 0 | `/ver-metadados-imagem`，查看意图不同于删除 |
+| 图片信息查看 | como ver metadados de uma foto | 880 | 22 | 0 | 同一个查看工具页 |
+| 不同意图 | editar metadados pdf | 260 | 17 | 0.35 | 是“编辑”不是“删除”，不混页 |
+
+视频上方多个 de video、video、vídeo、online 等近义/拼写变体，不能求和当作独立流量；不要为这些变体生成独立相似网页。不能把 Semrush 前两份关键词列表当作两个独立样本量。
+
+### 必须排除的关键词污染
+
+- 巴西企业 Metadados RH / Portal RH 相关导航词并非文件清理：portal rh metadados (2,400/KD28/CPC0.58)、metadados rh (1,000/KD23/CPC1.09)、rh metadados (480/KD21/CPC0.57)、suporte metadados (210/KD32/CPC1.70)、portal metadados (390/KD16/CPC0.63)。**禁止借助这些CPC证明清理工具的广告收入**。
+- 品牌/导航：jc metadados (1,900/KD21)、metadados jc maciel (590/KD19)、remover metadados jc maciel (170/KD24)、remover metadados adarsus (50/未知KD) 等，不纳入非品牌需求。
+- 泛义 metadados (8,100/KD43/CPC0.59) 是元数据概念或同名品牌混合词，不能视为独立删除工具的商业流量。
+- 零搜索量且可能有实际用户价值的：remover metadados docx、remover metadados excel、remover metadados em lote 等。**可以作为工具功能但不是创建可索引独立网页的理由**。
+- malformed 词如 remover metadados video] (140/未知 KD) 直接不作为目标。
+
+### 新证据对产品立项判断的影响
+
+1. 核心工具 BR 33,100 / KD21，及比较大的视频簇 6,600 / 5,400 等，提供了更坚实的 SEO 结构依据。多个独立低页面外链工具在主词 SERP 排名前5；该证据来自用户前一轮提供的完整截图。
+2. 近乎所有**真正相关**非品牌工具词 CPC 均为 USD0；不能依赖高广告单价假设立项，不得虚构 AdSense RPM/月收入。
+3. 既有 https://washfiles.com/pt/ 宣称可本地清理照片/视频/音频/PDF/Office、批量清理、输出元数据 JSON 与 SHA256；**无上传、浏览器本地处理并不是新项目的独家卖点**。必须用葡语移动体验、清理准确性、可验证的前后对比和视频操作成功率取得真实产品优势。
+4. 新查 https://github.com/iAnonymous3000/metadata-remover 的 README：开源 Rust+WebAssembly 项目声称已实现 JPEG/PNG/WebP/HEIC/AVIF/GIF、MP4/MOV、MP3/FLAC/WAV/OGG、PDF、DOCX/PPTX/XLSX、ODF/EPUB 清理与二次验证；LICENSE 是 MIT。README 同时明确浏览器单文件100MB限制、BigTIFF/旧二进制 Office 等格式限制。**作者声明不等于本项目独立通过验收**，需审计依赖与对真实文件的正确性，遵守 MIT 版权许可通知。
+5. 视频大文件不宜仅凭 ffmpeg.wasm 方案就假设快且稳定；官方性能文档显示 WASM 通常低于原生 FFmpeg，应优先评估上述已存在、目标为 metadata box 修改而无需重编码的视频方案。
+6. 文件上传/下载必须是真实可交互的完整流程：选择文件 → 本地预览元数据 → 清理 → 独立重新检测输出 → 下载；对不能识别的字段显示“未确认/可能保留”，不作“100%匿名”承诺。PDF 增量历史版本/签名、包含嵌入内容的 Office、MP4/MOV 的复杂结构需单独验收。
+7. 若未来接入 AdSense，要准确说明“**文件字节不上传**”与“广告/分析脚本可能发出网络请求”是两件事。避免工具页低价值内容、广告过度干扰。官方政策：https://support.google.com/adsense/answer/48182 及 https://support.google.com/adsense/answer/10502938 。
+
+**明确状态**：STRONG_CANDIDATE_FEASIBILITY_FIRST。下一步优先做完整格式和性能验证，再决定独立站开发，不改用户任何现有站点/SEO/AdSense设置；无需再查已提供的巴西相关词 Volume/KD，Minecraft Ore Finder 是完全单独的第二候选。
