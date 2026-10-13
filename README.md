@@ -93,3 +93,17 @@ domain,country,monthly_organic,source,observed_on
 2. USER_SUPPLIED_UNAUDITED：有用户记录的关键词/国家/来源/日期，但尚未独立审计。
 3. READY_FOR_FINAL_SERP_REVIEW：满足人工意图审查、需求与流量阈值，可核查 Google SERP 的候选。
 4. BUILD：仅在独立检查 SERP、竞争对手、可获客优势、AdSense 收益和成本，并经用户批准后才可能进入。系统不会自动提升到 BUILD。
+
+## GitHub 上游发现质量与历史去重
+
+新增 discovery_quality.py，将技术线索与真正经过数据核实的 SEO 机会严格分开：
+
+- 每天公开 GitHub API 搜索三个技术方向，按葡语/西语/英语词根轮换，并记录实际查询语句。查询词语言不等于目标国家，更不代表目标国家有自然流量。
+- 保存公开仓库名称、description、源码 URL、Star 快照；排除归档和 fork，识别 awesome 目录、课程、挑战、练习代码和非独立托管主页。
+- 用 TECH_LEAD_TO_INSPECT / LOW_PRIORITY_TECH_LEAD / SKIP_GITHUB_SOURCE 分层。技术适配得分只是核对产品页面的优先级，并非 SEO 流量、关键词排名或商业收入评分。
+- data/site-history.json 记录站点首次出现日期和采集次数（不是访问量）。所有数据源都失败时保留历史，不把抓取失败包装成 0 流量。
+- 新报告 reports/discovery-quality.md / reports/discovery-quality.json，每天只展示最多五个技术线索供公开页面核查。
+- GitHub 线索不会自动产生 Semrush 查询要求。只有确定具体国家、非品牌关键词、真实功能 URL、竞争页面并找到公开来源后，才提出精确的人工数据查询清单。
+- python discovery_quality.py 可从已有 reports/latest.json 构建研究工作单，Python 标准库无需新依赖。
+
+该发现通道不访问私人竞争对手数据，不绕过搜索引擎爬虫限制，不会把 Github Stars 误当作真实流量。
