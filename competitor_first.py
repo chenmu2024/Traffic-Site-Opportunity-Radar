@@ -98,6 +98,10 @@ def build(payload, now=None):
     scored = [gate(x, now.date()) for x in payload.get("snapshots", [])]
     recommended = [x for x in scored if x["status"] ==
                    "PUBLIC_ORGANIC_AND_NONBRAND_TOOL_EVIDENCE_REVIEW_SERP"]
+    # Research queue order is a heuristic (stronger observed query rank first), NOT predicted SEO win.
+    recommended.sort(key=lambda x: (x["keyword_position_public_snapshot"],
+                                     -(x["keyword_volume_public_snapshot"] or 0),
+                                     x["domain"]))
     return {
         "generated_at_utc": now.isoformat(),
         "market": "SEO_TRAFFIC_TOOLS_NOT_SAAS",
