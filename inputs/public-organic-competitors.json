@@ -511,7 +511,7 @@
         "https://animgen.com/tools/gif-background-remover",
         "https://onlinegiftools.com/remove-gif-chroma-key"
       ],
-      "reason": "2026-10-13 user Semrush USA desktop keyword: remove background from gif Volume33.1k, KD37, CPC$1.73 vs older Aug site public keyword Volume22.2k/CPC$1.37. KD slightly above preferred35, longtails small/KD36-49, mature free competitors incl Ezgif, AnimGen and browser-model tools; shortlist SERP ONLY, no standalone build until weak competitive top10 and ad economics demonstrated.",
+      "reason": "USA 2026-10-13 keyword Volume33.1k KD37 CPC1.73. User supplied full Top10 SERP; Ezgif & OnlineGIFTools strong page link profiles 366/357 referring domains, #4 Adworker AI paid-credit and #8 animatephoto.io browser-local AI GIF tool appears with one page-level referring domain. Page AS0 does not prove low domain strength. GIF niche has an entry signal but no demonstrated new-site moat or Ads unit economics; HOLD without further Semrush requests.",
       "manual_keyword_review": {
         "decision": "BORDERLINE_KD_37_SERP_ONLY",
         "reviewed_on": "2026-10-13",
@@ -560,6 +560,142 @@
         "do_not_request_same_core_kd_again": true,
         "do_not_request_related_terms_now": true,
         "stand_alone_build_approved": false
+      },
+      "manual_serp_review": {
+        "reviewed_on": "2026-10-13",
+        "country": "US",
+        "keyword": "remove background from gif",
+        "device": "DESKTOP",
+        "source": "User-provided Semrush Keyword Overview SERP Analysis screenshot (Positions 1–10, 2026-10-13)",
+        "evidence_type": "SEM_RUSH_US_TOP10_PAGE_LEVEL_METRICS",
+        "rankings": [
+          {
+            "position": 1,
+            "url": "https://ezgif.com/remove-background",
+            "page_as": 54,
+            "page_referring_domains": 366,
+            "page_backlinks": "1.1K",
+            "url_estimated_organic_search": 20700,
+            "url_ranked_keywords": 270,
+            "type": "established_browser_tool"
+          },
+          {
+            "position": 2,
+            "url": "https://onlinegiftools.com/remove-gif-background",
+            "page_as": 43,
+            "page_referring_domains": 357,
+            "page_backlinks": "1.1K",
+            "url_estimated_organic_search": 9700,
+            "url_ranked_keywords": 259,
+            "type": "established_browser_tool"
+          },
+          {
+            "position": 3,
+            "url": "https://play.google.com/store/apps/details?id=com.zwh.gif.background.eraser.app&hl=en_US",
+            "page_as": 0,
+            "page_referring_domains": 0,
+            "page_backlinks": "0",
+            "url_estimated_organic_search": 5300,
+            "url_ranked_keywords": 84,
+            "type": "google_play_store_app"
+          },
+          {
+            "position": 4,
+            "url": "https://adworker.ai/tools/gif-background-remover/",
+            "page_as": 48,
+            "page_referring_domains": 41,
+            "page_backlinks": "119",
+            "url_estimated_organic_search": 4000,
+            "url_ranked_keywords": 138,
+            "type": "ai_credit_browser_tool"
+          },
+          {
+            "position": 5,
+            "url": "https://www.reddit.com/r/photopea/comments/xf3uxa/is_it_possible_to_remove_a_background_from_a_gif/",
+            "page_as": 58,
+            "page_referring_domains": 1,
+            "page_backlinks": "106",
+            "url_estimated_organic_search": 1600,
+            "url_ranked_keywords": 105,
+            "type": "discussion"
+          },
+          {
+            "position": 6,
+            "url": "https://www.adobe.com/express/feature/video/remove-background/gif",
+            "page_as": 30,
+            "page_referring_domains": 14,
+            "page_backlinks": "29",
+            "url_estimated_organic_search": 1900,
+            "url_ranked_keywords": 171,
+            "type": "major_brand_feature_page"
+          },
+          {
+            "position": 7,
+            "url": "https://www.canva.com/features/gif-background-remover/",
+            "page_as": 0,
+            "page_referring_domains": 1,
+            "page_backlinks": "1",
+            "url_estimated_organic_search": 1900,
+            "url_ranked_keywords": 153,
+            "type": "major_brand_feature_page"
+          },
+          {
+            "position": 8,
+            "url": "https://animatephoto.io/gif-background-remover",
+            "page_as": 0,
+            "page_referring_domains": 1,
+            "page_backlinks": "1",
+            "url_estimated_organic_search": 2500,
+            "url_ranked_keywords": 108,
+            "type": "independent_browser_tool"
+          },
+          {
+            "position": 9,
+            "url": "https://www.instagram.com/reel/Dvfs08RA0VE/?hl=en",
+            "page_as": 0,
+            "page_referring_domains": 0,
+            "page_backlinks": "0",
+            "url_estimated_organic_search": 81,
+            "url_ranked_keywords": 1400,
+            "type": "social_media"
+          },
+          {
+            "position": 10,
+            "url": "https://www.youtube.com/watch?verIXSjff69Jk",
+            "page_as": 0,
+            "page_referring_domains": 0,
+            "page_backlinks": "0",
+            "url_estimated_organic_search": 22,
+            "url_ranked_keywords": 186,
+            "type": "video"
+          }
+        ],
+        "analysis": {
+          "direct_browser_tools_at_positions": [
+            1,
+            2,
+            4,
+            8
+          ],
+          "low_link_independent_tool_page_positions": [
+            8
+          ],
+          "page_as_zero_not_domain_as_zero": true,
+          "top_two_linked_tools_ref_domains": [
+            366,
+            357
+          ],
+          "weak_url_position": 8,
+          "weak_url_page_referring_domains": 1,
+          "weak_url_estimated_organic_search": 2500,
+          "adworker_credits": "Publicly describes starter credits (1 credit/GIF up to 30 frames, plus add-on), not unlimited free; feature not a zero-infrastructure business case.",
+          "animatephoto_features": "Product claims free browser-local per-frame AI GIF background removal, transparent GIF/APNG and colored backgrounds, no signup, offered as a funnel to paid AI photo animation.",
+          "dominant_competitor_coverage": "Mature GIF utilities + major Canva/Adobe + AI-assisted local tools; a basic color-key page is not differentiated.",
+          "conclusion": "Top10 is mixed, with one low-linked indie browser-tool page at #8, but it is functional and supported by a broader AI content product. No proven product/AdSense acquisition moat for zero-fixed-cost independent site. HOLD research, no build, no further manual keyword/SERP requests without new independent evidence.",
+          "decision": "HOLD_MIXED_SERP_NO_DIFFERENTIATED_ENTRY",
+          "do_not_request_repeat_semrush": true,
+          "approved_to_build": false
+        }
       }
     },
     {
