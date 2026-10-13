@@ -13,7 +13,8 @@
 - Source: https://www.semrush.com/website/onlinegiftools.com/overview/
 - CPC (provider keyword snapshot): USD 1.37; NOT AdSense earnings; estimated all-domain organic traffic is NOT exact tool traffic.
 - Existing competition to inspect: https://ezgif.com/remove-background, https://animgen.com/tools/gif-background-remover, https://onlinegiftools.com/remove-gif-chroma-key
-- Next step: Inspect SAME-COUNTRY current KD and actual top-10 SERP (weak sites?), separate tool page traffic, competitive differentiation and AdSense economics. Do not open a new domain yet.
+- User Semrush 2026-10-13: Core country Volume 33100 · KD 37 · CPC USD 1.73 (separate from older public Semrush site snapshot). DO NOT request Volume or KD again.
+- Next step: ONLY independent Top10 SERP URLs and ranking-site authority/links; check whether a realistic weak entry exists. Do not build or search low-volume variants now.
 
 ### cps-check.com · MX
 - Public global organic estimate: 99240 / month (2026-08)
@@ -22,6 +23,7 @@
 - Source: https://www.semrush.com/website/cps-check.com/overview/
 - CPC (provider keyword snapshot): USD 0; NOT AdSense earnings; estimated all-domain organic traffic is NOT exact tool traffic.
 - Existing competition to inspect: https://keyboardtestonline.com/es/, https://testdeteclado.com/, https://www.teclado.online/?lang=es
+- Current country core KD remains unknown: only ask for it after independent competition review.
 - Next step: Inspect SAME-COUNTRY current KD and actual top-10 SERP (weak sites?), separate tool page traffic, competitive differentiation and AdSense economics. Do not open a new domain yet.
 
 ## Rejected or held even if a site exists
