@@ -68,11 +68,29 @@ class CompetitorFirstTests(unittest.TestCase):
     def test_cross_market_rank_must_match_country(self):
         a=row();a["keyword_country"]="MX"
         self.assertEqual(gate(a,TODAY.date())["status"],"REJECT_INVALID_ATTRIBUTION")
+    def test_monthly_organic_collapse_blocks_research(self):
+        x=row()
+        x["organic_mom_change_pct"]=-76.11
+        result=gate(x,TODAY.date())
+        self.assertEqual(result["status"],"HOLD_UNSTABLE_ORGANIC_TREND")
+
+    def test_ads_policy_risk_avoids_promising_download_tool(self):
+        x=row()
+        x["ad_monetization_policy_risk"]=True
+        self.assertEqual(gate(x,TODAY.date())["status"],"REJECT_ADS_MONETIZATION_POLICY_RISK")
+
+    def test_tool_keyword_low_volume_is_not_substituted_by_domain_traffic(self):
+        x=row()
+        x["keyword_volume"]=1900
+        self.assertEqual(gate(x,TODAY.date())["status"],"REJECT_LOW_CORE_NONBRAND_TOOL_KEYWORD_DEMAND")
+        x["keyword_volume"]=3000
+        self.assertEqual(gate(x,TODAY.date())["status"],"PUBLIC_ORGANIC_AND_NONBRAND_TOOL_EVIDENCE_REVIEW_SERP")
+
     def test_real_evidence_fixture_zero_unsubstantiated_sites(self):
         p=Path(__file__).resolve().parents[1]/"inputs"/"public-organic-competitors.json"
         data=json.loads(p.read_text(encoding="utf-8"))
         report=build(data,TODAY)
-        self.assertEqual(report["public_evidence_count"],6)
+        self.assertEqual(report["public_evidence_count"],10)
         self.assertTrue(report["organic_traffic_numbers_are_public_provider_estimates_not_first_party"])
         self.assertEqual([x["domain"] for x in report["shortlist_for_serp_check"]],[])
         reviewed = next(x for x in report["others"] if x["domain"] == "meloja.com.br")
@@ -83,6 +101,13 @@ class CompetitorFirstTests(unittest.TestCase):
                       {x["status"] for x in report["others"]})
         self.assertIn("REJECT_OUTSIDE_GLOBAL_ORGANIC_TRAFFIC_TARGET",
                       {x["status"] for x in report["others"]})
+        expected={
+            "countdown-timer.app":"HOLD_UNSTABLE_ORGANIC_TREND",
+            "loaderr.to":"REJECT_ADS_MONETIZATION_POLICY_RISK",
+            "mouser.mx":"REJECT_LOW_CORE_NONBRAND_TOOL_KEYWORD_DEMAND",
+            "calculadoras.uno":"REJECT_LOW_CORE_NONBRAND_TOOL_KEYWORD_DEMAND",
+        }
+        self.assertEqual({x["domain"]:x["status"] for x in report["others"] if x["domain"] in expected},expected)
 
 if __name__=="__main__":
     unittest.main()
