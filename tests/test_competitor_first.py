@@ -150,14 +150,20 @@ class CompetitorFirstTests(unittest.TestCase):
     def test_gif_background_tool_public_evidence_qualifies_for_kd_check_only(self):
         payload=json.loads((Path(__file__).resolve().parents[1]/"inputs"/"public-organic-competitors.json").read_text(encoding="utf-8"))
         result=build(payload,TODAY)
-        gif=next(x for x in result["shortlist_for_serp_check"] if x["domain"]=="onlinegiftools.com")
+        gif=next(x for x in result["others"] if x["domain"]=="onlinegiftools.com")
         self.assertEqual(gif["keyword"],"remove background from gif")
-        self.assertEqual(gif["status"],"BORDERLINE_KD_SERP_ONLY")
+        self.assertEqual(gif["status"],"HOLD_MIXED_SERP_NO_DIFFERENTIATED_ENTRY")
+        self.assertTrue(gif["serp_review_completed"])
+        self.assertTrue(gif["serp_low_link_indie_page_at_position_8_only"])
+        self.assertEqual(len(gif["manual_serp_review"]["rankings"]),10)
+        self.assertEqual(gif["manual_serp_review"]["rankings"][7]["position"],8)
+        self.assertEqual(gif["manual_serp_review"]["rankings"][7]["page_referring_domains"],1)
+        self.assertFalse(gif["manual_serp_review"]["analysis"]["approved_to_build"])
         self.assertEqual(gif["current_user_supplied_volume"],33100)
         self.assertEqual(gif["current_user_supplied_kd"],37)
         self.assertEqual(gif["current_user_supplied_cpc_usd"],1.73)
         self.assertEqual(gif["keyword_volume_public_snapshot"],22200)
-        self.assertIn("DO NOT request Volume or KD again",markdown(result))
+        self.assertIn("DO NOT ask user for the same results again",markdown(result))
         self.assertEqual(gif["keyword_country"],"US")
         self.assertEqual(gif["keyword_position_public_snapshot"],2)
         self.assertEqual(gif["keyword_volume_public_snapshot"],22200)
@@ -184,6 +190,40 @@ class CompetitorFirstTests(unittest.TestCase):
         r=gate(x,TODAY.date())
         self.assertEqual(r["status"],"REQUIRE_LANDING_PAGE_FUNCTION_REVIEW")
 
+    def test_completed_serp_review_blocks_repeat_lookup_without_pretending_site_is_weak(self):
+        x=row()
+        x["manual_keyword_review"]={
+            "decision":"BORDERLINE_KD_37_SERP_ONLY",
+            "core_keyword":"remove background from gif",
+            "core_volume":33100,"core_kd":37,"core_cpc_usd":1.73
+        }
+        x["manual_serp_review"]={
+            "reviewed_on":"2026-10-13",
+            "rankings":[
+                {"position":1,"page_as":54,"page_referring_domains":366},
+                {"position":2,"page_as":43,"page_referring_domains":357},
+                {"position":8,"page_as":0,"page_referring_domains":1}
+            ],
+            "analysis":{
+                "decision":"HOLD_MIXED_SERP_NO_DIFFERENTIATED_ENTRY",
+                "weak_url_position":8,
+                "do_not_request_repeat_semrush":True,
+                "approved_to_build":False,
+                "conclusion":"One low-link tool page, but incumbents have mature free tools."
+            }
+        }
+        r=build({"snapshots":[x]},TODAY)
+        self.assertEqual(r["shortlist_for_serp_check"],[])
+        entry=r["others"][0]
+        self.assertEqual(entry["status"],"HOLD_MIXED_SERP_NO_DIFFERENTIATED_ENTRY")
+        self.assertTrue(entry["serp_review_completed"])
+        self.assertTrue(entry["serp_low_link_indie_page_at_position_8_only"])
+        self.assertFalse(entry["serp_low_authority_verified"])
+        self.assertFalse(entry["organic_verified_by_first_party_analytics"])
+        self.assertIn("DO NOT ask user for the same results again",markdown(r))
+        x["tool_page_publicly_checked"]=False
+        self.assertEqual(gate(x,TODAY.date())["status"],"REQUIRE_LANDING_PAGE_FUNCTION_REVIEW")
+
     def test_ordinary_pixelator_and_morse_code_are_held_not_auto_pushed(self):
         payload=json.loads((Path(__file__).resolve().parents[1]/"inputs"/"public-organic-competitors.json").read_text(encoding="utf-8"))
         result=build(payload,TODAY)
@@ -199,7 +239,7 @@ class CompetitorFirstTests(unittest.TestCase):
         report=build(data,TODAY)
         self.assertEqual(report["public_evidence_count"],18)
         self.assertTrue(report["organic_traffic_numbers_are_public_provider_estimates_not_first_party"])
-        self.assertEqual({x["domain"] for x in report["shortlist_for_serp_check"]},{"cps-check.com","onlinegiftools.com"})
+        self.assertEqual({x["domain"] for x in report["shortlist_for_serp_check"]},{"cps-check.com"})
         reviewed = next(x for x in report["others"] if x["domain"] == "meloja.com.br")
         self.assertEqual(reviewed["status"], "REJECT_HIGH_KD_WEAK_ADS_NEW_SITE")
         self.assertEqual(reviewed["manual_keyword_review"]["core_kd"], 50)

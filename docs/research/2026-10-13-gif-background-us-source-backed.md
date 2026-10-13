@@ -72,3 +72,34 @@
 ## Implementation status
 
 No production site modified. `geometrydashspam.cc` screen/pixel tools are NOT implicated, and SaaS discovery repo remains separate. No paid segmentation API or hosted GPU budget authorized.
+
+## 2026-10-13 用户补充 US SERP Analysis 前10名：所有原定数据已取得
+
+> 来源：用户上传的 Semrush Keyword Overview / SERP Analysis 页面截图，国家 United States、桌面设备、日期 2026-10-13，查询 `remove background from gif`。以下 `页面 AS`、`引荐域名` 是**具体排名 URL 页面级**指标，不等于根域名权重。Semrush `搜索流量` 指对排名 URL 的整体自然搜索流量估算（来自多个关键词），不等于该单词带来的点击或 GA4 实际流量。
+
+| US 排名 | 排名 URL / 类型 | 页面 AS | 页面引荐域名 | 该 URL 估算自然搜索流量/月 |
+|---:|---|---:|---:|---:|
+| 1 | https://ezgif.com/remove-background — 成熟GIF工具 | 54 | 366 | 20,700 |
+| 2 | https://onlinegiftools.com/remove-gif-background — 成熟GIF工具 | 43 | 357 | 9,700 |
+| 3 | Google Play GIF背景应用 — 应用商店 | 0 | 0 | 5,300 |
+| 4 | https://adworker.ai/tools/gif-background-remover/ — AI去背景工具 | 48 | 41 | 4,000 |
+| 5 | Reddit r/photopea 讨论 — UGC | 58 | 1 | 1,600 |
+| 6 | https://www.adobe.com/express/feature/video/remove-background/gif — 大品牌功能页 | 30 | 14 | 1,900 |
+| 7 | https://www.canva.com/features/gif-background-remover/ — 大品牌功能页 | 0 | 1 | 1,900 |
+| 8 | https://animatephoto.io/gif-background-remover — 独立工具站功能页 | **0** | **1** | **2,500** |
+| 9 | Instagram Reel — 社交媒体 | 0 | 0 | 81 |
+| 10 | YouTube 视频 — 视频站 | 0 | 0 | 22 |
+
+### 关于第8名的正确解读
+
+- **积极信号**：AnimatePhoto 的 GIF 工具 URL 排名第8，仅1个*页面级*引荐域名且页面 AS 显示0；因此SERP不是清一色高链接独立工具页面。
+- **关键限制**：页面 AS0 不代表 animatephoto.io 根域名 AS0；Canva、Instagram、Google Play 的页面AS同样为0，但不能因此称这些平台是低权重竞争者。
+- 其页面明确宣传免费的浏览器本地 GIF AI 抠图，透明 GIF / APNG / 自定义颜色下载、无水印无须注册：https://animatephoto.io/gif-background-remover。其站点同时卖 AI 图像动画生成积分套餐：https://animatephoto.io/pricing。它可能利用这个免费工具获客，未证明 AdSense 盈利模式。
+- 第4名 AdWorker AI 公开说明 GIF 分帧处理按 credits 收费（起始赠送积分，30帧以内1 credit等）：https://adworker.ai/tools/gif-background-remover/ 。不是证明这种 AI 功能可以无成本无限使用。
+- 前两名成熟工具各有366/357个页面引荐域名，第4名也有41个；Ezgif与Online GIF Tools已经覆盖透明处理、颜色阈值、边缘、帧预览，当前没有实证优势可以支撑新站切入。
+
+### 结论与后续规则
+
+**`HOLD_MIXED_SERP_NO_DIFFERENTIATED_ENTRY`：保留研究证据，但暂不建站。** 2026-10-13 美国 Volume 33,100、KD37、CPC USD1.73 和 SERP 前十名均已验证；**不需要用户再次查询这些数据**。该SERP有单个页面级低链接独立站排名第8的机会信号，但它的功能已十分完整，单纯做一个颜色阈值去除器或空泛AI工具不构成优势。除非能够先拿到新功能/用户体验/可盈利模式的外部证据，否则转向下一类低竞争的工具机会。
+
+后续项目优先选择多个独立弱工具排名、维护成本低、没有成熟免费+AI商业化双重竞争的方向，而不是依赖一个排第8的低链接页面。当前不会开发、修改或发布任何网站，且不涉及SaaS收入调查。
