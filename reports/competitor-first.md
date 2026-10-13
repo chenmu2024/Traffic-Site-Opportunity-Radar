@@ -6,6 +6,15 @@
 
 ## Functional competitors that qualify for SERP inspection only
 
+### deadpixeltest.org · BR
+- Public global organic estimate: 53460 / month (2026-08)
+- Country keyword: dead pixel test · rank #2 · Volume 9900.0 (public provider snapshot).
+- Browser tool URL: https://deadpixeltest.org/
+- Source: https://www.semrush.com/website/deadpixeltest.org/overview/
+- CPC (provider keyword snapshot): USD 0; NOT AdSense earnings; estimated all-domain organic traffic is NOT exact tool traffic.
+- Existing competition to inspect: https://deadpixeltest.com/, https://deadpixeltester.com/pt, https://pixeltest.net/pt/monitor-screen-test
+- Next step: Inspect SAME-COUNTRY current KD and actual top-10 SERP (weak sites?), separate tool page traffic, competitive differentiation and AdSense economics. Do not open a new domain yet.
+
 ### cps-check.com · MX
 - Public global organic estimate: 99240 / month (2026-08)
 - Country keyword: test teclado · rank #9 · Volume 12100.0 (public provider snapshot).
@@ -35,6 +44,7 @@
   - User reviewed: sens converter · Volume 33100 · KD 47 · CPC USD 5.36 · 
   - User confirmed core KD 47 and CPC USD 5.36; HOLD standalone new-site effort. Do NOT re-request this core KD or low-volume variants without independent new SERP evidence.
 | topster.pt | 45270 | OVERLAPS_USER_EXISTING_SITE_NOT_NEW_PROJECT |
+| gpadtester.com | 108710 | REJECT_OUTSIDE_GLOBAL_ORGANIC_TRAFFIC_TARGET |
 
 ## Rules
 - Site target: global organic estimated 10k–100k, then verify target-country traffic independently.

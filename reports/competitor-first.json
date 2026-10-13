@@ -1,8 +1,53 @@
 {
-  "generated_at_utc": "2026-10-13T06:14:58.866082+00:00",
+  "generated_at_utc": "2026-10-13T06:23:24.239640+00:00",
   "market": "SEO_TRAFFIC_TOOLS_NOT_SAAS",
-  "public_evidence_count": 13,
+  "public_evidence_count": 15,
   "shortlist_for_serp_check": [
+    {
+      "domain": "deadpixeltest.org",
+      "primary_country": "BR",
+      "status": "PUBLIC_ORGANIC_AND_NONBRAND_TOOL_EVIDENCE_REVIEW_SERP",
+      "source_url": "https://www.semrush.com/website/deadpixeltest.org/overview/",
+      "source_month": "2026-08",
+      "global_monthly_organic_provider_estimate": 53460,
+      "country_organic_visits_not_proven": true,
+      "keyword": "dead pixel test",
+      "keyword_country": "BR",
+      "keyword_position_public_snapshot": 2,
+      "keyword_volume_public_snapshot": 9900.0,
+      "nonbrand_manual": true,
+      "example_tool_url": "https://deadpixeltest.org/",
+      "public_function_inspected": true,
+      "site_topic_overlap": false,
+      "organic_mom_change_pct": 14.16,
+      "ad_monetization_policy_risk": false,
+      "source_notes": "Aug 2026 public Semrush worldwide estimated organic 53.46k (+14.16%), AS38; BR nonbrand `dead pixel test` rank2 / Volume9,900 / CPC0 and two functional variations rank2-3. Confirmed actual full-screen color-cycle browser utility plus repair / resolution / contrast tools. Incumbents have comparable functionality, no independently verified weak SERP and no KD; CPC0 limits AdSense assumption. Need only BR core keyword KD and top10 competitor evidence before proceeding.",
+      "manual_keyword_review": null,
+      "authority_score_semrush": 38,
+      "keyword_cpc_usd_public_snapshot": 0,
+      "competing_tool_urls": [
+        "https://deadpixeltest.com/",
+        "https://deadpixeltester.com/pt",
+        "https://pixeltest.net/pt/monitor-screen-test"
+      ],
+      "other_ranked_keyword_examples": [
+        {
+          "keyword": "checking dead pixels",
+          "rank": 2,
+          "volume": 5400,
+          "cpc_usd": 0
+        },
+        {
+          "keyword": "dead pixel detector",
+          "rank": 3,
+          "volume": 4400,
+          "cpc_usd": 0
+        }
+      ],
+      "organic_verified_by_first_party_analytics": false,
+      "kd_verified": false,
+      "serp_low_authority_verified": false
+    },
     {
       "domain": "cps-check.com",
       "primary_country": "MX",
@@ -468,6 +513,63 @@
       "keyword_cpc_usd_public_snapshot": 0.4,
       "competing_tool_urls": [],
       "other_ranked_keyword_examples": [],
+      "organic_verified_by_first_party_analytics": false,
+      "kd_verified": false,
+      "serp_low_authority_verified": false
+    },
+    {
+      "domain": "gpadtester.com",
+      "primary_country": "BR",
+      "status": "REJECT_OUTSIDE_GLOBAL_ORGANIC_TRAFFIC_TARGET",
+      "source_url": "https://www.semrush.com/website/gpadtester.com/overview/",
+      "source_month": "2026-08",
+      "global_monthly_organic_provider_estimate": 108710,
+      "country_organic_visits_not_proven": true,
+      "keyword": "gamepad tester",
+      "keyword_country": "BR",
+      "keyword_position_public_snapshot": 3,
+      "keyword_volume_public_snapshot": 33100.0,
+      "nonbrand_manual": true,
+      "example_tool_url": "https://gpadtester.com/",
+      "public_function_inspected": true,
+      "site_topic_overlap": false,
+      "organic_mom_change_pct": 6.23,
+      "ad_monetization_policy_risk": false,
+      "source_notes": "Public Semrush Aug organic global 108.71k (+6.23%) and AS26, just ABOVE strict 100k target. BR nonbrand gamepad tester #3 Volume33,100; associated test terms. Actual online Gamepad API tool confirmed. Nearby over-cap competitor is an evidence benchmark only, not a 10k–100k candidate. Competing free tools offer drift/circularity, vibration and latency. CPC0 and browser-only inputs, no proven new-entrant organic access.",
+      "manual_keyword_review": null,
+      "authority_score_semrush": 26,
+      "keyword_cpc_usd_public_snapshot": 0,
+      "competing_tool_urls": [
+        "https://gamepadtesterr.com/",
+        "https://controller-test.com/",
+        "https://www.prodevicetest.com/pt/controller-test/"
+      ],
+      "other_ranked_keyword_examples": [
+        {
+          "keyword": "gamepad check",
+          "rank": 3,
+          "volume": 9900,
+          "cpc_usd": 0
+        },
+        {
+          "keyword": "test game controller",
+          "rank": 3,
+          "volume": 9900,
+          "cpc_usd": 0
+        },
+        {
+          "keyword": "teste gamepad",
+          "rank": 2,
+          "volume": 4400,
+          "cpc_usd": 0
+        },
+        {
+          "keyword": "gamepad checker",
+          "rank": 3,
+          "volume": 6600,
+          "cpc_usd": 0
+        }
+      ],
       "organic_verified_by_first_party_analytics": false,
       "kd_verified": false,
       "serp_low_authority_verified": false
