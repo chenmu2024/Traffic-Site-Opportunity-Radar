@@ -29,7 +29,10 @@
         }
       ],
       "angle": "Inform resin/workshop users of area, mold dimensions, ratio A:B and purchase amount. Client-side computation. Competes with manufacturer embedded tools; no traffic proof.",
-      "discovery_note": "Public pages provide working inputs; exact demand and Google ranking traffic unknown."
+      "discovery_note": "Public pages provide working inputs; exact demand and Google ranking traffic unknown.",
+      "manual_research_decision": "HOLD_NO_MEASURABLE_CORE_SEARCH",
+      "manual_research_reviewed_on": "2026-10-13",
+      "manual_research_note": "User checked the three requested exact country-level core keywords and reported only BR wordsearch returned meaningful keyword metrics. This is NOT a measured zero, and does not mean the market has zero demand. Do not ask again for this exact term absent new evidence."
     },
     {
       "id": "br_wordsearch",
@@ -38,8 +41,9 @@
       "stage": "PUBLIC_TOOL_SERP_OBSERVED_NOT_TRAFFIC_VERIFIED",
       "core_keyword": "gerador de caça palavras",
       "supporting_keywords": [
-        "criar caça palavras para imprimir",
-        "gerador de caça palavras para imprimir"
+        "gerador de caça-palavras",
+        "gerador de caça palavras para imprimir",
+        "criar caça palavras para imprimir"
       ],
       "observed_competitors": [
         {
@@ -56,7 +60,8 @@
         }
       ],
       "angle": "Interactive custom puzzle creation with PDF/print. Crowded publicly visible SERP; only proceed if country keyword demand and achievable KD support it.",
-      "discovery_note": "Many independent pages exist, which also indicates competition. No verified monthly searches or DR."
+      "discovery_note": "Many independent pages exist, which also indicates competition. No verified monthly searches or DR.",
+      "user_research_note": "2026-10-13: Semrush screenshot confirms BR core 4,400 / KD19 / CPC $0; observed close variants 480 / KD20 and 260 / KD17. Generic competition already provides PDF, answer keys and printable boards. Single-purpose AdSense standalone site is not prioritized; may be an internal feature of a related larger project only after independent evidence."
     },
     {
       "id": "mx_resin_calculator",
@@ -83,7 +88,10 @@
         }
       ],
       "angle": "DIY resin volume and cost estimate localized to MX measurements and purchase packs; browser-side, no login.",
-      "discovery_note": "Observed competing functional pages; Spain/Latin America pages may appear outside MX, so MX rankings unverified."
+      "discovery_note": "Observed competing functional pages; Spain/Latin America pages may appear outside MX, so MX rankings unverified.",
+      "manual_research_decision": "HOLD_NO_MEASURABLE_CORE_SEARCH",
+      "manual_research_reviewed_on": "2026-10-13",
+      "manual_research_note": "User checked the three requested exact country-level core keywords and reported only BR wordsearch returned meaningful keyword metrics. This is NOT a measured zero, and does not mean the market has zero demand. Do not ask again for this exact term absent new evidence."
     }
   ]
 }
