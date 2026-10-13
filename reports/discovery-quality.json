@@ -1,288 +1,16 @@
 {
-  "generated_at_utc": "2026-10-13T03:24:51.448190+00:00",
+  "generated_at_utc": "2026-10-13T03:28:45.462296+00:00",
   "source_outage": false,
   "github_search_partial": false,
   "github_query_attempts": 3,
   "github_query_errors": 0,
   "observations": [
     {
-      "domain": "file-converter-pro.org",
-      "homepage": "https://file-converter-pro.org/",
-      "review_stage": "TECH_LEAD_TO_INSPECT",
-      "source": "PUBLIC_GITHUB_REPOSITORY",
-      "quality_heuristic_not_seo_score": 85,
-      "reasons": [
-        "GITHUB_CODE_ONLY_NO_SEO_EVIDENCE"
-      ],
-      "repositories": [
-        {
-          "url": "https://github.com/Hyacinthe-primus/File_Converter_Pro",
-          "stars": 594,
-          "updated_at": "2026-10-11T14:25:45Z",
-          "name": "File_Converter_Pro",
-          "description": "Free offline all-in-one file converter for Windows. Converts documents, images, audio and video locally. No uploads, no internet, no dependencies. Built with Python & PySide6. Features dark/light theme, stats dashboard, ",
-          "fork": false,
-          "archived": false
-        }
-      ],
-      "query_language_not_market": [
-        "image converter in:name,description stars:3..1500 archived:false"
-      ],
-      "seo_status": "NO_INDEPENDENT_SEO_EVIDENCE",
-      "organic_monthly_search": null,
-      "nonbrand_clicks": null,
-      "kd": null,
-      "cpc": null,
-      "country_traffic": null,
-      "next_action": "Inspect actual interactive utility page and locate independent nonbrand country-specific SEO evidence before requesting Semrush.",
-      "first_seen_in_radar": "2026-10-13",
-      "is_new_radar_observation": true,
-      "last_seen_in_radar": "2026-10-13"
-    },
-    {
-      "domain": "codante.io",
-      "homepage": "https://codante.io/mini-projetos/calculadora-de-imc-com-react",
-      "review_stage": "TECH_LEAD_TO_INSPECT",
-      "source": "PUBLIC_GITHUB_REPOSITORY",
-      "quality_heuristic_not_seo_score": 70,
-      "reasons": [
-        "GITHUB_CODE_ONLY_NO_SEO_EVIDENCE"
-      ],
-      "repositories": [
-        {
-          "url": "https://github.com/codante-io/mp-calculadora-imc",
-          "stars": 3,
-          "updated_at": "2024-08-01T20:04:16Z",
-          "name": "mp-calculadora-imc",
-          "description": "Nada melhor do que manter a saúde em dia, não é? Sendo o IMC uma medida internacional usada para calcular se uma pessoa está no peso ideal, a nossa calculadora de Índice de Massa Corporal (IMC) é perfeita para isso.",
-          "fork": false,
-          "archived": false
-        }
-      ],
-      "query_language_not_market": [
-        "calculadora in:name,description stars:3..1500 archived:false"
-      ],
-      "seo_status": "NO_INDEPENDENT_SEO_EVIDENCE",
-      "organic_monthly_search": null,
-      "nonbrand_clicks": null,
-      "kd": null,
-      "cpc": null,
-      "country_traffic": null,
-      "next_action": "Inspect actual interactive utility page and locate independent nonbrand country-specific SEO evidence before requesting Semrush.",
-      "first_seen_in_radar": "2026-10-13",
-      "is_new_radar_observation": true,
-      "last_seen_in_radar": "2026-10-13"
-    },
-    {
-      "domain": "codepoems.eu",
-      "homepage": "https://codepoems.eu/xl-converter",
-      "review_stage": "TECH_LEAD_TO_INSPECT",
-      "source": "PUBLIC_GITHUB_REPOSITORY",
-      "quality_heuristic_not_seo_score": 70,
-      "reasons": [
-        "GITHUB_CODE_ONLY_NO_SEO_EVIDENCE"
-      ],
-      "repositories": [
-        {
-          "url": "https://github.com/JacobDev1/xl-converter",
-          "stars": 575,
-          "updated_at": "2026-09-06T20:46:03Z",
-          "name": "xl-converter",
-          "description": "Easy-to-use image converter for modern formats. Supports fast parallel encoding, lossless JPEG transcoding, JPEG XL, AVIF, JPEGLI, ExifTool, and more. ",
-          "fork": false,
-          "archived": false
-        }
-      ],
-      "query_language_not_market": [
-        "image converter in:name,description stars:3..1500 archived:false"
-      ],
-      "seo_status": "NO_INDEPENDENT_SEO_EVIDENCE",
-      "organic_monthly_search": null,
-      "nonbrand_clicks": null,
-      "kd": null,
-      "cpc": null,
-      "country_traffic": null,
-      "next_action": "Inspect actual interactive utility page and locate independent nonbrand country-specific SEO evidence before requesting Semrush.",
-      "first_seen_in_radar": "2026-10-13",
-      "is_new_radar_observation": true,
-      "last_seen_in_radar": "2026-10-13"
-    },
-    {
-      "domain": "favr.dev",
-      "homepage": "https://favr.dev/opensource/density-converter",
-      "review_stage": "TECH_LEAD_TO_INSPECT",
-      "source": "PUBLIC_GITHUB_REPOSITORY",
-      "quality_heuristic_not_seo_score": 70,
-      "reasons": [
-        "GITHUB_CODE_ONLY_NO_SEO_EVIDENCE"
-      ],
-      "repositories": [
-        {
-          "url": "https://github.com/patrickfav/density-converter",
-          "stars": 253,
-          "updated_at": "2024-10-14T10:16:53Z",
-          "name": "density-converter",
-          "description": "A multi platform image density converting tool converting single or batches of images to Android, iOS, Windows or CSS specific formats and density versions given the source scale factor or width/height in dp. It has a gr",
-          "fork": false,
-          "archived": false
-        }
-      ],
-      "query_language_not_market": [
-        "image converter in:name,description stars:3..1500 archived:false"
-      ],
-      "seo_status": "NO_INDEPENDENT_SEO_EVIDENCE",
-      "organic_monthly_search": null,
-      "nonbrand_clicks": null,
-      "kd": null,
-      "cpc": null,
-      "country_traffic": null,
-      "next_action": "Inspect actual interactive utility page and locate independent nonbrand country-specific SEO evidence before requesting Semrush.",
-      "first_seen_in_radar": "2026-10-13",
-      "is_new_radar_observation": true,
-      "last_seen_in_radar": "2026-10-13"
-    },
-    {
-      "domain": "fichasdenimb.com.br",
-      "homepage": "https://fichasdenimb.com.br/",
-      "review_stage": "TECH_LEAD_TO_INSPECT",
-      "source": "PUBLIC_GITHUB_REPOSITORY",
-      "quality_heuristic_not_seo_score": 70,
-      "reasons": [
-        "GITHUB_CODE_ONLY_NO_SEO_EVIDENCE"
-      ],
-      "repositories": [
-        {
-          "url": "https://github.com/YuriAlessandro/gerador-ficha-tormenta20",
-          "stars": 89,
-          "updated_at": "2026-10-12T14:31:09Z",
-          "name": "gerador-ficha-tormenta20",
-          "description": "Fichas de Nimb é um pacote de ferramentas para o sistema brasileiro de RPG Tormenta 20. Geração de fichas de jogadores, fichas de ameaças, mapa de Arton, rolador de recompensas e várias outras opções.",
-          "fork": false,
-          "archived": false
-        }
-      ],
-      "query_language_not_market": [
-        "gerador in:name,description stars:3..1500 archived:false"
-      ],
-      "seo_status": "NO_INDEPENDENT_SEO_EVIDENCE",
-      "organic_monthly_search": null,
-      "nonbrand_clicks": null,
-      "kd": null,
-      "cpc": null,
-      "country_traffic": null,
-      "next_action": "Inspect actual interactive utility page and locate independent nonbrand country-specific SEO evidence before requesting Semrush.",
-      "first_seen_in_radar": "2026-10-13",
-      "is_new_radar_observation": true,
-      "last_seen_in_radar": "2026-10-13"
-    },
-    {
-      "domain": "iditect.com",
-      "homepage": "https://www.iditect.com/product/converter/",
-      "review_stage": "TECH_LEAD_TO_INSPECT",
-      "source": "PUBLIC_GITHUB_REPOSITORY",
-      "quality_heuristic_not_seo_score": 70,
-      "reasons": [
-        "GITHUB_CODE_ONLY_NO_SEO_EVIDENCE"
-      ],
-      "repositories": [
-        {
-          "url": "https://github.com/iditectweb/converter",
-          "stars": 42,
-          "updated_at": "2018-11-05T07:29:13Z",
-          "name": "converter",
-          "description": "Standalone .NET Converter library, not require Adobe Acrobat component nor Microsoft Office Interop Assemblies, to convert PDF, DOCX, XLSX, HTML, Image, CSV, RTF, TXT in .NET framework",
-          "fork": false,
-          "archived": false
-        }
-      ],
-      "query_language_not_market": [
-        "image converter in:name,description stars:3..1500 archived:false"
-      ],
-      "seo_status": "NO_INDEPENDENT_SEO_EVIDENCE",
-      "organic_monthly_search": null,
-      "nonbrand_clicks": null,
-      "kd": null,
-      "cpc": null,
-      "country_traffic": null,
-      "next_action": "Inspect actual interactive utility page and locate independent nonbrand country-specific SEO evidence before requesting Semrush.",
-      "first_seen_in_radar": "2026-10-13",
-      "is_new_radar_observation": true,
-      "last_seen_in_radar": "2026-10-13"
-    },
-    {
-      "domain": "jonathan-petitcolas.com",
-      "homepage": "https://www.jonathan-petitcolas.com/ascii-art-converter/",
-      "review_stage": "TECH_LEAD_TO_INSPECT",
-      "source": "PUBLIC_GITHUB_REPOSITORY",
-      "quality_heuristic_not_seo_score": 70,
-      "reasons": [
-        "GITHUB_CODE_ONLY_NO_SEO_EVIDENCE"
-      ],
-      "repositories": [
-        {
-          "url": "https://github.com/jpetitcolas/ascii-art-converter",
-          "stars": 91,
-          "updated_at": "2018-01-11T17:55:25Z",
-          "name": "ascii-art-converter",
-          "description": "Convert any image into pure ASCII art using some JavaScript",
-          "fork": false,
-          "archived": false
-        }
-      ],
-      "query_language_not_market": [
-        "image converter in:name,description stars:3..1500 archived:false"
-      ],
-      "seo_status": "NO_INDEPENDENT_SEO_EVIDENCE",
-      "organic_monthly_search": null,
-      "nonbrand_clicks": null,
-      "kd": null,
-      "cpc": null,
-      "country_traffic": null,
-      "next_action": "Inspect actual interactive utility page and locate independent nonbrand country-specific SEO evidence before requesting Semrush.",
-      "first_seen_in_radar": "2026-10-13",
-      "is_new_radar_observation": true,
-      "last_seen_in_radar": "2026-10-13"
-    },
-    {
-      "domain": "medium.com",
-      "homepage": "https://medium.com/@igorcbraz/build-a-feature-rich-calculator-with-pure-javascript-20ce17fbe47d",
-      "review_stage": "TECH_LEAD_TO_INSPECT",
-      "source": "PUBLIC_GITHUB_REPOSITORY",
-      "quality_heuristic_not_seo_score": 70,
-      "reasons": [
-        "GITHUB_CODE_ONLY_NO_SEO_EVIDENCE"
-      ],
-      "repositories": [
-        {
-          "url": "https://github.com/Igorcbraz/Calculadora",
-          "stars": 32,
-          "updated_at": "2025-01-24T16:05:58Z",
-          "name": "Calculadora",
-          "description": " 📐 Calculadora simples e intuitiva com suporte a comandos de voz e temas personalizados 📏",
-          "fork": false,
-          "archived": false
-        }
-      ],
-      "query_language_not_market": [
-        "calculadora in:name,description stars:3..1500 archived:false"
-      ],
-      "seo_status": "NO_INDEPENDENT_SEO_EVIDENCE",
-      "organic_monthly_search": null,
-      "nonbrand_clicks": null,
-      "kd": null,
-      "cpc": null,
-      "country_traffic": null,
-      "next_action": "Inspect actual interactive utility page and locate independent nonbrand country-specific SEO evidence before requesting Semrush.",
-      "first_seen_in_radar": "2026-10-13",
-      "is_new_radar_observation": true,
-      "last_seen_in_radar": "2026-10-13"
-    },
-    {
       "domain": "pix-qr-code.com",
       "homepage": "https://pix-qr-code.com",
       "review_stage": "TECH_LEAD_TO_INSPECT",
       "source": "PUBLIC_GITHUB_REPOSITORY",
-      "quality_heuristic_not_seo_score": 70,
+      "quality_heuristic_not_seo_score": 65,
       "reasons": [
         "GITHUB_CODE_ONLY_NO_SEO_EVIDENCE"
       ],
@@ -308,7 +36,7 @@
       "country_traffic": null,
       "next_action": "Inspect actual interactive utility page and locate independent nonbrand country-specific SEO evidence before requesting Semrush.",
       "first_seen_in_radar": "2026-10-13",
-      "is_new_radar_observation": true,
+      "is_new_radar_observation": false,
       "last_seen_in_radar": "2026-10-13"
     },
     {
@@ -316,7 +44,7 @@
       "homepage": "https://svg2vector.com",
       "review_stage": "TECH_LEAD_TO_INSPECT",
       "source": "PUBLIC_GITHUB_REPOSITORY",
-      "quality_heuristic_not_seo_score": 70,
+      "quality_heuristic_not_seo_score": 65,
       "reasons": [
         "GITHUB_CODE_ONLY_NO_SEO_EVIDENCE"
       ],
@@ -342,49 +70,15 @@
       "country_traffic": null,
       "next_action": "Inspect actual interactive utility page and locate independent nonbrand country-specific SEO evidence before requesting Semrush.",
       "first_seen_in_radar": "2026-10-13",
-      "is_new_radar_observation": true,
-      "last_seen_in_radar": "2026-10-13"
-    },
-    {
-      "domain": "tinyurl.com",
-      "homepage": "https://tinyurl.com/gerador-horarios-ist",
-      "review_stage": "TECH_LEAD_TO_INSPECT",
-      "source": "PUBLIC_GITHUB_REPOSITORY",
-      "quality_heuristic_not_seo_score": 70,
-      "reasons": [
-        "GITHUB_CODE_ONLY_NO_SEO_EVIDENCE"
-      ],
-      "repositories": [
-        {
-          "url": "https://github.com/joanasesinando/gerador-horarios-ist",
-          "stars": 28,
-          "updated_at": "2024-10-10T14:20:01Z",
-          "name": "gerador-horarios-ist",
-          "description": "🕓 A schedule generator for Instituto Superior Técnico (IST)'s students.",
-          "fork": false,
-          "archived": false
-        }
-      ],
-      "query_language_not_market": [
-        "gerador in:name,description stars:3..1500 archived:false"
-      ],
-      "seo_status": "NO_INDEPENDENT_SEO_EVIDENCE",
-      "organic_monthly_search": null,
-      "nonbrand_clicks": null,
-      "kd": null,
-      "cpc": null,
-      "country_traffic": null,
-      "next_action": "Inspect actual interactive utility page and locate independent nonbrand country-specific SEO evidence before requesting Semrush.",
-      "first_seen_in_radar": "2026-10-13",
-      "is_new_radar_observation": true,
+      "is_new_radar_observation": false,
       "last_seen_in_radar": "2026-10-13"
     },
     {
       "domain": "converseen.fasterland.net",
       "homepage": "https://converseen.fasterland.net/",
-      "review_stage": "TECH_LEAD_TO_INSPECT",
+      "review_stage": "LOW_PRIORITY_TECH_LEAD",
       "source": "PUBLIC_GITHUB_REPOSITORY",
-      "quality_heuristic_not_seo_score": 65,
+      "quality_heuristic_not_seo_score": 60,
       "reasons": [
         "SHARED_HOST_OR_SUBDOMAIN_REQUIRES_REVIEW"
       ],
@@ -410,15 +104,15 @@
       "country_traffic": null,
       "next_action": "Inspect actual interactive utility page and locate independent nonbrand country-specific SEO evidence before requesting Semrush.",
       "first_seen_in_radar": "2026-10-13",
-      "is_new_radar_observation": true,
+      "is_new_radar_observation": false,
       "last_seen_in_radar": "2026-10-13"
     },
     {
       "domain": "gerador-nomes.wolan.net",
       "homepage": "https://gerador-nomes.wolan.net",
-      "review_stage": "TECH_LEAD_TO_INSPECT",
+      "review_stage": "LOW_PRIORITY_TECH_LEAD",
       "source": "PUBLIC_GITHUB_REPOSITORY",
-      "quality_heuristic_not_seo_score": 65,
+      "quality_heuristic_not_seo_score": 60,
       "reasons": [
         "SHARED_HOST_OR_SUBDOMAIN_REQUIRES_REVIEW"
       ],
@@ -444,15 +138,15 @@
       "country_traffic": null,
       "next_action": "Inspect actual interactive utility page and locate independent nonbrand country-specific SEO evidence before requesting Semrush.",
       "first_seen_in_radar": "2026-10-13",
-      "is_new_radar_observation": true,
+      "is_new_radar_observation": false,
       "last_seen_in_radar": "2026-10-13"
     },
     {
       "domain": "gerador.dev.br",
       "homepage": "https://gerador.dev.br",
-      "review_stage": "TECH_LEAD_TO_INSPECT",
+      "review_stage": "LOW_PRIORITY_TECH_LEAD",
       "source": "PUBLIC_GITHUB_REPOSITORY",
-      "quality_heuristic_not_seo_score": 65,
+      "quality_heuristic_not_seo_score": 60,
       "reasons": [
         "SHARED_HOST_OR_SUBDOMAIN_REQUIRES_REVIEW"
       ],
@@ -478,15 +172,15 @@
       "country_traffic": null,
       "next_action": "Inspect actual interactive utility page and locate independent nonbrand country-specific SEO evidence before requesting Semrush.",
       "first_seen_in_radar": "2026-10-13",
-      "is_new_radar_observation": true,
+      "is_new_radar_observation": false,
       "last_seen_in_radar": "2026-10-13"
     },
     {
       "domain": "lcd-image-converter.riuson.com",
       "homepage": "https://lcd-image-converter.riuson.com/",
-      "review_stage": "TECH_LEAD_TO_INSPECT",
+      "review_stage": "LOW_PRIORITY_TECH_LEAD",
       "source": "PUBLIC_GITHUB_REPOSITORY",
-      "quality_heuristic_not_seo_score": 65,
+      "quality_heuristic_not_seo_score": 60,
       "reasons": [
         "SHARED_HOST_OR_SUBDOMAIN_REQUIRES_REVIEW"
       ],
@@ -512,7 +206,143 @@
       "country_traffic": null,
       "next_action": "Inspect actual interactive utility page and locate independent nonbrand country-specific SEO evidence before requesting Semrush.",
       "first_seen_in_radar": "2026-10-13",
-      "is_new_radar_observation": true,
+      "is_new_radar_observation": false,
+      "last_seen_in_radar": "2026-10-13"
+    },
+    {
+      "domain": "iditect.com",
+      "homepage": "https://www.iditect.com/product/converter/",
+      "review_stage": "LOW_PRIORITY_TECH_LEAD",
+      "source": "PUBLIC_GITHUB_REPOSITORY",
+      "quality_heuristic_not_seo_score": 40,
+      "reasons": [
+        "NON_ROOT_PAGE_NOT_STANDALONE_SITE"
+      ],
+      "repositories": [
+        {
+          "url": "https://github.com/iditectweb/converter",
+          "stars": 42,
+          "updated_at": "2018-11-05T07:29:13Z",
+          "name": "converter",
+          "description": "Standalone .NET Converter library, not require Adobe Acrobat component nor Microsoft Office Interop Assemblies, to convert PDF, DOCX, XLSX, HTML, Image, CSV, RTF, TXT in .NET framework",
+          "fork": false,
+          "archived": false
+        }
+      ],
+      "query_language_not_market": [
+        "image converter in:name,description stars:3..1500 archived:false"
+      ],
+      "seo_status": "NO_INDEPENDENT_SEO_EVIDENCE",
+      "organic_monthly_search": null,
+      "nonbrand_clicks": null,
+      "kd": null,
+      "cpc": null,
+      "country_traffic": null,
+      "next_action": "Inspect actual interactive utility page and locate independent nonbrand country-specific SEO evidence before requesting Semrush.",
+      "first_seen_in_radar": "2026-10-13",
+      "is_new_radar_observation": false,
+      "last_seen_in_radar": "2026-10-13"
+    },
+    {
+      "domain": "jonathan-petitcolas.com",
+      "homepage": "https://www.jonathan-petitcolas.com/ascii-art-converter/",
+      "review_stage": "LOW_PRIORITY_TECH_LEAD",
+      "source": "PUBLIC_GITHUB_REPOSITORY",
+      "quality_heuristic_not_seo_score": 40,
+      "reasons": [
+        "NON_ROOT_PAGE_NOT_STANDALONE_SITE"
+      ],
+      "repositories": [
+        {
+          "url": "https://github.com/jpetitcolas/ascii-art-converter",
+          "stars": 91,
+          "updated_at": "2018-01-11T17:55:25Z",
+          "name": "ascii-art-converter",
+          "description": "Convert any image into pure ASCII art using some JavaScript",
+          "fork": false,
+          "archived": false
+        }
+      ],
+      "query_language_not_market": [
+        "image converter in:name,description stars:3..1500 archived:false"
+      ],
+      "seo_status": "NO_INDEPENDENT_SEO_EVIDENCE",
+      "organic_monthly_search": null,
+      "nonbrand_clicks": null,
+      "kd": null,
+      "cpc": null,
+      "country_traffic": null,
+      "next_action": "Inspect actual interactive utility page and locate independent nonbrand country-specific SEO evidence before requesting Semrush.",
+      "first_seen_in_radar": "2026-10-13",
+      "is_new_radar_observation": false,
+      "last_seen_in_radar": "2026-10-13"
+    },
+    {
+      "domain": "medium.com",
+      "homepage": "https://medium.com/@igorcbraz/build-a-feature-rich-calculator-with-pure-javascript-20ce17fbe47d",
+      "review_stage": "LOW_PRIORITY_TECH_LEAD",
+      "source": "PUBLIC_GITHUB_REPOSITORY",
+      "quality_heuristic_not_seo_score": 40,
+      "reasons": [
+        "NON_ROOT_PAGE_NOT_STANDALONE_SITE"
+      ],
+      "repositories": [
+        {
+          "url": "https://github.com/Igorcbraz/Calculadora",
+          "stars": 32,
+          "updated_at": "2025-01-24T16:05:58Z",
+          "name": "Calculadora",
+          "description": " 📐 Calculadora simples e intuitiva com suporte a comandos de voz e temas personalizados 📏",
+          "fork": false,
+          "archived": false
+        }
+      ],
+      "query_language_not_market": [
+        "calculadora in:name,description stars:3..1500 archived:false"
+      ],
+      "seo_status": "NO_INDEPENDENT_SEO_EVIDENCE",
+      "organic_monthly_search": null,
+      "nonbrand_clicks": null,
+      "kd": null,
+      "cpc": null,
+      "country_traffic": null,
+      "next_action": "Inspect actual interactive utility page and locate independent nonbrand country-specific SEO evidence before requesting Semrush.",
+      "first_seen_in_radar": "2026-10-13",
+      "is_new_radar_observation": false,
+      "last_seen_in_radar": "2026-10-13"
+    },
+    {
+      "domain": "tinyurl.com",
+      "homepage": "https://tinyurl.com/gerador-horarios-ist",
+      "review_stage": "LOW_PRIORITY_TECH_LEAD",
+      "source": "PUBLIC_GITHUB_REPOSITORY",
+      "quality_heuristic_not_seo_score": 40,
+      "reasons": [
+        "NON_ROOT_PAGE_NOT_STANDALONE_SITE"
+      ],
+      "repositories": [
+        {
+          "url": "https://github.com/joanasesinando/gerador-horarios-ist",
+          "stars": 28,
+          "updated_at": "2024-10-10T14:20:01Z",
+          "name": "gerador-horarios-ist",
+          "description": "🕓 A schedule generator for Instituto Superior Técnico (IST)'s students.",
+          "fork": false,
+          "archived": false
+        }
+      ],
+      "query_language_not_market": [
+        "gerador in:name,description stars:3..1500 archived:false"
+      ],
+      "seo_status": "NO_INDEPENDENT_SEO_EVIDENCE",
+      "organic_monthly_search": null,
+      "nonbrand_clicks": null,
+      "kd": null,
+      "cpc": null,
+      "country_traffic": null,
+      "next_action": "Inspect actual interactive utility page and locate independent nonbrand country-specific SEO evidence before requesting Semrush.",
+      "first_seen_in_radar": "2026-10-13",
+      "is_new_radar_observation": false,
       "last_seen_in_radar": "2026-10-13"
     },
     {
@@ -520,8 +350,9 @@
       "homepage": "http://demoiselle.sourceforge.net/tools/nimble/",
       "review_stage": "LOW_PRIORITY_TECH_LEAD",
       "source": "PUBLIC_GITHUB_REPOSITORY",
-      "quality_heuristic_not_seo_score": 50,
+      "quality_heuristic_not_seo_score": 20,
       "reasons": [
+        "NON_ROOT_PAGE_NOT_STANDALONE_SITE",
         "SHARED_HOST_OR_SUBDOMAIN_REQUIRES_REVIEW"
       ],
       "repositories": [
@@ -546,7 +377,7 @@
       "country_traffic": null,
       "next_action": "Inspect actual interactive utility page and locate independent nonbrand country-specific SEO evidence before requesting Semrush.",
       "first_seen_in_radar": "2026-10-13",
-      "is_new_radar_observation": true,
+      "is_new_radar_observation": false,
       "last_seen_in_radar": "2026-10-13"
     },
     {
@@ -554,8 +385,9 @@
       "homepage": "http://enotionz.github.com/jscii/",
       "review_stage": "LOW_PRIORITY_TECH_LEAD",
       "source": "PUBLIC_GITHUB_REPOSITORY",
-      "quality_heuristic_not_seo_score": 50,
+      "quality_heuristic_not_seo_score": 20,
       "reasons": [
+        "NON_ROOT_PAGE_NOT_STANDALONE_SITE",
         "SHARED_HOST_OR_SUBDOMAIN_REQUIRES_REVIEW"
       ],
       "repositories": [
@@ -580,7 +412,7 @@
       "country_traffic": null,
       "next_action": "Inspect actual interactive utility page and locate independent nonbrand country-specific SEO evidence before requesting Semrush.",
       "first_seen_in_radar": "2026-10-13",
-      "is_new_radar_observation": true,
+      "is_new_radar_observation": false,
       "last_seen_in_radar": "2026-10-13"
     },
     {
@@ -588,8 +420,9 @@
       "homepage": "http://web.ist.utl.pt/pedropramos/horarios/",
       "review_stage": "LOW_PRIORITY_TECH_LEAD",
       "source": "PUBLIC_GITHUB_REPOSITORY",
-      "quality_heuristic_not_seo_score": 40,
+      "quality_heuristic_not_seo_score": 10,
       "reasons": [
+        "NON_ROOT_PAGE_NOT_STANDALONE_SITE",
         "SHARED_HOST_OR_SUBDOMAIN_REQUIRES_REVIEW"
       ],
       "repositories": [
@@ -614,155 +447,17 @@
       "country_traffic": null,
       "next_action": "Inspect actual interactive utility page and locate independent nonbrand country-specific SEO evidence before requesting Semrush.",
       "first_seen_in_radar": "2026-10-13",
-      "is_new_radar_observation": true,
-      "last_seen_in_radar": "2026-10-13"
-    }
-  ],
-  "priority_to_inspect": [
-    {
-      "domain": "file-converter-pro.org",
-      "homepage": "https://file-converter-pro.org/",
-      "review_stage": "TECH_LEAD_TO_INSPECT",
-      "source": "PUBLIC_GITHUB_REPOSITORY",
-      "quality_heuristic_not_seo_score": 85,
-      "reasons": [
-        "GITHUB_CODE_ONLY_NO_SEO_EVIDENCE"
-      ],
-      "repositories": [
-        {
-          "url": "https://github.com/Hyacinthe-primus/File_Converter_Pro",
-          "stars": 594,
-          "updated_at": "2026-10-11T14:25:45Z",
-          "name": "File_Converter_Pro",
-          "description": "Free offline all-in-one file converter for Windows. Converts documents, images, audio and video locally. No uploads, no internet, no dependencies. Built with Python & PySide6. Features dark/light theme, stats dashboard, ",
-          "fork": false,
-          "archived": false
-        }
-      ],
-      "query_language_not_market": [
-        "image converter in:name,description stars:3..1500 archived:false"
-      ],
-      "seo_status": "NO_INDEPENDENT_SEO_EVIDENCE",
-      "organic_monthly_search": null,
-      "nonbrand_clicks": null,
-      "kd": null,
-      "cpc": null,
-      "country_traffic": null,
-      "next_action": "Inspect actual interactive utility page and locate independent nonbrand country-specific SEO evidence before requesting Semrush.",
-      "first_seen_in_radar": "2026-10-13",
-      "is_new_radar_observation": true,
-      "last_seen_in_radar": "2026-10-13"
-    },
-    {
-      "domain": "codante.io",
-      "homepage": "https://codante.io/mini-projetos/calculadora-de-imc-com-react",
-      "review_stage": "TECH_LEAD_TO_INSPECT",
-      "source": "PUBLIC_GITHUB_REPOSITORY",
-      "quality_heuristic_not_seo_score": 70,
-      "reasons": [
-        "GITHUB_CODE_ONLY_NO_SEO_EVIDENCE"
-      ],
-      "repositories": [
-        {
-          "url": "https://github.com/codante-io/mp-calculadora-imc",
-          "stars": 3,
-          "updated_at": "2024-08-01T20:04:16Z",
-          "name": "mp-calculadora-imc",
-          "description": "Nada melhor do que manter a saúde em dia, não é? Sendo o IMC uma medida internacional usada para calcular se uma pessoa está no peso ideal, a nossa calculadora de Índice de Massa Corporal (IMC) é perfeita para isso.",
-          "fork": false,
-          "archived": false
-        }
-      ],
-      "query_language_not_market": [
-        "calculadora in:name,description stars:3..1500 archived:false"
-      ],
-      "seo_status": "NO_INDEPENDENT_SEO_EVIDENCE",
-      "organic_monthly_search": null,
-      "nonbrand_clicks": null,
-      "kd": null,
-      "cpc": null,
-      "country_traffic": null,
-      "next_action": "Inspect actual interactive utility page and locate independent nonbrand country-specific SEO evidence before requesting Semrush.",
-      "first_seen_in_radar": "2026-10-13",
-      "is_new_radar_observation": true,
-      "last_seen_in_radar": "2026-10-13"
-    },
-    {
-      "domain": "codepoems.eu",
-      "homepage": "https://codepoems.eu/xl-converter",
-      "review_stage": "TECH_LEAD_TO_INSPECT",
-      "source": "PUBLIC_GITHUB_REPOSITORY",
-      "quality_heuristic_not_seo_score": 70,
-      "reasons": [
-        "GITHUB_CODE_ONLY_NO_SEO_EVIDENCE"
-      ],
-      "repositories": [
-        {
-          "url": "https://github.com/JacobDev1/xl-converter",
-          "stars": 575,
-          "updated_at": "2026-09-06T20:46:03Z",
-          "name": "xl-converter",
-          "description": "Easy-to-use image converter for modern formats. Supports fast parallel encoding, lossless JPEG transcoding, JPEG XL, AVIF, JPEGLI, ExifTool, and more. ",
-          "fork": false,
-          "archived": false
-        }
-      ],
-      "query_language_not_market": [
-        "image converter in:name,description stars:3..1500 archived:false"
-      ],
-      "seo_status": "NO_INDEPENDENT_SEO_EVIDENCE",
-      "organic_monthly_search": null,
-      "nonbrand_clicks": null,
-      "kd": null,
-      "cpc": null,
-      "country_traffic": null,
-      "next_action": "Inspect actual interactive utility page and locate independent nonbrand country-specific SEO evidence before requesting Semrush.",
-      "first_seen_in_radar": "2026-10-13",
-      "is_new_radar_observation": true,
-      "last_seen_in_radar": "2026-10-13"
-    },
-    {
-      "domain": "favr.dev",
-      "homepage": "https://favr.dev/opensource/density-converter",
-      "review_stage": "TECH_LEAD_TO_INSPECT",
-      "source": "PUBLIC_GITHUB_REPOSITORY",
-      "quality_heuristic_not_seo_score": 70,
-      "reasons": [
-        "GITHUB_CODE_ONLY_NO_SEO_EVIDENCE"
-      ],
-      "repositories": [
-        {
-          "url": "https://github.com/patrickfav/density-converter",
-          "stars": 253,
-          "updated_at": "2024-10-14T10:16:53Z",
-          "name": "density-converter",
-          "description": "A multi platform image density converting tool converting single or batches of images to Android, iOS, Windows or CSS specific formats and density versions given the source scale factor or width/height in dp. It has a gr",
-          "fork": false,
-          "archived": false
-        }
-      ],
-      "query_language_not_market": [
-        "image converter in:name,description stars:3..1500 archived:false"
-      ],
-      "seo_status": "NO_INDEPENDENT_SEO_EVIDENCE",
-      "organic_monthly_search": null,
-      "nonbrand_clicks": null,
-      "kd": null,
-      "cpc": null,
-      "country_traffic": null,
-      "next_action": "Inspect actual interactive utility page and locate independent nonbrand country-specific SEO evidence before requesting Semrush.",
-      "first_seen_in_radar": "2026-10-13",
-      "is_new_radar_observation": true,
+      "is_new_radar_observation": false,
       "last_seen_in_radar": "2026-10-13"
     },
     {
       "domain": "fichasdenimb.com.br",
       "homepage": "https://fichasdenimb.com.br/",
-      "review_stage": "TECH_LEAD_TO_INSPECT",
+      "review_stage": "SKIP_GITHUB_SOURCE",
       "source": "PUBLIC_GITHUB_REPOSITORY",
-      "quality_heuristic_not_seo_score": 70,
+      "quality_heuristic_not_seo_score": 65,
       "reasons": [
-        "GITHUB_CODE_ONLY_NO_SEO_EVIDENCE"
+        "MANUAL_SOURCE_REVIEW_EXCLUDED"
       ],
       "repositories": [
         {
@@ -785,14 +480,246 @@
       "cpc": null,
       "country_traffic": null,
       "next_action": "Inspect actual interactive utility page and locate independent nonbrand country-specific SEO evidence before requesting Semrush.",
+      "manual_review": {
+        "reason": "Project describes a subscription-funded Tormenta20 RPG platform with backend/auth/payments; not a low-overhead AdSense browser tool target.",
+        "source_url": "https://github.com/YuriAlessandro/gerador-ficha-tormenta20",
+        "reviewed_on": "2026-10-13"
+      },
       "first_seen_in_radar": "2026-10-13",
-      "is_new_radar_observation": true,
+      "is_new_radar_observation": false,
+      "last_seen_in_radar": "2026-10-13"
+    },
+    {
+      "domain": "codepoems.eu",
+      "homepage": "https://codepoems.eu/xl-converter",
+      "review_stage": "SKIP_GITHUB_SOURCE",
+      "source": "PUBLIC_GITHUB_REPOSITORY",
+      "quality_heuristic_not_seo_score": 40,
+      "reasons": [
+        "MANUAL_SOURCE_REVIEW_EXCLUDED"
+      ],
+      "repositories": [
+        {
+          "url": "https://github.com/JacobDev1/xl-converter",
+          "stars": 575,
+          "updated_at": "2026-09-06T20:46:03Z",
+          "name": "xl-converter",
+          "description": "Easy-to-use image converter for modern formats. Supports fast parallel encoding, lossless JPEG transcoding, JPEG XL, AVIF, JPEGLI, ExifTool, and more. ",
+          "fork": false,
+          "archived": false
+        }
+      ],
+      "query_language_not_market": [
+        "image converter in:name,description stars:3..1500 archived:false"
+      ],
+      "seo_status": "NO_INDEPENDENT_SEO_EVIDENCE",
+      "organic_monthly_search": null,
+      "nonbrand_clicks": null,
+      "kd": null,
+      "cpc": null,
+      "country_traffic": null,
+      "next_action": "Inspect actual interactive utility page and locate independent nonbrand country-specific SEO evidence before requesting Semrush.",
+      "manual_review": {
+        "reason": "Homepage points to the install/download page for XL Converter desktop software, not an online converter.",
+        "source_url": "https://xl-docs.codepoems.eu/getting_started/installation",
+        "reviewed_on": "2026-10-13"
+      },
+      "first_seen_in_radar": "2026-10-13",
+      "is_new_radar_observation": false,
+      "last_seen_in_radar": "2026-10-13"
+    },
+    {
+      "domain": "codante.io",
+      "homepage": "https://codante.io/mini-projetos/calculadora-de-imc-com-react",
+      "review_stage": "SKIP_GITHUB_SOURCE",
+      "source": "PUBLIC_GITHUB_REPOSITORY",
+      "quality_heuristic_not_seo_score": 0,
+      "reasons": [
+        "MANUAL_SOURCE_REVIEW_EXCLUDED"
+      ],
+      "repositories": [
+        {
+          "url": "https://github.com/codante-io/mp-calculadora-imc",
+          "stars": 3,
+          "updated_at": "2024-08-01T20:04:16Z",
+          "name": "mp-calculadora-imc",
+          "description": "Nada melhor do que manter a saúde em dia, não é? Sendo o IMC uma medida internacional usada para calcular se uma pessoa está no peso ideal, a nossa calculadora de Índice de Massa Corporal (IMC) é perfeita para isso.",
+          "fork": false,
+          "archived": false
+        }
+      ],
+      "query_language_not_market": [
+        "calculadora in:name,description stars:3..1500 archived:false"
+      ],
+      "seo_status": "NO_INDEPENDENT_SEO_EVIDENCE",
+      "organic_monthly_search": null,
+      "nonbrand_clicks": null,
+      "kd": null,
+      "cpc": null,
+      "country_traffic": null,
+      "next_action": "Inspect actual interactive utility page and locate independent nonbrand country-specific SEO evidence before requesting Semrush.",
+      "manual_review": {
+        "reason": "Landing URL is an educational mini-project/tutorial for a React IMC calculator, not an independent tool site.",
+        "source_url": "https://codante.io/mini-projetos/calculadora-de-imc-com-react",
+        "reviewed_on": "2026-10-13"
+      },
+      "first_seen_in_radar": "2026-10-13",
+      "is_new_radar_observation": false,
+      "last_seen_in_radar": "2026-10-13"
+    },
+    {
+      "domain": "favr.dev",
+      "homepage": "https://favr.dev/opensource/density-converter",
+      "review_stage": "SKIP_GITHUB_SOURCE",
+      "source": "PUBLIC_GITHUB_REPOSITORY",
+      "quality_heuristic_not_seo_score": 0,
+      "reasons": [
+        "MANUAL_SOURCE_REVIEW_EXCLUDED"
+      ],
+      "repositories": [
+        {
+          "url": "https://github.com/patrickfav/density-converter",
+          "stars": 253,
+          "updated_at": "2024-10-14T10:16:53Z",
+          "name": "density-converter",
+          "description": "A multi platform image density converting tool converting single or batches of images to Android, iOS, Windows or CSS specific formats and density versions given the source scale factor or width/height in dp. It has a gr",
+          "fork": false,
+          "archived": false
+        }
+      ],
+      "query_language_not_market": [
+        "image converter in:name,description stars:3..1500 archived:false"
+      ],
+      "seo_status": "NO_INDEPENDENT_SEO_EVIDENCE",
+      "organic_monthly_search": null,
+      "nonbrand_clicks": null,
+      "kd": null,
+      "cpc": null,
+      "country_traffic": null,
+      "next_action": "Inspect actual interactive utility page and locate independent nonbrand country-specific SEO evidence before requesting Semrush.",
+      "manual_review": {
+        "reason": "Github homepage is an /opensource developer-library description, not an independent browser utility.",
+        "source_url": "https://favr.dev/opensource/density-converter",
+        "reviewed_on": "2026-10-13"
+      },
+      "first_seen_in_radar": "2026-10-13",
+      "is_new_radar_observation": false,
+      "last_seen_in_radar": "2026-10-13"
+    },
+    {
+      "domain": "file-converter-pro.org",
+      "homepage": "https://file-converter-pro.org/",
+      "review_stage": "SKIP_GITHUB_SOURCE",
+      "source": "PUBLIC_GITHUB_REPOSITORY",
+      "quality_heuristic_not_seo_score": 0,
+      "reasons": [
+        "MANUAL_SOURCE_REVIEW_EXCLUDED"
+      ],
+      "repositories": [
+        {
+          "url": "https://github.com/Hyacinthe-primus/File_Converter_Pro",
+          "stars": 594,
+          "updated_at": "2026-10-11T14:25:45Z",
+          "name": "File_Converter_Pro",
+          "description": "Free offline all-in-one file converter for Windows. Converts documents, images, audio and video locally. No uploads, no internet, no dependencies. Built with Python & PySide6. Features dark/light theme, stats dashboard, ",
+          "fork": false,
+          "archived": false
+        }
+      ],
+      "query_language_not_market": [
+        "image converter in:name,description stars:3..1500 archived:false"
+      ],
+      "seo_status": "NO_INDEPENDENT_SEO_EVIDENCE",
+      "organic_monthly_search": null,
+      "nonbrand_clicks": null,
+      "kd": null,
+      "cpc": null,
+      "country_traffic": null,
+      "next_action": "Inspect actual interactive utility page and locate independent nonbrand country-specific SEO evidence before requesting Semrush.",
+      "manual_review": {
+        "reason": "GitHub describes this as a Windows offline desktop converter, not a browser-based utility site.",
+        "source_url": "https://github.com/Hyacinthe-primus/File_Converter_Pro",
+        "reviewed_on": "2026-10-13"
+      },
+      "first_seen_in_radar": "2026-10-13",
+      "is_new_radar_observation": false,
+      "last_seen_in_radar": "2026-10-13"
+    }
+  ],
+  "priority_to_inspect": [
+    {
+      "domain": "pix-qr-code.com",
+      "homepage": "https://pix-qr-code.com",
+      "review_stage": "TECH_LEAD_TO_INSPECT",
+      "source": "PUBLIC_GITHUB_REPOSITORY",
+      "quality_heuristic_not_seo_score": 65,
+      "reasons": [
+        "GITHUB_CODE_ONLY_NO_SEO_EVIDENCE"
+      ],
+      "repositories": [
+        {
+          "url": "https://github.com/ofenascimento/pix-qrcode",
+          "stars": 19,
+          "updated_at": "2024-11-10T20:42:44Z",
+          "name": "pix-qrcode",
+          "description": "Gerador de QR Code para chave pix",
+          "fork": false,
+          "archived": false
+        }
+      ],
+      "query_language_not_market": [
+        "gerador in:name,description stars:3..1500 archived:false"
+      ],
+      "seo_status": "NO_INDEPENDENT_SEO_EVIDENCE",
+      "organic_monthly_search": null,
+      "nonbrand_clicks": null,
+      "kd": null,
+      "cpc": null,
+      "country_traffic": null,
+      "next_action": "Inspect actual interactive utility page and locate independent nonbrand country-specific SEO evidence before requesting Semrush.",
+      "first_seen_in_radar": "2026-10-13",
+      "is_new_radar_observation": false,
+      "last_seen_in_radar": "2026-10-13"
+    },
+    {
+      "domain": "svg2vector.com",
+      "homepage": "https://svg2vector.com",
+      "review_stage": "TECH_LEAD_TO_INSPECT",
+      "source": "PUBLIC_GITHUB_REPOSITORY",
+      "quality_heuristic_not_seo_score": 65,
+      "reasons": [
+        "GITHUB_CODE_ONLY_NO_SEO_EVIDENCE"
+      ],
+      "repositories": [
+        {
+          "url": "https://github.com/a-student/SvgToVectorDrawableConverter",
+          "stars": 342,
+          "updated_at": "2022-12-30T15:40:35Z",
+          "name": "SvgToVectorDrawableConverter",
+          "description": "Batch converter of SVG images to Android vector drawable XML resource files. Online version of the converter is here:",
+          "fork": false,
+          "archived": false
+        }
+      ],
+      "query_language_not_market": [
+        "image converter in:name,description stars:3..1500 archived:false"
+      ],
+      "seo_status": "NO_INDEPENDENT_SEO_EVIDENCE",
+      "organic_monthly_search": null,
+      "nonbrand_clicks": null,
+      "kd": null,
+      "cpc": null,
+      "country_traffic": null,
+      "next_action": "Inspect actual interactive utility page and locate independent nonbrand country-specific SEO evidence before requesting Semrush.",
+      "first_seen_in_radar": "2026-10-13",
+      "is_new_radar_observation": false,
       "last_seen_in_radar": "2026-10-13"
     }
   ],
   "stage_counts": {
-    "TECH_LEAD_TO_INSPECT": 15,
-    "LOW_PRIORITY_TECH_LEAD": 3
+    "TECH_LEAD_TO_INSPECT": 2,
+    "LOW_PRIORITY_TECH_LEAD": 11,
+    "SKIP_GITHUB_SOURCE": 5
   },
   "historical_domains_seen": 18,
   "no_semrush_requests_from_github_alone": true,
