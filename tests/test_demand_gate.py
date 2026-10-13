@@ -61,6 +61,15 @@ class DemandGateTests(unittest.TestCase):
             data,rejected=load_metrics(path,NOW.date())
             self.assertEqual(len(data),1)
             self.assertEqual(len(rejected),3)
+    def test_explicit_user_rejection_blocks_any_new_semrush_request(self):
+        x=candidate()
+        x["manual_research_decision"]="REJECT_USER_REPORTED_LOW_CORE_DEMAND"
+        result=evaluate([x],{})[0]
+        self.assertEqual(result["stage"],"REJECT_USER_REPORTED_LOW_CORE_DEMAND")
+        self.assertIsNone(result["core_metric"])
+        self.assertIsNone(result["organic_monthly_traffic_verified"])
+        self.assertIn("Do not request", result["next_action"])
+
     def test_user_checked_missing_keyword_data_is_held_not_zero(self):
         x=candidate()
         x["manual_research_decision"]="HOLD_NO_MEASURABLE_CORE_SEARCH"
