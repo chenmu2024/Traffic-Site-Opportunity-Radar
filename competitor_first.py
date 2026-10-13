@@ -72,6 +72,8 @@ def gate(snapshot, today):
         state = "REJECT_LOW_CORE_NONBRAND_TOOL_KEYWORD_DEMAND"
     elif not snapshot.get("tool_page_publicly_checked"):
         state = "REQUIRE_LANDING_PAGE_FUNCTION_REVIEW"
+    elif snapshot.get("manual_serp_review", {}).get("analysis", {}).get("decision") == "HOLD_MIXED_SERP_NO_DIFFERENTIATED_ENTRY":
+        state = "HOLD_MIXED_SERP_NO_DIFFERENTIATED_ENTRY"
     elif snapshot.get("manual_keyword_review", {}).get("decision") == "BORDERLINE_KD_37_SERP_ONLY":
         state = "BORDERLINE_KD_SERP_ONLY"
     else:
@@ -90,6 +92,9 @@ def gate(snapshot, today):
         "ad_monetization_policy_risk": bool(snapshot.get("ad_monetization_policy_risk")),
         "source_notes": reason,
         "manual_keyword_review": snapshot.get("manual_keyword_review"),
+        "manual_serp_review": snapshot.get("manual_serp_review"),
+        "serp_review_completed": bool(snapshot.get("manual_serp_review", {}).get("rankings")),
+        "serp_low_link_indie_page_at_position_8_only": (snapshot.get("manual_serp_review", {}).get("analysis", {}).get("weak_url_position") == 8),
         "current_user_supplied_volume": snapshot.get("manual_keyword_review", {}).get("core_volume"),
         "current_user_supplied_kd": snapshot.get("manual_keyword_review", {}).get("core_kd"),
         "current_user_supplied_cpc_usd": snapshot.get("manual_keyword_review", {}).get("core_cpc_usd"),
@@ -157,6 +162,13 @@ def markdown(data):
     for e in data["others"]:
         lines.append("| " + clean(e["domain"]) + " | " +
                      str(e["global_monthly_organic_provider_estimate"]) + " | " + e["status"] + " |")
+        if e["manual_serp_review"]:
+            r = e["manual_serp_review"]
+            analysis = r.get("analysis", {})
+            lines.append("  - Real SERP user screenshot " + clean(r.get("reviewed_on"), 40) + ": top 10 URLs with PAGE-level AS and referring domains recorded; strong linked tools occupy #1/#2, one low-link independent tool page at #8. No domain-strength or traffic guarantee.")
+            lines.append("  - SERP conclusion: " + clean(analysis.get("decision"), 90) + ". " + clean(analysis.get("conclusion"), 550))
+            if analysis.get("do_not_request_repeat_semrush"):
+                lines.append("  - All requested US keyword Volume/KD/CPC and SERP Top10 data already received. DO NOT ask user for the same results again; no standalone site build approved.")
         if e["manual_keyword_review"]:
             review = e["manual_keyword_review"]
             lines.append("  - User reviewed: " + clean(review.get("core_keyword"), 80) +
