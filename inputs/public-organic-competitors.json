@@ -782,6 +782,83 @@
         "reason": "Morse code conversions are inexpensive and already offered by longstanding specialized tools; the public site has AS41 and around 1150 referring domains. Distinct weak entrants and complete site monetization not established, so not worth asking the user for KD ahead of GIF."
       },
       "reason": "Aug 2026 Semrush global organic 85.07k (+10.6%); US nonbrand `morse code generator` rank2 Volume12100 CPC0.38, `morse code converter` rank2 Volume8100 CPC1.56. Real browser text-to-Morse page exists, but the generic 'morse code' 550k is informational and distinct from generator demand. High established competition and small possible AdSense upside; no further Semrush requested."
+    },
+    {
+      "domain": "audiocheck.net",
+      "primary_country": "US",
+      "month": "2026-08",
+      "organic_global_estimated_monthly": 97190,
+      "organic_mom_change_pct": -4.4,
+      "source_url": "https://www.semrush.com/website/audiocheck.net/overview/",
+      "authority_score_semrush": 44,
+      "tool_homepage": "https://www.audiocheck.net/audiotests_stereo.php",
+      "keyword": "check sound audio",
+      "keyword_country": "US",
+      "keyword_position": 1,
+      "keyword_volume": 12100,
+      "keyword_cpc_usd": 0.97,
+      "keyword_is_nonbrand": true,
+      "tool_page_publicly_checked": true,
+      "topic_overlap": false,
+      "competing_tool_urls": [
+        "https://onlinesoundtest.com/speaker-test",
+        "https://onlineaudiotest.com/speaker-test/",
+        "https://www.checkyourdisplay.com/speaker-test"
+      ],
+      "manual_keyword_review": {
+        "decision": "HOLD_SATURATED_COMMODITY_TOOL_NO_MOAT",
+        "reviewed_on": "2026-10-13",
+        "reason": "August US term `check sound audio` ranks #1 12.1k/CPC$0.97 on a 97.19k global organic domain; site AS44 and 2650 referring domains. Actual stereo-audio test page exists, but public Semrush keyword ranking is DOMAIN-level and does not identify that landing URL. Online sound, headphone and stereo test competitors already provide full in-browser no-login audio tests. No independent low-authority SERP opening or exact winning feature verified; do not ask for KD yet."
+      },
+      "reason": "Source-backed US audio tool demand exists, but AS44 with 2.65k referring domains, extensive downloadable sound test library and mature free browser competitors make one simple stereo checker insufficient as a new standalone AdSense entry. Site 97.19k global organic Aug, NOT target tool URL traffic, no guaranteed Ads return."
+    },
+    {
+      "domain": "meupc.net",
+      "primary_country": "BR",
+      "month": "2026-08",
+      "organic_global_estimated_monthly": 72740,
+      "organic_mom_change_pct": 10.77,
+      "source_url": "https://www.semrush.com/website/meupc.net/overview/",
+      "authority_score_semrush": 35,
+      "tool_homepage": "https://meupc.net/",
+      "keyword": "monte seu pc",
+      "keyword_country": "BR",
+      "keyword_position": 1,
+      "keyword_volume": 33100,
+      "keyword_cpc_usd": 0.07,
+      "keyword_is_nonbrand": true,
+      "tool_page_publicly_checked": true,
+      "topic_overlap": false,
+      "manual_keyword_review": {
+        "decision": "HOLD_HIGH_MAINTENANCE_NOT_STATIC_TOOL",
+        "reviewed_on": "2026-10-13",
+        "reason": "The comparison site maintains 25.5k PC parts, real-time Brazilian store price aggregation, multiple compatibility rules, community builds, hardware images and affiliate shopping links. Its Semrush keyword list contains strong brand terms (meu pc net 18,100, meu pc 9,900 etc). Copying just a static form cannot reproduce the product/data acquisition channel, and providing fresh reliable compatibility and prices violates user zero-fixed-cost/low-maintenance premise."
+      },
+      "reason": "Semrush global organic 72.74k +10.77% and BR nonbrand `monte seu pc` #1 33.1k. However multiple top traffic keywords are branded; actual site has 25.5k PC product entries and dynamic retailer price comparison; product monetization/maintenance very different from standalone static AdSense utility."
+    },
+    {
+      "domain": "howmanyfps.com",
+      "primary_country": "US",
+      "month": "2026-09",
+      "organic_global_estimated_monthly": 24600,
+      "organic_mom_change_pct": -17.7,
+      "source_url": "https://www.semrush.com/website/howmanyfps.com/overview/",
+      "authority_score_semrush": 38,
+      "tool_homepage": "https://howmanyfps.com/",
+      "keyword": "rtx 3060 ti vs 5060 ti",
+      "keyword_country": "US",
+      "keyword_position": 6,
+      "keyword_volume": 22200,
+      "keyword_cpc_usd": 0,
+      "keyword_is_nonbrand": true,
+      "tool_page_publicly_checked": false,
+      "topic_overlap": false,
+      "manual_keyword_review": {
+        "decision": "HOLD_HIGH_MAINTENANCE_NOT_STATIC_TOOL",
+        "reviewed_on": "2026-10-13",
+        "reason": "Current site combines continuously updated per-game GPU/CPU benchmark and an actual installed Windows FPS telemetry/optimizer application. Public ranking keywords include exact GPU model comparisons, NOT a static browser calculator with verified page landing. Data acquisition and accuracy would require persistent benchmark updates. Core keyword CPC0 and source domain AS38 with 1,840 referring domains."
+      },
+      "reason": "Semrush Sep estimated global organic 24.6k, US `rtx 3060 ti vs 5060 ti` #6 22.2k/CPC0. Current site markets a Windows performance benchmark program plus public specs/benchmarks, not zero-maintenance client-only utility; exclude until credible inexpensive real data source demonstrated."
     }
   ],
   "updated_on": "2026-10-13"
