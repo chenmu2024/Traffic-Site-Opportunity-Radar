@@ -1,0 +1,74 @@
+name: Independent SEO Traffic Site Radar
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'radar.py'
+      - 'tests/**'
+      - 'inputs/**'
+      - '.github/workflows/daily-traffic-radar.yml'
+  schedule:
+    - cron: '0 0 * * *' # 08:00 Singapore/Beijing time. Actual dispatch may be delayed.
+
+permissions:
+  contents: write
+
+concurrency:
+  group: independent-traffic-radar
+  cancel-in-progress: false
+
+jobs:
+  research:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Python syntax and isolated unit tests
+        run: |
+          python -m compileall -q radar.py tests
+          python -m unittest discover -s tests -v
+      - name: Discover tool-site leads (bounded public GitHub Search)
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: python radar.py --github-live
+      - name: Validate evidence-first output
+        run: |
+          python -m json.tool reports/latest.json >/dev/null
+          test -s reports/latest.md
+      - name: Upload independent JSON and Markdown reports
+        uses: actions/upload-artifact@v4
+        with:
+          name: traffic-site-radar-${{ github.run_id }}
+          path: |
+            reports/latest.json
+            reports/latest.md
+          retention-days: 14
+      - name: Commit only this radar's reports
+        if: github.ref == 'refs/heads/main'
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add reports/latest.json reports/latest.md
+          if ! git diff --cached --quiet; then
+            git commit -m 'chore: refresh traffic-site research snapshots [skip ci]'
+            git fetch origin main
+            if ! git merge-base --is-ancestor origin/main HEAD; then
+              echo "::notice::Main advanced; skip stale report push"
+              exit 0
+            fi
+            if ! git push origin HEAD:main; then
+              git fetch origin main
+              if ! git merge-base --is-ancestor origin/main HEAD; then
+                echo "::notice::Another commit landed; skip stale report push"
+                exit 0
+              fi
+              echo "::error::Report update push failed"
+              exit 1
+            fi
+          fi
