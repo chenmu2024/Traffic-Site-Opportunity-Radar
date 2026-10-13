@@ -17,17 +17,24 @@
 
 | 网站 | 开源实现参考 | 结论 |
 |---|---|---|
-| config.meshcentraltools.com | https://github.com/Melo-Professional/MeshCentral-config-generator | 仅发现线索：需先核实真实流量和功能 URL |
-| docgen.bodhya.net | https://github.com/fossism/bodhya-cert-generator | 仅发现线索：需先核实真实流量和功能 URL |
-| flowmusicai.app | https://github.com/rocnubie/Awesome-AI-Websites-2026 | 仅发现线索：需先核实真实流量和功能 URL |
-| sanjeev02.pythonanywhere.com | https://github.com/Sanjeev-Kumar78/Travel-Itinerary-Generator | 仅发现线索：需先核实真实流量和功能 URL |
-| sine-wave-generator.com | https://github.com/sebastienrousseau/sine-wave-generator | 仅发现线索：需先核实真实流量和功能 URL |
-| stringartgenerator.co | https://github.com/fjzll/StringArtGeneratorLili | 仅发现线索：需先核实真实流量和功能 URL |
-| translatesub.com | https://github.com/Whutjzy/AI_TranslateSub_Tool | 仅发现线索：需先核实真实流量和功能 URL |
-| ustlipsync.riciwaaaa.win | https://github.com/Riciwaaaa/UST-lip-sync-generator | 仅发现线索：需先核实真实流量和功能 URL |
-| uvk5.canata.dev | https://github.com/bcanata/uv-k5-aprs-beacon | 仅发现线索：需先核实真实流量和功能 URL |
-| web-cloner.sarimtools.com | https://github.com/DeveloperSarim/web-cloner-mac | 仅发现线索：需先核实真实流量和功能 URL |
-| xsukax.com | https://github.com/xsukax/xsukax-X-RSS-Generator | 仅发现线索：需先核实真实流量和功能 URL |
+| codante.io | https://github.com/codante-io/mp-calculadora-imc | 仅发现线索：需先核实真实流量和功能 URL |
+| codepoems.eu | https://github.com/JacobDev1/xl-converter | 仅发现线索：需先核实真实流量和功能 URL |
+| converseen.fasterland.net | https://github.com/Faster3ck/Converseen | 仅发现线索：需先核实真实流量和功能 URL |
+| demoiselle.sourceforge.net | https://github.com/demoiselle/nimble | 仅发现线索：需先核实真实流量和功能 URL |
+| enotionz.github.com | https://github.com/EnotionZ/jscii | 仅发现线索：需先核实真实流量和功能 URL |
+| favr.dev | https://github.com/patrickfav/density-converter | 仅发现线索：需先核实真实流量和功能 URL |
+| fichasdenimb.com.br | https://github.com/YuriAlessandro/gerador-ficha-tormenta20 | 仅发现线索：需先核实真实流量和功能 URL |
+| file-converter-pro.org | https://github.com/Hyacinthe-primus/File_Converter_Pro | 仅发现线索：需先核实真实流量和功能 URL |
+| gerador-nomes.wolan.net | https://github.com/centraldedados/gerador-nomes | 仅发现线索：需先核实真实流量和功能 URL |
+| gerador.dev.br | https://github.com/meccin/gerador | 仅发现线索：需先核实真实流量和功能 URL |
+| iditect.com | https://github.com/iditectweb/converter | 仅发现线索：需先核实真实流量和功能 URL |
+| jonathan-petitcolas.com | https://github.com/jpetitcolas/ascii-art-converter | 仅发现线索：需先核实真实流量和功能 URL |
+| lcd-image-converter.riuson.com | https://github.com/riuson/lcd-image-converter | 仅发现线索：需先核实真实流量和功能 URL |
+| medium.com | https://github.com/Igorcbraz/Calculadora | 仅发现线索：需先核实真实流量和功能 URL |
+| pix-qr-code.com | https://github.com/ofenascimento/pix-qrcode | 仅发现线索：需先核实真实流量和功能 URL |
+| svg2vector.com | https://github.com/a-student/SvgToVectorDrawableConverter | 仅发现线索：需先核实真实流量和功能 URL |
+| tinyurl.com | https://github.com/joanasesinando/gerador-horarios-ist | 仅发现线索：需先核实真实流量和功能 URL |
+| web.ist.utl.pt | https://github.com/pedropramos/gerador-horarios | 仅发现线索：需先核实真实流量和功能 URL |
 
 ## 采集质量及验证指引
 
