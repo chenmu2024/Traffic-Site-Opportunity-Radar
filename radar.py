@@ -17,6 +17,14 @@ ROOT = Path(__file__).resolve().parent
 COUNTRIES = {'BR', 'MX', 'ES', 'PT', 'CL', 'US', 'GB'}
 FORBIDDEN = {'facebook.com', 'instagram.com', 'youtube.com', 'linkedin.com',
              'github.com', 'twitter.com', 'x.com', 'tiktok.com', 'play.google.com'}
+# Shared hosting/demo and package-index pages are not independent traffic-site competitors.
+DISCOVERY_PLATFORM_SUFFIXES = (
+    'github.io', 'pages.dev', 'vercel.app', 'netlify.app', 'onrender.com',
+    'render.com', 'replit.app', 'repl.co', 'streamlit.app', 'glitch.me',
+    'firebaseapp.com', 'web.app', 'appspot.com', 'lovable.app',
+)
+DISCOVERY_PLATFORM_HOSTS = {'pypi.org', 'npmjs.com', 'huggingface.co', 'codepen.io'}
+
 QUERIES = [
     'calculadora online in:name,description stars:3..1500 archived:false',
     'conversor online in:name,description stars:3..1500 archived:false',
@@ -234,7 +242,7 @@ def github_discover(token=None, fetch=None):
                 payload = json.load(response)
             for repo in payload.get('items', []):
                 host = domain(repo.get('homepage'))
-                if not host or host.endswith('.github.io') or host.endswith('.pages.dev'):
+                if not host or host in DISCOVERY_PLATFORM_HOSTS or any(host == s or host.endswith('.' + s) for s in DISCOVERY_PLATFORM_SUFFIXES):
                     continue
                 record = results.setdefault(host, {'domain': host, 'homepage': repo['homepage'],
                     'source': 'PUBLIC_GITHUB_REPOSITORY_HOMEPAGE', 'status': 'DISCOVERY_ONLY',

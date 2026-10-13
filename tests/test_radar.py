@@ -66,6 +66,20 @@ class RadarTests(unittest.TestCase):
         groups=union_groups(serps)
         self.assertEqual(sorted(map(len,groups)),[1,2])
 
+    def test_platform_hostnames_not_promoted_to_website_leads(self):
+        class Response:
+            def __enter__(self): return self
+            def __exit__(self, *args): return False
+            def read(self, *args): return self.data
+            data = json.dumps({'items': [
+                {'homepage': 'https://pypi.org/project/x', 'html_url': 'https://github.com/a/x', 'stargazers_count': 5},
+                {'homepage': 'https://tool.vercel.app', 'html_url': 'https://github.com/a/y', 'stargazers_count': 3},
+                {'homepage': 'https://a-real-tool.example', 'html_url': 'https://github.com/a/z', 'stargazers_count': 8}
+            ]}).encode()
+        leads, errors = github_discover(fetch=lambda *a, **k: Response())
+        self.assertFalse(errors)
+        self.assertEqual([x['domain'] for x in leads], ['a-real-tool.example'])
+
     def test_github_signal_not_organic_proof(self):
         class Response:
             def __enter__(self):return self
