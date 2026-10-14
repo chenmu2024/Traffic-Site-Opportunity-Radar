@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-10-13T07:54:59.640358+00:00",
+  "generated_at_utc": "2026-10-14T03:17:24.218296+00:00",
   "target_countries": [
     "BR",
     "CL",
@@ -15,8 +15,8 @@
   "clusters": [],
   "github_leads": [
     {
-      "domain": "codante.io",
-      "homepage": "https://codante.io/mini-projetos/calculadora-de-imc-com-react",
+      "domain": "andresgm.org",
+      "homepage": "http://andresgm.org/Herramientas-Computacionales",
       "source": "PUBLIC_GITHUB_REPOSITORY_HOMEPAGE",
       "status": "DISCOVERY_ONLY",
       "organic_traffic": null,
@@ -25,22 +25,22 @@
       "cpc": null,
       "repositories": [
         {
-          "url": "https://github.com/codante-io/mp-calculadora-imc",
+          "url": "https://github.com/andresgm/Herramientas-Computacionales",
           "stars": 3,
-          "updated_at": "2024-08-01T20:04:16Z",
-          "name": "mp-calculadora-imc",
-          "description": "Nada melhor do que manter a saúde em dia, não é? Sendo o IMC uma medida internacional usada para calcular se uma pessoa está no peso ideal, a nossa calculadora de Índice de Massa Corporal (IMC) é perfeita para isso.",
+          "updated_at": "2020-05-13T16:28:13Z",
+          "name": "Herramientas-Computacionales",
+          "description": "IMEC3602 Semestre 201820",
           "fork": false,
           "archived": false
         }
       ],
       "matching_queries": [
-        "calculadora in:name,description stars:3..1500 archived:false"
+        "herramienta in:name,description stars:3..1500 archived:false"
       ]
     },
     {
-      "domain": "codepoems.eu",
-      "homepage": "https://codepoems.eu/xl-converter",
+      "domain": "cycloplan.cyclopath.org",
+      "homepage": "http://cycloplan.cyclopath.org",
       "source": "PUBLIC_GITHUB_REPOSITORY_HOMEPAGE",
       "status": "DISCOVERY_ONLY",
       "organic_traffic": null,
@@ -49,22 +49,22 @@
       "cpc": null,
       "repositories": [
         {
-          "url": "https://github.com/JacobDev1/xl-converter",
-          "stars": 575,
-          "updated_at": "2026-09-06T20:46:03Z",
-          "name": "xl-converter",
-          "description": "Easy-to-use image converter for modern formats. Supports fast parallel encoding, lossless JPEG transcoding, JPEG XL, AVIF, JPEGLI, ExifTool, and more. ",
+          "url": "https://github.com/lbouma/Cyclopath",
+          "stars": 18,
+          "updated_at": "2020-07-02T06:22:22Z",
+          "name": "Cyclopath",
+          "description": "Cyclopath is an online bicycle map and trip planner for all types of cyclists. It's also an inventory management and analytics engine for traffic engineers.",
           "fork": false,
           "archived": false
         }
       ],
       "matching_queries": [
-        "image converter in:name,description stars:3..1500 archived:false"
+        "online planner in:name,description stars:3..1500 archived:false"
       ]
     },
     {
-      "domain": "converseen.fasterland.net",
-      "homepage": "https://converseen.fasterland.net/",
+      "domain": "doi.org",
+      "homepage": "https://doi.org/10.1109/TIV.2023.3296435",
       "source": "PUBLIC_GITHUB_REPOSITORY_HOMEPAGE",
       "status": "DISCOVERY_ONLY",
       "organic_traffic": null,
@@ -73,22 +73,31 @@
       "cpc": null,
       "repositories": [
         {
-          "url": "https://github.com/Faster3ck/Converseen",
-          "stars": 1167,
-          "updated_at": "2026-10-07T14:54:08Z",
-          "name": "Converseen",
-          "description": "Converseen is a batch image converter and resizer",
+          "url": "https://github.com/libai1943/Adaptive_Pure_Pursuit_Planner",
+          "stars": 25,
+          "updated_at": "2026-10-01T16:26:31Z",
+          "name": "Adaptive_Pure_Pursuit_Planner",
+          "description": "Online Trajectory Planner/Replanner",
+          "fork": false,
+          "archived": false
+        },
+        {
+          "url": "https://github.com/fkie/fkie-nbv-planner",
+          "stars": 65,
+          "updated_at": "2026-03-06T16:20:28Z",
+          "name": "fkie-nbv-planner",
+          "description": "Online Next-Best-View planner for 3D exploration and inspection with a mobile robot",
           "fork": false,
           "archived": false
         }
       ],
       "matching_queries": [
-        "image converter in:name,description stars:3..1500 archived:false"
+        "online planner in:name,description stars:3..1500 archived:false"
       ]
     },
     {
-      "domain": "demoiselle.sourceforge.net",
-      "homepage": "http://demoiselle.sourceforge.net/tools/nimble/",
+      "domain": "elblogdepicodev.blogspot.com.es",
+      "homepage": "http://elblogdepicodev.blogspot.com.es",
       "source": "PUBLIC_GITHUB_REPOSITORY_HOMEPAGE",
       "status": "DISCOVERY_ONLY",
       "organic_traffic": null,
@@ -97,22 +106,22 @@
       "cpc": null,
       "repositories": [
         {
-          "url": "https://github.com/demoiselle/nimble",
-          "stars": 12,
-          "updated_at": "2020-10-12T18:47:07Z",
-          "name": "nimble",
-          "description": "Processador automatizado de templates e gerador de código  ",
+          "url": "https://github.com/picodotdev/elblogdepicodev",
+          "stars": 14,
+          "updated_at": "2015-10-19T16:51:03Z",
+          "name": "elblogdepicodev",
+          "description": "Ejemplos y código de las herramientas que he explicado en el blog",
           "fork": false,
           "archived": false
         }
       ],
       "matching_queries": [
-        "gerador in:name,description stars:3..1500 archived:false"
+        "herramienta in:name,description stars:3..1500 archived:false"
       ]
     },
     {
-      "domain": "enotionz.github.com",
-      "homepage": "http://enotionz.github.com/jscii/",
+      "domain": "escuela.it",
+      "homepage": "http://escuela.it/cursos/herramientas-frontend/",
       "source": "PUBLIC_GITHUB_REPOSITORY_HOMEPAGE",
       "status": "DISCOVERY_ONLY",
       "organic_traffic": null,
@@ -121,22 +130,22 @@
       "cpc": null,
       "repositories": [
         {
-          "url": "https://github.com/EnotionZ/jscii",
-          "stars": 352,
-          "updated_at": "2018-09-29T20:55:09Z",
-          "name": "jscii",
-          "description": "JavaScript image to ASCII converter",
+          "url": "https://github.com/EscuelaIt/Herramientas-Frontend-2015",
+          "stars": 13,
+          "updated_at": "2015-12-22T07:28:00Z",
+          "name": "Herramientas-Frontend-2015",
+          "description": "Recursos del curso de Herramientas Frontend",
           "fork": false,
           "archived": false
         }
       ],
       "matching_queries": [
-        "image converter in:name,description stars:3..1500 archived:false"
+        "herramienta in:name,description stars:3..1500 archived:false"
       ]
     },
     {
-      "domain": "favr.dev",
-      "homepage": "https://favr.dev/opensource/density-converter",
+      "domain": "ficsit-together.com",
+      "homepage": "https://ficsit-together.com",
       "source": "PUBLIC_GITHUB_REPOSITORY_HOMEPAGE",
       "status": "DISCOVERY_ONLY",
       "organic_traffic": null,
@@ -145,22 +154,22 @@
       "cpc": null,
       "repositories": [
         {
-          "url": "https://github.com/patrickfav/density-converter",
-          "stars": 253,
-          "updated_at": "2024-10-14T10:16:53Z",
-          "name": "density-converter",
-          "description": "A multi platform image density converting tool converting single or batches of images to Android, iOS, Windows or CSS specific formats and density versions given the source scale factor or width/height in dp. It has a gr",
+          "url": "https://github.com/erwtj/FicsitTogether",
+          "stars": 6,
+          "updated_at": "2026-06-11T11:56:56Z",
+          "name": "FicsitTogether",
+          "description": "An online planner for satisfactory with live collaboration  ",
           "fork": false,
           "archived": false
         }
       ],
       "matching_queries": [
-        "image converter in:name,description stars:3..1500 archived:false"
+        "online planner in:name,description stars:3..1500 archived:false"
       ]
     },
     {
-      "domain": "fichasdenimb.com.br",
-      "homepage": "https://fichasdenimb.com.br/",
+      "domain": "iamsimple.com.br",
+      "homepage": "https://iamsimple.com.br/frente",
       "source": "PUBLIC_GITHUB_REPOSITORY_HOMEPAGE",
       "status": "DISCOVERY_ONLY",
       "organic_traffic": null,
@@ -169,22 +178,22 @@
       "cpc": null,
       "repositories": [
         {
-          "url": "https://github.com/YuriAlessandro/gerador-ficha-tormenta20",
-          "stars": 89,
-          "updated_at": "2026-10-12T14:31:09Z",
-          "name": "gerador-ficha-tormenta20",
-          "description": "Fichas de Nimb é um pacote de ferramentas para o sistema brasileiro de RPG Tormenta 20. Geração de fichas de jogadores, fichas de ameaças, mapa de Arton, rolador de recompensas e várias outras opções.",
+          "url": "https://github.com/Frente-Corretora/simulator-widget",
+          "stars": 3,
+          "updated_at": "2025-09-09T13:10:06Z",
+          "name": "simulator-widget",
+          "description": "[WIP] Widget de simulador externo para WordPress",
           "fork": false,
           "archived": false
         }
       ],
       "matching_queries": [
-        "gerador in:name,description stars:3..1500 archived:false"
+        "simulador in:name,description stars:3..1500 archived:false"
       ]
     },
     {
-      "domain": "file-converter-pro.org",
-      "homepage": "https://file-converter-pro.org/",
+      "domain": "knowledge.iadb.org",
+      "homepage": "https://knowledge.iadb.org/es/codigo-para-el-desarrollo",
       "source": "PUBLIC_GITHUB_REPOSITORY_HOMEPAGE",
       "status": "DISCOVERY_ONLY",
       "organic_traffic": null,
@@ -193,22 +202,22 @@
       "cpc": null,
       "repositories": [
         {
-          "url": "https://github.com/Hyacinthe-primus/File_Converter_Pro",
-          "stars": 594,
-          "updated_at": "2026-10-11T14:25:45Z",
-          "name": "File_Converter_Pro",
-          "description": "Free offline all-in-one file converter for Windows. Converts documents, images, audio and video locally. No uploads, no internet, no dependencies. Built with Python & PySide6. Features dark/light theme, stats dashboard, ",
+          "url": "https://github.com/EL-BID/Plantilla-de-repositorio",
+          "stars": 63,
+          "updated_at": "2026-05-04T23:57:08Z",
+          "name": "Plantilla-de-repositorio",
+          "description": "Plantilla de repositorio y guías de cómo documentar y evaluar herramientas digitales según los estándares del BID",
           "fork": false,
           "archived": false
         }
       ],
       "matching_queries": [
-        "image converter in:name,description stars:3..1500 archived:false"
+        "herramienta in:name,description stars:3..1500 archived:false"
       ]
     },
     {
-      "domain": "gerador-nomes.wolan.net",
-      "homepage": "https://gerador-nomes.wolan.net",
+      "domain": "liquidplanner.com",
+      "homepage": "http://www.liquidplanner.com/support/articles/developer-tools",
       "source": "PUBLIC_GITHUB_REPOSITORY_HOMEPAGE",
       "status": "DISCOVERY_ONLY",
       "organic_traffic": null,
@@ -217,166 +226,22 @@
       "cpc": null,
       "repositories": [
         {
-          "url": "https://github.com/centraldedados/gerador-nomes",
-          "stars": 53,
-          "updated_at": "2025-07-20T00:16:51Z",
-          "name": "gerador-nomes",
-          "description": " 👪 Gerador de Nomes",
-          "fork": false,
-          "archived": false
-        }
-      ],
-      "matching_queries": [
-        "gerador in:name,description stars:3..1500 archived:false"
-      ]
-    },
-    {
-      "domain": "gerador.dev.br",
-      "homepage": "https://gerador.dev.br",
-      "source": "PUBLIC_GITHUB_REPOSITORY_HOMEPAGE",
-      "status": "DISCOVERY_ONLY",
-      "organic_traffic": null,
-      "domain_dr": null,
-      "kd": null,
-      "cpc": null,
-      "repositories": [
-        {
-          "url": "https://github.com/meccin/gerador",
-          "stars": 26,
-          "updated_at": "2026-09-30T14:34:00Z",
-          "name": "gerador",
-          "description": "Gerador de CPF, CNPJ, RG e Cartão de Crédito válidos - JSON Pretty - Base64 Encode e Decode - Hash",
-          "fork": false,
-          "archived": false
-        }
-      ],
-      "matching_queries": [
-        "gerador in:name,description stars:3..1500 archived:false"
-      ]
-    },
-    {
-      "domain": "iditect.com",
-      "homepage": "https://www.iditect.com/product/converter/",
-      "source": "PUBLIC_GITHUB_REPOSITORY_HOMEPAGE",
-      "status": "DISCOVERY_ONLY",
-      "organic_traffic": null,
-      "domain_dr": null,
-      "kd": null,
-      "cpc": null,
-      "repositories": [
-        {
-          "url": "https://github.com/iditectweb/converter",
-          "stars": 42,
-          "updated_at": "2018-11-05T07:29:13Z",
-          "name": "converter",
-          "description": "Standalone .NET Converter library, not require Adobe Acrobat component nor Microsoft Office Interop Assemblies, to convert PDF, DOCX, XLSX, HTML, Image, CSV, RTF, TXT in .NET framework",
-          "fork": false,
-          "archived": false
-        }
-      ],
-      "matching_queries": [
-        "image converter in:name,description stars:3..1500 archived:false"
-      ]
-    },
-    {
-      "domain": "jonathan-petitcolas.com",
-      "homepage": "https://www.jonathan-petitcolas.com/ascii-art-converter/",
-      "source": "PUBLIC_GITHUB_REPOSITORY_HOMEPAGE",
-      "status": "DISCOVERY_ONLY",
-      "organic_traffic": null,
-      "domain_dr": null,
-      "kd": null,
-      "cpc": null,
-      "repositories": [
-        {
-          "url": "https://github.com/jpetitcolas/ascii-art-converter",
-          "stars": 91,
-          "updated_at": "2018-01-11T17:55:25Z",
-          "name": "ascii-art-converter",
-          "description": "Convert any image into pure ASCII art using some JavaScript",
-          "fork": false,
-          "archived": false
-        }
-      ],
-      "matching_queries": [
-        "image converter in:name,description stars:3..1500 archived:false"
-      ]
-    },
-    {
-      "domain": "lcd-image-converter.riuson.com",
-      "homepage": "https://lcd-image-converter.riuson.com/",
-      "source": "PUBLIC_GITHUB_REPOSITORY_HOMEPAGE",
-      "status": "DISCOVERY_ONLY",
-      "organic_traffic": null,
-      "domain_dr": null,
-      "kd": null,
-      "cpc": null,
-      "repositories": [
-        {
-          "url": "https://github.com/riuson/lcd-image-converter",
-          "stars": 407,
-          "updated_at": "2025-12-26T12:58:32Z",
-          "name": "lcd-image-converter",
-          "description": "Tool to create bitmaps and fonts for embedded applications, v.2",
-          "fork": false,
-          "archived": false
-        }
-      ],
-      "matching_queries": [
-        "image converter in:name,description stars:3..1500 archived:false"
-      ]
-    },
-    {
-      "domain": "medium.com",
-      "homepage": "https://medium.com/@igorcbraz/build-a-feature-rich-calculator-with-pure-javascript-20ce17fbe47d",
-      "source": "PUBLIC_GITHUB_REPOSITORY_HOMEPAGE",
-      "status": "DISCOVERY_ONLY",
-      "organic_traffic": null,
-      "domain_dr": null,
-      "kd": null,
-      "cpc": null,
-      "repositories": [
-        {
-          "url": "https://github.com/Igorcbraz/Calculadora",
-          "stars": 32,
-          "updated_at": "2025-01-24T16:05:58Z",
-          "name": "Calculadora",
-          "description": " 📐 Calculadora simples e intuitiva com suporte a comandos de voz e temas personalizados 📏",
-          "fork": false,
-          "archived": false
-        }
-      ],
-      "matching_queries": [
-        "calculadora in:name,description stars:3..1500 archived:false"
-      ]
-    },
-    {
-      "domain": "pix-qr-code.com",
-      "homepage": "https://pix-qr-code.com",
-      "source": "PUBLIC_GITHUB_REPOSITORY_HOMEPAGE",
-      "status": "DISCOVERY_ONLY",
-      "organic_traffic": null,
-      "domain_dr": null,
-      "kd": null,
-      "cpc": null,
-      "repositories": [
-        {
-          "url": "https://github.com/ofenascimento/pix-qrcode",
+          "url": "https://github.com/LiquidPlanner/LiquidPlanner",
           "stars": 19,
-          "updated_at": "2024-11-10T20:42:44Z",
-          "name": "pix-qrcode",
-          "description": "Gerador de QR Code para chave pix",
+          "updated_at": "2016-11-15T18:19:57Z",
+          "name": "LiquidPlanner",
+          "description": "LiquidPlanner's Online Project Management Ruby API",
           "fork": false,
           "archived": false
         }
       ],
       "matching_queries": [
-        "gerador in:name,description stars:3..1500 archived:false"
+        "online planner in:name,description stars:3..1500 archived:false"
       ]
     },
     {
-      "domain": "svg2vector.com",
-      "homepage": "https://svg2vector.com",
+      "domain": "map-planner.herokuapp.com",
+      "homepage": "https://map-planner.herokuapp.com/",
       "source": "PUBLIC_GITHUB_REPOSITORY_HOMEPAGE",
       "status": "DISCOVERY_ONLY",
       "organic_traffic": null,
@@ -385,22 +250,22 @@
       "cpc": null,
       "repositories": [
         {
-          "url": "https://github.com/a-student/SvgToVectorDrawableConverter",
-          "stars": 342,
-          "updated_at": "2022-12-30T15:40:35Z",
-          "name": "SvgToVectorDrawableConverter",
-          "description": "Batch converter of SVG images to Android vector drawable XML resource files. Online version of the converter is here:",
+          "url": "https://github.com/prayansh/r6-map-planner",
+          "stars": 6,
+          "updated_at": "2020-08-03T20:53:14Z",
+          "name": "r6-map-planner",
+          "description": "An online collaborative battle planner for Rainbow Six Siege",
           "fork": false,
           "archived": false
         }
       ],
       "matching_queries": [
-        "image converter in:name,description stars:3..1500 archived:false"
+        "online planner in:name,description stars:3..1500 archived:false"
       ]
     },
     {
-      "domain": "tinyurl.com",
-      "homepage": "https://tinyurl.com/gerador-horarios-ist",
+      "domain": "pilas-engine.com.ar",
+      "homepage": "https://pilas-engine.com.ar",
       "source": "PUBLIC_GITHUB_REPOSITORY_HOMEPAGE",
       "status": "DISCOVERY_ONLY",
       "organic_traffic": null,
@@ -409,22 +274,22 @@
       "cpc": null,
       "repositories": [
         {
-          "url": "https://github.com/joanasesinando/gerador-horarios-ist",
-          "stars": 28,
-          "updated_at": "2024-10-10T14:20:01Z",
-          "name": "gerador-horarios-ist",
-          "description": "🕓 A schedule generator for Instituto Superior Técnico (IST)'s students.",
+          "url": "https://github.com/pilas-engine/pilas-engine",
+          "stars": 49,
+          "updated_at": "2026-06-28T15:46:47Z",
+          "name": "pilas-engine",
+          "description": "Una herramienta para aprender programación y desarrollo de juegos",
           "fork": false,
           "archived": false
         }
       ],
       "matching_queries": [
-        "gerador in:name,description stars:3..1500 archived:false"
+        "herramienta in:name,description stars:3..1500 archived:false"
       ]
     },
     {
-      "domain": "web.ist.utl.pt",
-      "homepage": "http://web.ist.utl.pt/pedropramos/horarios/",
+      "domain": "pob.cool",
+      "homepage": "https://pob.cool",
       "source": "PUBLIC_GITHUB_REPOSITORY_HOMEPAGE",
       "status": "DISCOVERY_ONLY",
       "organic_traffic": null,
@@ -433,17 +298,89 @@
       "cpc": null,
       "repositories": [
         {
-          "url": "https://github.com/pedropramos/gerador-horarios",
-          "stars": 11,
-          "updated_at": "2017-08-23T18:39:01Z",
-          "name": "gerador-horarios",
-          "description": "",
+          "url": "https://github.com/atty303/pob-web",
+          "stars": 103,
+          "updated_at": "2026-10-05T09:26:39Z",
+          "name": "pob-web",
+          "description": "Online build planner for Path of Exile.",
           "fork": false,
           "archived": false
         }
       ],
       "matching_queries": [
-        "gerador in:name,description stars:3..1500 archived:false"
+        "online planner in:name,description stars:3..1500 archived:false"
+      ]
+    },
+    {
+      "domain": "salarioliquidouruguay.com",
+      "homepage": "https://salarioliquidouruguay.com/",
+      "source": "PUBLIC_GITHUB_REPOSITORY_HOMEPAGE",
+      "status": "DISCOVERY_ONLY",
+      "organic_traffic": null,
+      "domain_dr": null,
+      "kd": null,
+      "cpc": null,
+      "repositories": [
+        {
+          "url": "https://github.com/ismaelpadilla/salario-liquido-uruguay",
+          "stars": 35,
+          "updated_at": "2024-02-16T19:23:16Z",
+          "name": "salario-liquido-uruguay",
+          "description": "Herramienta para calcular el salario líquido en Uruguay.",
+          "fork": false,
+          "archived": false
+        }
+      ],
+      "matching_queries": [
+        "herramienta in:name,description stars:3..1500 archived:false"
+      ]
+    },
+    {
+      "domain": "whoisooo.app",
+      "homepage": "https://www.whoisooo.app",
+      "source": "PUBLIC_GITHUB_REPOSITORY_HOMEPAGE",
+      "status": "DISCOVERY_ONLY",
+      "organic_traffic": null,
+      "domain_dr": null,
+      "kd": null,
+      "cpc": null,
+      "repositories": [
+        {
+          "url": "https://github.com/igornast/who-is-out-of-office",
+          "stars": 6,
+          "updated_at": "2026-10-01T16:48:46Z",
+          "name": "who-is-out-of-office",
+          "description": "The Online Staff Leave Planner",
+          "fork": false,
+          "archived": false
+        }
+      ],
+      "matching_queries": [
+        "online planner in:name,description stars:3..1500 archived:false"
+      ]
+    },
+    {
+      "domain": "workshop-ia-2026.686f6c61.dev",
+      "homepage": "https://workshop-ia-2026.686f6c61.dev",
+      "source": "PUBLIC_GITHUB_REPOSITORY_HOMEPAGE",
+      "status": "DISCOVERY_ONLY",
+      "organic_traffic": null,
+      "domain_dr": null,
+      "kd": null,
+      "cpc": null,
+      "repositories": [
+        {
+          "url": "https://github.com/686f6c61/Workshop-IA-Agentes-Herramientas",
+          "stars": 44,
+          "updated_at": "2026-08-07T19:48:16Z",
+          "name": "Workshop-IA-Agentes-Herramientas",
+          "description": "Workshop de IA: agentes, modelos y herramientas",
+          "fork": false,
+          "archived": false
+        }
+      ],
+      "matching_queries": [
+        "herramienta in:name,description stars:3..1500 archived:false"
       ]
     }
   ],
@@ -454,9 +391,9 @@
     "en"
   ],
   "github_queries_used": [
-    "gerador in:name,description stars:3..1500 archived:false",
-    "calculadora in:name,description stars:3..1500 archived:false",
-    "image converter in:name,description stars:3..1500 archived:false"
+    "simulador in:name,description stars:3..1500 archived:false",
+    "herramienta in:name,description stars:3..1500 archived:false",
+    "online planner in:name,description stars:3..1500 archived:false"
   ],
   "github_failures": [],
   "seo_provider_metrics_verified_automatically": false,
