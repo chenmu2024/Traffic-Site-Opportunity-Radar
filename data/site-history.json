@@ -1,8 +1,8 @@
 {
   "codante.io": {
     "first_seen": "2026-10-13",
-    "last_seen": "2026-10-13",
-    "observed_run_count": 16
+    "last_seen": "2026-10-15",
+    "observed_run_count": 17
   },
   "codepoems.eu": {
     "first_seen": "2026-10-13",
@@ -66,8 +66,8 @@
   },
   "medium.com": {
     "first_seen": "2026-10-13",
-    "last_seen": "2026-10-13",
-    "observed_run_count": 16
+    "last_seen": "2026-10-15",
+    "observed_run_count": 17
   },
   "pix-qr-code.com": {
     "first_seen": "2026-10-13",
@@ -162,6 +162,101 @@
   "workshop-ia-2026.686f6c61.dev": {
     "first_seen": "2026-10-14",
     "last_seen": "2026-10-14",
+    "observed_run_count": 1
+  },
+  "bgoglin.free.fr": {
+    "first_seen": "2026-10-15",
+    "last_seen": "2026-10-15",
+    "observed_run_count": 1
+  },
+  "chev.me": {
+    "first_seen": "2026-10-15",
+    "last_seen": "2026-10-15",
+    "observed_run_count": 1
+  },
+  "docsify.js.org": {
+    "first_seen": "2026-10-15",
+    "last_seen": "2026-10-15",
+    "observed_run_count": 1
+  },
+  "guyusoftware.com": {
+    "first_seen": "2026-10-15",
+    "last_seen": "2026-10-15",
+    "observed_run_count": 1
+  },
+  "io.evansosenko.com": {
+    "first_seen": "2026-10-15",
+    "last_seen": "2026-10-15",
+    "observed_run_count": 1
+  },
+  "josemaria.ml": {
+    "first_seen": "2026-10-15",
+    "last_seen": "2026-10-15",
+    "observed_run_count": 1
+  },
+  "luciopaiva.com": {
+    "first_seen": "2026-10-15",
+    "last_seen": "2026-10-15",
+    "observed_run_count": 1
+  },
+  "mysystemd.talos.sh": {
+    "first_seen": "2026-10-15",
+    "last_seen": "2026-10-15",
+    "observed_run_count": 1
+  },
+  "noisegen.bubblebirdstudio.com": {
+    "first_seen": "2026-10-15",
+    "last_seen": "2026-10-15",
+    "observed_run_count": 1
+  },
+  "parzibyte.me": {
+    "first_seen": "2026-10-15",
+    "last_seen": "2026-10-15",
+    "observed_run_count": 1
+  },
+  "qrgratis.es": {
+    "first_seen": "2026-10-15",
+    "last_seen": "2026-10-15",
+    "observed_run_count": 1
+  },
+  "routerpwn.com": {
+    "first_seen": "2026-10-15",
+    "last_seen": "2026-10-15",
+    "observed_run_count": 1
+  },
+  "snowb.org": {
+    "first_seen": "2026-10-15",
+    "last_seen": "2026-10-15",
+    "observed_run_count": 1
+  },
+  "terabox.beer": {
+    "first_seen": "2026-10-15",
+    "last_seen": "2026-10-15",
+    "observed_run_count": 1
+  },
+  "twigl.app": {
+    "first_seen": "2026-10-15",
+    "last_seen": "2026-10-15",
+    "observed_run_count": 1
+  },
+  "unhiloenlared.blogspot.mx": {
+    "first_seen": "2026-10-15",
+    "last_seen": "2026-10-15",
+    "observed_run_count": 1
+  },
+  "voicestudio.msrbuilds.com": {
+    "first_seen": "2026-10-15",
+    "last_seen": "2026-10-15",
+    "observed_run_count": 1
+  },
+  "works.yangerxiao.com": {
+    "first_seen": "2026-10-15",
+    "last_seen": "2026-10-15",
+    "observed_run_count": 1
+  },
+  "zbib.org": {
+    "first_seen": "2026-10-15",
+    "last_seen": "2026-10-15",
     "observed_run_count": 1
   }
 }

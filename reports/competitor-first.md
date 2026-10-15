@@ -25,7 +25,7 @@
   - Rejected for NEW standalone SEO+AdSense tool site; do not re-request the same Semrush keywords absent fresh counterevidence.
 | calculadorasat.com | 84170 | OVERLAPS_USER_EXISTING_SITE_NOT_NEW_PROJECT |
 | portalpopclub.com.br | 23620 | OVERLAPS_USER_EXISTING_SITE_NOT_NEW_PROJECT |
-| nominax.com | 91540 | OVERLAPS_USER_EXISTING_SITE_NOT_NEW_PROJECT |
+| nominax.com | 91540 | STALE_SOURCE_REFRESH_NEEDED |
 | pagebot.com.br | 3170 | REJECT_OUTSIDE_GLOBAL_ORGANIC_TRAFFIC_TARGET |
 | simuladoronline.com | 15630 | REJECT_NO_STRONG_NONBRAND_TOOL_KEYWORD |
 | countdown-timer.app | 16020 | HOLD_UNSTABLE_ORGANIC_TREND |
