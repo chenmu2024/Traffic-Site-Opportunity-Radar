@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-10-17T02:45:13.695159+00:00",
+  "generated_at_utc": "2026-10-18T02:46:34.589950+00:00",
   "policy": "CORE_TOOL_DEMAND_BEFORE_COMPETITOR_TRAFFIC",
   "thresholds_heuristic_not_market_data": {
     "core_min_volume": 3000,
