@@ -1,8 +1,8 @@
 {
   "codante.io": {
     "first_seen": "2026-10-13",
-    "last_seen": "2026-10-17",
-    "observed_run_count": 18
+    "last_seen": "2026-10-19",
+    "observed_run_count": 19
   },
   "codepoems.eu": {
     "first_seen": "2026-10-13",
@@ -66,8 +66,8 @@
   },
   "medium.com": {
     "first_seen": "2026-10-13",
-    "last_seen": "2026-10-17",
-    "observed_run_count": 18
+    "last_seen": "2026-10-19",
+    "observed_run_count": 19
   },
   "pix-qr-code.com": {
     "first_seen": "2026-10-13",
@@ -166,98 +166,98 @@
   },
   "bgoglin.free.fr": {
     "first_seen": "2026-10-15",
-    "last_seen": "2026-10-15",
-    "observed_run_count": 1
+    "last_seen": "2026-10-19",
+    "observed_run_count": 2
   },
   "chev.me": {
     "first_seen": "2026-10-15",
-    "last_seen": "2026-10-15",
-    "observed_run_count": 1
+    "last_seen": "2026-10-19",
+    "observed_run_count": 2
   },
   "docsify.js.org": {
     "first_seen": "2026-10-15",
-    "last_seen": "2026-10-15",
-    "observed_run_count": 1
+    "last_seen": "2026-10-19",
+    "observed_run_count": 2
   },
   "guyusoftware.com": {
     "first_seen": "2026-10-15",
-    "last_seen": "2026-10-15",
-    "observed_run_count": 1
+    "last_seen": "2026-10-19",
+    "observed_run_count": 2
   },
   "io.evansosenko.com": {
     "first_seen": "2026-10-15",
-    "last_seen": "2026-10-15",
-    "observed_run_count": 1
+    "last_seen": "2026-10-19",
+    "observed_run_count": 2
   },
   "josemaria.ml": {
     "first_seen": "2026-10-15",
-    "last_seen": "2026-10-15",
-    "observed_run_count": 1
+    "last_seen": "2026-10-19",
+    "observed_run_count": 2
   },
   "luciopaiva.com": {
     "first_seen": "2026-10-15",
-    "last_seen": "2026-10-15",
-    "observed_run_count": 1
+    "last_seen": "2026-10-19",
+    "observed_run_count": 2
   },
   "mysystemd.talos.sh": {
     "first_seen": "2026-10-15",
-    "last_seen": "2026-10-15",
-    "observed_run_count": 1
+    "last_seen": "2026-10-19",
+    "observed_run_count": 2
   },
   "noisegen.bubblebirdstudio.com": {
     "first_seen": "2026-10-15",
-    "last_seen": "2026-10-15",
-    "observed_run_count": 1
+    "last_seen": "2026-10-19",
+    "observed_run_count": 2
   },
   "parzibyte.me": {
     "first_seen": "2026-10-15",
-    "last_seen": "2026-10-15",
-    "observed_run_count": 1
+    "last_seen": "2026-10-19",
+    "observed_run_count": 2
   },
   "qrgratis.es": {
     "first_seen": "2026-10-15",
-    "last_seen": "2026-10-15",
-    "observed_run_count": 1
+    "last_seen": "2026-10-19",
+    "observed_run_count": 2
   },
   "routerpwn.com": {
     "first_seen": "2026-10-15",
-    "last_seen": "2026-10-15",
-    "observed_run_count": 1
+    "last_seen": "2026-10-19",
+    "observed_run_count": 2
   },
   "snowb.org": {
     "first_seen": "2026-10-15",
-    "last_seen": "2026-10-15",
-    "observed_run_count": 1
+    "last_seen": "2026-10-19",
+    "observed_run_count": 2
   },
   "terabox.beer": {
     "first_seen": "2026-10-15",
-    "last_seen": "2026-10-15",
-    "observed_run_count": 1
+    "last_seen": "2026-10-19",
+    "observed_run_count": 2
   },
   "twigl.app": {
     "first_seen": "2026-10-15",
-    "last_seen": "2026-10-15",
-    "observed_run_count": 1
+    "last_seen": "2026-10-19",
+    "observed_run_count": 2
   },
   "unhiloenlared.blogspot.mx": {
     "first_seen": "2026-10-15",
-    "last_seen": "2026-10-15",
-    "observed_run_count": 1
+    "last_seen": "2026-10-19",
+    "observed_run_count": 2
   },
   "voicestudio.msrbuilds.com": {
     "first_seen": "2026-10-15",
-    "last_seen": "2026-10-15",
-    "observed_run_count": 1
+    "last_seen": "2026-10-19",
+    "observed_run_count": 2
   },
   "works.yangerxiao.com": {
     "first_seen": "2026-10-15",
-    "last_seen": "2026-10-15",
-    "observed_run_count": 1
+    "last_seen": "2026-10-19",
+    "observed_run_count": 2
   },
   "zbib.org": {
     "first_seen": "2026-10-15",
-    "last_seen": "2026-10-15",
-    "observed_run_count": 1
+    "last_seen": "2026-10-19",
+    "observed_run_count": 2
   },
   "abrandao.com": {
     "first_seen": "2026-10-16",
@@ -322,6 +322,11 @@
   "youtu.be": {
     "first_seen": "2026-10-16",
     "last_seen": "2026-10-16",
+    "observed_run_count": 1
+  },
+  "ope.ezegatica.com": {
+    "first_seen": "2026-10-19",
+    "last_seen": "2026-10-19",
     "observed_run_count": 1
   }
 }
