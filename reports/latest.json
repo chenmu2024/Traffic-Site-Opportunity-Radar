@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-10-23T03:06:47.226172+00:00",
+  "generated_at_utc": "2026-10-24T03:02:28.207169+00:00",
   "target_countries": [
     "BR",
     "CL",
@@ -15,8 +15,8 @@
   "clusters": [],
   "github_leads": [
     {
-      "domain": "bgoglin.free.fr",
-      "homepage": "http://bgoglin.free.fr/llgal/",
+      "domain": "abrandao.com",
+      "homepage": "http://www.abrandao.com/category/software/",
       "source": "PUBLIC_GITHUB_REPOSITORY_HOMEPAGE",
       "status": "DISCOVERY_ONLY",
       "organic_traffic": null,
@@ -25,310 +25,22 @@
       "cpc": null,
       "repositories": [
         {
-          "url": "https://github.com/bgoglin/llgal",
-          "stars": 26,
-          "updated_at": "2024-04-11T08:43:35Z",
-          "name": "llgal",
-          "description": "Command-line online gallery generator",
-          "fork": false,
-          "archived": false
-        }
-      ],
-      "matching_queries": [
-        "online generator in:name,description stars:3..1500 archived:false"
-      ]
-    },
-    {
-      "domain": "chev.me",
-      "homepage": "http://chev.me/arucogen/",
-      "source": "PUBLIC_GITHUB_REPOSITORY_HOMEPAGE",
-      "status": "DISCOVERY_ONLY",
-      "organic_traffic": null,
-      "domain_dr": null,
-      "kd": null,
-      "cpc": null,
-      "repositories": [
-        {
-          "url": "https://github.com/okalachev/arucogen",
-          "stars": 593,
-          "updated_at": "2023-12-12T22:39:19Z",
-          "name": "arucogen",
-          "description": "Online ArUco markers generator",
-          "fork": false,
-          "archived": false
-        }
-      ],
-      "matching_queries": [
-        "online generator in:name,description stars:3..1500 archived:false"
-      ]
-    },
-    {
-      "domain": "codante.io",
-      "homepage": "https://codante.io/mini-projetos/calculadora-de-imc-com-react",
-      "source": "PUBLIC_GITHUB_REPOSITORY_HOMEPAGE",
-      "status": "DISCOVERY_ONLY",
-      "organic_traffic": null,
-      "domain_dr": null,
-      "kd": null,
-      "cpc": null,
-      "repositories": [
-        {
-          "url": "https://github.com/codante-io/mp-calculadora-imc",
-          "stars": 3,
-          "updated_at": "2024-08-01T20:04:16Z",
-          "name": "mp-calculadora-imc",
-          "description": "Nada melhor do que manter a saúde em dia, não é? Sendo o IMC uma medida internacional usada para calcular se uma pessoa está no peso ideal, a nossa calculadora de Índice de Massa Corporal (IMC) é perfeita para isso.",
-          "fork": false,
-          "archived": false
-        }
-      ],
-      "matching_queries": [
-        "calculadora in:name,description stars:3..1500 archived:false"
-      ]
-    },
-    {
-      "domain": "docsify.js.org",
-      "homepage": "https://docsify.js.org/#/es/",
-      "source": "PUBLIC_GITHUB_REPOSITORY_HOMEPAGE",
-      "status": "DISCOVERY_ONLY",
-      "organic_traffic": null,
-      "domain_dr": null,
-      "kd": null,
-      "cpc": null,
-      "repositories": [
-        {
-          "url": "https://github.com/docsifyjs/docs-es",
-          "stars": 7,
-          "updated_at": "2023-11-07T13:26:40Z",
-          "name": "docs-es",
-          "description": ":black_joker: Un generador mágico de sitios de documentación",
-          "fork": false,
-          "archived": false
-        }
-      ],
-      "matching_queries": [
-        "generador in:name,description stars:3..1500 archived:false"
-      ]
-    },
-    {
-      "domain": "guyusoftware.com",
-      "homepage": "https://www.guyusoftware.com/online_csr_generator/",
-      "source": "PUBLIC_GITHUB_REPOSITORY_HOMEPAGE",
-      "status": "DISCOVERY_ONLY",
-      "organic_traffic": null,
-      "domain_dr": null,
-      "kd": null,
-      "cpc": null,
-      "repositories": [
-        {
-          "url": "https://github.com/koksuanlim/Online-CSR-Generator",
-          "stars": 15,
-          "updated_at": "2015-12-23T02:58:21Z",
-          "name": "Online-CSR-Generator",
-          "description": "Online CSR Generator",
-          "fork": false,
-          "archived": false
-        }
-      ],
-      "matching_queries": [
-        "online generator in:name,description stars:3..1500 archived:false"
-      ]
-    },
-    {
-      "domain": "io.evansosenko.com",
-      "homepage": "https://io.evansosenko.com/eve-overview/",
-      "source": "PUBLIC_GITHUB_REPOSITORY_HOMEPAGE",
-      "status": "DISCOVERY_ONLY",
-      "organic_traffic": null,
-      "domain_dr": null,
-      "kd": null,
-      "cpc": null,
-      "repositories": [
-        {
-          "url": "https://github.com/razor-x/eve-overview",
-          "stars": 71,
-          "updated_at": "2026-03-24T01:54:34Z",
-          "name": "eve-overview",
-          "description": "EVE Online Overview Generator",
-          "fork": false,
-          "archived": false
-        }
-      ],
-      "matching_queries": [
-        "online generator in:name,description stars:3..1500 archived:false"
-      ]
-    },
-    {
-      "domain": "josemaria.ml",
-      "homepage": "http://josemaria.ml/generadorPartidos/",
-      "source": "PUBLIC_GITHUB_REPOSITORY_HOMEPAGE",
-      "status": "DISCOVERY_ONLY",
-      "organic_traffic": null,
-      "domain_dr": null,
-      "kd": null,
-      "cpc": null,
-      "repositories": [
-        {
-          "url": "https://github.com/jmml97/generadorPartidos",
-          "stars": 8,
-          "updated_at": "2017-10-06T09:54:48Z",
-          "name": "generadorPartidos",
-          "description": "Generador de Partidos es una herramienta creada a raíz de la aparición de numerosos partidos de izquierda en la víspera de las elecciones de diciembre del 2015. Permite, en clave humorísitca, generar el nombre de un part",
-          "fork": false,
-          "archived": false
-        }
-      ],
-      "matching_queries": [
-        "generador in:name,description stars:3..1500 archived:false"
-      ]
-    },
-    {
-      "domain": "luciopaiva.com",
-      "homepage": "https://luciopaiva.com/markdown-toc",
-      "source": "PUBLIC_GITHUB_REPOSITORY_HOMEPAGE",
-      "status": "DISCOVERY_ONLY",
-      "organic_traffic": null,
-      "domain_dr": null,
-      "kd": null,
-      "cpc": null,
-      "repositories": [
-        {
-          "url": "https://github.com/luciopaiva/markdown-toc",
-          "stars": 46,
-          "updated_at": "2023-09-07T12:16:51Z",
-          "name": "markdown-toc",
-          "description": "Online markdown table of contents generator",
-          "fork": false,
-          "archived": false
-        }
-      ],
-      "matching_queries": [
-        "online generator in:name,description stars:3..1500 archived:false"
-      ]
-    },
-    {
-      "domain": "medium.com",
-      "homepage": "https://medium.com/@igorcbraz/build-a-feature-rich-calculator-with-pure-javascript-20ce17fbe47d",
-      "source": "PUBLIC_GITHUB_REPOSITORY_HOMEPAGE",
-      "status": "DISCOVERY_ONLY",
-      "organic_traffic": null,
-      "domain_dr": null,
-      "kd": null,
-      "cpc": null,
-      "repositories": [
-        {
-          "url": "https://github.com/Igorcbraz/Calculadora",
-          "stars": 33,
-          "updated_at": "2025-01-24T16:05:58Z",
-          "name": "Calculadora",
-          "description": " 📐 Calculadora simples e intuitiva com suporte a comandos de voz e temas personalizados 📏",
-          "fork": false,
-          "archived": false
-        }
-      ],
-      "matching_queries": [
-        "calculadora in:name,description stars:3..1500 archived:false"
-      ]
-    },
-    {
-      "domain": "mysystemd.talos.sh",
-      "homepage": "https://mysystemd.talos.sh/",
-      "source": "PUBLIC_GITHUB_REPOSITORY_HOMEPAGE",
-      "status": "DISCOVERY_ONLY",
-      "organic_traffic": null,
-      "domain_dr": null,
-      "kd": null,
-      "cpc": null,
-      "repositories": [
-        {
-          "url": "https://github.com/NunuM/my-systemd-service-file-generator",
-          "stars": 144,
-          "updated_at": "2022-05-19T00:26:00Z",
-          "name": "my-systemd-service-file-generator",
-          "description": "A simple Systemd service file online generator.",
-          "fork": false,
-          "archived": false
-        }
-      ],
-      "matching_queries": [
-        "online generator in:name,description stars:3..1500 archived:false"
-      ]
-    },
-    {
-      "domain": "noisegen.bubblebirdstudio.com",
-      "homepage": "https://noisegen.bubblebirdstudio.com",
-      "source": "PUBLIC_GITHUB_REPOSITORY_HOMEPAGE",
-      "status": "DISCOVERY_ONLY",
-      "organic_traffic": null,
-      "domain_dr": null,
-      "kd": null,
-      "cpc": null,
-      "repositories": [
-        {
-          "url": "https://github.com/Bubblebird-Studio/NoiseGenerator",
-          "stars": 107,
-          "updated_at": "2025-07-28T09:04:49Z",
-          "name": "NoiseGenerator",
-          "description": "A simple tool for seamless 2D/3D online noise generation",
-          "fork": false,
-          "archived": false
-        }
-      ],
-      "matching_queries": [
-        "online generator in:name,description stars:3..1500 archived:false"
-      ]
-    },
-    {
-      "domain": "ope.ezegatica.com",
-      "homepage": "https://ope.ezegatica.com",
-      "source": "PUBLIC_GITHUB_REPOSITORY_HOMEPAGE",
-      "status": "DISCOVERY_ONLY",
-      "organic_traffic": null,
-      "domain_dr": null,
-      "kd": null,
-      "cpc": null,
-      "repositories": [
-        {
-          "url": "https://github.com/ezegatica/ope-generador",
-          "stars": 3,
-          "updated_at": "2024-03-27T16:11:33Z",
-          "name": "ope-generador",
-          "description": "Generador de memes de comunicados de prensa de la Oficina del Presidente Electo",
-          "fork": false,
-          "archived": false
-        }
-      ],
-      "matching_queries": [
-        "generador in:name,description stars:3..1500 archived:false"
-      ]
-    },
-    {
-      "domain": "parzibyte.me",
-      "homepage": "https://parzibyte.me/apps/generador-qr/",
-      "source": "PUBLIC_GITHUB_REPOSITORY_HOMEPAGE",
-      "status": "DISCOVERY_ONLY",
-      "organic_traffic": null,
-      "domain_dr": null,
-      "kd": null,
-      "cpc": null,
-      "repositories": [
-        {
-          "url": "https://github.com/parzibyte/generador-qr",
+          "url": "https://github.com/acbrandao/retirementCalc",
           "stars": 11,
-          "updated_at": "2021-06-28T18:42:24Z",
-          "name": "generador-qr",
-          "description": "Generador de códigos QR con JavaScript y Buefy",
+          "updated_at": "2019-12-13T00:55:25Z",
+          "name": "retirementCalc",
+          "description": "Code for my JavaScript browser-based retirement calculator http://www.abrandao.com/retire/",
           "fork": false,
           "archived": false
         }
       ],
       "matching_queries": [
-        "generador in:name,description stars:3..1500 archived:false"
+        "browser calculator in:name,description stars:3..1500 archived:false"
       ]
     },
     {
-      "domain": "qrgratis.es",
-      "homepage": "https://www.qrgratis.es/",
+      "domain": "antoniocanada.com",
+      "homepage": "https://antoniocanada.com/chile/",
       "source": "PUBLIC_GITHUB_REPOSITORY_HOMEPAGE",
       "status": "DISCOVERY_ONLY",
       "organic_traffic": null,
@@ -337,22 +49,22 @@
       "cpc": null,
       "repositories": [
         {
-          "url": "https://github.com/BigNight1/generador-qr-Oficial",
-          "stars": 7,
-          "updated_at": "2026-10-11T06:11:53Z",
-          "name": "generador-qr-Oficial",
-          "description": "",
+          "url": "https://github.com/tonicanada/sii_chile_xml_to_pdf",
+          "stars": 30,
+          "updated_at": "2026-10-16T16:16:22Z",
+          "name": "sii_chile_xml_to_pdf",
+          "description": "Conversor de XML DTE del SII (Chile) a PDF con CLI y nombrado automático de archivos.",
           "fork": false,
           "archived": false
         }
       ],
       "matching_queries": [
-        "generador in:name,description stars:3..1500 archived:false"
+        "conversor in:name,description stars:3..1500 archived:false"
       ]
     },
     {
-      "domain": "routerpwn.com",
-      "homepage": "http://www.routerpwn.com",
+      "domain": "arxiv.org",
+      "homepage": "https://arxiv.org/pdf/1906.02738.pdf",
       "source": "PUBLIC_GITHUB_REPOSITORY_HOMEPAGE",
       "status": "DISCOVERY_ONLY",
       "organic_traffic": null,
@@ -361,22 +73,22 @@
       "cpc": null,
       "repositories": [
         {
-          "url": "https://github.com/hkm/routerpwn.com",
-          "stars": 146,
-          "updated_at": "2016-03-13T01:27:50Z",
-          "name": "routerpwn.com",
-          "description": "Compilation of ready to run exploits, advisories, tools and online key generators for embedded devices.",
+          "url": "https://github.com/qkaren/converse_reading_cmr",
+          "stars": 77,
+          "updated_at": "2020-12-01T00:09:27Z",
+          "name": "converse_reading_cmr",
+          "description": "code, data, and model for ACL-19 paper \"Conversing by Reading: Contentful Neural Conversation with On-demand Machine Reading\"",
           "fork": false,
           "archived": false
         }
       ],
       "matching_queries": [
-        "online generator in:name,description stars:3..1500 archived:false"
+        "conversor in:name,description stars:3..1500 archived:false"
       ]
     },
     {
-      "domain": "snowb.org",
-      "homepage": "https://snowb.org",
+      "domain": "browserytools.com",
+      "homepage": "https://browserytools.com",
       "source": "PUBLIC_GITHUB_REPOSITORY_HOMEPAGE",
       "status": "DISCOVERY_ONLY",
       "organic_traffic": null,
@@ -385,22 +97,22 @@
       "cpc": null,
       "repositories": [
         {
-          "url": "https://github.com/SilenceLeo/snowb-bmf",
-          "stars": 577,
-          "updated_at": "2026-06-30T07:02:44Z",
-          "name": "snowb-bmf",
-          "description": "Bitmap Font Generator Online",
+          "url": "https://github.com/aghyad97/browserytools",
+          "stars": 706,
+          "updated_at": "2026-09-19T18:29:15Z",
+          "name": "browserytools",
+          "description": "152 free browser-based tools in 17 languages. Your files and text are processed in your browser — no uploads, no accounts, no ads. Image & on-device AI tools, PDF, converters, formatters, calculators, generators. Some AI",
           "fork": false,
           "archived": false
         }
       ],
       "matching_queries": [
-        "online generator in:name,description stars:3..1500 archived:false"
+        "browser calculator in:name,description stars:3..1500 archived:false"
       ]
     },
     {
-      "domain": "terabox.beer",
-      "homepage": "https://terabox.beer/",
+      "domain": "calc.cloudyhome.org",
+      "homepage": "https://calc.cloudyhome.org/",
       "source": "PUBLIC_GITHUB_REPOSITORY_HOMEPAGE",
       "status": "DISCOVERY_ONLY",
       "organic_traffic": null,
@@ -409,22 +121,22 @@
       "cpc": null,
       "repositories": [
         {
-          "url": "https://github.com/techshade/terabox-player",
-          "stars": 62,
-          "updated_at": "2025-11-20T14:56:20Z",
-          "name": "terabox-player",
-          "description": "🌟 Terabox Video Downloader and Player Online - Terabox direct link generator",
+          "url": "https://github.com/binarycodes/calculators",
+          "stars": 29,
+          "updated_at": "2026-10-14T13:50:39Z",
+          "name": "calculators",
+          "description": "Self-hostable personal-finance calculators (retirement, loan, buy-vs-rent & more) — your numbers never leave your browser. Vaadin + Spring Boot.",
           "fork": false,
           "archived": false
         }
       ],
       "matching_queries": [
-        "online generator in:name,description stars:3..1500 archived:false"
+        "browser calculator in:name,description stars:3..1500 archived:false"
       ]
     },
     {
-      "domain": "twigl.app",
-      "homepage": "https://twigl.app/",
+      "domain": "calculator.simontharby.com",
+      "homepage": "https://calculator.simontharby.com/",
       "source": "PUBLIC_GITHUB_REPOSITORY_HOMEPAGE",
       "status": "DISCOVERY_ONLY",
       "organic_traffic": null,
@@ -433,22 +145,22 @@
       "cpc": null,
       "repositories": [
         {
-          "url": "https://github.com/doxas/twigl",
-          "stars": 1095,
-          "updated_at": "2026-03-04T02:22:44Z",
-          "name": "twigl",
-          "description": "twigl.app is an online editor for One tweet shader, with gif generator and sound shader, and broadcast live coding.",
+          "url": "https://github.com/jinjagit/calculator",
+          "stars": 3,
+          "updated_at": "2019-03-17T22:29:32Z",
+          "name": "calculator",
+          "description": "Calculator browser app, with mobile focused, minimal, responsive design",
           "fork": false,
           "archived": false
         }
       ],
       "matching_queries": [
-        "online generator in:name,description stars:3..1500 archived:false"
+        "browser calculator in:name,description stars:3..1500 archived:false"
       ]
     },
     {
-      "domain": "unhiloenlared.blogspot.mx",
-      "homepage": "http://unhiloenlared.blogspot.mx/",
+      "domain": "cesarsystems.com.mx",
+      "homepage": "https://cesarsystems.com.mx/conversor-cfdi-3-3-4-0-xml-a-pdf",
       "source": "PUBLIC_GITHUB_REPOSITORY_HOMEPAGE",
       "status": "DISCOVERY_ONLY",
       "organic_traffic": null,
@@ -457,22 +169,22 @@
       "cpc": null,
       "repositories": [
         {
-          "url": "https://github.com/oscargalileo/liga3",
-          "stars": 33,
-          "updated_at": "2025-01-23T17:43:13Z",
-          "name": "liga3",
-          "description": "LIGA.php es un microframework que proporciona una API para el acceso y control de la base de datos, además es un generador de código HTML a partir de entidades almacenadas.",
+          "url": "https://github.com/julio101290/convertidorXMLPDF",
+          "stars": 3,
+          "updated_at": "2023-05-24T00:51:55Z",
+          "name": "convertidorXMLPDF",
+          "description": "Programa para convertir los XML de las facturas CFDI a PDF",
           "fork": false,
           "archived": false
         }
       ],
       "matching_queries": [
-        "generador in:name,description stars:3..1500 archived:false"
+        "convertidor in:name,description stars:3..1500 archived:false"
       ]
     },
     {
-      "domain": "voicestudio.msrbuilds.com",
-      "homepage": "https://voicestudio.msrbuilds.com/",
+      "domain": "easypodcasts.live",
+      "homepage": "https://easypodcasts.live",
       "source": "PUBLIC_GITHUB_REPOSITORY_HOMEPAGE",
       "status": "DISCOVERY_ONLY",
       "organic_traffic": null,
@@ -481,22 +193,22 @@
       "cpc": null,
       "repositories": [
         {
-          "url": "https://github.com/msrbuilds/voice-studio",
-          "stars": 218,
-          "updated_at": "2026-07-31T19:46:20Z",
-          "name": "voice-studio",
-          "description": "A multi-model local AI Voice Generator (TTS) studio. An open-source alternative to ElevenLabs and expensive online voice generators.",
+          "url": "https://github.com/easypodcasts/easy_podcasts",
+          "stars": 39,
+          "updated_at": "2025-07-04T17:45:27Z",
+          "name": "easy_podcasts",
+          "description": "Agregador de podcasts y convertidor de audio para cubanos",
           "fork": false,
           "archived": false
         }
       ],
       "matching_queries": [
-        "online generator in:name,description stars:3..1500 archived:false"
+        "convertidor in:name,description stars:3..1500 archived:false"
       ]
     },
     {
-      "domain": "works.yangerxiao.com",
-      "homepage": "https://works.yangerxiao.com/strong-password-generator/",
+      "domain": "kalkki.raikas.dev",
+      "homepage": "http://kalkki.raikas.dev/",
       "source": "PUBLIC_GITHUB_REPOSITORY_HOMEPAGE",
       "status": "DISCOVERY_ONLY",
       "organic_traffic": null,
@@ -505,22 +217,22 @@
       "cpc": null,
       "repositories": [
         {
-          "url": "https://github.com/zerosoul/strong-password-generator",
-          "stars": 14,
-          "updated_at": "2026-01-31T12:08:53Z",
-          "name": "strong-password-generator",
-          "description": "create strong passwords online",
+          "url": "https://github.com/raikasdev/kalkki",
+          "stars": 11,
+          "updated_at": "2025-11-02T02:23:28Z",
+          "name": "kalkki",
+          "description": "🧮 SpeedCrunch-style scientific calculator in the browser",
           "fork": false,
           "archived": false
         }
       ],
       "matching_queries": [
-        "online generator in:name,description stars:3..1500 archived:false"
+        "browser calculator in:name,description stars:3..1500 archived:false"
       ]
     },
     {
-      "domain": "zbib.org",
-      "homepage": "https://zbib.org",
+      "domain": "mira-nontraditionary-nonfugitively.ngrok-free.dev",
+      "homepage": "https://mira-nontraditionary-nonfugitively.ngrok-free.dev",
       "source": "PUBLIC_GITHUB_REPOSITORY_HOMEPAGE",
       "status": "DISCOVERY_ONLY",
       "organic_traffic": null,
@@ -529,17 +241,188 @@
       "cpc": null,
       "repositories": [
         {
-          "url": "https://github.com/zotero/zoterobib",
-          "stars": 101,
-          "updated_at": "2026-10-13T18:39:55Z",
-          "name": "zoterobib",
-          "description": "ZoteroBib is a free online bibliography generator from the makers of Zotero",
+          "url": "https://github.com/openperf/openclaw-cloud",
+          "stars": 267,
+          "updated_at": "2026-02-05T00:59:54Z",
+          "name": "openclaw-cloud",
+          "description": "Give your AI Agent a cloud-native life. Deploy once, converse everywhere.",
           "fork": false,
           "archived": false
         }
       ],
       "matching_queries": [
-        "online generator in:name,description stars:3..1500 archived:false"
+        "conversor in:name,description stars:3..1500 archived:false"
+      ]
+    },
+    {
+      "domain": "tonestack.yuriturov.com",
+      "homepage": "https://tonestack.yuriturov.com",
+      "source": "PUBLIC_GITHUB_REPOSITORY_HOMEPAGE",
+      "status": "DISCOVERY_ONLY",
+      "organic_traffic": null,
+      "domain_dr": null,
+      "kd": null,
+      "cpc": null,
+      "repositories": [
+        {
+          "url": "https://github.com/why-trv/yet-another-tonestack-calculator",
+          "stars": 46,
+          "updated_at": "2026-09-04T11:46:10Z",
+          "name": "yet-another-tonestack-calculator",
+          "description": "Browser-based tonestack calculator",
+          "fork": false,
+          "archived": false
+        }
+      ],
+      "matching_queries": [
+        "browser calculator in:name,description stars:3..1500 archived:false"
+      ]
+    },
+    {
+      "domain": "tooladda.online",
+      "homepage": "https://tooladda.online/calculators/calculator.html",
+      "source": "PUBLIC_GITHUB_REPOSITORY_HOMEPAGE",
+      "status": "DISCOVERY_ONLY",
+      "organic_traffic": null,
+      "domain_dr": null,
+      "kd": null,
+      "cpc": null,
+      "repositories": [
+        {
+          "url": "https://github.com/tooladda-online/calculator",
+          "stars": 25,
+          "updated_at": "2026-09-22T14:47:21Z",
+          "name": "calculator",
+          "description": "Premium Calculator — Use Premium Calculator free on ToolAdda — quick, accurate, and browser-based. Free on ToolAdda.online.",
+          "fork": false,
+          "archived": false
+        },
+        {
+          "url": "https://github.com/tooladda-online/rd-calculator",
+          "stars": 25,
+          "updated_at": "2026-09-22T15:03:48Z",
+          "name": "rd-calculator",
+          "description": "RD Calculator — Use RD Calculator free on ToolAdda — quick, accurate, and browser-based. Free on ToolAdda.online.",
+          "fork": false,
+          "archived": false
+        },
+        {
+          "url": "https://github.com/tooladda-online/gst-calculator",
+          "stars": 25,
+          "updated_at": "2026-09-22T14:41:10Z",
+          "name": "gst-calculator",
+          "description": "GST Calculator — Use GST Calculator free on ToolAdda — quick, accurate, and browser-based. Free on ToolAdda.online.",
+          "fork": false,
+          "archived": false
+        },
+        {
+          "url": "https://github.com/tooladda-online/percentage-calculator",
+          "stars": 25,
+          "updated_at": "2026-09-22T15:24:44Z",
+          "name": "percentage-calculator",
+          "description": "Percentage Calculator — Use Percentage Calculator free on ToolAdda — quick, accurate, and browser-based. Free on ToolAdda.online.",
+          "fork": false,
+          "archived": false
+        },
+        {
+          "url": "https://github.com/tooladda-online/sip-calculator",
+          "stars": 25,
+          "updated_at": "2026-09-22T14:53:57Z",
+          "name": "sip-calculator",
+          "description": "SIP Calculator — Use SIP Calculator free on ToolAdda — quick, accurate, and browser-based. Free on ToolAdda.online.",
+          "fork": false,
+          "archived": false
+        },
+        {
+          "url": "https://github.com/tooladda-online/scientific-calculator",
+          "stars": 25,
+          "updated_at": "2026-09-22T15:04:42Z",
+          "name": "scientific-calculator",
+          "description": "Scientific Calculator — Use Scientific Calculator free on ToolAdda — quick, accurate, and browser-based. Free on ToolAdda.online.",
+          "fork": false,
+          "archived": false
+        },
+        {
+          "url": "https://github.com/tooladda-online/loan-calculator",
+          "stars": 25,
+          "updated_at": "2026-09-22T14:54:53Z",
+          "name": "loan-calculator",
+          "description": "Loan Calculator — Use Loan Calculator free on ToolAdda — quick, accurate, and browser-based. Free on ToolAdda.online.",
+          "fork": false,
+          "archived": false
+        },
+        {
+          "url": "https://github.com/tooladda-online/gpa-cgpa-calculator",
+          "stars": 26,
+          "updated_at": "2026-09-22T16:01:21Z",
+          "name": "gpa-cgpa-calculator",
+          "description": "GPA / CGPA Calculator — Use GPA / CGPA Calculator free on ToolAdda — quick, accurate, and browser-based. Free on ToolAdda.online.",
+          "fork": false,
+          "archived": false
+        },
+        {
+          "url": "https://github.com/tooladda-online/manual-tax-calculator",
+          "stars": 25,
+          "updated_at": "2026-09-22T14:43:30Z",
+          "name": "manual-tax-calculator",
+          "description": "Manual Tax Calculator — Use Manual Tax Calculator free on ToolAdda — quick, accurate, and browser-based. Free on ToolAdda.online.",
+          "fork": false,
+          "archived": false
+        },
+        {
+          "url": "https://github.com/tooladda-online/ppf-calculator",
+          "stars": 24,
+          "updated_at": "2026-09-22T14:51:33Z",
+          "name": "ppf-calculator",
+          "description": "PPF Calculator — Plan your Public Provident Fund investments with instant maturity estimates, interest breakdown, and a year-wise growth table — free, fast, and entirely in your browser. Free on ToolAdda.online.",
+          "fork": false,
+          "archived": false
+        },
+        {
+          "url": "https://github.com/tooladda-online/home-loan-calculator",
+          "stars": 25,
+          "updated_at": "2026-09-22T14:45:11Z",
+          "name": "home-loan-calculator",
+          "description": "Home Loan Calculator — Plan your housing loan with instant EMI estimates, total interest breakdown, and a month-wise amortization schedule — free, fast, and entirely in your browser. Free on ToolAdda.online.",
+          "fork": false,
+          "archived": false
+        },
+        {
+          "url": "https://github.com/tooladda-online/car-loan-calculator",
+          "stars": 24,
+          "updated_at": "2026-09-22T14:59:15Z",
+          "name": "car-loan-calculator",
+          "description": "Car Loan Calculator — Plan your next vehicle purchase with instant EMI estimates, interest breakdown, and a month-wise amortization schedule — free, fast, and entirely in your browser. Free on ToolAdda.online.",
+          "fork": false,
+          "archived": false
+        }
+      ],
+      "matching_queries": [
+        "browser calculator in:name,description stars:3..1500 archived:false"
+      ]
+    },
+    {
+      "domain": "youtu.be",
+      "homepage": "https://youtu.be/ExK7mUmfdeM",
+      "source": "PUBLIC_GITHUB_REPOSITORY_HOMEPAGE",
+      "status": "DISCOVERY_ONLY",
+      "organic_traffic": null,
+      "domain_dr": null,
+      "kd": null,
+      "cpc": null,
+      "repositories": [
+        {
+          "url": "https://github.com/Roger-Melo/aplicacao-conversor-de-moedas",
+          "stars": 22,
+          "updated_at": "2021-02-19T03:37:25Z",
+          "name": "aplicacao-conversor-de-moedas",
+          "description": "Conversor de moedas com JavaScript puro, sem o uso de libs ou frameworks JS.",
+          "fork": false,
+          "archived": false
+        }
+      ],
+      "matching_queries": [
+        "conversor in:name,description stars:3..1500 archived:false"
       ]
     }
   ],
@@ -550,9 +433,9 @@
     "en"
   ],
   "github_queries_used": [
-    "calculadora in:name,description stars:3..1500 archived:false",
-    "generador in:name,description stars:3..1500 archived:false",
-    "online generator in:name,description stars:3..1500 archived:false"
+    "conversor in:name,description stars:3..1500 archived:false",
+    "convertidor in:name,description stars:3..1500 archived:false",
+    "browser calculator in:name,description stars:3..1500 archived:false"
   ],
   "github_failures": [],
   "seo_provider_metrics_verified_automatically": false,
