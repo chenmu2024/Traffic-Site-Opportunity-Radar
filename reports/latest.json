@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-10-24T03:02:28.207169+00:00",
+  "generated_at_utc": "2026-10-25T02:56:30.845148+00:00",
   "target_countries": [
     "BR",
     "CL",
@@ -15,8 +15,8 @@
   "clusters": [],
   "github_leads": [
     {
-      "domain": "abrandao.com",
-      "homepage": "http://www.abrandao.com/category/software/",
+      "domain": "codante.io",
+      "homepage": "https://codante.io/mini-projetos/calculadora-de-imc-com-react",
       "source": "PUBLIC_GITHUB_REPOSITORY_HOMEPAGE",
       "status": "DISCOVERY_ONLY",
       "organic_traffic": null,
@@ -25,142 +25,22 @@
       "cpc": null,
       "repositories": [
         {
-          "url": "https://github.com/acbrandao/retirementCalc",
-          "stars": 11,
-          "updated_at": "2019-12-13T00:55:25Z",
-          "name": "retirementCalc",
-          "description": "Code for my JavaScript browser-based retirement calculator http://www.abrandao.com/retire/",
-          "fork": false,
-          "archived": false
-        }
-      ],
-      "matching_queries": [
-        "browser calculator in:name,description stars:3..1500 archived:false"
-      ]
-    },
-    {
-      "domain": "antoniocanada.com",
-      "homepage": "https://antoniocanada.com/chile/",
-      "source": "PUBLIC_GITHUB_REPOSITORY_HOMEPAGE",
-      "status": "DISCOVERY_ONLY",
-      "organic_traffic": null,
-      "domain_dr": null,
-      "kd": null,
-      "cpc": null,
-      "repositories": [
-        {
-          "url": "https://github.com/tonicanada/sii_chile_xml_to_pdf",
-          "stars": 30,
-          "updated_at": "2026-10-16T16:16:22Z",
-          "name": "sii_chile_xml_to_pdf",
-          "description": "Conversor de XML DTE del SII (Chile) a PDF con CLI y nombrado automático de archivos.",
-          "fork": false,
-          "archived": false
-        }
-      ],
-      "matching_queries": [
-        "conversor in:name,description stars:3..1500 archived:false"
-      ]
-    },
-    {
-      "domain": "arxiv.org",
-      "homepage": "https://arxiv.org/pdf/1906.02738.pdf",
-      "source": "PUBLIC_GITHUB_REPOSITORY_HOMEPAGE",
-      "status": "DISCOVERY_ONLY",
-      "organic_traffic": null,
-      "domain_dr": null,
-      "kd": null,
-      "cpc": null,
-      "repositories": [
-        {
-          "url": "https://github.com/qkaren/converse_reading_cmr",
-          "stars": 77,
-          "updated_at": "2020-12-01T00:09:27Z",
-          "name": "converse_reading_cmr",
-          "description": "code, data, and model for ACL-19 paper \"Conversing by Reading: Contentful Neural Conversation with On-demand Machine Reading\"",
-          "fork": false,
-          "archived": false
-        }
-      ],
-      "matching_queries": [
-        "conversor in:name,description stars:3..1500 archived:false"
-      ]
-    },
-    {
-      "domain": "browserytools.com",
-      "homepage": "https://browserytools.com",
-      "source": "PUBLIC_GITHUB_REPOSITORY_HOMEPAGE",
-      "status": "DISCOVERY_ONLY",
-      "organic_traffic": null,
-      "domain_dr": null,
-      "kd": null,
-      "cpc": null,
-      "repositories": [
-        {
-          "url": "https://github.com/aghyad97/browserytools",
-          "stars": 706,
-          "updated_at": "2026-09-19T18:29:15Z",
-          "name": "browserytools",
-          "description": "152 free browser-based tools in 17 languages. Your files and text are processed in your browser — no uploads, no accounts, no ads. Image & on-device AI tools, PDF, converters, formatters, calculators, generators. Some AI",
-          "fork": false,
-          "archived": false
-        }
-      ],
-      "matching_queries": [
-        "browser calculator in:name,description stars:3..1500 archived:false"
-      ]
-    },
-    {
-      "domain": "calc.cloudyhome.org",
-      "homepage": "https://calc.cloudyhome.org/",
-      "source": "PUBLIC_GITHUB_REPOSITORY_HOMEPAGE",
-      "status": "DISCOVERY_ONLY",
-      "organic_traffic": null,
-      "domain_dr": null,
-      "kd": null,
-      "cpc": null,
-      "repositories": [
-        {
-          "url": "https://github.com/binarycodes/calculators",
-          "stars": 29,
-          "updated_at": "2026-10-14T13:50:39Z",
-          "name": "calculators",
-          "description": "Self-hostable personal-finance calculators (retirement, loan, buy-vs-rent & more) — your numbers never leave your browser. Vaadin + Spring Boot.",
-          "fork": false,
-          "archived": false
-        }
-      ],
-      "matching_queries": [
-        "browser calculator in:name,description stars:3..1500 archived:false"
-      ]
-    },
-    {
-      "domain": "calculator.simontharby.com",
-      "homepage": "https://calculator.simontharby.com/",
-      "source": "PUBLIC_GITHUB_REPOSITORY_HOMEPAGE",
-      "status": "DISCOVERY_ONLY",
-      "organic_traffic": null,
-      "domain_dr": null,
-      "kd": null,
-      "cpc": null,
-      "repositories": [
-        {
-          "url": "https://github.com/jinjagit/calculator",
+          "url": "https://github.com/codante-io/mp-calculadora-imc",
           "stars": 3,
-          "updated_at": "2019-03-17T22:29:32Z",
-          "name": "calculator",
-          "description": "Calculator browser app, with mobile focused, minimal, responsive design",
+          "updated_at": "2024-08-01T20:04:16Z",
+          "name": "mp-calculadora-imc",
+          "description": "Nada melhor do que manter a saúde em dia, não é? Sendo o IMC uma medida internacional usada para calcular se uma pessoa está no peso ideal, a nossa calculadora de Índice de Massa Corporal (IMC) é perfeita para isso.",
           "fork": false,
           "archived": false
         }
       ],
       "matching_queries": [
-        "browser calculator in:name,description stars:3..1500 archived:false"
+        "calculadora in:name,description stars:3..1500 archived:false"
       ]
     },
     {
-      "domain": "cesarsystems.com.mx",
-      "homepage": "https://cesarsystems.com.mx/conversor-cfdi-3-3-4-0-xml-a-pdf",
+      "domain": "codepoems.eu",
+      "homepage": "https://codepoems.eu/xl-converter",
       "source": "PUBLIC_GITHUB_REPOSITORY_HOMEPAGE",
       "status": "DISCOVERY_ONLY",
       "organic_traffic": null,
@@ -169,22 +49,22 @@
       "cpc": null,
       "repositories": [
         {
-          "url": "https://github.com/julio101290/convertidorXMLPDF",
-          "stars": 3,
-          "updated_at": "2023-05-24T00:51:55Z",
-          "name": "convertidorXMLPDF",
-          "description": "Programa para convertir los XML de las facturas CFDI a PDF",
+          "url": "https://github.com/JacobDev1/xl-converter",
+          "stars": 591,
+          "updated_at": "2026-09-06T20:46:03Z",
+          "name": "xl-converter",
+          "description": "Easy-to-use image converter for modern formats. Supports fast parallel encoding, lossless JPEG transcoding, JPEG XL, AVIF, JPEGLI, ExifTool, and more. ",
           "fork": false,
           "archived": false
         }
       ],
       "matching_queries": [
-        "convertidor in:name,description stars:3..1500 archived:false"
+        "image converter in:name,description stars:3..1500 archived:false"
       ]
     },
     {
-      "domain": "easypodcasts.live",
-      "homepage": "https://easypodcasts.live",
+      "domain": "converseen.fasterland.net",
+      "homepage": "https://converseen.fasterland.net/",
       "source": "PUBLIC_GITHUB_REPOSITORY_HOMEPAGE",
       "status": "DISCOVERY_ONLY",
       "organic_traffic": null,
@@ -193,22 +73,22 @@
       "cpc": null,
       "repositories": [
         {
-          "url": "https://github.com/easypodcasts/easy_podcasts",
-          "stars": 39,
-          "updated_at": "2025-07-04T17:45:27Z",
-          "name": "easy_podcasts",
-          "description": "Agregador de podcasts y convertidor de audio para cubanos",
+          "url": "https://github.com/Faster3ck/Converseen",
+          "stars": 1181,
+          "updated_at": "2026-10-07T14:54:08Z",
+          "name": "Converseen",
+          "description": "Converseen is a batch image converter and resizer",
           "fork": false,
           "archived": false
         }
       ],
       "matching_queries": [
-        "convertidor in:name,description stars:3..1500 archived:false"
+        "image converter in:name,description stars:3..1500 archived:false"
       ]
     },
     {
-      "domain": "kalkki.raikas.dev",
-      "homepage": "http://kalkki.raikas.dev/",
+      "domain": "demoiselle.sourceforge.net",
+      "homepage": "http://demoiselle.sourceforge.net/tools/nimble/",
       "source": "PUBLIC_GITHUB_REPOSITORY_HOMEPAGE",
       "status": "DISCOVERY_ONLY",
       "organic_traffic": null,
@@ -217,22 +97,22 @@
       "cpc": null,
       "repositories": [
         {
-          "url": "https://github.com/raikasdev/kalkki",
-          "stars": 11,
-          "updated_at": "2025-11-02T02:23:28Z",
-          "name": "kalkki",
-          "description": "🧮 SpeedCrunch-style scientific calculator in the browser",
+          "url": "https://github.com/demoiselle/nimble",
+          "stars": 12,
+          "updated_at": "2020-10-12T18:47:07Z",
+          "name": "nimble",
+          "description": "Processador automatizado de templates e gerador de código  ",
           "fork": false,
           "archived": false
         }
       ],
       "matching_queries": [
-        "browser calculator in:name,description stars:3..1500 archived:false"
+        "gerador in:name,description stars:3..1500 archived:false"
       ]
     },
     {
-      "domain": "mira-nontraditionary-nonfugitively.ngrok-free.dev",
-      "homepage": "https://mira-nontraditionary-nonfugitively.ngrok-free.dev",
+      "domain": "enotionz.github.com",
+      "homepage": "http://enotionz.github.com/jscii/",
       "source": "PUBLIC_GITHUB_REPOSITORY_HOMEPAGE",
       "status": "DISCOVERY_ONLY",
       "organic_traffic": null,
@@ -241,22 +121,22 @@
       "cpc": null,
       "repositories": [
         {
-          "url": "https://github.com/openperf/openclaw-cloud",
-          "stars": 267,
-          "updated_at": "2026-02-05T00:59:54Z",
-          "name": "openclaw-cloud",
-          "description": "Give your AI Agent a cloud-native life. Deploy once, converse everywhere.",
+          "url": "https://github.com/EnotionZ/jscii",
+          "stars": 352,
+          "updated_at": "2018-09-29T20:55:09Z",
+          "name": "jscii",
+          "description": "JavaScript image to ASCII converter",
           "fork": false,
           "archived": false
         }
       ],
       "matching_queries": [
-        "conversor in:name,description stars:3..1500 archived:false"
+        "image converter in:name,description stars:3..1500 archived:false"
       ]
     },
     {
-      "domain": "tonestack.yuriturov.com",
-      "homepage": "https://tonestack.yuriturov.com",
+      "domain": "favr.dev",
+      "homepage": "https://favr.dev/opensource/density-converter",
       "source": "PUBLIC_GITHUB_REPOSITORY_HOMEPAGE",
       "status": "DISCOVERY_ONLY",
       "organic_traffic": null,
@@ -265,22 +145,22 @@
       "cpc": null,
       "repositories": [
         {
-          "url": "https://github.com/why-trv/yet-another-tonestack-calculator",
-          "stars": 46,
-          "updated_at": "2026-09-04T11:46:10Z",
-          "name": "yet-another-tonestack-calculator",
-          "description": "Browser-based tonestack calculator",
+          "url": "https://github.com/patrickfav/density-converter",
+          "stars": 253,
+          "updated_at": "2024-10-14T10:16:53Z",
+          "name": "density-converter",
+          "description": "A multi platform image density converting tool converting single or batches of images to Android, iOS, Windows or CSS specific formats and density versions given the source scale factor or width/height in dp. It has a gr",
           "fork": false,
           "archived": false
         }
       ],
       "matching_queries": [
-        "browser calculator in:name,description stars:3..1500 archived:false"
+        "image converter in:name,description stars:3..1500 archived:false"
       ]
     },
     {
-      "domain": "tooladda.online",
-      "homepage": "https://tooladda.online/calculators/calculator.html",
+      "domain": "fichasdenimb.com.br",
+      "homepage": "https://fichasdenimb.com.br/",
       "source": "PUBLIC_GITHUB_REPOSITORY_HOMEPAGE",
       "status": "DISCOVERY_ONLY",
       "organic_traffic": null,
@@ -289,121 +169,94 @@
       "cpc": null,
       "repositories": [
         {
-          "url": "https://github.com/tooladda-online/calculator",
-          "stars": 25,
-          "updated_at": "2026-09-22T14:47:21Z",
-          "name": "calculator",
-          "description": "Premium Calculator — Use Premium Calculator free on ToolAdda — quick, accurate, and browser-based. Free on ToolAdda.online.",
+          "url": "https://github.com/YuriAlessandro/gerador-ficha-tormenta20",
+          "stars": 90,
+          "updated_at": "2026-10-23T21:45:29Z",
+          "name": "gerador-ficha-tormenta20",
+          "description": "Fichas de Nimb é um pacote de ferramentas para o sistema brasileiro de RPG Tormenta 20. Geração de fichas de jogadores, fichas de ameaças, mapa de Arton, rolador de recompensas e várias outras opções.",
           "fork": false,
           "archived": false
-        },
+        }
+      ],
+      "matching_queries": [
+        "gerador in:name,description stars:3..1500 archived:false"
+      ]
+    },
+    {
+      "domain": "file-converter-pro.org",
+      "homepage": "https://file-converter-pro.org/",
+      "source": "PUBLIC_GITHUB_REPOSITORY_HOMEPAGE",
+      "status": "DISCOVERY_ONLY",
+      "organic_traffic": null,
+      "domain_dr": null,
+      "kd": null,
+      "cpc": null,
+      "repositories": [
         {
-          "url": "https://github.com/tooladda-online/rd-calculator",
-          "stars": 25,
-          "updated_at": "2026-09-22T15:03:48Z",
-          "name": "rd-calculator",
-          "description": "RD Calculator — Use RD Calculator free on ToolAdda — quick, accurate, and browser-based. Free on ToolAdda.online.",
+          "url": "https://github.com/Hyacinthe-primus/File_Converter_Pro",
+          "stars": 595,
+          "updated_at": "2026-10-24T16:34:44Z",
+          "name": "File_Converter_Pro",
+          "description": "Free offline all-in-one file converter for Windows. Converts documents, images, audio and video locally. No uploads, no internet, no dependencies. Built with Python & PySide6. Features dark/light theme, stats dashboard, ",
           "fork": false,
           "archived": false
-        },
+        }
+      ],
+      "matching_queries": [
+        "image converter in:name,description stars:3..1500 archived:false"
+      ]
+    },
+    {
+      "domain": "gerador-nomes.wolan.net",
+      "homepage": "https://gerador-nomes.wolan.net",
+      "source": "PUBLIC_GITHUB_REPOSITORY_HOMEPAGE",
+      "status": "DISCOVERY_ONLY",
+      "organic_traffic": null,
+      "domain_dr": null,
+      "kd": null,
+      "cpc": null,
+      "repositories": [
         {
-          "url": "https://github.com/tooladda-online/gst-calculator",
-          "stars": 25,
-          "updated_at": "2026-09-22T14:41:10Z",
-          "name": "gst-calculator",
-          "description": "GST Calculator — Use GST Calculator free on ToolAdda — quick, accurate, and browser-based. Free on ToolAdda.online.",
+          "url": "https://github.com/centraldedados/gerador-nomes",
+          "stars": 53,
+          "updated_at": "2025-07-20T00:16:51Z",
+          "name": "gerador-nomes",
+          "description": " 👪 Gerador de Nomes",
           "fork": false,
           "archived": false
-        },
+        }
+      ],
+      "matching_queries": [
+        "gerador in:name,description stars:3..1500 archived:false"
+      ]
+    },
+    {
+      "domain": "gerador.dev.br",
+      "homepage": "https://gerador.dev.br",
+      "source": "PUBLIC_GITHUB_REPOSITORY_HOMEPAGE",
+      "status": "DISCOVERY_ONLY",
+      "organic_traffic": null,
+      "domain_dr": null,
+      "kd": null,
+      "cpc": null,
+      "repositories": [
         {
-          "url": "https://github.com/tooladda-online/percentage-calculator",
-          "stars": 25,
-          "updated_at": "2026-09-22T15:24:44Z",
-          "name": "percentage-calculator",
-          "description": "Percentage Calculator — Use Percentage Calculator free on ToolAdda — quick, accurate, and browser-based. Free on ToolAdda.online.",
-          "fork": false,
-          "archived": false
-        },
-        {
-          "url": "https://github.com/tooladda-online/sip-calculator",
-          "stars": 25,
-          "updated_at": "2026-09-22T14:53:57Z",
-          "name": "sip-calculator",
-          "description": "SIP Calculator — Use SIP Calculator free on ToolAdda — quick, accurate, and browser-based. Free on ToolAdda.online.",
-          "fork": false,
-          "archived": false
-        },
-        {
-          "url": "https://github.com/tooladda-online/scientific-calculator",
-          "stars": 25,
-          "updated_at": "2026-09-22T15:04:42Z",
-          "name": "scientific-calculator",
-          "description": "Scientific Calculator — Use Scientific Calculator free on ToolAdda — quick, accurate, and browser-based. Free on ToolAdda.online.",
-          "fork": false,
-          "archived": false
-        },
-        {
-          "url": "https://github.com/tooladda-online/loan-calculator",
-          "stars": 25,
-          "updated_at": "2026-09-22T14:54:53Z",
-          "name": "loan-calculator",
-          "description": "Loan Calculator — Use Loan Calculator free on ToolAdda — quick, accurate, and browser-based. Free on ToolAdda.online.",
-          "fork": false,
-          "archived": false
-        },
-        {
-          "url": "https://github.com/tooladda-online/gpa-cgpa-calculator",
+          "url": "https://github.com/meccin/gerador",
           "stars": 26,
-          "updated_at": "2026-09-22T16:01:21Z",
-          "name": "gpa-cgpa-calculator",
-          "description": "GPA / CGPA Calculator — Use GPA / CGPA Calculator free on ToolAdda — quick, accurate, and browser-based. Free on ToolAdda.online.",
-          "fork": false,
-          "archived": false
-        },
-        {
-          "url": "https://github.com/tooladda-online/manual-tax-calculator",
-          "stars": 25,
-          "updated_at": "2026-09-22T14:43:30Z",
-          "name": "manual-tax-calculator",
-          "description": "Manual Tax Calculator — Use Manual Tax Calculator free on ToolAdda — quick, accurate, and browser-based. Free on ToolAdda.online.",
-          "fork": false,
-          "archived": false
-        },
-        {
-          "url": "https://github.com/tooladda-online/ppf-calculator",
-          "stars": 24,
-          "updated_at": "2026-09-22T14:51:33Z",
-          "name": "ppf-calculator",
-          "description": "PPF Calculator — Plan your Public Provident Fund investments with instant maturity estimates, interest breakdown, and a year-wise growth table — free, fast, and entirely in your browser. Free on ToolAdda.online.",
-          "fork": false,
-          "archived": false
-        },
-        {
-          "url": "https://github.com/tooladda-online/home-loan-calculator",
-          "stars": 25,
-          "updated_at": "2026-09-22T14:45:11Z",
-          "name": "home-loan-calculator",
-          "description": "Home Loan Calculator — Plan your housing loan with instant EMI estimates, total interest breakdown, and a month-wise amortization schedule — free, fast, and entirely in your browser. Free on ToolAdda.online.",
-          "fork": false,
-          "archived": false
-        },
-        {
-          "url": "https://github.com/tooladda-online/car-loan-calculator",
-          "stars": 24,
-          "updated_at": "2026-09-22T14:59:15Z",
-          "name": "car-loan-calculator",
-          "description": "Car Loan Calculator — Plan your next vehicle purchase with instant EMI estimates, interest breakdown, and a month-wise amortization schedule — free, fast, and entirely in your browser. Free on ToolAdda.online.",
+          "updated_at": "2026-09-30T14:34:00Z",
+          "name": "gerador",
+          "description": "Gerador de CPF, CNPJ, RG e Cartão de Crédito válidos - JSON Pretty - Base64 Encode e Decode - Hash",
           "fork": false,
           "archived": false
         }
       ],
       "matching_queries": [
-        "browser calculator in:name,description stars:3..1500 archived:false"
+        "gerador in:name,description stars:3..1500 archived:false"
       ]
     },
     {
-      "domain": "youtu.be",
-      "homepage": "https://youtu.be/ExK7mUmfdeM",
+      "domain": "iditect.com",
+      "homepage": "https://www.iditect.com/product/converter/",
       "source": "PUBLIC_GITHUB_REPOSITORY_HOMEPAGE",
       "status": "DISCOVERY_ONLY",
       "organic_traffic": null,
@@ -412,17 +265,185 @@
       "cpc": null,
       "repositories": [
         {
-          "url": "https://github.com/Roger-Melo/aplicacao-conversor-de-moedas",
-          "stars": 22,
-          "updated_at": "2021-02-19T03:37:25Z",
-          "name": "aplicacao-conversor-de-moedas",
-          "description": "Conversor de moedas com JavaScript puro, sem o uso de libs ou frameworks JS.",
+          "url": "https://github.com/iditectweb/converter",
+          "stars": 42,
+          "updated_at": "2018-11-05T07:29:13Z",
+          "name": "converter",
+          "description": "Standalone .NET Converter library, not require Adobe Acrobat component nor Microsoft Office Interop Assemblies, to convert PDF, DOCX, XLSX, HTML, Image, CSV, RTF, TXT in .NET framework",
           "fork": false,
           "archived": false
         }
       ],
       "matching_queries": [
-        "conversor in:name,description stars:3..1500 archived:false"
+        "image converter in:name,description stars:3..1500 archived:false"
+      ]
+    },
+    {
+      "domain": "jonathan-petitcolas.com",
+      "homepage": "https://www.jonathan-petitcolas.com/ascii-art-converter/",
+      "source": "PUBLIC_GITHUB_REPOSITORY_HOMEPAGE",
+      "status": "DISCOVERY_ONLY",
+      "organic_traffic": null,
+      "domain_dr": null,
+      "kd": null,
+      "cpc": null,
+      "repositories": [
+        {
+          "url": "https://github.com/jpetitcolas/ascii-art-converter",
+          "stars": 91,
+          "updated_at": "2018-01-11T17:55:25Z",
+          "name": "ascii-art-converter",
+          "description": "Convert any image into pure ASCII art using some JavaScript",
+          "fork": false,
+          "archived": false
+        }
+      ],
+      "matching_queries": [
+        "image converter in:name,description stars:3..1500 archived:false"
+      ]
+    },
+    {
+      "domain": "lcd-image-converter.riuson.com",
+      "homepage": "https://lcd-image-converter.riuson.com/",
+      "source": "PUBLIC_GITHUB_REPOSITORY_HOMEPAGE",
+      "status": "DISCOVERY_ONLY",
+      "organic_traffic": null,
+      "domain_dr": null,
+      "kd": null,
+      "cpc": null,
+      "repositories": [
+        {
+          "url": "https://github.com/riuson/lcd-image-converter",
+          "stars": 408,
+          "updated_at": "2025-12-26T12:58:32Z",
+          "name": "lcd-image-converter",
+          "description": "Tool to create bitmaps and fonts for embedded applications, v.2",
+          "fork": false,
+          "archived": false
+        }
+      ],
+      "matching_queries": [
+        "image converter in:name,description stars:3..1500 archived:false"
+      ]
+    },
+    {
+      "domain": "medium.com",
+      "homepage": "https://medium.com/@igorcbraz/build-a-feature-rich-calculator-with-pure-javascript-20ce17fbe47d",
+      "source": "PUBLIC_GITHUB_REPOSITORY_HOMEPAGE",
+      "status": "DISCOVERY_ONLY",
+      "organic_traffic": null,
+      "domain_dr": null,
+      "kd": null,
+      "cpc": null,
+      "repositories": [
+        {
+          "url": "https://github.com/Igorcbraz/Calculadora",
+          "stars": 33,
+          "updated_at": "2025-01-24T16:05:58Z",
+          "name": "Calculadora",
+          "description": " 📐 Calculadora simples e intuitiva com suporte a comandos de voz e temas personalizados 📏",
+          "fork": false,
+          "archived": false
+        }
+      ],
+      "matching_queries": [
+        "calculadora in:name,description stars:3..1500 archived:false"
+      ]
+    },
+    {
+      "domain": "pix-qr-code.com",
+      "homepage": "https://pix-qr-code.com",
+      "source": "PUBLIC_GITHUB_REPOSITORY_HOMEPAGE",
+      "status": "DISCOVERY_ONLY",
+      "organic_traffic": null,
+      "domain_dr": null,
+      "kd": null,
+      "cpc": null,
+      "repositories": [
+        {
+          "url": "https://github.com/ofenascimento/pix-qrcode",
+          "stars": 19,
+          "updated_at": "2024-11-10T20:42:44Z",
+          "name": "pix-qrcode",
+          "description": "Gerador de QR Code para chave pix",
+          "fork": false,
+          "archived": false
+        }
+      ],
+      "matching_queries": [
+        "gerador in:name,description stars:3..1500 archived:false"
+      ]
+    },
+    {
+      "domain": "svg2vector.com",
+      "homepage": "https://svg2vector.com",
+      "source": "PUBLIC_GITHUB_REPOSITORY_HOMEPAGE",
+      "status": "DISCOVERY_ONLY",
+      "organic_traffic": null,
+      "domain_dr": null,
+      "kd": null,
+      "cpc": null,
+      "repositories": [
+        {
+          "url": "https://github.com/a-student/SvgToVectorDrawableConverter",
+          "stars": 341,
+          "updated_at": "2022-12-30T15:40:35Z",
+          "name": "SvgToVectorDrawableConverter",
+          "description": "Batch converter of SVG images to Android vector drawable XML resource files. Online version of the converter is here:",
+          "fork": false,
+          "archived": false
+        }
+      ],
+      "matching_queries": [
+        "image converter in:name,description stars:3..1500 archived:false"
+      ]
+    },
+    {
+      "domain": "tinyurl.com",
+      "homepage": "https://tinyurl.com/gerador-horarios-ist",
+      "source": "PUBLIC_GITHUB_REPOSITORY_HOMEPAGE",
+      "status": "DISCOVERY_ONLY",
+      "organic_traffic": null,
+      "domain_dr": null,
+      "kd": null,
+      "cpc": null,
+      "repositories": [
+        {
+          "url": "https://github.com/joanasesinando/gerador-horarios-ist",
+          "stars": 28,
+          "updated_at": "2024-10-10T14:20:01Z",
+          "name": "gerador-horarios-ist",
+          "description": "🕓 A schedule generator for Instituto Superior Técnico (IST)'s students.",
+          "fork": false,
+          "archived": false
+        }
+      ],
+      "matching_queries": [
+        "gerador in:name,description stars:3..1500 archived:false"
+      ]
+    },
+    {
+      "domain": "web.ist.utl.pt",
+      "homepage": "http://web.ist.utl.pt/pedropramos/horarios/",
+      "source": "PUBLIC_GITHUB_REPOSITORY_HOMEPAGE",
+      "status": "DISCOVERY_ONLY",
+      "organic_traffic": null,
+      "domain_dr": null,
+      "kd": null,
+      "cpc": null,
+      "repositories": [
+        {
+          "url": "https://github.com/pedropramos/gerador-horarios",
+          "stars": 11,
+          "updated_at": "2017-08-23T18:39:01Z",
+          "name": "gerador-horarios",
+          "description": "",
+          "fork": false,
+          "archived": false
+        }
+      ],
+      "matching_queries": [
+        "gerador in:name,description stars:3..1500 archived:false"
       ]
     }
   ],
@@ -433,9 +454,9 @@
     "en"
   ],
   "github_queries_used": [
-    "conversor in:name,description stars:3..1500 archived:false",
-    "convertidor in:name,description stars:3..1500 archived:false",
-    "browser calculator in:name,description stars:3..1500 archived:false"
+    "gerador in:name,description stars:3..1500 archived:false",
+    "calculadora in:name,description stars:3..1500 archived:false",
+    "image converter in:name,description stars:3..1500 archived:false"
   ],
   "github_failures": [],
   "seo_provider_metrics_verified_automatically": false,
