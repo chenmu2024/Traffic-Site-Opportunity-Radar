@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-10-26T02:55:04.158522+00:00",
+  "generated_at_utc": "2026-10-27T03:27:51.445486+00:00",
   "target_countries": [
     "BR",
     "CL",
@@ -15,8 +15,8 @@
   "clusters": [],
   "github_leads": [
     {
-      "domain": "andresgm.org",
-      "homepage": "http://andresgm.org/Herramientas-Computacionales",
+      "domain": "bgoglin.free.fr",
+      "homepage": "http://bgoglin.free.fr/llgal/",
       "source": "PUBLIC_GITHUB_REPOSITORY_HOMEPAGE",
       "status": "DISCOVERY_ONLY",
       "organic_traffic": null,
@@ -25,22 +25,70 @@
       "cpc": null,
       "repositories": [
         {
-          "url": "https://github.com/andresgm/Herramientas-Computacionales",
+          "url": "https://github.com/bgoglin/llgal",
+          "stars": 26,
+          "updated_at": "2024-04-11T08:43:35Z",
+          "name": "llgal",
+          "description": "Command-line online gallery generator",
+          "fork": false,
+          "archived": false
+        }
+      ],
+      "matching_queries": [
+        "online generator in:name,description stars:3..1500 archived:false"
+      ]
+    },
+    {
+      "domain": "chev.me",
+      "homepage": "http://chev.me/arucogen/",
+      "source": "PUBLIC_GITHUB_REPOSITORY_HOMEPAGE",
+      "status": "DISCOVERY_ONLY",
+      "organic_traffic": null,
+      "domain_dr": null,
+      "kd": null,
+      "cpc": null,
+      "repositories": [
+        {
+          "url": "https://github.com/okalachev/arucogen",
+          "stars": 593,
+          "updated_at": "2023-12-12T22:39:19Z",
+          "name": "arucogen",
+          "description": "Online ArUco markers generator",
+          "fork": false,
+          "archived": false
+        }
+      ],
+      "matching_queries": [
+        "online generator in:name,description stars:3..1500 archived:false"
+      ]
+    },
+    {
+      "domain": "codante.io",
+      "homepage": "https://codante.io/mini-projetos/calculadora-de-imc-com-react",
+      "source": "PUBLIC_GITHUB_REPOSITORY_HOMEPAGE",
+      "status": "DISCOVERY_ONLY",
+      "organic_traffic": null,
+      "domain_dr": null,
+      "kd": null,
+      "cpc": null,
+      "repositories": [
+        {
+          "url": "https://github.com/codante-io/mp-calculadora-imc",
           "stars": 3,
-          "updated_at": "2020-05-13T16:28:13Z",
-          "name": "Herramientas-Computacionales",
-          "description": "IMEC3602 Semestre 201820",
+          "updated_at": "2024-08-01T20:04:16Z",
+          "name": "mp-calculadora-imc",
+          "description": "Nada melhor do que manter a saúde em dia, não é? Sendo o IMC uma medida internacional usada para calcular se uma pessoa está no peso ideal, a nossa calculadora de Índice de Massa Corporal (IMC) é perfeita para isso.",
           "fork": false,
           "archived": false
         }
       ],
       "matching_queries": [
-        "herramienta in:name,description stars:3..1500 archived:false"
+        "calculadora in:name,description stars:3..1500 archived:false"
       ]
     },
     {
-      "domain": "cycloplan.cyclopath.org",
-      "homepage": "http://cycloplan.cyclopath.org",
+      "domain": "docsify.js.org",
+      "homepage": "https://docsify.js.org/#/es/",
       "source": "PUBLIC_GITHUB_REPOSITORY_HOMEPAGE",
       "status": "DISCOVERY_ONLY",
       "organic_traffic": null,
@@ -49,22 +97,22 @@
       "cpc": null,
       "repositories": [
         {
-          "url": "https://github.com/lbouma/Cyclopath",
-          "stars": 18,
-          "updated_at": "2020-07-02T06:22:22Z",
-          "name": "Cyclopath",
-          "description": "Cyclopath is an online bicycle map and trip planner for all types of cyclists. It's also an inventory management and analytics engine for traffic engineers.",
+          "url": "https://github.com/docsifyjs/docs-es",
+          "stars": 7,
+          "updated_at": "2023-11-07T13:26:40Z",
+          "name": "docs-es",
+          "description": ":black_joker: Un generador mágico de sitios de documentación",
           "fork": false,
           "archived": false
         }
       ],
       "matching_queries": [
-        "online planner in:name,description stars:3..1500 archived:false"
+        "generador in:name,description stars:3..1500 archived:false"
       ]
     },
     {
-      "domain": "doi.org",
-      "homepage": "https://doi.org/10.1109/TIV.2023.3296435",
+      "domain": "guyusoftware.com",
+      "homepage": "https://www.guyusoftware.com/online_csr_generator/",
       "source": "PUBLIC_GITHUB_REPOSITORY_HOMEPAGE",
       "status": "DISCOVERY_ONLY",
       "organic_traffic": null,
@@ -73,31 +121,22 @@
       "cpc": null,
       "repositories": [
         {
-          "url": "https://github.com/libai1943/Adaptive_Pure_Pursuit_Planner",
-          "stars": 25,
-          "updated_at": "2026-10-01T16:26:31Z",
-          "name": "Adaptive_Pure_Pursuit_Planner",
-          "description": "Online Trajectory Planner/Replanner",
-          "fork": false,
-          "archived": false
-        },
-        {
-          "url": "https://github.com/fkie/fkie-nbv-planner",
-          "stars": 66,
-          "updated_at": "2026-03-06T16:20:28Z",
-          "name": "fkie-nbv-planner",
-          "description": "Online Next-Best-View planner for 3D exploration and inspection with a mobile robot",
+          "url": "https://github.com/koksuanlim/Online-CSR-Generator",
+          "stars": 15,
+          "updated_at": "2015-12-23T02:58:21Z",
+          "name": "Online-CSR-Generator",
+          "description": "Online CSR Generator",
           "fork": false,
           "archived": false
         }
       ],
       "matching_queries": [
-        "online planner in:name,description stars:3..1500 archived:false"
+        "online generator in:name,description stars:3..1500 archived:false"
       ]
     },
     {
-      "domain": "elblogdepicodev.blogspot.com.es",
-      "homepage": "http://elblogdepicodev.blogspot.com.es",
+      "domain": "io.evansosenko.com",
+      "homepage": "https://io.evansosenko.com/eve-overview/",
       "source": "PUBLIC_GITHUB_REPOSITORY_HOMEPAGE",
       "status": "DISCOVERY_ONLY",
       "organic_traffic": null,
@@ -106,22 +145,22 @@
       "cpc": null,
       "repositories": [
         {
-          "url": "https://github.com/picodotdev/elblogdepicodev",
-          "stars": 14,
-          "updated_at": "2015-10-19T16:51:03Z",
-          "name": "elblogdepicodev",
-          "description": "Ejemplos y código de las herramientas que he explicado en el blog",
+          "url": "https://github.com/razor-x/eve-overview",
+          "stars": 71,
+          "updated_at": "2026-03-24T01:54:34Z",
+          "name": "eve-overview",
+          "description": "EVE Online Overview Generator",
           "fork": false,
           "archived": false
         }
       ],
       "matching_queries": [
-        "herramienta in:name,description stars:3..1500 archived:false"
+        "online generator in:name,description stars:3..1500 archived:false"
       ]
     },
     {
-      "domain": "escuela.it",
-      "homepage": "http://escuela.it/cursos/herramientas-frontend/",
+      "domain": "josemaria.ml",
+      "homepage": "http://josemaria.ml/generadorPartidos/",
       "source": "PUBLIC_GITHUB_REPOSITORY_HOMEPAGE",
       "status": "DISCOVERY_ONLY",
       "organic_traffic": null,
@@ -130,22 +169,22 @@
       "cpc": null,
       "repositories": [
         {
-          "url": "https://github.com/EscuelaIt/Herramientas-Frontend-2015",
-          "stars": 13,
-          "updated_at": "2015-12-22T07:28:00Z",
-          "name": "Herramientas-Frontend-2015",
-          "description": "Recursos del curso de Herramientas Frontend",
+          "url": "https://github.com/jmml97/generadorPartidos",
+          "stars": 8,
+          "updated_at": "2017-10-06T09:54:48Z",
+          "name": "generadorPartidos",
+          "description": "Generador de Partidos es una herramienta creada a raíz de la aparición de numerosos partidos de izquierda en la víspera de las elecciones de diciembre del 2015. Permite, en clave humorísitca, generar el nombre de un part",
           "fork": false,
           "archived": false
         }
       ],
       "matching_queries": [
-        "herramienta in:name,description stars:3..1500 archived:false"
+        "generador in:name,description stars:3..1500 archived:false"
       ]
     },
     {
-      "domain": "ficsit-together.com",
-      "homepage": "https://ficsit-together.com",
+      "domain": "luciopaiva.com",
+      "homepage": "https://luciopaiva.com/markdown-toc",
       "source": "PUBLIC_GITHUB_REPOSITORY_HOMEPAGE",
       "status": "DISCOVERY_ONLY",
       "organic_traffic": null,
@@ -154,22 +193,22 @@
       "cpc": null,
       "repositories": [
         {
-          "url": "https://github.com/erwtj/FicsitTogether",
-          "stars": 6,
-          "updated_at": "2026-06-11T11:56:56Z",
-          "name": "FicsitTogether",
-          "description": "An online planner for satisfactory with live collaboration  ",
+          "url": "https://github.com/luciopaiva/markdown-toc",
+          "stars": 46,
+          "updated_at": "2023-09-07T12:16:51Z",
+          "name": "markdown-toc",
+          "description": "Online markdown table of contents generator",
           "fork": false,
           "archived": false
         }
       ],
       "matching_queries": [
-        "online planner in:name,description stars:3..1500 archived:false"
+        "online generator in:name,description stars:3..1500 archived:false"
       ]
     },
     {
-      "domain": "iamsimple.com.br",
-      "homepage": "https://iamsimple.com.br/frente",
+      "domain": "medium.com",
+      "homepage": "https://medium.com/@igorcbraz/build-a-feature-rich-calculator-with-pure-javascript-20ce17fbe47d",
       "source": "PUBLIC_GITHUB_REPOSITORY_HOMEPAGE",
       "status": "DISCOVERY_ONLY",
       "organic_traffic": null,
@@ -178,22 +217,94 @@
       "cpc": null,
       "repositories": [
         {
-          "url": "https://github.com/Frente-Corretora/simulator-widget",
+          "url": "https://github.com/Igorcbraz/Calculadora",
+          "stars": 33,
+          "updated_at": "2025-01-24T16:05:58Z",
+          "name": "Calculadora",
+          "description": " 📐 Calculadora simples e intuitiva com suporte a comandos de voz e temas personalizados 📏",
+          "fork": false,
+          "archived": false
+        }
+      ],
+      "matching_queries": [
+        "calculadora in:name,description stars:3..1500 archived:false"
+      ]
+    },
+    {
+      "domain": "mysystemd.talos.sh",
+      "homepage": "https://mysystemd.talos.sh/",
+      "source": "PUBLIC_GITHUB_REPOSITORY_HOMEPAGE",
+      "status": "DISCOVERY_ONLY",
+      "organic_traffic": null,
+      "domain_dr": null,
+      "kd": null,
+      "cpc": null,
+      "repositories": [
+        {
+          "url": "https://github.com/NunuM/my-systemd-service-file-generator",
+          "stars": 144,
+          "updated_at": "2022-05-19T00:26:00Z",
+          "name": "my-systemd-service-file-generator",
+          "description": "A simple Systemd service file online generator.",
+          "fork": false,
+          "archived": false
+        }
+      ],
+      "matching_queries": [
+        "online generator in:name,description stars:3..1500 archived:false"
+      ]
+    },
+    {
+      "domain": "noisegen.bubblebirdstudio.com",
+      "homepage": "https://noisegen.bubblebirdstudio.com",
+      "source": "PUBLIC_GITHUB_REPOSITORY_HOMEPAGE",
+      "status": "DISCOVERY_ONLY",
+      "organic_traffic": null,
+      "domain_dr": null,
+      "kd": null,
+      "cpc": null,
+      "repositories": [
+        {
+          "url": "https://github.com/Bubblebird-Studio/NoiseGenerator",
+          "stars": 107,
+          "updated_at": "2025-07-28T09:04:49Z",
+          "name": "NoiseGenerator",
+          "description": "A simple tool for seamless 2D/3D online noise generation",
+          "fork": false,
+          "archived": false
+        }
+      ],
+      "matching_queries": [
+        "online generator in:name,description stars:3..1500 archived:false"
+      ]
+    },
+    {
+      "domain": "ope.ezegatica.com",
+      "homepage": "https://ope.ezegatica.com",
+      "source": "PUBLIC_GITHUB_REPOSITORY_HOMEPAGE",
+      "status": "DISCOVERY_ONLY",
+      "organic_traffic": null,
+      "domain_dr": null,
+      "kd": null,
+      "cpc": null,
+      "repositories": [
+        {
+          "url": "https://github.com/ezegatica/ope-generador",
           "stars": 3,
-          "updated_at": "2025-09-09T13:10:06Z",
-          "name": "simulator-widget",
-          "description": "[WIP] Widget de simulador externo para WordPress",
+          "updated_at": "2024-03-27T16:11:33Z",
+          "name": "ope-generador",
+          "description": "Generador de memes de comunicados de prensa de la Oficina del Presidente Electo",
           "fork": false,
           "archived": false
         }
       ],
       "matching_queries": [
-        "simulador in:name,description stars:3..1500 archived:false"
+        "generador in:name,description stars:3..1500 archived:false"
       ]
     },
     {
-      "domain": "knowledge.iadb.org",
-      "homepage": "https://knowledge.iadb.org/es/codigo-para-el-desarrollo",
+      "domain": "parzibyte.me",
+      "homepage": "https://parzibyte.me/apps/generador-qr/",
       "source": "PUBLIC_GITHUB_REPOSITORY_HOMEPAGE",
       "status": "DISCOVERY_ONLY",
       "organic_traffic": null,
@@ -202,22 +313,118 @@
       "cpc": null,
       "repositories": [
         {
-          "url": "https://github.com/EL-BID/Plantilla-de-repositorio",
+          "url": "https://github.com/parzibyte/generador-qr",
+          "stars": 11,
+          "updated_at": "2021-06-28T18:42:24Z",
+          "name": "generador-qr",
+          "description": "Generador de códigos QR con JavaScript y Buefy",
+          "fork": false,
+          "archived": false
+        }
+      ],
+      "matching_queries": [
+        "generador in:name,description stars:3..1500 archived:false"
+      ]
+    },
+    {
+      "domain": "qrgratis.es",
+      "homepage": "https://www.qrgratis.es/",
+      "source": "PUBLIC_GITHUB_REPOSITORY_HOMEPAGE",
+      "status": "DISCOVERY_ONLY",
+      "organic_traffic": null,
+      "domain_dr": null,
+      "kd": null,
+      "cpc": null,
+      "repositories": [
+        {
+          "url": "https://github.com/BigNight1/generador-qr-Oficial",
+          "stars": 7,
+          "updated_at": "2026-10-11T06:11:53Z",
+          "name": "generador-qr-Oficial",
+          "description": "",
+          "fork": false,
+          "archived": false
+        }
+      ],
+      "matching_queries": [
+        "generador in:name,description stars:3..1500 archived:false"
+      ]
+    },
+    {
+      "domain": "routerpwn.com",
+      "homepage": "http://www.routerpwn.com",
+      "source": "PUBLIC_GITHUB_REPOSITORY_HOMEPAGE",
+      "status": "DISCOVERY_ONLY",
+      "organic_traffic": null,
+      "domain_dr": null,
+      "kd": null,
+      "cpc": null,
+      "repositories": [
+        {
+          "url": "https://github.com/hkm/routerpwn.com",
+          "stars": 146,
+          "updated_at": "2016-03-13T01:27:50Z",
+          "name": "routerpwn.com",
+          "description": "Compilation of ready to run exploits, advisories, tools and online key generators for embedded devices.",
+          "fork": false,
+          "archived": false
+        }
+      ],
+      "matching_queries": [
+        "online generator in:name,description stars:3..1500 archived:false"
+      ]
+    },
+    {
+      "domain": "snowb.org",
+      "homepage": "https://snowb.org",
+      "source": "PUBLIC_GITHUB_REPOSITORY_HOMEPAGE",
+      "status": "DISCOVERY_ONLY",
+      "organic_traffic": null,
+      "domain_dr": null,
+      "kd": null,
+      "cpc": null,
+      "repositories": [
+        {
+          "url": "https://github.com/SilenceLeo/snowb-bmf",
+          "stars": 580,
+          "updated_at": "2026-06-30T07:02:44Z",
+          "name": "snowb-bmf",
+          "description": "Bitmap Font Generator Online",
+          "fork": false,
+          "archived": false
+        }
+      ],
+      "matching_queries": [
+        "online generator in:name,description stars:3..1500 archived:false"
+      ]
+    },
+    {
+      "domain": "terabox.beer",
+      "homepage": "https://terabox.beer/",
+      "source": "PUBLIC_GITHUB_REPOSITORY_HOMEPAGE",
+      "status": "DISCOVERY_ONLY",
+      "organic_traffic": null,
+      "domain_dr": null,
+      "kd": null,
+      "cpc": null,
+      "repositories": [
+        {
+          "url": "https://github.com/techshade/terabox-player",
           "stars": 63,
-          "updated_at": "2026-05-04T23:57:08Z",
-          "name": "Plantilla-de-repositorio",
-          "description": "Plantilla de repositorio y guías de cómo documentar y evaluar herramientas digitales según los estándares del BID",
+          "updated_at": "2025-11-20T14:56:20Z",
+          "name": "terabox-player",
+          "description": "🌟 Terabox Video Downloader and Player Online - Terabox direct link generator",
           "fork": false,
           "archived": false
         }
       ],
       "matching_queries": [
-        "herramienta in:name,description stars:3..1500 archived:false"
+        "online generator in:name,description stars:3..1500 archived:false"
       ]
     },
     {
-      "domain": "liquidplanner.com",
-      "homepage": "http://www.liquidplanner.com/support/articles/developer-tools",
+      "domain": "twigl.app",
+      "homepage": "https://twigl.app/",
       "source": "PUBLIC_GITHUB_REPOSITORY_HOMEPAGE",
       "status": "DISCOVERY_ONLY",
       "organic_traffic": null,
@@ -226,22 +433,22 @@
       "cpc": null,
       "repositories": [
         {
-          "url": "https://github.com/LiquidPlanner/LiquidPlanner",
-          "stars": 19,
-          "updated_at": "2016-11-15T18:19:57Z",
-          "name": "LiquidPlanner",
-          "description": "LiquidPlanner's Online Project Management Ruby API",
+          "url": "https://github.com/doxas/twigl",
+          "stars": 1093,
+          "updated_at": "2026-03-04T02:22:44Z",
+          "name": "twigl",
+          "description": "twigl.app is an online editor for One tweet shader, with gif generator and sound shader, and broadcast live coding.",
           "fork": false,
           "archived": false
         }
       ],
       "matching_queries": [
-        "online planner in:name,description stars:3..1500 archived:false"
+        "online generator in:name,description stars:3..1500 archived:false"
       ]
     },
     {
-      "domain": "map-planner.herokuapp.com",
-      "homepage": "https://map-planner.herokuapp.com/",
+      "domain": "unhiloenlared.blogspot.mx",
+      "homepage": "http://unhiloenlared.blogspot.mx/",
       "source": "PUBLIC_GITHUB_REPOSITORY_HOMEPAGE",
       "status": "DISCOVERY_ONLY",
       "organic_traffic": null,
@@ -250,22 +457,22 @@
       "cpc": null,
       "repositories": [
         {
-          "url": "https://github.com/prayansh/r6-map-planner",
-          "stars": 6,
-          "updated_at": "2020-08-03T20:53:14Z",
-          "name": "r6-map-planner",
-          "description": "An online collaborative battle planner for Rainbow Six Siege",
+          "url": "https://github.com/oscargalileo/liga3",
+          "stars": 33,
+          "updated_at": "2025-01-23T17:43:13Z",
+          "name": "liga3",
+          "description": "LIGA.php es un microframework que proporciona una API para el acceso y control de la base de datos, además es un generador de código HTML a partir de entidades almacenadas.",
           "fork": false,
           "archived": false
         }
       ],
       "matching_queries": [
-        "online planner in:name,description stars:3..1500 archived:false"
+        "generador in:name,description stars:3..1500 archived:false"
       ]
     },
     {
-      "domain": "pilas-engine.com.ar",
-      "homepage": "https://pilas-engine.com.ar",
+      "domain": "voicestudio.msrbuilds.com",
+      "homepage": "https://voicestudio.msrbuilds.com/",
       "source": "PUBLIC_GITHUB_REPOSITORY_HOMEPAGE",
       "status": "DISCOVERY_ONLY",
       "organic_traffic": null,
@@ -274,22 +481,22 @@
       "cpc": null,
       "repositories": [
         {
-          "url": "https://github.com/pilas-engine/pilas-engine",
-          "stars": 49,
-          "updated_at": "2026-06-28T15:46:47Z",
-          "name": "pilas-engine",
-          "description": "Una herramienta para aprender programación y desarrollo de juegos",
+          "url": "https://github.com/msrbuilds/voice-studio",
+          "stars": 222,
+          "updated_at": "2026-07-31T19:46:20Z",
+          "name": "voice-studio",
+          "description": "A multi-model local AI Voice Generator (TTS) studio. An open-source alternative to ElevenLabs and expensive online voice generators.",
           "fork": false,
           "archived": false
         }
       ],
       "matching_queries": [
-        "herramienta in:name,description stars:3..1500 archived:false"
+        "online generator in:name,description stars:3..1500 archived:false"
       ]
     },
     {
-      "domain": "pob.cool",
-      "homepage": "https://pob.cool",
+      "domain": "works.yangerxiao.com",
+      "homepage": "https://works.yangerxiao.com/strong-password-generator/",
       "source": "PUBLIC_GITHUB_REPOSITORY_HOMEPAGE",
       "status": "DISCOVERY_ONLY",
       "organic_traffic": null,
@@ -298,22 +505,22 @@
       "cpc": null,
       "repositories": [
         {
-          "url": "https://github.com/atty303/pob-web",
-          "stars": 103,
-          "updated_at": "2026-10-05T09:26:39Z",
-          "name": "pob-web",
-          "description": "Online build planner for Path of Exile.",
+          "url": "https://github.com/zerosoul/strong-password-generator",
+          "stars": 14,
+          "updated_at": "2026-01-31T12:08:53Z",
+          "name": "strong-password-generator",
+          "description": "create strong passwords online",
           "fork": false,
           "archived": false
         }
       ],
       "matching_queries": [
-        "online planner in:name,description stars:3..1500 archived:false"
+        "online generator in:name,description stars:3..1500 archived:false"
       ]
     },
     {
-      "domain": "salarioliquidouruguay.com",
-      "homepage": "https://salarioliquidouruguay.com/",
+      "domain": "zbib.org",
+      "homepage": "https://zbib.org",
       "source": "PUBLIC_GITHUB_REPOSITORY_HOMEPAGE",
       "status": "DISCOVERY_ONLY",
       "organic_traffic": null,
@@ -322,65 +529,17 @@
       "cpc": null,
       "repositories": [
         {
-          "url": "https://github.com/ismaelpadilla/salario-liquido-uruguay",
-          "stars": 35,
-          "updated_at": "2024-02-16T19:23:16Z",
-          "name": "salario-liquido-uruguay",
-          "description": "Herramienta para calcular el salario líquido en Uruguay.",
+          "url": "https://github.com/zotero/zoterobib",
+          "stars": 101,
+          "updated_at": "2026-10-13T18:39:55Z",
+          "name": "zoterobib",
+          "description": "ZoteroBib is a free online bibliography generator from the makers of Zotero",
           "fork": false,
           "archived": false
         }
       ],
       "matching_queries": [
-        "herramienta in:name,description stars:3..1500 archived:false"
-      ]
-    },
-    {
-      "domain": "whoisooo.app",
-      "homepage": "https://www.whoisooo.app",
-      "source": "PUBLIC_GITHUB_REPOSITORY_HOMEPAGE",
-      "status": "DISCOVERY_ONLY",
-      "organic_traffic": null,
-      "domain_dr": null,
-      "kd": null,
-      "cpc": null,
-      "repositories": [
-        {
-          "url": "https://github.com/igornast/who-is-out-of-office",
-          "stars": 6,
-          "updated_at": "2026-10-24T16:44:51Z",
-          "name": "who-is-out-of-office",
-          "description": "The Online Staff Leave Planner",
-          "fork": false,
-          "archived": false
-        }
-      ],
-      "matching_queries": [
-        "online planner in:name,description stars:3..1500 archived:false"
-      ]
-    },
-    {
-      "domain": "workshop-ia-2026.686f6c61.dev",
-      "homepage": "https://workshop-ia-2026.686f6c61.dev",
-      "source": "PUBLIC_GITHUB_REPOSITORY_HOMEPAGE",
-      "status": "DISCOVERY_ONLY",
-      "organic_traffic": null,
-      "domain_dr": null,
-      "kd": null,
-      "cpc": null,
-      "repositories": [
-        {
-          "url": "https://github.com/686f6c61/Workshop-IA-Agentes-Herramientas",
-          "stars": 44,
-          "updated_at": "2026-08-07T19:48:16Z",
-          "name": "Workshop-IA-Agentes-Herramientas",
-          "description": "Workshop de IA: agentes, modelos y herramientas",
-          "fork": false,
-          "archived": false
-        }
-      ],
-      "matching_queries": [
-        "herramienta in:name,description stars:3..1500 archived:false"
+        "online generator in:name,description stars:3..1500 archived:false"
       ]
     }
   ],
@@ -391,9 +550,9 @@
     "en"
   ],
   "github_queries_used": [
-    "simulador in:name,description stars:3..1500 archived:false",
-    "herramienta in:name,description stars:3..1500 archived:false",
-    "online planner in:name,description stars:3..1500 archived:false"
+    "calculadora in:name,description stars:3..1500 archived:false",
+    "generador in:name,description stars:3..1500 archived:false",
+    "online generator in:name,description stars:3..1500 archived:false"
   ],
   "github_failures": [],
   "seo_provider_metrics_verified_automatically": false,
