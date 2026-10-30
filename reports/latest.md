@@ -1,4 +1,4 @@
-# SEO 流量站机会雷达 · 2026-10-29
+# SEO 流量站机会雷达 · 2026-10-30
 
 > GitHub 主页是网站发现线索，不代表 Google 自然流量。SERP / DR / Volume 数据均来自人工录入，尚未经过系统独立审计。
 > 没有证据不得编造 DR、KD、CPC、排名或月流量。只推荐下一步人工验证，不自动建站。
@@ -17,24 +17,21 @@
 
 | 网站 | 开源实现参考 | 结论 |
 |---|---|---|
-| codante.io | https://github.com/codante-io/mp-calculadora-imc | 仅发现线索：需先核实真实流量和功能 URL |
-| codepoems.eu | https://github.com/JacobDev1/xl-converter | 仅发现线索：需先核实真实流量和功能 URL |
-| converseen.fasterland.net | https://github.com/Faster3ck/Converseen | 仅发现线索：需先核实真实流量和功能 URL |
-| demoiselle.sourceforge.net | https://github.com/demoiselle/nimble | 仅发现线索：需先核实真实流量和功能 URL |
-| enotionz.github.com | https://github.com/EnotionZ/jscii | 仅发现线索：需先核实真实流量和功能 URL |
-| favr.dev | https://github.com/patrickfav/density-converter | 仅发现线索：需先核实真实流量和功能 URL |
-| fichasdenimb.com.br | https://github.com/YuriAlessandro/gerador-ficha-tormenta20 | 仅发现线索：需先核实真实流量和功能 URL |
-| file-converter-pro.org | https://github.com/Hyacinthe-primus/File_Converter_Pro | 仅发现线索：需先核实真实流量和功能 URL |
-| gerador-nomes.wolan.net | https://github.com/centraldedados/gerador-nomes | 仅发现线索：需先核实真实流量和功能 URL |
-| gerador.dev.br | https://github.com/meccin/gerador | 仅发现线索：需先核实真实流量和功能 URL |
-| iditect.com | https://github.com/iditectweb/converter | 仅发现线索：需先核实真实流量和功能 URL |
-| jonathan-petitcolas.com | https://github.com/jpetitcolas/ascii-art-converter | 仅发现线索：需先核实真实流量和功能 URL |
-| lcd-image-converter.riuson.com | https://github.com/riuson/lcd-image-converter | 仅发现线索：需先核实真实流量和功能 URL |
-| medium.com | https://github.com/Igorcbraz/Calculadora | 仅发现线索：需先核实真实流量和功能 URL |
-| pix-qr-code.com | https://github.com/ofenascimento/pix-qrcode | 仅发现线索：需先核实真实流量和功能 URL |
-| svg2vector.com | https://github.com/a-student/SvgToVectorDrawableConverter | 仅发现线索：需先核实真实流量和功能 URL |
-| tinyurl.com | https://github.com/joanasesinando/gerador-horarios-ist | 仅发现线索：需先核实真实流量和功能 URL |
-| web.ist.utl.pt | https://github.com/pedropramos/gerador-horarios | 仅发现线索：需先核实真实流量和功能 URL |
+| andresgm.org | https://github.com/andresgm/Herramientas-Computacionales | 仅发现线索：需先核实真实流量和功能 URL |
+| cycloplan.cyclopath.org | https://github.com/lbouma/Cyclopath | 仅发现线索：需先核实真实流量和功能 URL |
+| doi.org | https://github.com/libai1943/Adaptive_Pure_Pursuit_Planner | 仅发现线索：需先核实真实流量和功能 URL |
+| elblogdepicodev.blogspot.com.es | https://github.com/picodotdev/elblogdepicodev | 仅发现线索：需先核实真实流量和功能 URL |
+| escuela.it | https://github.com/EscuelaIt/Herramientas-Frontend-2015 | 仅发现线索：需先核实真实流量和功能 URL |
+| ficsit-together.com | https://github.com/erwtj/FicsitTogether | 仅发现线索：需先核实真实流量和功能 URL |
+| iamsimple.com.br | https://github.com/Frente-Corretora/simulator-widget | 仅发现线索：需先核实真实流量和功能 URL |
+| knowledge.iadb.org | https://github.com/EL-BID/Plantilla-de-repositorio | 仅发现线索：需先核实真实流量和功能 URL |
+| liquidplanner.com | https://github.com/LiquidPlanner/LiquidPlanner | 仅发现线索：需先核实真实流量和功能 URL |
+| map-planner.herokuapp.com | https://github.com/prayansh/r6-map-planner | 仅发现线索：需先核实真实流量和功能 URL |
+| pilas-engine.com.ar | https://github.com/pilas-engine/pilas-engine | 仅发现线索：需先核实真实流量和功能 URL |
+| pob.cool | https://github.com/atty303/pob-web | 仅发现线索：需先核实真实流量和功能 URL |
+| salarioliquidouruguay.com | https://github.com/ismaelpadilla/salario-liquido-uruguay | 仅发现线索：需先核实真实流量和功能 URL |
+| whoisooo.app | https://github.com/igornast/who-is-out-of-office | 仅发现线索：需先核实真实流量和功能 URL |
+| workshop-ia-2026.686f6c61.dev | https://github.com/686f6c61/Workshop-IA-Agentes-Herramientas | 仅发现线索：需先核实真实流量和功能 URL |
 
 ## 采集质量及验证指引
 
