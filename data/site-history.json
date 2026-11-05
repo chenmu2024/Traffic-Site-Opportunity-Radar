@@ -261,72 +261,77 @@
   },
   "abrandao.com": {
     "first_seen": "2026-10-16",
-    "last_seen": "2026-11-01",
-    "observed_run_count": 5
+    "last_seen": "2026-11-05",
+    "observed_run_count": 6
   },
   "antoniocanada.com": {
     "first_seen": "2026-10-16",
-    "last_seen": "2026-11-01",
-    "observed_run_count": 5
+    "last_seen": "2026-11-05",
+    "observed_run_count": 6
   },
   "arxiv.org": {
     "first_seen": "2026-10-16",
-    "last_seen": "2026-11-01",
-    "observed_run_count": 5
+    "last_seen": "2026-11-05",
+    "observed_run_count": 6
   },
   "browserytools.com": {
     "first_seen": "2026-10-16",
-    "last_seen": "2026-11-01",
-    "observed_run_count": 5
+    "last_seen": "2026-11-05",
+    "observed_run_count": 6
   },
   "calc.cloudyhome.org": {
     "first_seen": "2026-10-16",
-    "last_seen": "2026-11-01",
-    "observed_run_count": 5
+    "last_seen": "2026-11-05",
+    "observed_run_count": 6
   },
   "calculator.simontharby.com": {
     "first_seen": "2026-10-16",
-    "last_seen": "2026-11-01",
-    "observed_run_count": 5
+    "last_seen": "2026-11-05",
+    "observed_run_count": 6
   },
   "cesarsystems.com.mx": {
     "first_seen": "2026-10-16",
-    "last_seen": "2026-11-01",
-    "observed_run_count": 5
+    "last_seen": "2026-11-05",
+    "observed_run_count": 6
   },
   "easypodcasts.live": {
     "first_seen": "2026-10-16",
-    "last_seen": "2026-11-01",
-    "observed_run_count": 5
+    "last_seen": "2026-11-05",
+    "observed_run_count": 6
   },
   "kalkki.raikas.dev": {
     "first_seen": "2026-10-16",
-    "last_seen": "2026-11-01",
-    "observed_run_count": 5
+    "last_seen": "2026-11-05",
+    "observed_run_count": 6
   },
   "mira-nontraditionary-nonfugitively.ngrok-free.dev": {
     "first_seen": "2026-10-16",
-    "last_seen": "2026-11-01",
-    "observed_run_count": 5
+    "last_seen": "2026-11-05",
+    "observed_run_count": 6
   },
   "tonestack.yuriturov.com": {
     "first_seen": "2026-10-16",
-    "last_seen": "2026-11-01",
-    "observed_run_count": 5
+    "last_seen": "2026-11-05",
+    "observed_run_count": 6
   },
   "tooladda.online": {
     "first_seen": "2026-10-16",
-    "last_seen": "2026-11-01",
-    "observed_run_count": 5
+    "last_seen": "2026-11-05",
+    "observed_run_count": 6
   },
   "youtu.be": {
     "first_seen": "2026-10-16",
-    "last_seen": "2026-11-01",
-    "observed_run_count": 5
+    "last_seen": "2026-11-05",
+    "observed_run_count": 6
   },
   "ope.ezegatica.com": {
     "first_seen": "2026-10-19",
     "last_seen": "2026-11-04",
     "observed_run_count": 5
+  },
+  "cgtvisualiser.co.uk": {
+    "first_seen": "2026-11-05",
+    "last_seen": "2026-11-05",
+    "observed_run_count": 1
   }
 }
