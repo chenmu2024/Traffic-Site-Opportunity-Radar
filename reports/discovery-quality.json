@@ -1,47 +1,13 @@
 {
-  "generated_at_utc": "2026-11-09T04:20:10.179514+00:00",
+  "generated_at_utc": "2026-11-10T05:44:58.904922+00:00",
   "source_outage": false,
   "github_search_partial": false,
   "github_query_attempts": 3,
   "github_query_errors": 0,
   "observations": [
     {
-      "domain": "browserytools.com",
-      "homepage": "https://browserytools.com",
-      "review_stage": "TECH_LEAD_TO_INSPECT",
-      "source": "PUBLIC_GITHUB_REPOSITORY",
-      "quality_heuristic_not_seo_score": 80,
-      "reasons": [
-        "GITHUB_CODE_ONLY_NO_SEO_EVIDENCE"
-      ],
-      "repositories": [
-        {
-          "url": "https://github.com/aghyad97/browserytools",
-          "stars": 725,
-          "updated_at": "2026-10-26T19:26:30Z",
-          "name": "browserytools",
-          "description": "152 free browser-based tools in 17 languages. Your files and text are processed in your browser — no uploads, no accounts, no ads. Image & on-device AI tools, PDF, converters, formatters, calculators, generators. Some AI",
-          "fork": false,
-          "archived": false
-        }
-      ],
-      "query_language_not_market": [
-        "browser calculator in:name,description stars:3..1500 archived:false"
-      ],
-      "seo_status": "NO_INDEPENDENT_SEO_EVIDENCE",
-      "organic_monthly_search": null,
-      "nonbrand_clicks": null,
-      "kd": null,
-      "cpc": null,
-      "country_traffic": null,
-      "next_action": "Inspect actual interactive utility page and locate independent nonbrand country-specific SEO evidence before requesting Semrush.",
-      "first_seen_in_radar": "2026-10-16",
-      "is_new_radar_observation": false,
-      "last_seen_in_radar": "2026-11-09"
-    },
-    {
-      "domain": "cgtvisualiser.co.uk",
-      "homepage": "https://cgtvisualiser.co.uk",
+      "domain": "svg2vector.com",
+      "homepage": "https://svg2vector.com",
       "review_stage": "TECH_LEAD_TO_INSPECT",
       "source": "PUBLIC_GITHUB_REPOSITORY",
       "quality_heuristic_not_seo_score": 65,
@@ -50,17 +16,17 @@
       ],
       "repositories": [
         {
-          "url": "https://github.com/coffee-cpu/capital-gains-uk-101",
-          "stars": 22,
-          "updated_at": "2026-11-08T15:09:43Z",
-          "name": "capital-gains-uk-101",
-          "description": "UK Capital Gains Tax made easy - Free, privacy-focused browser-based CGT calculator",
+          "url": "https://github.com/a-student/SvgToVectorDrawableConverter",
+          "stars": 341,
+          "updated_at": "2022-12-30T15:40:35Z",
+          "name": "SvgToVectorDrawableConverter",
+          "description": "Batch converter of SVG images to Android vector drawable XML resource files. Online version of the converter is here:",
           "fork": false,
           "archived": false
         }
       ],
       "query_language_not_market": [
-        "browser calculator in:name,description stars:3..1500 archived:false"
+        "image converter in:name,description stars:3..1500 archived:false"
       ],
       "seo_status": "NO_INDEPENDENT_SEO_EVIDENCE",
       "organic_monthly_search": null,
@@ -69,47 +35,13 @@
       "cpc": null,
       "country_traffic": null,
       "next_action": "Inspect actual interactive utility page and locate independent nonbrand country-specific SEO evidence before requesting Semrush.",
-      "first_seen_in_radar": "2026-11-05",
+      "first_seen_in_radar": "2026-10-13",
       "is_new_radar_observation": false,
-      "last_seen_in_radar": "2026-11-09"
+      "last_seen_in_radar": "2026-11-10"
     },
     {
-      "domain": "easypodcasts.live",
-      "homepage": "https://easypodcasts.live",
-      "review_stage": "TECH_LEAD_TO_INSPECT",
-      "source": "PUBLIC_GITHUB_REPOSITORY",
-      "quality_heuristic_not_seo_score": 65,
-      "reasons": [
-        "GITHUB_CODE_ONLY_NO_SEO_EVIDENCE"
-      ],
-      "repositories": [
-        {
-          "url": "https://github.com/easypodcasts/easy_podcasts",
-          "stars": 39,
-          "updated_at": "2025-07-04T17:45:27Z",
-          "name": "easy_podcasts",
-          "description": "Agregador de podcasts y convertidor de audio para cubanos",
-          "fork": false,
-          "archived": false
-        }
-      ],
-      "query_language_not_market": [
-        "convertidor in:name,description stars:3..1500 archived:false"
-      ],
-      "seo_status": "NO_INDEPENDENT_SEO_EVIDENCE",
-      "organic_monthly_search": null,
-      "nonbrand_clicks": null,
-      "kd": null,
-      "cpc": null,
-      "country_traffic": null,
-      "next_action": "Inspect actual interactive utility page and locate independent nonbrand country-specific SEO evidence before requesting Semrush.",
-      "first_seen_in_radar": "2026-10-16",
-      "is_new_radar_observation": false,
-      "last_seen_in_radar": "2026-11-09"
-    },
-    {
-      "domain": "calculator.simontharby.com",
-      "homepage": "https://calculator.simontharby.com/",
+      "domain": "converseen.fasterland.net",
+      "homepage": "https://converseen.fasterland.net/",
       "review_stage": "LOW_PRIORITY_TECH_LEAD",
       "source": "PUBLIC_GITHUB_REPOSITORY",
       "quality_heuristic_not_seo_score": 60,
@@ -118,17 +50,17 @@
       ],
       "repositories": [
         {
-          "url": "https://github.com/jinjagit/calculator",
-          "stars": 3,
-          "updated_at": "2019-03-17T22:29:32Z",
-          "name": "calculator",
-          "description": "Calculator browser app, with mobile focused, minimal, responsive design",
+          "url": "https://github.com/Faster3ck/Converseen",
+          "stars": 1188,
+          "updated_at": "2026-11-03T01:17:11Z",
+          "name": "Converseen",
+          "description": "Converseen is a batch image converter and resizer",
           "fork": false,
           "archived": false
         }
       ],
       "query_language_not_market": [
-        "browser calculator in:name,description stars:3..1500 archived:false"
+        "image converter in:name,description stars:3..1500 archived:false"
       ],
       "seo_status": "NO_INDEPENDENT_SEO_EVIDENCE",
       "organic_monthly_search": null,
@@ -137,13 +69,13 @@
       "cpc": null,
       "country_traffic": null,
       "next_action": "Inspect actual interactive utility page and locate independent nonbrand country-specific SEO evidence before requesting Semrush.",
-      "first_seen_in_radar": "2026-10-16",
+      "first_seen_in_radar": "2026-10-13",
       "is_new_radar_observation": false,
-      "last_seen_in_radar": "2026-11-09"
+      "last_seen_in_radar": "2026-11-10"
     },
     {
-      "domain": "kalkki.raikas.dev",
-      "homepage": "http://kalkki.raikas.dev/",
+      "domain": "gerador-nomes.wolan.net",
+      "homepage": "https://gerador-nomes.wolan.net",
       "review_stage": "LOW_PRIORITY_TECH_LEAD",
       "source": "PUBLIC_GITHUB_REPOSITORY",
       "quality_heuristic_not_seo_score": 60,
@@ -152,17 +84,17 @@
       ],
       "repositories": [
         {
-          "url": "https://github.com/raikasdev/kalkki",
-          "stars": 10,
-          "updated_at": "2025-11-02T02:23:28Z",
-          "name": "kalkki",
-          "description": "🧮 SpeedCrunch-style scientific calculator in the browser",
+          "url": "https://github.com/centraldedados/gerador-nomes",
+          "stars": 53,
+          "updated_at": "2025-07-20T00:16:51Z",
+          "name": "gerador-nomes",
+          "description": " 👪 Gerador de Nomes",
           "fork": false,
           "archived": false
         }
       ],
       "query_language_not_market": [
-        "browser calculator in:name,description stars:3..1500 archived:false"
+        "gerador in:name,description stars:3..1500 archived:false"
       ],
       "seo_status": "NO_INDEPENDENT_SEO_EVIDENCE",
       "organic_monthly_search": null,
@@ -171,13 +103,13 @@
       "cpc": null,
       "country_traffic": null,
       "next_action": "Inspect actual interactive utility page and locate independent nonbrand country-specific SEO evidence before requesting Semrush.",
-      "first_seen_in_radar": "2026-10-16",
+      "first_seen_in_radar": "2026-10-13",
       "is_new_radar_observation": false,
-      "last_seen_in_radar": "2026-11-09"
+      "last_seen_in_radar": "2026-11-10"
     },
     {
-      "domain": "tonestack.yuriturov.com",
-      "homepage": "https://tonestack.yuriturov.com",
+      "domain": "gerador.dev.br",
+      "homepage": "https://gerador.dev.br",
       "review_stage": "LOW_PRIORITY_TECH_LEAD",
       "source": "PUBLIC_GITHUB_REPOSITORY",
       "quality_heuristic_not_seo_score": 60,
@@ -186,17 +118,17 @@
       ],
       "repositories": [
         {
-          "url": "https://github.com/why-trv/yet-another-tonestack-calculator",
-          "stars": 46,
-          "updated_at": "2026-09-04T11:46:10Z",
-          "name": "yet-another-tonestack-calculator",
-          "description": "Browser-based tonestack calculator",
+          "url": "https://github.com/meccin/gerador",
+          "stars": 26,
+          "updated_at": "2026-09-30T14:34:00Z",
+          "name": "gerador",
+          "description": "Gerador de CPF, CNPJ, RG e Cartão de Crédito válidos - JSON Pretty - Base64 Encode e Decode - Hash",
           "fork": false,
           "archived": false
         }
       ],
       "query_language_not_market": [
-        "browser calculator in:name,description stars:3..1500 archived:false"
+        "gerador in:name,description stars:3..1500 archived:false"
       ],
       "seo_status": "NO_INDEPENDENT_SEO_EVIDENCE",
       "organic_monthly_search": null,
@@ -205,32 +137,32 @@
       "cpc": null,
       "country_traffic": null,
       "next_action": "Inspect actual interactive utility page and locate independent nonbrand country-specific SEO evidence before requesting Semrush.",
-      "first_seen_in_radar": "2026-10-16",
+      "first_seen_in_radar": "2026-10-13",
       "is_new_radar_observation": false,
-      "last_seen_in_radar": "2026-11-09"
+      "last_seen_in_radar": "2026-11-10"
     },
     {
-      "domain": "calc.cloudyhome.org",
-      "homepage": "https://calc.cloudyhome.org/",
+      "domain": "lcd-image-converter.riuson.com",
+      "homepage": "https://lcd-image-converter.riuson.com/",
       "review_stage": "LOW_PRIORITY_TECH_LEAD",
       "source": "PUBLIC_GITHUB_REPOSITORY",
-      "quality_heuristic_not_seo_score": 45,
+      "quality_heuristic_not_seo_score": 60,
       "reasons": [
         "SHARED_HOST_OR_SUBDOMAIN_REQUIRES_REVIEW"
       ],
       "repositories": [
         {
-          "url": "https://github.com/binarycodes/calculators",
-          "stars": 30,
-          "updated_at": "2026-11-02T11:05:55Z",
-          "name": "calculators",
-          "description": "Self-hostable personal-finance calculators (retirement, loan, buy-vs-rent & more) — your numbers never leave your browser. Vaadin + Spring Boot.",
+          "url": "https://github.com/riuson/lcd-image-converter",
+          "stars": 409,
+          "updated_at": "2025-12-26T12:58:32Z",
+          "name": "lcd-image-converter",
+          "description": "Tool to create bitmaps and fonts for embedded applications, v.2",
           "fork": false,
           "archived": false
         }
       ],
       "query_language_not_market": [
-        "browser calculator in:name,description stars:3..1500 archived:false"
+        "image converter in:name,description stars:3..1500 archived:false"
       ],
       "seo_status": "NO_INDEPENDENT_SEO_EVIDENCE",
       "organic_monthly_search": null,
@@ -239,13 +171,13 @@
       "cpc": null,
       "country_traffic": null,
       "next_action": "Inspect actual interactive utility page and locate independent nonbrand country-specific SEO evidence before requesting Semrush.",
-      "first_seen_in_radar": "2026-10-16",
+      "first_seen_in_radar": "2026-10-13",
       "is_new_radar_observation": false,
-      "last_seen_in_radar": "2026-11-09"
+      "last_seen_in_radar": "2026-11-10"
     },
     {
-      "domain": "abrandao.com",
-      "homepage": "http://www.abrandao.com/category/software/",
+      "domain": "box4.dev",
+      "homepage": "https://box4.dev/pt-br/pacotes-npm/gerador-br/docs",
       "review_stage": "LOW_PRIORITY_TECH_LEAD",
       "source": "PUBLIC_GITHUB_REPOSITORY",
       "quality_heuristic_not_seo_score": 40,
@@ -254,17 +186,17 @@
       ],
       "repositories": [
         {
-          "url": "https://github.com/acbrandao/retirementCalc",
-          "stars": 11,
-          "updated_at": "2019-12-13T00:55:25Z",
-          "name": "retirementCalc",
-          "description": "Code for my JavaScript browser-based retirement calculator http://www.abrandao.com/retire/",
+          "url": "https://github.com/box4dev/gerador-br",
+          "stars": 15,
+          "updated_at": "2026-08-11T16:00:42Z",
+          "name": "gerador-br",
+          "description": "Pacote NPM - Gerador de Dados Fictícios - Brasil",
           "fork": false,
           "archived": false
         }
       ],
       "query_language_not_market": [
-        "browser calculator in:name,description stars:3..1500 archived:false"
+        "gerador in:name,description stars:3..1500 archived:false"
       ],
       "seo_status": "NO_INDEPENDENT_SEO_EVIDENCE",
       "organic_monthly_search": null,
@@ -273,13 +205,13 @@
       "cpc": null,
       "country_traffic": null,
       "next_action": "Inspect actual interactive utility page and locate independent nonbrand country-specific SEO evidence before requesting Semrush.",
-      "first_seen_in_radar": "2026-10-16",
-      "is_new_radar_observation": false,
-      "last_seen_in_radar": "2026-11-09"
+      "first_seen_in_radar": "2026-11-10",
+      "is_new_radar_observation": true,
+      "last_seen_in_radar": "2026-11-10"
     },
     {
-      "domain": "antoniocanada.com",
-      "homepage": "https://antoniocanada.com/chile/",
+      "domain": "iditect.com",
+      "homepage": "https://www.iditect.com/product/converter/",
       "review_stage": "LOW_PRIORITY_TECH_LEAD",
       "source": "PUBLIC_GITHUB_REPOSITORY",
       "quality_heuristic_not_seo_score": 40,
@@ -288,17 +220,17 @@
       ],
       "repositories": [
         {
-          "url": "https://github.com/tonicanada/sii_chile_xml_to_pdf",
-          "stars": 30,
-          "updated_at": "2026-10-16T16:16:22Z",
-          "name": "sii_chile_xml_to_pdf",
-          "description": "Conversor de XML DTE del SII (Chile) a PDF con CLI y nombrado automático de archivos.",
+          "url": "https://github.com/iditectweb/converter",
+          "stars": 42,
+          "updated_at": "2018-11-05T07:29:13Z",
+          "name": "converter",
+          "description": "Standalone .NET Converter library, not require Adobe Acrobat component nor Microsoft Office Interop Assemblies, to convert PDF, DOCX, XLSX, HTML, Image, CSV, RTF, TXT in .NET framework",
           "fork": false,
           "archived": false
         }
       ],
       "query_language_not_market": [
-        "conversor in:name,description stars:3..1500 archived:false"
+        "image converter in:name,description stars:3..1500 archived:false"
       ],
       "seo_status": "NO_INDEPENDENT_SEO_EVIDENCE",
       "organic_monthly_search": null,
@@ -307,13 +239,13 @@
       "cpc": null,
       "country_traffic": null,
       "next_action": "Inspect actual interactive utility page and locate independent nonbrand country-specific SEO evidence before requesting Semrush.",
-      "first_seen_in_radar": "2026-10-16",
+      "first_seen_in_radar": "2026-10-13",
       "is_new_radar_observation": false,
-      "last_seen_in_radar": "2026-11-09"
+      "last_seen_in_radar": "2026-11-10"
     },
     {
-      "domain": "cesarsystems.com.mx",
-      "homepage": "https://cesarsystems.com.mx/conversor-cfdi-3-3-4-0-xml-a-pdf",
+      "domain": "jonathan-petitcolas.com",
+      "homepage": "https://www.jonathan-petitcolas.com/ascii-art-converter/",
       "review_stage": "LOW_PRIORITY_TECH_LEAD",
       "source": "PUBLIC_GITHUB_REPOSITORY",
       "quality_heuristic_not_seo_score": 40,
@@ -322,17 +254,17 @@
       ],
       "repositories": [
         {
-          "url": "https://github.com/julio101290/convertidorXMLPDF",
-          "stars": 3,
-          "updated_at": "2023-05-24T00:51:55Z",
-          "name": "convertidorXMLPDF",
-          "description": "Programa para convertir los XML de las facturas CFDI a PDF",
+          "url": "https://github.com/jpetitcolas/ascii-art-converter",
+          "stars": 91,
+          "updated_at": "2018-01-11T17:55:25Z",
+          "name": "ascii-art-converter",
+          "description": "Convert any image into pure ASCII art using some JavaScript",
           "fork": false,
           "archived": false
         }
       ],
       "query_language_not_market": [
-        "convertidor in:name,description stars:3..1500 archived:false"
+        "image converter in:name,description stars:3..1500 archived:false"
       ],
       "seo_status": "NO_INDEPENDENT_SEO_EVIDENCE",
       "organic_monthly_search": null,
@@ -341,13 +273,13 @@
       "cpc": null,
       "country_traffic": null,
       "next_action": "Inspect actual interactive utility page and locate independent nonbrand country-specific SEO evidence before requesting Semrush.",
-      "first_seen_in_radar": "2026-10-16",
+      "first_seen_in_radar": "2026-10-13",
       "is_new_radar_observation": false,
-      "last_seen_in_radar": "2026-11-09"
+      "last_seen_in_radar": "2026-11-10"
     },
     {
-      "domain": "tooladda.online",
-      "homepage": "https://tooladda.online/calculators/calculator.html",
+      "domain": "medium.com",
+      "homepage": "https://medium.com/@igorcbraz/build-a-feature-rich-calculator-with-pure-javascript-20ce17fbe47d",
       "review_stage": "LOW_PRIORITY_TECH_LEAD",
       "source": "PUBLIC_GITHUB_REPOSITORY",
       "quality_heuristic_not_seo_score": 40,
@@ -356,35 +288,17 @@
       ],
       "repositories": [
         {
-          "url": "https://github.com/tooladda-online/calculator",
-          "stars": 25,
-          "updated_at": "2026-09-22T14:47:21Z",
-          "name": "calculator",
-          "description": "Premium Calculator — Use Premium Calculator free on ToolAdda — quick, accurate, and browser-based. Free on ToolAdda.online.",
-          "fork": false,
-          "archived": false
-        },
-        {
-          "url": "https://github.com/tooladda-online/sip-calculator",
-          "stars": 25,
-          "updated_at": "2026-09-22T14:53:57Z",
-          "name": "sip-calculator",
-          "description": "SIP Calculator — Use SIP Calculator free on ToolAdda — quick, accurate, and browser-based. Free on ToolAdda.online.",
-          "fork": false,
-          "archived": false
-        },
-        {
-          "url": "https://github.com/tooladda-online/rd-calculator",
-          "stars": 25,
-          "updated_at": "2026-09-22T15:03:48Z",
-          "name": "rd-calculator",
-          "description": "RD Calculator — Use RD Calculator free on ToolAdda — quick, accurate, and browser-based. Free on ToolAdda.online.",
+          "url": "https://github.com/Igorcbraz/Calculadora",
+          "stars": 33,
+          "updated_at": "2025-01-24T16:05:58Z",
+          "name": "Calculadora",
+          "description": " 📐 Calculadora simples e intuitiva com suporte a comandos de voz e temas personalizados 📏",
           "fork": false,
           "archived": false
         }
       ],
       "query_language_not_market": [
-        "browser calculator in:name,description stars:3..1500 archived:false"
+        "calculadora in:name,description stars:3..1500 archived:false"
       ],
       "seo_status": "NO_INDEPENDENT_SEO_EVIDENCE",
       "organic_monthly_search": null,
@@ -393,13 +307,13 @@
       "cpc": null,
       "country_traffic": null,
       "next_action": "Inspect actual interactive utility page and locate independent nonbrand country-specific SEO evidence before requesting Semrush.",
-      "first_seen_in_radar": "2026-10-16",
+      "first_seen_in_radar": "2026-10-13",
       "is_new_radar_observation": false,
-      "last_seen_in_radar": "2026-11-09"
+      "last_seen_in_radar": "2026-11-10"
     },
     {
-      "domain": "youtu.be",
-      "homepage": "https://youtu.be/ExK7mUmfdeM",
+      "domain": "tinyurl.com",
+      "homepage": "https://tinyurl.com/gerador-horarios-ist",
       "review_stage": "LOW_PRIORITY_TECH_LEAD",
       "source": "PUBLIC_GITHUB_REPOSITORY",
       "quality_heuristic_not_seo_score": 40,
@@ -408,17 +322,17 @@
       ],
       "repositories": [
         {
-          "url": "https://github.com/Roger-Melo/aplicacao-conversor-de-moedas",
-          "stars": 22,
-          "updated_at": "2021-02-19T03:37:25Z",
-          "name": "aplicacao-conversor-de-moedas",
-          "description": "Conversor de moedas com JavaScript puro, sem o uso de libs ou frameworks JS.",
+          "url": "https://github.com/joanasesinando/gerador-horarios-ist",
+          "stars": 28,
+          "updated_at": "2024-10-10T14:20:01Z",
+          "name": "gerador-horarios-ist",
+          "description": "🕓 A schedule generator for Instituto Superior Técnico (IST)'s students.",
           "fork": false,
           "archived": false
         }
       ],
       "query_language_not_market": [
-        "conversor in:name,description stars:3..1500 archived:false"
+        "gerador in:name,description stars:3..1500 archived:false"
       ],
       "seo_status": "NO_INDEPENDENT_SEO_EVIDENCE",
       "organic_monthly_search": null,
@@ -427,33 +341,103 @@
       "cpc": null,
       "country_traffic": null,
       "next_action": "Inspect actual interactive utility page and locate independent nonbrand country-specific SEO evidence before requesting Semrush.",
-      "first_seen_in_radar": "2026-10-16",
+      "first_seen_in_radar": "2026-10-13",
       "is_new_radar_observation": false,
-      "last_seen_in_radar": "2026-11-09"
+      "last_seen_in_radar": "2026-11-10"
     },
     {
-      "domain": "mira-nontraditionary-nonfugitively.ngrok-free.dev",
-      "homepage": "https://mira-nontraditionary-nonfugitively.ngrok-free.dev",
+      "domain": "demoiselle.sourceforge.net",
+      "homepage": "http://demoiselle.sourceforge.net/tools/nimble/",
+      "review_stage": "LOW_PRIORITY_TECH_LEAD",
+      "source": "PUBLIC_GITHUB_REPOSITORY",
+      "quality_heuristic_not_seo_score": 20,
+      "reasons": [
+        "NON_ROOT_PAGE_NOT_STANDALONE_SITE",
+        "SHARED_HOST_OR_SUBDOMAIN_REQUIRES_REVIEW"
+      ],
+      "repositories": [
+        {
+          "url": "https://github.com/demoiselle/nimble",
+          "stars": 12,
+          "updated_at": "2020-10-12T18:47:07Z",
+          "name": "nimble",
+          "description": "Processador automatizado de templates e gerador de código  ",
+          "fork": false,
+          "archived": false
+        }
+      ],
+      "query_language_not_market": [
+        "gerador in:name,description stars:3..1500 archived:false"
+      ],
+      "seo_status": "NO_INDEPENDENT_SEO_EVIDENCE",
+      "organic_monthly_search": null,
+      "nonbrand_clicks": null,
+      "kd": null,
+      "cpc": null,
+      "country_traffic": null,
+      "next_action": "Inspect actual interactive utility page and locate independent nonbrand country-specific SEO evidence before requesting Semrush.",
+      "first_seen_in_radar": "2026-10-13",
+      "is_new_radar_observation": false,
+      "last_seen_in_radar": "2026-11-10"
+    },
+    {
+      "domain": "enotionz.github.com",
+      "homepage": "http://enotionz.github.com/jscii/",
+      "review_stage": "LOW_PRIORITY_TECH_LEAD",
+      "source": "PUBLIC_GITHUB_REPOSITORY",
+      "quality_heuristic_not_seo_score": 20,
+      "reasons": [
+        "NON_ROOT_PAGE_NOT_STANDALONE_SITE",
+        "SHARED_HOST_OR_SUBDOMAIN_REQUIRES_REVIEW"
+      ],
+      "repositories": [
+        {
+          "url": "https://github.com/EnotionZ/jscii",
+          "stars": 352,
+          "updated_at": "2018-09-29T20:55:09Z",
+          "name": "jscii",
+          "description": "JavaScript image to ASCII converter",
+          "fork": false,
+          "archived": false
+        }
+      ],
+      "query_language_not_market": [
+        "image converter in:name,description stars:3..1500 archived:false"
+      ],
+      "seo_status": "NO_INDEPENDENT_SEO_EVIDENCE",
+      "organic_monthly_search": null,
+      "nonbrand_clicks": null,
+      "kd": null,
+      "cpc": null,
+      "country_traffic": null,
+      "next_action": "Inspect actual interactive utility page and locate independent nonbrand country-specific SEO evidence before requesting Semrush.",
+      "first_seen_in_radar": "2026-10-13",
+      "is_new_radar_observation": false,
+      "last_seen_in_radar": "2026-11-10"
+    },
+    {
+      "domain": "web.ist.utl.pt",
+      "homepage": "http://web.ist.utl.pt/pedropramos/horarios/",
       "review_stage": "LOW_PRIORITY_TECH_LEAD",
       "source": "PUBLIC_GITHUB_REPOSITORY",
       "quality_heuristic_not_seo_score": 10,
       "reasons": [
-        "SHARED_HOST_OR_SUBDOMAIN_REQUIRES_REVIEW",
-        "TOOL_PURPOSE_NOT_CLEAR"
+        "NON_ROOT_PAGE_NOT_STANDALONE_SITE",
+        "SHARED_HOST_OR_SUBDOMAIN_REQUIRES_REVIEW"
       ],
       "repositories": [
         {
-          "url": "https://github.com/openperf/openclaw-cloud",
-          "stars": 267,
-          "updated_at": "2026-02-05T00:59:54Z",
-          "name": "openclaw-cloud",
-          "description": "Give your AI Agent a cloud-native life. Deploy once, converse everywhere.",
+          "url": "https://github.com/pedropramos/gerador-horarios",
+          "stars": 11,
+          "updated_at": "2017-08-23T18:39:01Z",
+          "name": "gerador-horarios",
+          "description": "",
           "fork": false,
           "archived": false
         }
       ],
       "query_language_not_market": [
-        "conversor in:name,description stars:3..1500 archived:false"
+        "gerador in:name,description stars:3..1500 archived:false"
       ],
       "seo_status": "NO_INDEPENDENT_SEO_EVIDENCE",
       "organic_monthly_search": null,
@@ -462,33 +446,32 @@
       "cpc": null,
       "country_traffic": null,
       "next_action": "Inspect actual interactive utility page and locate independent nonbrand country-specific SEO evidence before requesting Semrush.",
-      "first_seen_in_radar": "2026-10-16",
+      "first_seen_in_radar": "2026-10-13",
       "is_new_radar_observation": false,
-      "last_seen_in_radar": "2026-11-09"
+      "last_seen_in_radar": "2026-11-10"
     },
     {
-      "domain": "arxiv.org",
-      "homepage": "https://arxiv.org/pdf/1906.02738.pdf",
-      "review_stage": "LOW_PRIORITY_TECH_LEAD",
+      "domain": "fichasdenimb.com.br",
+      "homepage": "https://fichasdenimb.com.br/",
+      "review_stage": "SKIP_GITHUB_SOURCE",
       "source": "PUBLIC_GITHUB_REPOSITORY",
-      "quality_heuristic_not_seo_score": 5,
+      "quality_heuristic_not_seo_score": 65,
       "reasons": [
-        "NON_ROOT_PAGE_NOT_STANDALONE_SITE",
-        "TOOL_PURPOSE_NOT_CLEAR"
+        "MANUAL_SOURCE_REVIEW_EXCLUDED"
       ],
       "repositories": [
         {
-          "url": "https://github.com/qkaren/converse_reading_cmr",
-          "stars": 77,
-          "updated_at": "2020-12-01T00:09:27Z",
-          "name": "converse_reading_cmr",
-          "description": "code, data, and model for ACL-19 paper \"Conversing by Reading: Contentful Neural Conversation with On-demand Machine Reading\"",
+          "url": "https://github.com/YuriAlessandro/gerador-ficha-tormenta20",
+          "stars": 91,
+          "updated_at": "2026-11-09T22:35:28Z",
+          "name": "gerador-ficha-tormenta20",
+          "description": "Fichas de Nimb é um pacote de ferramentas para o sistema brasileiro de RPG Tormenta 20. Geração de fichas de jogadores, fichas de ameaças, mapa de Arton, rolador de recompensas e várias outras opções.",
           "fork": false,
           "archived": false
         }
       ],
       "query_language_not_market": [
-        "conversor in:name,description stars:3..1500 archived:false"
+        "gerador in:name,description stars:3..1500 archived:false"
       ],
       "seo_status": "NO_INDEPENDENT_SEO_EVIDENCE",
       "organic_monthly_search": null,
@@ -497,49 +480,215 @@
       "cpc": null,
       "country_traffic": null,
       "next_action": "Inspect actual interactive utility page and locate independent nonbrand country-specific SEO evidence before requesting Semrush.",
-      "first_seen_in_radar": "2026-10-16",
+      "manual_review": {
+        "reason": "Project describes a subscription-funded Tormenta20 RPG platform with backend/auth/payments; not a low-overhead AdSense browser tool target.",
+        "source_url": "https://github.com/YuriAlessandro/gerador-ficha-tormenta20",
+        "reviewed_on": "2026-10-13"
+      },
+      "first_seen_in_radar": "2026-10-13",
       "is_new_radar_observation": false,
-      "last_seen_in_radar": "2026-11-09"
+      "last_seen_in_radar": "2026-11-10"
+    },
+    {
+      "domain": "pix-qr-code.com",
+      "homepage": "https://pix-qr-code.com",
+      "review_stage": "SKIP_GITHUB_SOURCE",
+      "source": "PUBLIC_GITHUB_REPOSITORY",
+      "quality_heuristic_not_seo_score": 65,
+      "reasons": [
+        "MANUAL_SOURCE_REVIEW_EXCLUDED"
+      ],
+      "repositories": [
+        {
+          "url": "https://github.com/ofenascimento/pix-qrcode",
+          "stars": 19,
+          "updated_at": "2024-11-10T20:42:44Z",
+          "name": "pix-qrcode",
+          "description": "Gerador de QR Code para chave pix",
+          "fork": false,
+          "archived": false
+        }
+      ],
+      "query_language_not_market": [
+        "gerador in:name,description stars:3..1500 archived:false"
+      ],
+      "seo_status": "NO_INDEPENDENT_SEO_EVIDENCE",
+      "organic_monthly_search": null,
+      "nonbrand_clicks": null,
+      "kd": null,
+      "cpc": null,
+      "country_traffic": null,
+      "next_action": "Inspect actual interactive utility page and locate independent nonbrand country-specific SEO evidence before requesting Semrush.",
+      "manual_review": {
+        "reason": "The user checked the specific Brazil Placa Pix / Pix QR generator tool-intent keywords and reported little search volume; broad Pix informational keywords are irrelevant. Rejected from the present SEO",
+        "source_url": "https://github.com/chenmu2024/Traffic-Site-Opportunity-Radar/blob/main/docs/research/2026-10-13-first-web-precheck.md",
+        "reviewed_on": "2026-10-13"
+      },
+      "first_seen_in_radar": "2026-10-13",
+      "is_new_radar_observation": false,
+      "last_seen_in_radar": "2026-11-10"
+    },
+    {
+      "domain": "codepoems.eu",
+      "homepage": "https://codepoems.eu/xl-converter",
+      "review_stage": "SKIP_GITHUB_SOURCE",
+      "source": "PUBLIC_GITHUB_REPOSITORY",
+      "quality_heuristic_not_seo_score": 40,
+      "reasons": [
+        "MANUAL_SOURCE_REVIEW_EXCLUDED"
+      ],
+      "repositories": [
+        {
+          "url": "https://github.com/JacobDev1/xl-converter",
+          "stars": 606,
+          "updated_at": "2026-09-06T20:46:03Z",
+          "name": "xl-converter",
+          "description": "Easy-to-use image converter for modern formats. Supports fast parallel encoding, lossless JPEG transcoding, JPEG XL, AVIF, JPEGLI, ExifTool, and more. ",
+          "fork": false,
+          "archived": false
+        }
+      ],
+      "query_language_not_market": [
+        "image converter in:name,description stars:3..1500 archived:false"
+      ],
+      "seo_status": "NO_INDEPENDENT_SEO_EVIDENCE",
+      "organic_monthly_search": null,
+      "nonbrand_clicks": null,
+      "kd": null,
+      "cpc": null,
+      "country_traffic": null,
+      "next_action": "Inspect actual interactive utility page and locate independent nonbrand country-specific SEO evidence before requesting Semrush.",
+      "manual_review": {
+        "reason": "Homepage points to the install/download page for XL Converter desktop software, not an online converter.",
+        "source_url": "https://xl-docs.codepoems.eu/getting_started/installation",
+        "reviewed_on": "2026-10-13"
+      },
+      "first_seen_in_radar": "2026-10-13",
+      "is_new_radar_observation": false,
+      "last_seen_in_radar": "2026-11-10"
+    },
+    {
+      "domain": "codante.io",
+      "homepage": "https://codante.io/mini-projetos/calculadora-de-imc-com-react",
+      "review_stage": "SKIP_GITHUB_SOURCE",
+      "source": "PUBLIC_GITHUB_REPOSITORY",
+      "quality_heuristic_not_seo_score": 0,
+      "reasons": [
+        "MANUAL_SOURCE_REVIEW_EXCLUDED"
+      ],
+      "repositories": [
+        {
+          "url": "https://github.com/codante-io/mp-calculadora-imc",
+          "stars": 3,
+          "updated_at": "2024-08-01T20:04:16Z",
+          "name": "mp-calculadora-imc",
+          "description": "Nada melhor do que manter a saúde em dia, não é? Sendo o IMC uma medida internacional usada para calcular se uma pessoa está no peso ideal, a nossa calculadora de Índice de Massa Corporal (IMC) é perfeita para isso.",
+          "fork": false,
+          "archived": false
+        }
+      ],
+      "query_language_not_market": [
+        "calculadora in:name,description stars:3..1500 archived:false"
+      ],
+      "seo_status": "NO_INDEPENDENT_SEO_EVIDENCE",
+      "organic_monthly_search": null,
+      "nonbrand_clicks": null,
+      "kd": null,
+      "cpc": null,
+      "country_traffic": null,
+      "next_action": "Inspect actual interactive utility page and locate independent nonbrand country-specific SEO evidence before requesting Semrush.",
+      "manual_review": {
+        "reason": "Landing URL is an educational mini-project/tutorial for a React IMC calculator, not an independent tool site.",
+        "source_url": "https://codante.io/mini-projetos/calculadora-de-imc-com-react",
+        "reviewed_on": "2026-10-13"
+      },
+      "first_seen_in_radar": "2026-10-13",
+      "is_new_radar_observation": false,
+      "last_seen_in_radar": "2026-11-10"
+    },
+    {
+      "domain": "favr.dev",
+      "homepage": "https://favr.dev/opensource/density-converter",
+      "review_stage": "SKIP_GITHUB_SOURCE",
+      "source": "PUBLIC_GITHUB_REPOSITORY",
+      "quality_heuristic_not_seo_score": 0,
+      "reasons": [
+        "MANUAL_SOURCE_REVIEW_EXCLUDED"
+      ],
+      "repositories": [
+        {
+          "url": "https://github.com/patrickfav/density-converter",
+          "stars": 253,
+          "updated_at": "2024-10-14T10:16:53Z",
+          "name": "density-converter",
+          "description": "A multi platform image density converting tool converting single or batches of images to Android, iOS, Windows or CSS specific formats and density versions given the source scale factor or width/height in dp. It has a gr",
+          "fork": false,
+          "archived": false
+        }
+      ],
+      "query_language_not_market": [
+        "image converter in:name,description stars:3..1500 archived:false"
+      ],
+      "seo_status": "NO_INDEPENDENT_SEO_EVIDENCE",
+      "organic_monthly_search": null,
+      "nonbrand_clicks": null,
+      "kd": null,
+      "cpc": null,
+      "country_traffic": null,
+      "next_action": "Inspect actual interactive utility page and locate independent nonbrand country-specific SEO evidence before requesting Semrush.",
+      "manual_review": {
+        "reason": "Github homepage is an /opensource developer-library description, not an independent browser utility.",
+        "source_url": "https://favr.dev/opensource/density-converter",
+        "reviewed_on": "2026-10-13"
+      },
+      "first_seen_in_radar": "2026-10-13",
+      "is_new_radar_observation": false,
+      "last_seen_in_radar": "2026-11-10"
+    },
+    {
+      "domain": "file-converter-pro.org",
+      "homepage": "https://file-converter-pro.org/",
+      "review_stage": "SKIP_GITHUB_SOURCE",
+      "source": "PUBLIC_GITHUB_REPOSITORY",
+      "quality_heuristic_not_seo_score": 0,
+      "reasons": [
+        "MANUAL_SOURCE_REVIEW_EXCLUDED"
+      ],
+      "repositories": [
+        {
+          "url": "https://github.com/Hyacinthe-primus/File_Converter_Pro",
+          "stars": 604,
+          "updated_at": "2026-11-09T10:04:55Z",
+          "name": "File_Converter_Pro",
+          "description": "Free offline all-in-one file converter for Windows. Converts documents, images, audio and video locally. No uploads, no internet, no dependencies. Built with Python & PySide6. Features dark/light theme, stats dashboard, ",
+          "fork": false,
+          "archived": false
+        }
+      ],
+      "query_language_not_market": [
+        "image converter in:name,description stars:3..1500 archived:false"
+      ],
+      "seo_status": "NO_INDEPENDENT_SEO_EVIDENCE",
+      "organic_monthly_search": null,
+      "nonbrand_clicks": null,
+      "kd": null,
+      "cpc": null,
+      "country_traffic": null,
+      "next_action": "Inspect actual interactive utility page and locate independent nonbrand country-specific SEO evidence before requesting Semrush.",
+      "manual_review": {
+        "reason": "GitHub describes this as a Windows offline desktop converter, not a browser-based utility site.",
+        "source_url": "https://github.com/Hyacinthe-primus/File_Converter_Pro",
+        "reviewed_on": "2026-10-13"
+      },
+      "first_seen_in_radar": "2026-10-13",
+      "is_new_radar_observation": false,
+      "last_seen_in_radar": "2026-11-10"
     }
   ],
   "priority_to_inspect": [
     {
-      "domain": "browserytools.com",
-      "homepage": "https://browserytools.com",
-      "review_stage": "TECH_LEAD_TO_INSPECT",
-      "source": "PUBLIC_GITHUB_REPOSITORY",
-      "quality_heuristic_not_seo_score": 80,
-      "reasons": [
-        "GITHUB_CODE_ONLY_NO_SEO_EVIDENCE"
-      ],
-      "repositories": [
-        {
-          "url": "https://github.com/aghyad97/browserytools",
-          "stars": 725,
-          "updated_at": "2026-10-26T19:26:30Z",
-          "name": "browserytools",
-          "description": "152 free browser-based tools in 17 languages. Your files and text are processed in your browser — no uploads, no accounts, no ads. Image & on-device AI tools, PDF, converters, formatters, calculators, generators. Some AI",
-          "fork": false,
-          "archived": false
-        }
-      ],
-      "query_language_not_market": [
-        "browser calculator in:name,description stars:3..1500 archived:false"
-      ],
-      "seo_status": "NO_INDEPENDENT_SEO_EVIDENCE",
-      "organic_monthly_search": null,
-      "nonbrand_clicks": null,
-      "kd": null,
-      "cpc": null,
-      "country_traffic": null,
-      "next_action": "Inspect actual interactive utility page and locate independent nonbrand country-specific SEO evidence before requesting Semrush.",
-      "first_seen_in_radar": "2026-10-16",
-      "is_new_radar_observation": false,
-      "last_seen_in_radar": "2026-11-09"
-    },
-    {
-      "domain": "cgtvisualiser.co.uk",
-      "homepage": "https://cgtvisualiser.co.uk",
+      "domain": "svg2vector.com",
+      "homepage": "https://svg2vector.com",
       "review_stage": "TECH_LEAD_TO_INSPECT",
       "source": "PUBLIC_GITHUB_REPOSITORY",
       "quality_heuristic_not_seo_score": 65,
@@ -548,17 +697,17 @@
       ],
       "repositories": [
         {
-          "url": "https://github.com/coffee-cpu/capital-gains-uk-101",
-          "stars": 22,
-          "updated_at": "2026-11-08T15:09:43Z",
-          "name": "capital-gains-uk-101",
-          "description": "UK Capital Gains Tax made easy - Free, privacy-focused browser-based CGT calculator",
+          "url": "https://github.com/a-student/SvgToVectorDrawableConverter",
+          "stars": 341,
+          "updated_at": "2022-12-30T15:40:35Z",
+          "name": "SvgToVectorDrawableConverter",
+          "description": "Batch converter of SVG images to Android vector drawable XML resource files. Online version of the converter is here:",
           "fork": false,
           "archived": false
         }
       ],
       "query_language_not_market": [
-        "browser calculator in:name,description stars:3..1500 archived:false"
+        "image converter in:name,description stars:3..1500 archived:false"
       ],
       "seo_status": "NO_INDEPENDENT_SEO_EVIDENCE",
       "organic_monthly_search": null,
@@ -567,50 +716,17 @@
       "cpc": null,
       "country_traffic": null,
       "next_action": "Inspect actual interactive utility page and locate independent nonbrand country-specific SEO evidence before requesting Semrush.",
-      "first_seen_in_radar": "2026-11-05",
+      "first_seen_in_radar": "2026-10-13",
       "is_new_radar_observation": false,
-      "last_seen_in_radar": "2026-11-09"
-    },
-    {
-      "domain": "easypodcasts.live",
-      "homepage": "https://easypodcasts.live",
-      "review_stage": "TECH_LEAD_TO_INSPECT",
-      "source": "PUBLIC_GITHUB_REPOSITORY",
-      "quality_heuristic_not_seo_score": 65,
-      "reasons": [
-        "GITHUB_CODE_ONLY_NO_SEO_EVIDENCE"
-      ],
-      "repositories": [
-        {
-          "url": "https://github.com/easypodcasts/easy_podcasts",
-          "stars": 39,
-          "updated_at": "2025-07-04T17:45:27Z",
-          "name": "easy_podcasts",
-          "description": "Agregador de podcasts y convertidor de audio para cubanos",
-          "fork": false,
-          "archived": false
-        }
-      ],
-      "query_language_not_market": [
-        "convertidor in:name,description stars:3..1500 archived:false"
-      ],
-      "seo_status": "NO_INDEPENDENT_SEO_EVIDENCE",
-      "organic_monthly_search": null,
-      "nonbrand_clicks": null,
-      "kd": null,
-      "cpc": null,
-      "country_traffic": null,
-      "next_action": "Inspect actual interactive utility page and locate independent nonbrand country-specific SEO evidence before requesting Semrush.",
-      "first_seen_in_radar": "2026-10-16",
-      "is_new_radar_observation": false,
-      "last_seen_in_radar": "2026-11-09"
+      "last_seen_in_radar": "2026-11-10"
     }
   ],
   "stage_counts": {
-    "TECH_LEAD_TO_INSPECT": 3,
-    "LOW_PRIORITY_TECH_LEAD": 11
+    "TECH_LEAD_TO_INSPECT": 1,
+    "LOW_PRIORITY_TECH_LEAD": 12,
+    "SKIP_GITHUB_SOURCE": 6
   },
-  "historical_domains_seen": 67,
+  "historical_domains_seen": 68,
   "no_semrush_requests_from_github_alone": true,
   "organic_traffic_verified_automatically": false,
   "data_quality_statement": "GitHub homepage and stars do not verify Google clicks or traffic. These observations are for web-product inspection, NOT Semrush queue."
